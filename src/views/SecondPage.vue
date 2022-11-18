@@ -1,4 +1,5 @@
 <template>
+  <div>
   <v-card>
     <v-card-title>📍Data pre-processing</v-card-title>
     <v-card-text>
@@ -43,4 +44,5 @@ In particular, we will look at the top 10 countries with highest review output a
 
     </v-card-text>
   </v-card>
+</div>
 </template>
