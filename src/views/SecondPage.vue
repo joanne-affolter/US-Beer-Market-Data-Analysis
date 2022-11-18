@@ -19,7 +19,8 @@ One important part of our pre-processing was to filter the data in order to work
 <br><br>
 We will look at the evolution over time of the number of ratings and search for some peaks in the data during particular events (Football World Cups, Euro, Super Bowl).
 We will group the data in different ways and analyze its temporal evolution to understand how beers' popularity and these events are correlated.
-*Does a particular **style** stand out during this period? Are the number of comments on a certain **brewery**'s beers increasing? Is it a sponsor of that event? What about the beer consumption in the **country** hosting such events?*<br>
+<br><br>
+Does a particular style stand out during this period? Are the number of comments on a certain brewery's beers increasing? Is it a sponsor of that event? What about the beer consumption in the **country** hosting such events?<br>
 Our main objective is to analyze variation through time, therefore we will use time series methods. We will also perform statistical tests on our data to ensure our conclusions.<br>
 We started to analyze the evolution of the top 10 beers and breweries to get a general idea and determine if our project was feasible. We are satisfied with these first results because we do observe peaks in the number of comments on the beers studied during the World Cup period in 2014.
 </v-card-text>
