@@ -3,8 +3,8 @@
   <v-card class="mb-6">
     <v-card-title>📍Data pre-processing</v-card-title>
     <v-card-text>
-Aim: Determine which breweries are the most suitable to be sponsors of major sporting events.<br>
-During this part, we pre-process the data to extract the features needed for the project.<br>
+<span color='primary'>Aim:</span> Determine which breweries are the most suitable to be sponsors of major sporting events.<br>
+During this part, we pre-process the data to extract the features needed for the project.<br><br>
 We first have explored the matched dataset and the other two datasets to determine which one to work on.
 Our analyze has shown that the matched dataset did not contain enough data for us to work on it. We will therefore work on the datasets from each website individually.<br>
 Then we managed to read the ratings file from both websites (RateBeer and BeerAdvocate) and extract the ratings date.
@@ -15,8 +15,8 @@ One important part of our pre-processing was to filter the data in order to work
     <v-card class="mb-6">
     <v-card-title>📍Temporal analysis of the popularity of biggest breweries and the impact of major sporting events on their sales</v-card-title>
     <v-card-text>
-Aim: Find a temporal link between the consumption of  beers of the breweries selected in the pre-processing part  and major sporting events
-<br>
+      <span color='primary'>Aim:</span> Find a temporal link between the consumption of  beers of the breweries selected in the pre-processing part  and major sporting events
+<br><br>
 We will look at the evolution over time of the number of ratings and search for some peaks in the data during particular events (Football World Cups, Euro, Super Bowl).
 We will group the data in different ways and analyze its temporal evolution to understand how beers' popularity and these events are correlated.
 *Does a particular **style** stand out during this period? Are the number of comments on a certain **brewery**'s beers increasing? Is it a sponsor of that event? What about the beer consumption in the **country** hosting such events?*<br>
@@ -28,7 +28,7 @@ We started to analyze the evolution of the top 10 beers and breweries to get a g
 <v-card class="mb-6">
     <v-card-title>📍Textual Data Analysis</v-card-title>
     <v-card-text>
-Aim: Study whether textual reviews can be used to measure beer popularity<br>
+      <span color='primary'>Aim:</span>Study whether textual reviews can be used to measure beer popularity<br><br>
 Our goal for this part is to analyze the textual reviews and see if we can derive insights from them. In particular, we aim at predicting whether a given review has a positive or negative sentiment. We think that by considering the sentiment associated to a review, we can study the popularity of certain beers better than just by looking at the numerical ratings. The intuition behind this is that a textual review is a richer source of information than a rating between 0 and 5. We hope that by leveraging sentiment analysis, we can encapsulate this additional information and use it as an additional measure for beer popularity. We therefore present a first implementation of a pipeline that:
 
 
