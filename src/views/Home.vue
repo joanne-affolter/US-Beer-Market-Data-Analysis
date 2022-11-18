@@ -1,23 +1,29 @@
 <template>
   <div>
     <v-card class="mb-6">
-      <v-card-title>Kick start your project 🚀</v-card-title>
-      <v-card-text>All the best for your new project.</v-card-text>
-      <v-card-text>
-        Please make sure to read our <a
-          href="https://demos.themeselection.com/materio-vuetify-vuejs-admin-template-vue2/documentation"
-          target="_blank"
-          class="text-decoration-none"
-        >
-          Template Documentation
-        </a> to understand where to go from here and how to use our template.
-      </v-card-text>
+      <v-card-title>Beer reviews ⚽🍺🏈</v-card-title>
+      <v-card-text>Our idea is to analyze the relation between major sporting events (football world-cups, superbowl, etc.) and beer ratings to evaluate the impact of these huge events on beer consumers and breweries' sales. <br>
+More specifically we will search if those sporting events affect beers or breweries' popularity, beer consumption and consumers opinion.
+
+First of all, we will look at the most rated beers and most popular breweries to determine if there exists any temporal correlation between some major sporting events and the popularity of the studied beers/breweries.
+*For instance, can we observe a peak every 4 years in the consumption of beers from a certain brewery?*
+
+Then, we will analyze the ratings and reviews in a range of one month around the events which have caught our attention in the first part of the project. Our goal is to understand the variation in ratings and reviews between winning and losing countries.<br>
+We will analyze the trends depending on the team's results. We will also look for the effect of these events in the textual reviews by leveraging sentiment analysis.
+
+Finally, the whole process will enable us to evaluate how to adapt the sales of breweries depending on the results.
+</v-card-text>
+
     </v-card>
 
     <v-card>
-      <v-card-title>Want to integrate JWT? 🔒</v-card-title>
-      <v-card-text>We carefully crafted JWT flow so you can implement JWT with ease and with minimum efforts.</v-card-text>
-      <v-card-text>Please read our  JWT Documentation to get more out of JWT authentication.</v-card-text>
+      <v-card-title>Research Questions ❓</v-card-title>
+      <v-card-text>- Is there a temporal correlation between the ratings dates and major sporting events ?
+- Can we observe a difference in consumption between the users of countries that win/lose a match ?
+- Do the winning/losing nations drink the same beer when they win/lose ? Does their consumption increase or decrease ?
+- Can textual reviews provide an additional metric for beer popularity in relation to sporting events ?
+- Do the breweries sponsoring sporting events earn a positive or negative impact from that marketing campaign ?
+- Can we tell which beer to sell to each country depending on the results of given sporting event ?</v-card-text>
     </v-card>
   </div>
 </template>
