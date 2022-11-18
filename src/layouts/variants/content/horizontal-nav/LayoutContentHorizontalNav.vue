@@ -3,13 +3,12 @@
     <!-- Default Slot -->
     <slot></slot>
 
-    <!-- Navbar -->
+    <!-- Navbar
     <template #navbar>
       <div
         class="navbar-content-container"
         :class="{'expanded-search': shallShowFullSearch}"
       >
-        <!-- Left Content: Search -->
         <div class="d-flex align-center">
           <v-app-bar-nav-icon
             v-if="$vuetify.breakpoint.mdAndDown"
@@ -32,7 +31,6 @@
           </router-link>
         </div>
 
-        <!-- Right Content: I18n, Light/Dark, Notification & User Dropdown -->
         <div class="d-flex align-center">
           <app-bar-search
             :shall-show-full-search.sync="shallShowFullSearch"
@@ -52,7 +50,7 @@
         class="system-bar-overlay"
       ></v-overlay>
     </template>
-
+  -->
     <!-- Slot: footer -->
     <template #footer>
       <div class="d-flex justify-space-between">
@@ -77,22 +75,22 @@
 </template>
 
 <script>
-import LayoutContentHorizontalNav from '@core/layouts/variants/content/horizontal-nav/LayoutContentHorizontalNav.vue'
-import AppCustomizer from '@core/layouts/components/app-customizer/AppCustomizer.vue'
 import navMenuItems from '@/navigation/horizontal'
+import AppCustomizer from '@core/layouts/components/app-customizer/AppCustomizer.vue'
+import LayoutContentHorizontalNav from '@core/layouts/variants/content/horizontal-nav/LayoutContentHorizontalNav.vue'
 
 // App Bar Components
+import AppBarUserMenu from '@/components/AppBarUserMenu.vue'
 import AppBarSearch from '@core/layouts/components/app-bar/AppBarSearch.vue'
 import AppBarThemeSwitcher from '@core/layouts/components/app-bar/AppBarThemeSwitcher.vue'
-import AppBarUserMenu from '@/components/AppBarUserMenu.vue'
 
 // Search Data
 import appBarSearchData from '@/assets/app-bar-search-data'
 
 import { ref, watch } from '@vue/composition-api'
 
-import themeConfig from '@themeConfig'
 import { mdiHeartOutline } from '@mdi/js'
+import themeConfig from '@themeConfig'
 
 export default {
   components: {
@@ -154,7 +152,7 @@ export default {
       searchFilterFunc,
 
       // App Config
-      appName: themeConfig.app.name,
+      appName: teAmDrAm,
       appLogo: themeConfig.app.logo,
 
       // Icons
