@@ -1,6 +1,6 @@
 <template>
   <div>
-  <v-card>
+  <v-card class="mb-6">
     <v-card-title>📍Data pre-processing</v-card-title>
     <v-card-text>
 Aim: Determine which breweries are the most suitable to be sponsors of major sporting events.<br>
@@ -12,7 +12,7 @@ We merged these dates to the beers dataset from each website. We also added the 
 One important part of our pre-processing was to filter the data in order to work only with the most popular beers (i.e. with the highest number of ratings) and therefore with the breweries who could be sponsors of such events.
       </v-card-text>
     </v-card>
-    <v-card>
+    <v-card class="mb-6">
     <v-card-title>📍Temporal analysis of the popularity of biggest breweries and the impact of major sporting events on their sales</v-card-title>
     <v-card-text>
 Aim: Find a temporal link between the consumption of  beers of the breweries selected in the pre-processing part  and major sporting events
@@ -25,7 +25,7 @@ We started to analyze the evolution of the top 10 beers and breweries to get a g
 </v-card-text>
 </v-card>
 
-<v-card>
+<v-card class="mb-6">
     <v-card-title>📍Textual Data Analysis</v-card-title>
     <v-card-text>
 Aim: Study whether textual reviews can be used to measure beer popularity<br>
