@@ -2,12 +2,12 @@ import { mdiFileOutline, mdiHomeOutline } from '@mdi/js'
 
 export default [
   {
-    title: 'Home',
+    title: 'Description',
     icon: mdiHomeOutline,
     to: 'home',
   },
   {
-    title: 'Second Page',
+    title: 'Structure',
     icon: mdiFileOutline,
     to: 'second-page',
   },

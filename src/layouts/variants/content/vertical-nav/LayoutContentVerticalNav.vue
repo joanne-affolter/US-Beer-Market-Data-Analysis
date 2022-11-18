@@ -2,37 +2,6 @@
   <layout-content-vertical-nav :nav-menu-items="navMenuItems">
     <slot></slot>
 
-    <!-- Slot: Navbar -->
-    <template #navbar="{ isVerticalNavMenuActive, toggleVerticalNavMenuActive }">
-      <div
-        class="navbar-content-container"
-        :class="{'expanded-search': shallShowFullSearch}"
-      >
-        <!-- Left Content: Search -->
-        <div class="d-flex align-center">
-          <v-icon
-            v-if="$vuetify.breakpoint.mdAndDown"
-            class="me-3"
-            @click="toggleVerticalNavMenuActive"
-          >
-            {{ icons.mdiMenu }}
-          </v-icon>
-          <app-bar-search
-            :shall-show-full-search.sync="shallShowFullSearch"
-            :data="appBarSearchData"
-            :filter="searchFilterFunc"
-            :search-query.sync="appBarSearchQuery"
-            @update:shallShowFullSearch="handleShallShowFullSearchUpdate(isVerticalNavMenuActive, toggleVerticalNavMenuActive)"
-          ></app-bar-search>
-        </div>
-
-        <!-- Right Content: I18n, Light/Dark, Notification & User Dropdown -->
-        <div class="d-flex align-center right-row">
-          <app-bar-user-menu></app-bar-user-menu>
-        </div>
-      </div>
-    </template>
-
     <!-- Slot: Footer -->
     <template #footer>
       <div class="d-flex justify-space-between">
@@ -59,10 +28,10 @@ import LayoutContentVerticalNav from '@/@core/layouts/variants/content/vertical-
 import navMenuItems from '@/navigation/vertical'
 
 // App Bar Components
-import AppBarSearch from '@core/layouts/components/app-bar/AppBarSearch.vue'
 import AppBarUserMenu from '@/components/AppBarUserMenu.vue'
+import AppBarSearch from '@core/layouts/components/app-bar/AppBarSearch.vue'
 
-import { mdiMenu, mdiHeartOutline } from '@mdi/js'
+import { mdiHeartOutline, mdiMenu } from '@mdi/js'
 
 import { getVuetify } from '@core/utils'
 
