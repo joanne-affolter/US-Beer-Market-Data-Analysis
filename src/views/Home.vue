@@ -18,12 +18,28 @@ Finally, the whole process will enable us to evaluate how to adapt the sales of 
 
     <v-card>
       <v-card-title>Research Questions ❓</v-card-title>
-      <v-card-text>- Is there a temporal correlation between the ratings dates and major sporting events ?
-- Can we observe a difference in consumption between the users of countries that win/lose a match ?
-- Do the winning/losing nations drink the same beer when they win/lose ? Does their consumption increase or decrease ?
-- Can textual reviews provide an additional metric for beer popularity in relation to sporting events ?
-- Do the breweries sponsoring sporting events earn a positive or negative impact from that marketing campaign ?
-- Can we tell which beer to sell to each country depending on the results of given sporting event ?</v-card-text>
+      <v-card-text>
+        <v_list>
+<v-list-item>
+  Is there a temporal correlation between the ratings dates and major sporting events ?
+</v-list-item>
+<v-list-item>
+Can we observe a difference in consumption between the users of countries that win/lose a match ?
+</v-list-item>
+<v-list-item>
+Do the winning/losing nations drink the same beer when they win/lose ? Does their consumption increase or decrease ?
+</v-list-item>
+<v-list-item>
+Can textual reviews provide an additional metric for beer popularity in relation to sporting events ?
+</v-list-item>
+<v-list-item>
+Do the breweries sponsoring sporting events earn a positive or negative impact from that marketing campaign ?
+</v-list-item>
+<v-list-item>
+Can we tell which beer to sell to each country depending on the results of given sporting event ?
+</v-list-item>
+        </v_list>
+      </v-card-text>
     </v-card>
   </div>
 </template>
