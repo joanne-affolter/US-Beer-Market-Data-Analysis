@@ -111,7 +111,8 @@
           In only 10 years, the number of breweries involved in the ratings has increased
           <strong>from 1304 in 2006 to 4410 in 2016 </strong>, which corresponds to a growth of
           <strong> 238%</strong>.
-          Regarding Beer Advocate, there are fewer breweries involved in the ratings. We observe a peak in 2014 corresponding to about 1200 breweries, which matches the number of breweries in 2007 on Rate Beer before the explosion started. In addition, the curve does not follow the same trend as Rate Beer and the number of breweries is decreasing since 2014.
+          <br>Regarding Beer Advocate, there are fewer breweries involved in the ratings. We observe a peak in 2014 corresponding to about 1200 breweries, which matches the number of breweries in 2007 on Rate Beer before the explosion started.
+          <br>In addition, the curve does not follow the same trend as Rate Beer and the number of breweries is decreasing since 2014.
 
           <br>
           Knowing that we want to study the competition on the beer market, focusing on the Rate Beer review site seems to be more relevant
@@ -138,7 +139,7 @@
     <v-card class="mb-6">
       <v-card-text>
         <v-img
-            src="@/assets/images/nb_ratings_country.png"
+            src="@/assets/images/2.png"
         ></v-img>
       </v-card-text>
     </v-card>
@@ -146,9 +147,9 @@
       <v-card-text>
         We can indeed see that the number of ratings on Beer Advocate drops drastically from 2015, while it decreases minimally on Rate Beer (taking into account that ratings stop in July 2017).
 
-Moreover, the Pearson coefficients show actually a strong linear relationship (~  0.76  for RB and ~  0.82  for BA) between the two distributions which is very significant (p-value ~  0.0002  for RB and ~  10−5  for BA).
+<br>Moreover, the Pearson coefficients show actually a strong linear relationship (~  0.76  for RB and ~  0.82  for BA) between the two distributions which is very significant (p-value ~  0.0002  for RB and ~  10−5  for BA).
 
-This drop in the number of comments on Beer Advocate may explain why the number of breweries involved in the ratings decreases from 2015.
+<br>This drop in the number of comments on Beer Advocate may explain why the number of breweries involved in the ratings decreases from 2015.
 
     </v-card-text>
   </v-card>
@@ -157,27 +158,31 @@ This drop in the number of comments on Beer Advocate may explain why the number 
 
   <v-card class="mb-6">
     <v-card class="mb-6">
-      <v-card-text class="primary--text">
+      <v-card-text class="primary--text text-subtitle-2">
         Let's now compare the evolution of ratings on the two websites by plotting them on the same plot.
       </v-card-text>
     </v-card>
-    <v-card class="mb-6">
-      <v-card-text>
-        <v-img
-            src="@/assets/images/2.png"
-        ></v-img>
-    </v-card-text>
+    <v-row>
+      <v-col>
+        <v-card class="mb-6">
+          <v-card-text>
+            <v-img
+                src="@/assets/images/3.png"
+            ></v-img>
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <v-col>
+        <v-card class="mb-6">
+          <v-card-text>
+              We can see a peak in the number of ratings between 2010 and 2016 for the two websites, with the maximum values reached in 2014.
+            <br>Moreover, Beer Advocate gets a higher number of ratings between 2012 and 2015 whereas Rate Beer was always above outside these dates.
+            <br>Hence, Beer Advocate reached a high peak in popularity in 2013/2014 with a number of ratings almost equals to 582 242 (so 6 times higher than in 2014 - 88 398 ratings), but since then, the number of ratings is higher on Rate Beer.
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
   </v-card>
-  <v-card class="mb-6">
-      <v-card-text>
-        We can see a peak in the number of ratings between 2010 and 2016 for the two websites, with the maximum values reached in 2014.
-
-Moreover, Beer Advocate gets a higher number of ratings between 2012 and 2015 whereas Rate Beer was always above outside these dates.
-
-Hence, Beer Advocate reached a high peak in popularity in 2013/2014 with a number of ratings almost equals to 582 242 (so 6 times higher than in 2014 - 88 398 ratings), but since then, the number of ratings is higher on Rate Beer.
-    </v-card-text>
-  </v-card>
-</v-card>
 
   <v-card class="mb-6">
     <v-card-title>
