@@ -10,7 +10,7 @@
 
   <v-card>
     We have chosen to base our market analysis on two beer review sites:
-    <spann class= 'primary--text'> Beer Advocate </spann> and
+    <span class= 'primary--text'> Beer Advocate </span> and
     <span class= 'primary--text'> Rate Beer </span>.
     &emsp These two sites are widely considered the go-to beer resource for
     millions of consumers each month and the benchmark for beer reviews.
