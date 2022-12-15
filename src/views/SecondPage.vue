@@ -80,10 +80,6 @@
         Evolution of the beer industry over the past few years
       </p>
     </v-card-title>
-    <v-card-text  class="white--text text-subtitle-1">
-      We need to understand how the current beer market behaves in US to be able to know if opening a brewery is a strategic choice for our client.
-      To do this, we will determine <i>how many breweries have opened the past few years and of which kind they are</i>.
-    </v-card-text>
   </v-card>
 
   <v-card class="mb-6">
@@ -92,12 +88,23 @@
         Evolution of the number of breweries involved in the ratings per year
       </p>
     </v-card-title>
+    <v-card-text  class="primary--text text-subtitle-2">
+      We need to understand how the current beer market behaves in US to be able to know if opening a brewery is a strategic choice for our client.
+      To do this, we will determine <i>how many breweries have opened the past few years and of which kind they are</i>.
+    </v-card-text>
   </v-card>
 
+
   <v-card class="mb-6">
+
     <v-card-text>
+      <v-card>
+        <v-img
+          src="@/assets/images/evolution_breweries.png"
+        ></v-img>
+      </v-card>
+
       <v-icon
-        x-large
       >📈</v-icon>
       The number of breweries involved in ratings has been growing very quickly over the past decade in the United States. Indeed, we can see on Rate Beer that this evolution even follows an exponential trend since 2007. We don't need to worry about the stabilization in 2017 because the ratings we have available stop in July 2017.
       In only 10 years, the number of breweries involved in the ratings has increased
