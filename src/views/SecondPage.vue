@@ -44,30 +44,31 @@
           </v-card>
         </v-col>
         <v-col cols="4" sm="4" lg="4" md="4">
-          <v-card>
-            <v-card-text>
-              On this figure, we plotted the number of ratings posted in US
-              in blue and the number of ratings for all the other countries in yellow.
-              The y-axis is in logarithmic scale.
-              <br>We can see that the total number of rating from the US is much higher
-              than in the other countries. There are nearly
-              <span class= 'primary--text'> 10 millions ratings from the US </span>
-              whereas the second country (Canada) only has 1 million.
-            </v-card-text>
-        </v-card>
-        </v-col>
-
-        <v-col cols="4" sm="4" lg="4" md="4">
-          <v-card>
-            <v-card-text>
+          <v-row>
+            <v-card>
+              <v-card-text>
+                On this figure, we plotted the number of ratings posted in US
+                in blue and the number of ratings for all the other countries in yellow.
+                The y-axis is in logarithmic scale.
+                <br>We can see that the total number of rating from the US is much higher
+                than in the other countries. There are nearly
+                <span class= 'primary--text'> 10 millions ratings from the US </span>
+                whereas the second country (Canada) only has 1 million.
+              </v-card-text>
+            </v-card>
+          </v-row>
+          <v-row>
+            <v-card>
+              <v-card-text>
               💡 Given the number of comments we have from the United States,
               we therefore advise our client to open his brewery in the United States.
               Indeed, knowing that our client wants to build its
               <strong> business and market intelligence </strong>
               on the study of consumer comments, the analysis will be much more relevant in
               the United States and our client will be able to get real benefits from our work.
-            </v-card-text>
-        </v-card>
+              </v-card-text>
+            </v-card>
+          </v-row>
         </v-col>
       </v-row>
     </v-card-text>
@@ -79,25 +80,28 @@
         Evolution of the beer industry over the past few years
       </p>
     </v-card-title>
-    <v-card-text>
+    <v-card-text color='#FFFFFF'>
       We need to understand how the current beer market behaves in US to be able to know if opening a brewery is a strategic choice for our client.
       To do this, we will determine <i>how many breweries have opened the past few years and of which kind they are</i>.
     </v-card-text>
   </v-card>
 
-  <v-card>
+  <v-card class="mb-6">
     <v-card-text>
       <v-icon
         color="primary"
         dense
         x-large
-      >mdi-trending-up</v-icon>
-The number of breweries involved in ratings has been growing very quickly over the past decade in the United States. Indeed, we can see on Rate Beer that this evolution even follows an exponential trend since 2007. We don't need to worry about the stabilization in 2017 because the ratings we have available stop in July 2017.
-      In only 10 years, the number of breweries involved in the ratings has increased <span class= 'primary--text'>from 1304 in 2006 to 4410 in 2016 </span>, which corresponds to a growth of <span class= 'primary--text'> 238%</span>.
+      >📈</v-icon>
+      The number of breweries involved in ratings has been growing very quickly over the past decade in the United States. Indeed, we can see on Rate Beer that this evolution even follows an exponential trend since 2007. We don't need to worry about the stabilization in 2017 because the ratings we have available stop in July 2017.
+      In only 10 years, the number of breweries involved in the ratings has increased
+      <span class= 'primary--text'>from 1304 in 2006 to 4410 in 2016 </span>, which corresponds to a growth of
+      <span class= 'primary--text'> 238%</span>.
       Regarding Beer Advocate, there are fewer breweries involved in the ratings. We observe a peak in 2014 corresponding to about 1200 breweries, which matches the number of breweries in 2007 on Rate Beer before the explosion started. In addition, the curve does not follow the same trend as Rate Beer and the number of breweries is decreasing since 2014.
 
       <br>
-Knowing that we want to study the competition on the beer market, focusing on the Rate Beer review site seems to be more relevant to study our client's potential competitors.
+      Knowing that we want to study the competition on the beer market, focusing on the Rate Beer review site seems to be more relevant
+      to study our client's potential competitors.
 
     </v-card-text>
   </v-card>
