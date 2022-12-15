@@ -24,7 +24,7 @@
     </v-card-text>
   </v-card>
 
-  <v-card class="mb-6">
+  <v-card class="mb-6" color="purple lighten-5">
     <v-card-title>
       <p class="text-h4 primary--text font-weight-black">
         From where the customers are coming from ?
@@ -43,7 +43,7 @@
             ></v-img>
           </v-card>
         </v-col>
-        <v-col cols="8" sm="8" lg="8" md="8">
+        <v-col cols="4" sm="4" lg="4" md="4">
           <v-card>
             <v-card-text>
               On the above figure we plotted the number of ratings posted in US
