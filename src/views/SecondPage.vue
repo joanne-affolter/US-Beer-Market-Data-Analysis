@@ -2,13 +2,13 @@
   <div>
   <v-card class="mb-6" color="primary">
     <v-card-title>
-      <p class="text-h1 white--text font-weight-black">
+      <p class="text-h3 white--text font-weight-black">
         First insights from the beer reviews websites
       </p>
     </v-card-title>
   </v-card>
 
-  <v-card>
+  <v-card class="mb-6">
     <v-card-title></v-card-title>
     <v-card-text>
         We have chosen to base our market analysis on two beer review sites:
@@ -26,8 +26,8 @@
 
   <v-card class="mb-6">
     <v-card-title>
-      <p class="text-h2 primary--text font-weight-medium">
-        First insights from the beer reviews websites
+      <p class="text-h4 primary--text font-weight-medium">
+        From where the customers are coming from ?
       </p>
     </v-card-title>
   </v-card>
@@ -47,7 +47,12 @@
 
   <v-row>
 
-
+    <v-card>
+      <v-img
+          height="200"
+          src="@/assets/images/nb_ratings_country.png"
+        ></v-img>
+    </v-card>
   </v-row>
 
 
