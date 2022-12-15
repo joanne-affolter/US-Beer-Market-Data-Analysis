@@ -45,21 +45,21 @@
         </v-col>
         <v-col cols="4" sm="4" lg="4" md="4">
           <v-row>
-            <v-card>
+            <v-card class="mb-6">
               <v-card-text>
                 On this figure, we plotted the number of ratings posted in US
                 in blue and the number of ratings for all the other countries in yellow.
                 The y-axis is in logarithmic scale.
                 <br>We can see that the total number of rating from the US is much higher
                 than in the other countries. There are nearly
-                <span class= 'primary--text'> 10 millions ratings from the US </span>
+                <strong> 10 millions ratings from the US </strong>
                 whereas the second country (Canada) only has 1 million.
               </v-card-text>
             </v-card>
           </v-row>
           <v-row>
-            <v-card>
-              <v-card-text>
+            <v-card class="mb-6">
+              <v-card-text class="white--text text-subtitle-1">
               💡 Given the number of comments we have from the United States,
               we therefore advise our client to open his brewery in the United States.
               Indeed, knowing that our client wants to build its
