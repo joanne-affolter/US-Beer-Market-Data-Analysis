@@ -93,7 +93,7 @@
         x-large
       >mdi-trending-up</v-icon>
 The number of breweries involved in ratings has been growing very quickly over the past decade in the United States. Indeed, we can see on Rate Beer that this evolution even follows an exponential trend since 2007. We don't need to worry about the stabilization in 2017 because the ratings we have available stop in July 2017.
-      In only 10 years, the number of breweries involved in the ratings has increased <span class= 'primary--text'>from 1304 in 2006 to 4410 in 2016 </span>, which corresponds to a growth of <span class= 'primary--text'> 238%</class>.
+      In only 10 years, the number of breweries involved in the ratings has increased <span class= 'primary--text'>from 1304 in 2006 to 4410 in 2016 </span>, which corresponds to a growth of <span class= 'primary--text'> 238%</span>.
       Regarding Beer Advocate, there are fewer breweries involved in the ratings. We observe a peak in 2014 corresponding to about 1200 breweries, which matches the number of breweries in 2007 on Rate Beer before the explosion started. In addition, the curve does not follow the same trend as Rate Beer and the number of breweries is decreasing since 2014.
 
       <br>
