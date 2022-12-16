@@ -208,7 +208,7 @@
 
         <v-row align="center">
           <v-col>
-            <v-card>
+            <v-card class="my-8">
               <v-card-text class="text-subtitle-2 font-weight-medium">
                 The evolution of the number of breweries involved in the ratings might depend strongly on the number of ratings on the site, which could explain why the curve for Beer Advocate does not follow the same trend as the curve for Rate Beer.
                 <br><br>
@@ -221,7 +221,7 @@
         <v-row align="center" justify="center">
           <v-col>
             <div class="my-8">
-              <v-img src="@/assets/images/1.png"> </v-img>
+              <v-img src="@/assets/images/2.png"> </v-img>
             </div>
           </v-col>
         </v-row>
@@ -263,6 +263,71 @@
           </v-col>
         </v-row>
 
+      </v-container>
+    </v-card>
+
+    <!-- II.3. Number of users -->
+    <v-card class="mb-6" color="#ECEFF1">
+      <v-container fill-height>
+        <v-row>
+          <v-card width="100%" color="#9E9E9E">
+            <v-card-text>
+              <span class="text-subtitle-1 font-weight-medium white--text">
+                Evolution of consumers behavior              </span>
+            </v-card-text>
+          </v-card>
+        </v-row>
+
+        <v-row align="center">
+          <v-col>
+            <v-card>
+              <v-card-text>
+                Let's check how consumers behave on both websites to understand why we get this spike in ratings and why Beer Advocate got a higher number of ratings between 2012 and 2015.
+              </v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
+
+        <v-spacer> </v-spacer>
+        <v-spacer></v-spacer>
+
+
+        <v-row align="center" justify="center">
+          <v-col>
+            <div class="my-8">
+              <v-img src="@/assets/images/evolution_breweries.png"> </v-img>
+            </div>
+          </v-col>
+        </v-row>
+
+        <v-spacer/>
+
+        <v-row align="center">
+          <v-col>
+            <v-card>
+              <v-card-text>
+                <v-icon large color="primary">{{icons.mdiChartTimelineVariantShimmer}}</v-icon>
+
+                  The number of breweries involved in ratings has been growing very quickly over the past decade in the United States. Indeed, we can see on Rate Beer that this evolution even follows an exponential trend since 2007. We don't need to worry about the stabilization in 2017 because the ratings we have available stop in July 2017.
+                  In only 10 years, the number of breweries involved in the ratings has increased from  1304  in 2006 to  4410  in 2016, which corresponds to a growth of  238%
+
+                  <br><br>
+
+                  Regarding Beer Advocate, there are fewer breweries involved in the ratings. We observe a peak in 2014 corresponding to about 1200 breweries, which matches the number of breweries in 2007 on Rate Beer before the explosion started. In addition, the curve does not follow the same trend as Rate Beer and the number of breweries is decreasing since 2014.
+
+              </v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
+
+        <v-row align="center">
+          <v-col>
+            <v-card>
+              <v-card-text>
+                Knowing that we want to study the competition on the beer market, focusing on the Rate Beer review site seems to be more relevant to study our client's potential competitors.              </v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
       </v-container>
     </v-card>
 
