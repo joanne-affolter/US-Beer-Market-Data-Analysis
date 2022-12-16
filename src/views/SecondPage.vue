@@ -1,14 +1,14 @@
 <template>
   <div>
 
-    <v-card>
+    <v-card class="mb-6">
       <v-img
-        height="160"
+        height="200"
         width="100%"
         src="@/assets/images/materio_img/developerMeetup.png"
       ></v-img>
 
-      <v-card-text class="d-flex align-center mt-5">
+      <v-card-text class="d-flex align-center mt-5 text-h5 primary--text font-weight-black">
           First insights from the beer reviews websites
       </v-card-text>
     </v-card>
@@ -28,21 +28,57 @@
     </v-card-text>
   </v-card>
 
-  <v-card class="mb-6" color="#B388FF">
-    <v-card-title>
-      <p class="text-h5 white--text font-weight-black">
-        From where the customers are coming from ?
-      </p>
-    </v-card-title>
-  </v-card>
+
 
   <v-card>
-    <v-card-text>
+    <v-row class="ma-0 pa-0">
+      <v-col
+        cols="8"
+        sm="6"
+      >
+        <v-card-title class="greeting-title d-flex flex-nowrap text-2xl">
+          <span class="text-no-wrap font-weight-bold mx-1">From where the customers are coming from ?</span>
+        </v-card-title>
+
+        <v-card-text>
+          <span>You have done </span>
+          <span class="text--primary font-weight-semibold">72%</span>
+          <span class="text--primary font-weight-semibold"> 🤩 more sales today.</span>
+          <span> Check your new raising badge in your profile.</span>
+        </v-card-text>
+      </v-col>
+
+      <v-col
+        cols="4"
+        sm="6"
+      >
+        <div>
+          <v-img
+            width="120"
+            src="@/assets/images/misc/tree-4.png"
+            class="gamification-tree-4"
+          ></v-img>
+          <v-img
+            width="121"
+            src="@/assets/images/3d-characters/pose-2.png"
+            class="gamification-john-pose-2"
+          ></v-img>
+          <v-img
+            width="100"
+            src="@/assets/images/misc/tree.png"
+            class="gamification-tree"
+          ></v-img>
+        </div>
+      </v-col>
+    </v-row>
+  </v-card>
+
+
+  <v-card>
       <v-row>
         <v-col cols="8" sm="8" lg="8" md="8">
           <v-card>
             <v-img
-
               src="@/assets/images/nb_ratings_country.png"
             ></v-img>
           </v-card>
@@ -54,7 +90,7 @@
                 On this figure, we plotted the number of ratings posted in US
                 in blue and the number of ratings for all the other countries in yellow.
                 The y-axis is in logarithmic scale.
-                <br>We can see that the total number of rating from the US is much higher
+                <br><br>We can see that the total number of rating from the US is much higher
                 than in the other countries. There are nearly
                 <strong> 10 millions ratings from the US </strong>
                 whereas the second country (Canada) only has 1 million.
@@ -66,7 +102,7 @@
               <v-card-text>
               💡 Given the number of comments we have from the United States,
               we therefore advise our client to open his brewery in the United States.
-              Indeed, knowing that our client wants to build its
+              <br><br>Indeed, knowing that our client wants to build its
               <strong> business and market intelligence </strong>
               on the study of consumer comments, the analysis will be much more relevant in
               the United States and our client will be able to get real benefits from our work.
@@ -75,16 +111,45 @@
           </v-row>
         </v-col>
       </v-row>
-    </v-card-text>
   </v-card>
 
-  <v-card class="mb-6" color="#B388FF">
-    <v-card-title>
-      <p class="text-h5 white--text font-weight-black">
-        Evolution of the beer industry over the past few years
-      </p>
-    </v-card-title>
+  <v-card>
+    <v-row class="ma-0 pa-0">
+      <v-col
+        cols="8"
+        sm="6"
+      >
+        <v-card-title class="greeting-title d-flex flex-nowrap text-2xl">
+          <span class="text-no-wrap font-weight-bold mx-1">Evolution of the beer industry over the past few years</span>
+        </v-card-title>
+
+      </v-col>
+
+      <v-col
+        cols="4"
+        sm="6"
+      >
+        <div>
+          <v-img
+            width="120"
+            src="@/assets/images/misc/tree-4.png"
+            class="gamification-tree-4"
+          ></v-img>
+          <v-img
+            width="121"
+            src="@/assets/images/3d-characters/pose-f-28.png"
+            class="gamification-john-pose-2"
+          ></v-img>
+          <v-img
+            width="100"
+            src="@/assets/images/misc/tree.png"
+            class="gamification-tree"
+          ></v-img>
+        </div>
+      </v-col>
+    </v-row>
   </v-card>
+
 
   <v-card class="mb-6">
     <v-card-title>
@@ -214,3 +279,65 @@
   </div>
 
 </template>
+
+
+
+<style lang="scss" scoped>
+.gamification-tree-4,
+.gamification-john-pose-2,
+.gamification-tree {
+  position: absolute;
+}
+.gamification-tree {
+  top: 10%;
+  right: 0;
+}
+.gamification-john-pose-2 {
+  bottom: 0;
+  right: 15%;
+}
+.gamification-tree-4 {
+  bottom: 0;
+  right: 30%;
+}
+
+@media (max-width: 600px) {
+  .gamification-tree,
+  .gamification-tree-4 {
+    display: none;
+  }
+  .gamification-john-pose-2 {
+    right: 5%;
+  }
+}
+
+@media (max-width: 500px) {
+  .gamification-john-pose-2 {
+    max-width: 70px;
+  }
+}
+
+@media (max-width: 400px) {
+  .greeting-title {
+    font-size: 1.2rem !important;
+  }
+}
+
+// rtl
+.v-application {
+  &.v-application--is-rtl {
+    .gamification-john-pose-2 {
+      right: initial;
+      left: 15%;
+    }
+    .gamification-tree {
+      right: initial;
+      left: 0;
+    }
+    .gamification-tree-4 {
+      left: 30%;
+      right: initial;
+    }
+  }
+}
+</style>
