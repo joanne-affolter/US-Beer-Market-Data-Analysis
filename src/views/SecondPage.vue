@@ -51,9 +51,9 @@
     </v-card>
 
     <v-card class="mb-6" color="#ECEFF1">
-      <v-container  justify="space-between">
+      <v-container fill-height>
         <v-spacer></v-spacer>
-        <v-row  justify="space-between">
+        <v-row align="center" justify="center">
           <v-card>
             <v-card-text>
               <span class="text-subtitle-2">
