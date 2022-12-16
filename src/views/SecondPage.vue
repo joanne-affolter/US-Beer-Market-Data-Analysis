@@ -229,7 +229,7 @@
             </v-card-text>
           </div>
         </v-card-text>
-
+      </v-card>
 
 
     <v-card class="mb-6">
