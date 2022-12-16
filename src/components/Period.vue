@@ -28,12 +28,7 @@
                                 size="40"
                                 rounded
                               >
-                                <v-icon
-                                  size="30"
-                                  color="success"
-                                >
-                                  BA
-                                </v-icon>
+                                <v-img src="@/assets/images/beer_advocate.png"></v-img>
                               </v-list-item-avatar>
                               <v-list-item-content>
                                 <v-list-item-title class="font-weight-semibold">
