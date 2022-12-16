@@ -139,7 +139,7 @@
     <v-card class="mb-6" color="#ECEFF1">
       <v-container fill-height>
         <v-row>
-          <v-card width="100%" color="primary">
+          <v-card width="100%" color="#9E9E9E">
             <v-card-text>
               <span class="text-subtitle-1 font-weight-medium white--text">
                 How many breweries have opened the past few years ?
@@ -148,13 +148,14 @@
           </v-card>
         </v-row>
 
-        <v-spacer/>
+        <v-spacer> </v-spacer>
+        <v-spacer></v-spacer>
 
-        <v-row align="center">
+        <v-row align="center" justify="center">
           <v-col>
             <v-img src="@/assets/images/1.png"> </v-img>
           </v-col>
-        </v-row>v-row>
+        </v-row>
 
         <v-spacer/>
 
@@ -162,21 +163,15 @@
           <v-col>
             <v-card>
               <v-card-text>
-                <v-icon>{{icons.mdiChartTimelineVariantShimmer}}</v-icon>
-                <div>
+                <v-icon large color="primary">{{icons.mdiChartTimelineVariantShimmer}}</v-icon>
+
                   The number of breweries involved in ratings has been growing very quickly over the past decade in the United States. Indeed, we can see on Rate Beer that this evolution even follows an exponential trend since 2007. We don't need to worry about the stabilization in 2017 because the ratings we have available stop in July 2017.
                   In only 10 years, the number of breweries involved in the ratings has increased from  1304  in 2006 to  4410  in 2016, which corresponds to a growth of  238%
-                </div>
-              </v-card-text>
-            </v-card>
-          </v-col>
-        </v-row>
 
-        <v-row align="center">
-          <v-col>
-            <v-card>
-              <v-card-text>
+                  <br><br>
+
                   Regarding Beer Advocate, there are fewer breweries involved in the ratings. We observe a peak in 2014 corresponding to about 1200 breweries, which matches the number of breweries in 2007 on Rate Beer before the explosion started. In addition, the curve does not follow the same trend as Rate Beer and the number of breweries is decreasing since 2014.
+
               </v-card-text>
             </v-card>
           </v-col>
