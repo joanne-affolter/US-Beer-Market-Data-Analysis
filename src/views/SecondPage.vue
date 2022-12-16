@@ -8,7 +8,7 @@
         src="@/assets/images/materio_img/developerMeetup.png"
       ></v-img>
 
-      <v-card-text class="d-flex align-center mt-5 text-h4 font-weight-black">
+      <v-card-text class="d-flex align-center mt-5 text-h5 font-weight-black">
           Fist insights from the beer review sites
       </v-card-text>
     </v-card>
@@ -28,9 +28,9 @@
       </v-card-text>
     </v-card>
 
+  <v-spacer></v-spacer>
 
-
-  <v-card class="mb-6" color = '#B388FF'>
+  <v-card class="mb-6" color = '#B388FF' height="200">
     <v-row class="ma-0 pa-0">
       <v-col cols="8" sm="6">
         <v-card-title class="greeting-title d-flex flex-nowrap text-2xl primary--text">
@@ -38,13 +38,9 @@
         </v-card-title>
       </v-col>
 
+
       <v-col cols="4" sm="6" >
         <div>
-          <v-img
-            width="120"
-            src="@/assets/images/misc/tree-4.png"
-            class="gamification-tree-4"
-          ></v-img>
           <v-img
             width="121"
             src="@/assets/images/3d-characters/pose-2.png"
@@ -61,6 +57,7 @@
   </v-card>
 
   <v-card>
+  <v-container>
     <v-row>
       <v-col cols="8" sm="8" lg="8" md="8">
         <v-card>
@@ -71,7 +68,7 @@
       </v-col>
       <v-col cols="4" sm="4" lg="4" md="4">
         <v-row>
-          <v-card class="mb-6">
+          <v-card>
             <v-card-text>
                 On this figure, we plotted the number of ratings posted in US
                 in blue and the number of ratings for all the other countries in yellow.
@@ -84,7 +81,7 @@
           </v-card>
         </v-row>
         <v-row>
-          <v-card class="mb-6">
+          <v-card>
             <v-card-text>
               💡 Given the number of comments we have from the United States,
               we therefore advise our client to open his brewery in the United States.
@@ -97,9 +94,10 @@
         </v-row>
       </v-col>
     </v-row>
+  </v-container>
   </v-card>
 
-  <v-card class="mb-6" color = '#B388FF'>
+  <v-card class="mb-6" color = '#EDE7F6'>
     <v-row class="ma-0 pa-0">
       <v-col cols="8" sm="6">
         <v-card-title class="greeting-title d-flex flex-nowrap text-2xl primary--text">
