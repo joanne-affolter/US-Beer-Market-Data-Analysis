@@ -364,7 +364,7 @@
                 </v-row>
                 <v-row>
                     <v-col>
-                        <v-img src="@/assets/images/beer_lovers.png"></v-img>
+                        <v-img src="@/assets/images/beers_lovers.png"></v-img>
                     </v-col>
                 </v-row>
 
