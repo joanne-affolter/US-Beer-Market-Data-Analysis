@@ -30,7 +30,7 @@
 
   <v-spacer></v-spacer>
 
-  <v-card class="mb-6" color = '#B388FF' height="200">
+  <v-card class="mb-6" color = '#EDE7F6' height="100">
     <v-row class="ma-0 pa-0">
       <v-col cols="8" sm="6">
         <v-card-title class="greeting-title d-flex flex-nowrap text-2xl primary--text">
@@ -67,6 +67,7 @@
         </v-card>
       </v-col>
       <v-col cols="4" sm="4" lg="4" md="4">
+        <v-card class="d-flex justify-space-between">
         <v-row>
           <v-card>
             <v-card-text>
@@ -92,12 +93,13 @@
             </v-card-text>
           </v-card>
         </v-row>
+      </v-card>
       </v-col>
     </v-row>
   </v-container>
   </v-card>
 
-  <v-card class="mb-6" color = '#EDE7F6'>
+  <v-card class="mb-6" color = '#EDE7F6' height="100">
     <v-row class="ma-0 pa-0">
       <v-col cols="8" sm="6">
         <v-card-title class="greeting-title d-flex flex-nowrap text-2xl primary--text">
