@@ -363,17 +363,17 @@
                     </v-col>
                 </v-row>
                 <v-row>
-                    <v-col>
+                    <v-col cols="6">
                         <v-img src="@/assets/images/beers_lovers.png"></v-img>
                     </v-col>
-                </v-row>
-
-                <v-row>
-                    <v-col>
+                    <v-col cols="6">
                         <v-card>
                             <TableLovers></TableLovers>
                         </v-card>
                     </v-col>
+                </v-row>
+
+                <v-row>
                     <v-col>
                         <v-card>
                             <v-card-text>
@@ -392,9 +392,22 @@
 
         </v-card>
 
+
+        <!-- 3. Evolution of local users -->
+        <v-card class="mb-6" color="primary" >
+            <v-container>
+                <v-row>
+                    <v-col cols="8" sm="6">
+                        <v-card-text class="d-flex align-center mt-5 text-h6 white--text font-weight-black">
+                            States with the highest score
+                         </v-card-text>
+                     </v-col>
+                </v-row>
+            </v-container>
+        </v-card>
         <v-card>
-            <v-row>
-                <v-col>
+            <v-row align="center" justify="center">
+                <v-col cols="8">
                     <v-img src="@/assets/images/top_states.png"></v-img>
                 </v-col>
             </v-row>
