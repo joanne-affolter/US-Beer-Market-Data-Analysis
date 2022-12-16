@@ -30,7 +30,7 @@
 
     <v-spacer></v-spacer>
 
-    <v-card class="mb-6" color = '#EDE7F6' height="100">
+    <v-card class="mb-6" color = 'primary' height="100">
       <v-row class="ma-0 pa-0">
         <v-col cols="8" sm="6">
           <v-card-title class="greeting-title d-flex flex-nowrap text-2xl primary--text">
@@ -99,7 +99,7 @@
 
     <v-spacer></v-spacer>
 
-    <v-card class="mb-6" color = '#EDE7F6' height="100">
+    <v-card class="mb-6" color = 'primary' height="100">
       <v-row class="ma-0 pa-0">
         <v-col cols="8" sm="6">
           <v-card-title class="greeting-title d-flex flex-nowrap text-2xl primary--text">
@@ -143,14 +143,16 @@
       </v-card>
       <v-card>
         <v-container :align="center">
-          <v-row>
-            <v-col cols='1'>
-              <v-row :align="'center'">
+          <v-row :align="center">
+            <v-col cols='1' :align="center">
+              <v-row :align="center">
+                <v-card color="primary">
                 <v-btn class="mx-2" dark large color="primary" height='100%'>
                   <v-icon :align="center" large>
                     {{icons.mdiChartTimelineVariantShimmer}}
                   </v-icon>
                 </v-btn>
+              </v-card>
               </v-row>
             </v-col>
             <v-col cols='11' :align="center">
@@ -210,7 +212,7 @@
       </v-card>
       <v-card class="mb-4">
         <v-card>
-          <v-card-text  class="text-subtitle-2">
+          <v-card-text  class="text-subtitle-2 text -m">
             Let's now compare the evolution of ratings on the two websites by plotting them on the same plot.
           </v-card-text>
         </v-card>
