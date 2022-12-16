@@ -13,7 +13,7 @@
               <v-col>
                 <v-card>
                   <v-card-title>
-                    <span class='font-weight-bold'>
+                    <span class='text-subtitle-2 font-weight-bold'>
                       2007 - 2011
                     </span>
                   </v-card-title>
@@ -25,7 +25,7 @@
                       <v-list-item class="pa-0">
                               <v-list-item-avatar
                                 class="v-avatar-light-bg success--text justify-center"
-                                size="20"
+                                size="30"
                                 rounded
                               >
                                 <v-img src="@/assets/images/beer_advocate.png"></v-img>
@@ -40,7 +40,7 @@
                       <v-list-item class="pa-0">
                               <v-list-item-avatar
                                 class="v-avatar-light-bg primary--text justify-center"
-                                size="20"
+                                size="30"
                                 rounded
                               >
                               <v-img src="@/assets/images/rate_beer.png"></v-img>
@@ -58,7 +58,7 @@
               <v-col>
                 <v-card>
                   <v-card-title>
-                    <span class='font-weight-bold'>
+                    <span class='text-subtitle-2 font-weight-bold'>
                       2011 - 2015
                     </span>
                   </v-card-title>
@@ -70,7 +70,7 @@
                       <v-list-item class="pa-0">
                               <v-list-item-avatar
                                 class="v-avatar-light-bg success--text justify-center"
-                                size="20"
+                                size="30"
                                 rounded
                               >
                                 <v-img src="@/assets/images/beer_advocate.png"></v-img>
@@ -85,7 +85,7 @@
                       <v-list-item class="pa-0">
                               <v-list-item-avatar
                                 class="v-avatar-light-bg primary--text justify-center"
-                                size="20"
+                                size="30"
                                 rounded
                               >
                                 <v-img src="@/assets/images/rate_beer.png"></v-img>
@@ -103,7 +103,7 @@
               <v-col>
                 <v-card>
                   <v-card-title>
-                    <span class='font-weight-bold'>
+                    <span class='text-subtitle-2 font-weight-bold'>
                       2015 - 2017
                     </span>
                   </v-card-title>
@@ -115,7 +115,7 @@
                       <v-list-item class="pa-0">
                               <v-list-item-avatar
                                 class="v-avatar-light-bg success--text justify-center"
-                                size="20"
+                                size="30"
                                 rounded
                               >
                                 <v-img src="@/assets/images/beer_advocate.png"></v-img>
@@ -130,7 +130,7 @@
                       <v-list-item class="pa-0">
                               <v-list-item-avatar
                                 class="v-avatar-light-bg primary--text justify-center"
-                                size="20"
+                                size="30"
                                 rounded
                               >
                                 <v-img src="@/assets/images/rate_beer.png"></v-img>

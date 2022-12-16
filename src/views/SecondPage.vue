@@ -203,7 +203,6 @@
           </v-card>
         </v-row>
 
-        <v-spacer> </v-spacer>
         <v-spacer></v-spacer>
 
         <v-row align="center">
@@ -218,9 +217,9 @@
           </v-col>
         </v-row>
 
-        <v-row align="center" justify="center">
+        <v-row align="center">
           <v-col>
-            <div class="my-8">
+            <div>
               <v-img src="@/assets/images/1.png"> </v-img>
             </div>
           </v-col>
