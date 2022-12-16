@@ -8,8 +8,8 @@
         src="@/assets/images/materio_img/developerMeetup.png"
       ></v-img>
 
-      <v-card-text class="d-flex align-center mt-5 text-h5 primary--text font-weight-black">
-          First insights from the beer reviews websites
+      <v-card-text class="d-flex align-center mt-5 text-h4 font-weight-black">
+          FIRST INSIGHTS FROM THE BEER REVIEW SITES
       </v-card-text>
     </v-card>
 
@@ -30,28 +30,15 @@
 
 
 
-  <v-card>
+  <v-card class="mb-6">
     <v-row class="ma-0 pa-0">
-      <v-col
-        cols="8"
-        sm="6"
-      >
-        <v-card-title class="greeting-title d-flex flex-nowrap text-2xl">
+      <v-col cols="8" sm="6">
+        <v-card-title class="greeting-title d-flex flex-nowrap text-2xl primary--text">
           <span class="text-no-wrap font-weight-bold mx-1">From where the customers are coming from ?</span>
         </v-card-title>
-
-        <v-card-text>
-          <span>You have done </span>
-          <span class="text--primary font-weight-semibold">72%</span>
-          <span class="text--primary font-weight-semibold"> 🤩 more sales today.</span>
-          <span> Check your new raising badge in your profile.</span>
-        </v-card-text>
       </v-col>
 
-      <v-col
-        cols="4"
-        sm="6"
-      >
+      <v-col cols="4" sm="6" >
         <div>
           <v-img
             width="120"
@@ -71,22 +58,19 @@
         </div>
       </v-col>
     </v-row>
-  </v-card>
 
-
-  <v-card>
-      <v-row>
-        <v-col cols="8" sm="8" lg="8" md="8">
-          <v-card>
-            <v-img
-              src="@/assets/images/nb_ratings_country.png"
-            ></v-img>
-          </v-card>
-        </v-col>
-        <v-col cols="4" sm="4" lg="4" md="4">
-          <v-row>
-            <v-card class="mb-6">
-              <v-card-text>
+    <v-row>
+      <v-col cols="8" sm="8" lg="8" md="8">
+        <v-card>
+          <v-img
+          src="@/assets/images/nb_ratings_country.png"
+          ></v-img>
+        </v-card>
+      </v-col>
+      <v-col cols="4" sm="4" lg="4" md="4">
+        <v-row>
+          <v-card class="mb-6">
+            <v-card-text>
                 On this figure, we plotted the number of ratings posted in US
                 in blue and the number of ratings for all the other countries in yellow.
                 The y-axis is in logarithmic scale.
@@ -94,33 +78,33 @@
                 than in the other countries. There are nearly
                 <strong> 10 millions ratings from the US </strong>
                 whereas the second country (Canada) only has 1 million.
-              </v-card-text>
-            </v-card>
-          </v-row>
-          <v-row>
-            <v-card class="mb-6">
-              <v-card-text>
+            </v-card-text>
+          </v-card>
+        </v-row>
+        <v-row>
+          <v-card class="mb-6">
+            <v-card-text>
               💡 Given the number of comments we have from the United States,
               we therefore advise our client to open his brewery in the United States.
               <br><br>Indeed, knowing that our client wants to build its
               <strong> business and market intelligence </strong>
               on the study of consumer comments, the analysis will be much more relevant in
               the United States and our client will be able to get real benefits from our work.
-              </v-card-text>
-            </v-card>
-          </v-row>
-        </v-col>
-      </v-row>
+            </v-card-text>
+          </v-card>
+        </v-row>
+      </v-col>
+    </v-row>
   </v-card>
 
-  <v-card>
+  <v-card class="mb-6">
     <v-row class="ma-0 pa-0">
       <v-col
         cols="8"
         sm="6"
       >
-        <v-card-title class="greeting-title d-flex flex-nowrap text-2xl">
-          <span class="text-no-wrap font-weight-bold mx-1">Evolution of the beer industry over the past few years</span>
+        <v-card-title class="greeting-title d-flex flex-nowrap text-2xl primary--text">
+          <span class="text-no-wrap font-weight-bold mx-1">Evolution of the beer industry <br>over the past few years</span>
         </v-card-title>
 
       </v-col>
@@ -130,11 +114,6 @@
         sm="6"
       >
         <div>
-          <v-img
-            width="120"
-            src="@/assets/images/misc/tree-4.png"
-            class="gamification-tree-4"
-          ></v-img>
           <v-img
             width="121"
             src="@/assets/images/3d-characters/pose-f-28.png"
@@ -153,29 +132,34 @@
 
   <v-card class="mb-6">
     <v-card-title>
-      <p class="text-h6 primary--text font-weight-black">
+      <span class="text-h6 primary--text font-weight-black">
         Evolution of the number of breweries involved in the ratings per year
-      </p>
+      </span>
     </v-card-title>
     <v-card-text  class="text-subtitle-2">
+
       We need to understand how the current beer market behaves in US to be able to know if opening a brewery is a strategic choice for our client.
       To do this, we will determine <i>how many breweries have opened the past few years and of which kind they are</i>.
-    </v-card-text>
-  </v-card>
+
+      <v-row>
+        <v-avatar
+            size="44"
+            :color="primary"
+            rounded
+            class="elevation-1"
+          >
+            <v-icon
+              dark
+              color="white"
+              size="30"
+            >
+              mdi-trending-up
+            </v-icon>
+          </v-avatar>
+
+          <div class="ms-3">
 
 
-  <v-card class="mb-6">
-
-    <v-card-text>
-      <v-card>
-        <v-img
-          src="@/assets/images/evolution_breweries.png"
-        ></v-img>
-      </v-card>
-      <v-card>
-        <v-card-text>
-          <v-icon
-          >📈</v-icon>
           The number of breweries involved in ratings has been growing very quickly over the past decade in the United States. Indeed, we can see on Rate Beer that this evolution even follows an exponential trend since 2007. We don't need to worry about the stabilization in 2017 because the ratings we have available stop in July 2017.
           In only 10 years, the number of breweries involved in the ratings has increased
           <strong>from 1304 in 2006 to 4410 in 2016 </strong>, which corresponds to a growth of
@@ -186,96 +170,11 @@
           <br>
           Knowing that we want to study the competition on the beer market, focusing on the Rate Beer review site seems to be more relevant
           to study our client's potential competitors.
-        </v-card-text>
-      </v-card>
+          </div>
+
+      </v-row>
     </v-card-text>
   </v-card>
-
-
-  <v-card class="mb-6">
-    <v-card-title>
-      <p class="text-h6 primary--text font-weight-black">
-        Evolution of the number of ratings per year
-      </p>
-    </v-card-title>
-    <v-card-text  class="text-subtitle-2">
-      The evolution of the number of breweries involved in the ratings might depend strongly on the number of ratings on the site, which could explain why the curve for Beer Advocate does not follow the same trend as the curve for Rate Beer.
-      <br>Hence, we will study the evolution of the number of ratings for the two websites only for beers produced by American breweries.
-    </v-card-text>
-  </v-card>
-
-  <v-card class="mb-6">
-    <v-card class="mb-6">
-      <v-card-text>
-        <v-img
-            src="@/assets/images/2.png"
-        ></v-img>
-      </v-card-text>
-    </v-card>
-    <v-card class="mb-6">
-      <v-card-text>
-        We can indeed see that the number of ratings on Beer Advocate drops drastically from 2015, while it decreases minimally on Rate Beer (taking into account that ratings stop in July 2017).
-
-<br>Moreover, the Pearson coefficients show actually a strong linear relationship (~  0.76  for RB and ~  0.82  for BA) between the two distributions which is very significant (p-value ~  0.0002  for RB and ~  10−5  for BA).
-
-<br>This drop in the number of comments on Beer Advocate may explain why the number of breweries involved in the ratings decreases from 2015.
-
-    </v-card-text>
-  </v-card>
-</v-card>
-
-
-  <v-card class="mb-6">
-    <v-card class="mb-6">
-      <v-card-text class="primary--text text-subtitle-2">
-        Let's now compare the evolution of ratings on the two websites by plotting them on the same plot.
-      </v-card-text>
-    </v-card>
-    <v-row>
-      <v-col>
-        <v-card class="mb-6">
-          <v-card-text>
-            <v-img
-                src="@/assets/images/3.png"
-            ></v-img>
-          </v-card-text>
-        </v-card>
-      </v-col>
-      <v-col>
-        <v-card class="mb-6">
-          <v-card-text>
-              We can see a peak in the number of ratings between 2010 and 2016 for the two websites, with the maximum values reached in 2014.
-            <br>Moreover, Beer Advocate gets a higher number of ratings between 2012 and 2015 whereas Rate Beer was always above outside these dates.
-            <br>Hence, Beer Advocate reached a high peak in popularity in 2013/2014 with a number of ratings almost equals to 582 242 (so 6 times higher than in 2014 - 88 398 ratings), but since then, the number of ratings is higher on Rate Beer.
-          </v-card-text>
-        </v-card>
-      </v-col>
-    </v-row>
-  </v-card>
-
-  <v-card class="mb-6">
-    <v-card-title>
-      <p class="text-h6 primary--text font-weight-black">
-        Evolution of consumers behavior
-      </p>
-    </v-card-title>
-  </v-card>
-
-  <v-card class="mb-6">
-    <v-card-title>
-      <p class="text-h6 primary--text font-weight-black">
-        Evolution of consumers behavior
-      </p>
-    </v-card-title>
-  </v-card>
-
-  <v-card class="mb-6">
-    <v-card-title>
-      <p class="text-h6 primary--text font-weight-black">
-        Do this hype around beers in US had an impact on breweries ?      </p>
-    </v-card-title>
-  </v-card>
-
   </div>
 
 </template>
