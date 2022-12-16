@@ -204,10 +204,12 @@
         </v-row>
 
         <v-spacer></v-spacer>
+        <v-spacer></v-spacer>
+
 
         <v-row align="center">
           <v-col>
-            <v-card class="mb-6">
+            <v-card class="mb-6 my-8">
               <v-card-text class="text-subtitle-2 font-weight-medium">
                 The evolution of the number of breweries involved in the ratings might depend strongly on the number of ratings on the site, which could explain why the curve for Beer Advocate does not follow the same trend as the curve for Rate Beer.
                 <br><br>
