@@ -364,11 +364,12 @@
               <v-card-text>
                 <v-list>
                   <v-list-item class="pa-0">
-                    ▪️  The number of breweries involved in the reviews has grown very quickly. <i>Were these breweries already known to users on the beer review sites or did new breweries appear in the ratings ?</i>
-
-                    </v-list-item>
+                    <v-icon large color="primary">{{icons.mdiMeteor}}</v-icon>
+                    The number of breweries involved in the reviews has grown very quickly. <i>Were these breweries already known to users on the beer review sites or did new breweries appear in the ratings ?</i>
+                  </v-list-item>
                   <v-list-item class="pa-0">
-                    ▪️  <i>Do users adopt easily a new brewery and continue to keep rating it over time after the first rating?</i>
+                    <v-icon large color="primary">{{icons.mdiMeteor}}</v-icon>
+                    <i>Do users adopt easily a new brewery and continue to keep rating it over time after the first rating?</i>
                   </v-list-item>
                 </v-list>
               </v-card-text>
@@ -388,8 +389,8 @@
         </v-row>
 
       <v-row align="center">
-          <v-col cols="4">
-            <v-card>
+          <v-col cols="8">
+            <v-card color="#C8E6C9">
               <v-card-title>
                 'In' breweries
               </v-card-title>
@@ -401,7 +402,7 @@
           </v-col>
 
           <v-col cols="4">
-            <v-card>
+            <v-card color="#FFCDD2">
               <v-card-title>
                 'Out breweries'
               </v-card-title>
@@ -410,8 +411,10 @@
               </v-card-text>
             </v-card>
           </v-col>
+        </v-row>
 
-          <v-col cols="4">
+        <v-row>
+          <v-col>
             <v-card>
               <v-card-text>
                 <v-icon large color="primary">{{icons.mdiLightbulbQuestion}}</v-icon>
@@ -419,8 +422,7 @@
               </v-card-text>
             </v-card>
           </v-col>
-
-      </v-row>
+        </v-row>
 
       <v-spacer/>
     </v-container>
