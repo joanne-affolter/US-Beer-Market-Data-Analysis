@@ -43,8 +43,7 @@
         <div>
           <v-img
             width="121"
-            height="50"
-            src="@/assets/images/3d-characters/pose-2.png"
+            src="@/assets/images/3d-characters/pose-m-14.png"
             class="gamification-john-pose-2"
           ></v-img>
           <v-img
@@ -58,7 +57,7 @@
   </v-card>
 
   <v-card>
-  <v-container>
+  <v-container class='d-flex justify-space-around'>
     <v-row>
       <v-col cols="8" sm="8" lg="8" md="8">
         <v-card>
@@ -138,7 +137,7 @@
 
       <v-row>
         <v-img
-          wdith="80%"
+          width="80%"
           src="@/assets/images/evolution_breweries.png">
         </v-img>
       </v-row>
