@@ -178,6 +178,58 @@
 
 
 
+    <v-card class="mb-6">
+        <v-card-title>
+          <span class="text-xl primary--text font-weight-black">
+            Evolution of the number of breweries involved in the ratings per year
+          </span>
+        </v-card-title>
+        <v-card-text>
+          <div>
+            <span class="text-subtitle-2">
+              We need to understand how the current beer market behaves in US to be able to know if opening a brewery is a strategic choice for our client.
+              To do this, we will determine <i>how many breweries have opened the past few years and of which kind they are</i>.
+            </span>
+          </div>
+          <div>
+            <v-img
+              src="@/assets/images/evolution_breweries.png">
+            </v-img>
+          </div>
+          <div>
+            <v-card-text>
+              <v-row>
+                <v-col cols="1">
+                  <v-btn :align="center" dark large color="primary" height='100%'>
+                    <v-icon :align="center" large>
+                      {{icons.mdiChartTimelineVariantShimmer}}
+                    </v-icon>
+                  </v-btn>
+                </v-col>
+                <v-col cols="11">
+                  <v-card-text>
+                    The number of breweries involved in ratings has been growing very quickly over the past decade in the United States. Indeed, we can see on Rate Beer that this evolution even follows an exponential trend since 2007. We don't need to worry about the stabilization in 2017 because the ratings we have available stop in July 2017.
+                    <br>In only 10 years, the number of breweries involved in the ratings has increased from
+                    <strong>1304 </strong>
+                    in 2006 to
+                    <strong>4410</strong> in 2016 , which corresponds to a growth of
+                    <strong> 238%</strong>.
+                  </v-card-text>
+                </v-col>
+              </v-row>
+              <v-row>
+                <v-card-text>
+                  Regarding Beer Advocate, there are fewer breweries involved in the ratings. We observe a peak in 2014 corresponding to about 1200 breweries, which matches the number of breweries in 2007 on Rate Beer before the explosion started.
+                  <br>In addition, the curve does not follow the same trend as Rate Beer and the number of breweries is decreasing since 2014.
+                  <br><br>
+                  💡Knowing that we want to study the competition on the beer market, focusing on the Rate Beer review site seems to be more relevant
+                  to study our client's potential competitors.
+                </v-card-text>
+              </v-row>
+            </v-card-text>
+          </div>
+        </v-card-text>
+
 
 
     <v-card class="mb-6">
