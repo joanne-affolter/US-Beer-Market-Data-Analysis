@@ -146,7 +146,7 @@
           <v-row :align="center">
             <v-col cols='1' :align="center">
               <v-icon large dark color="primary" rounded class="elevation-1">
-                {{mdiChartTimelineVariantShimmer}}
+                {{icons.mdiChartTimelineVariantShimmer}}
               </v-icon>
             </v-col>
             <v-col cols='11' :align="center">
@@ -182,6 +182,17 @@
 </template>
 
 <script>
+import { mdiChartTimelineVariantShimmer } from '@mdi/js'
+
+export default {
+  setup() {
+    return {
+      icons: {
+        mdiChartTimelineVariantShimmer,
+      },
+    }
+  },
+}
 </script>
 
 <style lang="scss" scoped>
