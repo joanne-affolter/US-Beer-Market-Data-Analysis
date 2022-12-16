@@ -59,23 +59,15 @@
         </v-card>
 
         <!--I. Title with avatar-->
-        <v-row>
-        <v-col cols="12" md="7" lg="7">
-          <v-card>
+        <v-card class="mb-6">
             <v-row class="ma-0 pa-0">
-              <v-col
-                cols="8"
-                sm="6"
-              >
+              <v-col cols="8" sm="6">
                 <v-card-title class="greeting-title d-flex flex-nowrap text-2xl">
                     Where should you open your brewery ?
                 </v-card-title>
               </v-col>
 
-              <v-col
-                cols="4"
-                sm="6"
-              >
+              <v-col cols="4" sm="6" >
                 <div>
                   <v-img
                     width="120"
@@ -95,24 +87,22 @@
                 </div>
               </v-col>
             </v-row>
-          </v-card>
-        </v-col>
-    </v-row>
+        </v-card>
 
         <!-- Introduction -->
         <v-card class="mb-6">
-                <v-card-text>
-                    In order to determine which states our client should open its brewery in, we will chose the top 3 states based on thses criterias :
-                </v-card-text>
-                <v-actions>
-                    <v-row >
-
+            <v-card-text class="text-subtitle-2 font-weight-bold">
+                In order to determine which states our client should open its brewery in, we will chose the top 3 states based on thses criterias :
+            </v-card-text>
+            <v-spacer></v-spacer>
+            <v-actions>
+                <v-container class="d-flex">
+                    <v-row align='center' justify="center" >
                         <v-col>
                             <v-btn elevation="13" rounded text x-large dark color="primary">
                                 A large market share to reach with a lot of potential clients
                             </v-btn>
                         </v-col>
-
                     </v-row>
                     <v-row align='center' justify="center">
                         <v-col>
@@ -120,28 +110,47 @@
                                 Consumers who like local beers
                             </v-btn>
                         </v-col>
-
                         <v-col>
                             <v-btn elevation="13" rounded text x-large dark color="primary">
                                 Beer lovers who make a lot of ratings
                             </v-btn>
                         </v-col>
                     </v-row>
-                </v-actions>
+                </v-container>
+            </v-actions>
         </v-card>
 
         <!-- 1. States with a large market share to reach -->
-        <v-card class="mb-6" color="primary">
-        <v-container>
-            <v-row>
-            <v-col cols="8" sm="6">
-                <v-card-text class="d-flex align-center mt-5 text-h5 white--text font-weight-black">
-                    States with a large market share to reach
-               </v-card-text>
-            </v-col>
-            </v-row>
-        </v-container>
+        <v-card class="mb-6" color="primary" width="80%">
+            <v-container>
+                <v-row>
+                    <v-col cols="8" sm="6">
+                        <v-card-text class="d-flex align-center mt-5 text-h5 white--text font-weight-black">
+                            States with a large market share to reach
+                        </v-card-text>
+                    </v-col>
+                </v-row>
+            </v-container>
         </v-card>
+
+        <!--Introduction-->
+        <v-card class="mb-6">
+            <v-card-text>
+                The beer market has exploded in the United States since 2007. Americans are becoming more and more passionate about beer and breweries are opening all the time.
+                <br><br>
+                However, the industry has become very competitive and our client must strategically choose where to locate its brewery in a state where:
+                <br><br>
+                ◾ There are beer consumers, so there is a market share to reach and potential customers
+                <br>
+                ◾ There is not much competition, otherwise it will be difficult to stand out from the other breweries
+                <br><br>
+                First, let's determine where the users of Rate Beer and Beer Advocate come from.
+
+            </v-card-text>
+        </v-card>
+
+
+
 
 
 
