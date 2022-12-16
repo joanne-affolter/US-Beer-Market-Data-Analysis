@@ -32,13 +32,13 @@
       <v-container>
         <v-row>
 
-          <v-col cols="9" sm="6">
+          <v-col cols="8" sm="6">
             <v-card-text class="d-flex align-center mt-5 text-h5 white--text font-weight-black">
                 From where the customers are coming from ?
             </v-card-text>
           </v-col>
 
-          <v-col cols="3" sm="6">
+          <v-col cols="4" sm="6">
             <v-img
               width="121"
               src="@/assets/images/3d-characters/pose-m-14.png"
@@ -50,25 +50,28 @@
       </v-container>
     </v-card>
 
-    <v-card class="mb-6" color="primary">
+    <v-card class="mb-6" color="#F3E5F5">
       <v-container>
 
         <v-row>
-
-          <span class="text-subtitle-2">
-            First of all, we will count the number of ratings per country in order to see from where the customers are coming from.
-          </span>
+          <v-card>
+            <v-card-text>
+              <span class="text-subtitle-2">
+                First of all, we will count the number of ratings per country in order to see from where the customers are coming from.
+              </span>
+            </v-card-text>
+          </v-card>
 
         </v-row>
 
         <v-row>
 
           <v-col cols="8" sm="6">
-            <v-img src="@/assets/images/evolution_breweries.png"> </v-img>
+            <v-img src="@/assets/images/nb_ratings_country.png"> </v-img>
           </v-col>
 
           <v-col cols="4" sm="6">
-            <v-container flex-direction="column" justify-content="space-between">
+            <v-container d-flex flex-nowrap flex-direction="column" justify-content="space-between">
 
               <v-row>
                 <v-card>
@@ -78,6 +81,8 @@
                   </v-card-text>
                 </v-card>
               </v-row>
+
+              <v-spacer></v-spacer>
 
               <v-row>
                 <v-card>
