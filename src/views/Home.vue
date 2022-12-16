@@ -1,55 +1,117 @@
 <template>
   <div>
-    <v-card class="mb-6">
-      <v-card-title>Beer reviews ⚽🍺🏈</v-card-title>
-      <v-card-text color="primary">Our idea is to analyze the relation between major sporting events (football world-cups, superbowl, etc.) and beer ratings to evaluate the impact of these huge events on beer consumers and breweries' sales. <br>
-More specifically we will search if those sporting events affect beers or breweries' popularity, beer consumption and consumers opinion.
-<br>
-<v-list>
-  <v-list-item>
-    <br>
-▪️ First of all, we will look at the most rated beers and most popular breweries to determine if there exists any temporal correlation between some major sporting events and the popularity of the studied beers/breweries.
-For instance, can we observe a peak every 4 years in the consumption of beers from a certain brewery?
-<br>
-</v-list-item>
-<v-list-item>
-  <br>
-▪️ Then, we will analyze the ratings and reviews in a range of one month around the events which have caught our attention in the first part of the project. Our goal is to understand the variation in ratings and reviews between winning and losing countries.<br>
-We will analyze the trends depending on the team's results. We will also look for the effect of these events in the textual reviews by leveraging sentiment analysis.
-<br>
-</v-list-item>
-<v-list-item>
-▪️ Finally, the whole process will enable us to evaluate how to adapt the sales of breweries depending on the results.
-</v-list-item>
-</v-list>
-</v-card-text>
+    <!-- 1ere ligne - Welcome Anthony + Liste des chantiers en cours -->
+    <v-row>
+      <!-- Welcome Anthony ! -->
+      <v-col cols="12" md="7" lg="7">
+        <v-card>
+          <v-row class="ma-0 pa-0">
+            <v-col
+              cols="8"
+              sm="6"
+            >
+              <v-card-title class="greeting-title d-flex flex-nowrap text-2xl">
+                <span class="text-no-wrap">First Part</span>
+                <span class="text-no-wrap font-weight-bold mx-1">TEST</span>
+                <span>🎉</span>
+              </v-card-title>
 
-    </v-card>
+              <v-card-text>
+                <span>Introduction </span>
+                <span class="text--primary font-weight-semibold">blabla</span>
+              </v-card-text>
+            </v-col>
 
-    <v-card>
-      <v-card-title>Research Questions ❓</v-card-title>
-      <v-card-text>
-        <v_list>
-<v-list-item>
-▪️ Is there a temporal correlation between the ratings dates and major sporting events ?
-</v-list-item>
-<v-list-item>
-▪️ Can we observe a difference in consumption between the users of countries that win/lose a match ?
-</v-list-item>
-<v-list-item>
-▪️ Do the winning/losing nations drink the same beer when they win/lose ? Does their consumption increase or decrease ?
-</v-list-item>
-<v-list-item>
-▪️ Can textual reviews provide an additional metric for beer popularity in relation to sporting events ?
-</v-list-item>
-<v-list-item>
-▪️ Do the breweries sponsoring sporting events earn a positive or negative impact from that marketing campaign ?
-</v-list-item>
-<v-list-item>
-▪️ Can we tell which beer to sell to each country depending on the results of given sporting event ?
-</v-list-item>
-        </v_list>
-      </v-card-text>
-    </v-card>
+            <v-col
+              cols="4"
+              sm="6"
+            >
+              <div>
+                <v-img
+                  width="120"
+                  src="@/assets/images/misc/tree-4.png"
+                  class="gamification-tree-4"
+                ></v-img>
+                <v-img
+                  width="121"
+                  src="@/assets/images/3d-characters/pose-2.png"
+                  class="gamification-john-pose-2"
+                ></v-img>
+                <v-img
+                  width="100"
+                  src="@/assets/images/misc/tree.png"
+                  class="gamification-tree"
+                ></v-img>
+              </div>
+            </v-col>
+          </v-row>
+        </v-card>
+      </v-col>
+  </v-row>
   </div>
 </template>
+
+<script>
+export default {
+  data: () => ({}),
+  computed: {},
+  mounted() {},
+  methods: {},
+}
+</script>
+
+<style lang="scss" scoped>
+.gamification-tree-4,
+.gamification-john-pose-2,
+.gamification-tree {
+  position: absolute;
+}
+.gamification-tree {
+  top: 10%;
+  right: 0;
+}
+.gamification-john-pose-2 {
+  bottom: 0;
+  right: 15%;
+}
+.gamification-tree-4 {
+  bottom: 0;
+  right: 30%;
+}
+@media (max-width: 600px) {
+  .gamification-tree,
+  .gamification-tree-4 {
+    display: none;
+  }
+  .gamification-john-pose-2 {
+    right: 5%;
+  }
+}
+@media (max-width: 500px) {
+  .gamification-john-pose-2 {
+    max-width: 70px;
+  }
+}
+@media (max-width: 400px) {
+  .greeting-title {
+    font-size: 1.2rem !important;
+  }
+}
+// rtl
+.v-application {
+  &.v-application--is-rtl {
+    .gamification-john-pose-2 {
+      right: initial;
+      left: 15%;
+    }
+    .gamification-tree {
+      right: initial;
+      left: 0;
+    }
+    .gamification-tree-4 {
+      left: 30%;
+      right: initial;
+    }
+  }
+}
+</style>
