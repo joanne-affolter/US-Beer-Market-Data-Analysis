@@ -1,14 +1,14 @@
 <template>
   <div>
 
-    <v-card class="mb-6">
+    <v-card class="mb-6" color="primary">
       <v-img
         height="200"
         width="100%"
         src="@/assets/images/materio_img/developerMeetup.png"
       ></v-img>
 
-      <v-card-text class="d-flex align-center mt-5 text-h5 font-weight-black">
+      <v-card-text class="d-flex align-center mt-5 text-h5 white--text font-weight-black">
           Fist insights from the beer review sites
       </v-card-text>
     </v-card>
@@ -43,6 +43,7 @@
         <div>
           <v-img
             width="121"
+            height="50"
             src="@/assets/images/3d-characters/pose-2.png"
             class="gamification-john-pose-2"
           ></v-img>
@@ -67,33 +68,33 @@
         </v-card>
       </v-col>
       <v-col cols="4" sm="4" lg="4" md="4">
-        <v-card class="d-flex justify-space-between">
-        <v-row>
-          <v-card>
-            <v-card-text>
-                On this figure, we plotted the number of ratings posted in US
-                in blue and the number of ratings for all the other countries in yellow.
-                The y-axis is in logarithmic scale.
-                <br><br>We can see that the total number of rating from the US is much higher
-                than in the other countries. There are nearly
-                <strong> 10 millions ratings from the US </strong>
-                whereas the second country (Canada) only has 1 million.
-            </v-card-text>
-          </v-card>
-        </v-row>
-        <v-row>
-          <v-card>
-            <v-card-text>
-              💡 Given the number of comments we have from the United States,
-              we therefore advise our client to open his brewery in the United States.
-              <br><br>Indeed, knowing that our client wants to build its
-              <strong> business and market intelligence </strong>
-              on the study of consumer comments, the analysis will be much more relevant in
-              the United States and our client will be able to get real benefits from our work.
-            </v-card-text>
-          </v-card>
-        </v-row>
-      </v-card>
+        <v-container>
+          <v-row>
+            <v-card>
+              <v-card-text>
+                  On this figure, we plotted the number of ratings posted in US
+                  in blue and the number of ratings for all the other countries in yellow.
+                  The y-axis is in logarithmic scale.
+                  <br><br>We can see that the total number of rating from the US is much higher
+                  than in the other countries. There are nearly
+                  <strong> 10 millions ratings from the US </strong>
+                  whereas the second country (Canada) only has 1 million.
+              </v-card-text>
+            </v-card>
+          </v-row>
+          <v-row>
+            <v-card>
+              <v-card-text>
+                💡 Given the number of comments we have from the United States,
+                we therefore advise our client to open his brewery in the United States.
+                <br><br>Indeed, knowing that our client wants to build its
+                <strong> business and market intelligence </strong>
+                on the study of consumer comments, the analysis will be much more relevant in
+                the United States and our client will be able to get real benefits from our work.
+              </v-card-text>
+            </v-card>
+          </v-row>
+        </v-container>
       </v-col>
     </v-row>
   </v-container>
