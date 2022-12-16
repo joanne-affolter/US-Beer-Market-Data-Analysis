@@ -30,11 +30,11 @@
 
     <v-spacer></v-spacer>
 
-    <v-card class="mb-6" color = 'primary' height="100">
+    <v-card class="mb-6" color = 'primary' height="80">
       <v-row class="ma-0 pa-0">
         <v-col cols="8" sm="6">
-          <v-card-title class="greeting-title d-flex flex-nowrap text-2xl primary--text">
-            <span class="text-no-wrap font-weight-bold mx-1">From where the customers are coming from ?</span>
+          <v-card-title class="greeting-title d-flex flex-nowrap text-2xl white--text">
+            <span class="text-no-wrap white--text font-weight-bold mx-1">From where the customers are coming from ?</span>
           </v-card-title>
         </v-col>
         <v-col cols="4" sm="6" >
@@ -99,11 +99,11 @@
 
     <v-spacer></v-spacer>
 
-    <v-card class="mb-6" color = 'primary' height="100">
+    <v-card class="mb-6" color = 'primary' height="80">
       <v-row class="ma-0 pa-0">
         <v-col cols="8" sm="6">
-          <v-card-title class="greeting-title d-flex flex-nowrap text-2xl primary--text">
-            <span class="text-no-wrap font-weight-bold mx-1">Evolution of the beer industry over the past few years</span>
+          <v-card-title class="greeting-title d-flex flex-nowrap text-2xl white--text">
+            <span class="text-no-wrap white--text font-weight-bold mx-1">Evolution of the beer industry over the past few years</span>
           </v-card-title>
         </v-col>
 
@@ -125,23 +125,25 @@
     </v-card>
 
     <v-card class="mb-6">
-        <v-card-title>
-          <span class="text-xl primary--text font-weight-black">
-            Evolution of the number of breweries involved in the ratings per year
-          </span>
-        </v-card-title>
-        <v-card-text>
+      <v-card-title>
+        <span class="text-xl primary--text font-weight-black">
+          Evolution of the number of breweries involved in the ratings per year
+        </span>
+      </v-card-title>
+      <v-card-text>
           <div>
             <span class="text-subtitle-2">
               We need to understand how the current beer market behaves in US to be able to know if opening a brewery is a strategic choice for our client.
               To do this, we will determine <i>how many breweries have opened the past few years and of which kind they are</i>.
             </span>
           </div>
+
           <div>
             <v-img
               src="@/assets/images/evolution_breweries.png">
             </v-img>
           </div>
+
           <div>
             <v-card-text>
               <v-row>
