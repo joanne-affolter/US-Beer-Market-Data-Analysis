@@ -292,7 +292,7 @@
         <v-spacer> </v-spacer>
         <v-spacer></v-spacer>
 
-        <v-row align="center">
+        <v-row align="center" justify="center">
           <v-col cols="8">
             <Period></Period>
           </v-col>
@@ -345,6 +345,98 @@
 
       </v-container>
     </v-card>
+
+    <!-- II.4. Impact on breweries -->
+    <v-card class="mb-6" color="#ECEFF1">
+      <v-container fill-height>
+        <v-row>
+          <v-card width="100%" color="#9E9E9E">
+            <v-card-text>
+              <span class="text-subtitle-1 font-weight-medium white--text">
+                Do this hype around beers in US had an impact on breweries ?              </span>
+            </v-card-text>
+          </v-card>
+        </v-row>
+
+        <v-row align="center" justify="center">
+          <v-col>
+            <v-card>
+              <v-card-text>
+                <v-list>
+                  <v-list-item class="pa-0">
+                    ▪️  The number of breweries involved in the reviews has grown very quickly. <i>Were these breweries already known to users on the beer review sites or did new breweries appear in the ratings ?</i>
+
+                    </v-list-item>
+                  <v-list-item class="pa-0">
+                    ▪️  <i>Do users adopt easily a new brewery and continue to keep rating it over time after the first rating?</i>
+                  </v-list-item>
+                </v-list>
+              </v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
+
+        <v-spacer> </v-spacer>
+        <v-spacer></v-spacer>
+
+        <v-row align="center">
+          <v-col>
+            <div>
+              <v-img src="@/assets/images/3.png"> </v-img>
+            </div>
+          </v-col>
+        </v-row>
+
+      <v-row align="center">
+          <v-col cols="4">
+            <v-card>
+              <v-card-title>
+                'In' breweries
+              </v-card-title>
+              <v-card-text>
+                While the number of 'in' breweries remain quite low between 2004 and 2008, it then explodes until it reaches  841  new breweries in the ratings in 2016.
+                <br>The quick growth in the number of 'in' breweries seems to be strongly related to the hype in the US around beer and the increase in the number of comments starting in 2012. From 2011 to 2014, there are approximately  150  new 'in' breweries each year, which matched well with the spike in the number of ratings we observed earlier.
+              </v-card-text>
+            </v-card>
+          </v-col>
+
+          <v-col cols="4">
+            <v-card>
+              <v-card-title>
+                'Out breweries'
+              </v-card-title>
+              <v-card-text>
+                The number of 'out' breweries remains stable until 2012 and then increases very sharply to 730 'out' breweries in 2016, which is almost the same number as the 'in' breweries that year! which also seems to be related to the hype around beer in the US, and the strong competition in this field where hundreds of breweries appear every year.
+                <br><br>But what are these 'out' breweries? Are they old breweries that have been surpassed by the new 'in' breweries? Or do the new breweries appearing in the comments fail to last? To answer this, we will separate the breweries according to the number of years between the first and the last rating.
+              </v-card-text>
+            </v-card>
+          </v-col>
+
+          <v-col cols="4">
+            <v-row align="center">
+              <v-col>
+                <v-card>
+                  <v-card-text>
+                  📍 The number of 'in' breweries and the number of breweries involved in the ratings follow the same trend over the years. The Pearson coefficient that measures this correlation is very high (~  0.83 ) and significant (p-value ~ 10−5 ).
+                  </v-card-text>
+                </v-card>
+              </v-col>
+              <v-col>
+                <v-card>
+                  <v-card-text>
+                  📍 We would have to take the analysis further to determine where the causal link is: Did the number of new breweries generate this desire among Americans to discover new beers? Or are people taking advantage of this trend to open breweries?
+                  </v-card-text>
+                </v-card>
+              </v-col>
+            </v-row>
+          </v-col>
+
+      </v-row>
+
+      <v-spacer/>
+    </v-container>
+  </v-card>
+
 
 </div>
 
