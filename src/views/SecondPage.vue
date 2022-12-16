@@ -28,76 +28,74 @@
       </v-card-text>
     </v-card>
 
-  <v-spacer></v-spacer>
+    <v-spacer></v-spacer>
 
-  <v-card class="mb-6" color = '#EDE7F6' height="100">
-    <v-row class="ma-0 pa-0">
-      <v-col cols="8" sm="6">
-        <v-card-title class="greeting-title d-flex flex-nowrap text-2xl primary--text">
-          <span class="text-no-wrap font-weight-bold mx-1">From where the customers are coming from ?</span>
-        </v-card-title>
-      </v-col>
+    <v-card class="mb-6" color = '#EDE7F6' height="100">
+      <v-row class="ma-0 pa-0">
+        <v-col cols="8" sm="6">
+          <v-card-title class="greeting-title d-flex flex-nowrap text-2xl primary--text">
+            <span class="text-no-wrap font-weight-bold mx-1">From where the customers are coming from ?</span>
+          </v-card-title>
+        </v-col>
+        <v-col cols="4" sm="6" >
+          <div>
+            <v-img
+              width="121"
+              src="@/assets/images/3d-characters/pose-m-14.png"
+              class="gamification-john-pose-2"
+            ></v-img>
+            <v-img
+              width="100"
+              src="@/assets/images/misc/tree.png"
+              class="gamification-tree"
+            ></v-img>
+          </div>
+        </v-col>
+      </v-row>
+    </v-card>
 
-
-      <v-col cols="4" sm="6" >
-        <div>
-          <v-img
-            width="121"
-            src="@/assets/images/3d-characters/pose-m-14.png"
-            class="gamification-john-pose-2"
-          ></v-img>
-          <v-img
-            width="100"
-            src="@/assets/images/misc/tree.png"
-            class="gamification-tree"
-          ></v-img>
-        </div>
-      </v-col>
-    </v-row>
-  </v-card>
-
-  <v-card class="mb-6">
-  <v-container>
-    <v-row>
-      <v-col cols="8" sm="8" lg="8" md="8">
-        <v-card>
-          <v-img
-          src="@/assets/images/nb_ratings_country.png"
-          ></v-img>
-        </v-card>
-      </v-col>
-      <v-col justify='space-around' cols="4" sm="4" lg="4" md="4">
-          <v-spacer></v-spacer>
-          <v-row>
-            <v-card class="mb-6">
-              <v-card-text>
-                  On this figure, we plotted the number of ratings posted in US
-                  in blue and the number of ratings for all the other countries in yellow.
-                  The y-axis is in logarithmic scale.
-                  <br><br>We can see that the total number of rating from the US is much higher
-                  than in the other countries. There are nearly
-                  <strong> 10 millions ratings from the US </strong>
-                  whereas the second country (Canada) only has 1 million.
-              </v-card-text>
+    <v-card class="mb-6">
+      <v-container :align="center">
+        <v-row>
+          <v-col cols="8" sm="8" lg="8" md="8">
+            <v-card>
+              <v-img>
+                src = "@/assets/images/nb_ratings_country.png"
+              </v-img>
             </v-card>
-          </v-row>
-          <v-spacer></v-spacer>
-          <v-row>
-            <v-card class="mb-4">
-              <v-card-text>
-                💡 Given the number of comments we have from the United States,
-                we therefore advise our client to open his brewery in the United States.
-                <br><br>Indeed, knowing that our client wants to build its
-                <strong> business and market intelligence </strong>
-                on the study of consumer comments, the analysis will be much more relevant in
-                the United States and our client will be able to get real benefits from our work.
-              </v-card-text>
-            </v-card>
-          </v-row>
-      </v-col>
-    </v-row>
-  </v-container>
-  </v-card>
+          </v-col>
+          <v-col cols="4" sm="4" lg="4" md="4" :align="center" justify="space-around">
+            <v-container :align="center">
+              <v-row>
+                  <v-card class="mb-6">
+                    <v-card-text>
+                        On this figure, we plotted the number of ratings posted in US
+                        in blue and the number of ratings for all the other countries in yellow.
+                        The y-axis is in logarithmic scale.
+                        <br><br>We can see that the total number of rating from the US is much higher
+                        than in the other countries. There are nearly
+                        <strong> 10 millions ratings from the US </strong>
+                        whereas the second country (Canada) only has 1 million.
+                    </v-card-text>
+                  </v-card>
+              </v-row>
+              <v-row>
+                <v-card class="mb-4">
+                  <v-card-text>
+                    💡 Given the number of comments we have from the United States,
+                    we therefore advise our client to open his brewery in the United States.
+                    <br><br>Indeed, knowing that our client wants to build its
+                    <strong> business and market intelligence </strong>
+                    on the study of consumer comments, the analysis will be much more relevant in
+                    the United States and our client will be able to get real benefits from our work.
+                  </v-card-text>
+                </v-card>
+              </v-row>
+            </v-container>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-card>
 
   <v-spacer></v-spacer>
 
@@ -136,6 +134,26 @@
       We need to understand how the current beer market behaves in US to be able to know if opening a brewery is a strategic choice for our client.
       To do this, we will determine <i>how many breweries have opened the past few years and of which kind they are</i>.
     </v-card-text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       <v-card class="mb-6">
         <v-img
