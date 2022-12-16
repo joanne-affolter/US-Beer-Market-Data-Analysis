@@ -6,14 +6,15 @@
     :item-class= "row_classes"
     class="elevation-1"
   >
-  <template v-slot:item.calories="{ item }">
+  <template v-slot:item.state="{ item }">
       <v-chip
-        :color="getColor(item.name)"
+        :color="getColor(item.nb)"
         dark
       >
-        {{ item.name }}
+        {{ item.state }}
       </v-chip>
   </template>
+
 
   </v-data-table>
 </template>
@@ -88,9 +89,9 @@ export default {
     }
   },
   methods: {
-    getColor(state) {
-      if (state == 'Massachusetts') return 'green'
-      else if (state == Ohio) return 'green'
+    getColor(nb) {
+      if (nb == 7332) return 'green'
+      else if (nb == 5934) return 'green'
       else return 'orange'
     },
   },

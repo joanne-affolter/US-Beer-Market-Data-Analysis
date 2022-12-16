@@ -202,7 +202,7 @@
                     <!-- Second column -->
                     <v-col cols="6">
                         <!-- Recap -->
-                        <v-card class="mb-6" color="#ECEFF1">
+                        <v-card class="mb-6">
                             <v-card-text>
                                 As we assumed earlier, the map representing the number of breweries per state is similar to that of the number of users per state.
                                 <br>Of the 10 states with the most users, 7 also have the most breweries. So there could be a lot of competition in these states. Indeed, in California and Michigan, there are only 8 customers per brewery, which does not leave much room for newcomers.
