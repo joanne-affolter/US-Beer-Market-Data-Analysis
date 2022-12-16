@@ -5,7 +5,7 @@
       <v-img
         height="160"
         width="100%"
-        src="@/assets/materio_img/developerMeetup.png"
+        src="@/assets/images/materio_img/developerMeetup.png"
       ></v-img>
 
       <v-card-text class="d-flex align-center mt-5">
