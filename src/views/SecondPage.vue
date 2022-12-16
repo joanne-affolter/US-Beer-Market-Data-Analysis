@@ -136,7 +136,7 @@
           To do this, we will determine <i>how many breweries have opened the past few years and of which kind they are</i>.
         </v-card-text>
       </v-card>
-      <v-card class="mb-2">
+      <v-card class>
         <v-img
           src="@/assets/images/evolution_breweries.png">
         </v-img>
@@ -146,11 +146,11 @@
           <v-row :align="center">
             <v-col cols='1' :align="center">
               <v-icon large dark color="primary" rounded class="elevation-1">
-                mdiChartTimelineVariantShimmer
+                {{mdiChartTimelineVariantShimmer}}
               </v-icon>
             </v-col>
             <v-col cols='11' :align="center">
-              <v-card class="mb-6">
+              <v-card>
                 <v-card-text>
                   The number of breweries involved in ratings has been growing very quickly over the past decade in the United States. Indeed, we can see on Rate Beer that this evolution even follows an exponential trend since 2007. We don't need to worry about the stabilization in 2017 because the ratings we have available stop in July 2017.
                   <br>In only 10 years, the number of breweries involved in the ratings has increased from
