@@ -62,7 +62,7 @@
         <v-card class="mb-6 my-8">
             <v-container>
             <v-row class="ma-0 pa-0">
-              <v-col cols="8" sm="8">
+              <v-col cols="9" sm="9">
                 <v-card-title class="greeting-title d-flex flex-nowrap text-2xl font-weight-bold primary--text">
                     Where should you open your brewery ?
                 </v-card-title>
@@ -94,7 +94,7 @@
                 </v-card-actions>
               </v-col>
 
-              <v-col cols="4" sm="4" >
+              <v-col cols="3" sm="3" >
                 <div>
                   <v-img
                     width="121"
@@ -233,7 +233,7 @@
 
             <v-row align="center" justify="center">
             <v-col>
-                <v-card class="mb-6">
+                <v-card class="mb-6 mt-8">
                     <TabRatio></TabRatio>
                 </v-card>
             </v-col>
@@ -267,7 +267,7 @@
             </v-container>
         </v-card>
 
-        <v-card class="mb-6" color="primary">
+        <v-card class="mb-6" color="#ECEFF1">
             <v-row>
                 <v-col>
                     <v-img src="@/assets/images/ev_usersss.png"> </v-img>
