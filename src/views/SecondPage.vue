@@ -405,7 +405,7 @@
           <v-col cols="5">
             <v-card color="#FFCDD2">
               <v-card-title>
-                'Out breweries'
+                'Out' breweries
               </v-card-title>
               <v-card-text>
                 The number of 'out' breweries remains stable until 2012 and then increases very sharply to 730 'out' breweries in 2016, which is almost the same number as the 'in' breweries that year! which also seems to be related to the hype around beer in the US, and the strong competition in this field where hundreds of breweries appear every year.
