@@ -154,7 +154,7 @@
         <v-row align="center" justify="center">
           <v-col>
             <div class="my-8">
-              <v-img src="@/assets/images/1.png"> </v-img>
+              <v-img src="@/assets/images/evolution_breweries.png"> </v-img>
             </div>
           </v-col>
         </v-row>
@@ -190,6 +190,81 @@
       </v-container>
     </v-card>
 
+    <!-- II.2. Number of ratings -->
+    <v-card class="mb-6" color="#ECEFF1">
+      <v-container fill-height>
+        <v-row>
+          <v-card width="100%" color="#9E9E9E">
+            <v-card-text>
+              <span class="text-subtitle-1 font-weight-medium white--text">
+                Evolution of the number of ratings per year
+              </span>
+            </v-card-text>
+          </v-card>
+        </v-row>
+
+        <v-spacer> </v-spacer>
+        <v-spacer></v-spacer>
+
+        <v-row align="center">
+          <v-col>
+            <v-card>
+              <v-card-text class="text-subtitle-2 font-weight-medium">
+                The evolution of the number of breweries involved in the ratings might depend strongly on the number of ratings on the site, which could explain why the curve for Beer Advocate does not follow the same trend as the curve for Rate Beer.
+                <br><br>
+                Hence, we will study the evolution of the number of ratings for the two websites only for beers produced by American breweries.
+              </v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
+
+        <v-row align="center" justify="center">
+          <v-col>
+            <div class="my-8">
+              <v-img src="@/assets/images/1.png"> </v-img>
+            </div>
+          </v-col>
+        </v-row>
+
+        <v-spacer/>
+
+        <v-row align="center">
+          <v-col>
+            <v-card>
+              <v-card-text>
+                We can indeed see that the number of ratings on Beer Advocate drops drastically from 2015, while it decreases minimally on Rate Beer (taking into account that ratings stop in July 2017).
+                <br><br>
+                Moreover, the Pearson coefficients show actually a strong linear relationship (~  0.76  for RB and ~  0.82  for BA) between the two distributions which is very significant (p-value ~  0.0002  for RB and ~  10−5  for BA).
+                <br><br>
+                This drop in the number of comments on Beer Advocate may explain why the number of breweries involved in the ratings decreases from 2015.
+              </v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
+
+        <v-row align="center">
+          <v-col cols="6" md="6">
+            <div class="my-8">
+              <v-img src="@/assets/images/1.png"> </v-img>
+            </div>
+          </v-col>
+
+          <v-col cols="6" md="6">
+            <v-card>
+              <v-card-text>
+                We can see a peak in the number of ratings between 2010 and 2016 for the two websites, with the maximum values reached in 2014.
+
+                <br><br>Moreover, Beer Advocate gets a higher number of ratings between 2012 and 2015 whereas Rate Beer was always above outside these dates.
+
+                <br><br>Hence, Beer Advocate reached a high peak in popularity in 2013/2014 with a number of ratings almost equals to 582 242 (so 6 times higher than in 2014 - 88 398 ratings), but since then, the number of ratings is higher on Rate Beer.
+              </v-card-text>
+            </v-card>
+
+          </v-col>
+        </v-row>
+
+      </v-container>
+    </v-card>
 
 </div>
 
