@@ -5,7 +5,7 @@
             <v-img
                 height="200"
                 width="100%"
-                src="@/assets/images/materio_img/mac_pc.png"
+                src="@/assets/images/materio_img/mac-pc.png"
             ></v-img>
 
             <v-card-text class="d-flex align-center mt-5 text-h5 white--text font-weight-black">
