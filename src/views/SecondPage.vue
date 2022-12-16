@@ -50,7 +50,7 @@
       </v-container>
     </v-card>
 
-    <v-card class="mb-6" color="#F3E5F5">
+    <v-card class="mb-6" color="#ECEFF1">
       <v-container>
 
         <v-row>
@@ -71,29 +71,32 @@
           </v-col>
 
           <v-col cols="4" sm="6">
-            <v-container d-flex flex-nowrap flex-direction="column" justify-content="space-between">
+            <v-container d-flex fill-height>
 
               <v-row>
+                <v-col>
                 <v-card>
                   <v-card-text>
                     On the above figure we plotted the number of ratings posted in US in blue and the number of ratings for all the other countries in yellow. The y-axis is in logarithmic scale.
                     We can see that the total number of rating from the US is much higher than in the other countries. There are nearly 10 millions ratings from the US whereas the second country (Canada) only has 1 million.
                   </v-card-text>
                 </v-card>
+                </v-col>
               </v-row>
 
               <v-spacer></v-spacer>
 
               <v-row>
+                <v-col>
                 <v-card>
                   <v-card-text>
                     Given the number of comments we have from the United States, we therefore advise our client to open his brewery in the United States.
                     Indeed, knowing that our client wants to build its business and market intelligence on the study of consumer comments, the analysis will be much more relevant in the United States and our client will be able to get real benefits from our work.
                   </v-card-text>
                 </v-card>
+                </v-col>
               </v-row>
             </v-container>
-
           </v-col>
 
         </v-row>
