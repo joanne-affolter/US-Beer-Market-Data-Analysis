@@ -67,7 +67,6 @@
         </v-card>
       </v-col>
       <v-col cols="4" sm="4" lg="4" md="4">
-        <v-container>
           <v-card class="d-flex justify-space-around">
           <v-row>
             <v-card>
@@ -95,7 +94,6 @@
             </v-card>
           </v-row>
         </v-card>
-        </v-container>
       </v-col>
     </v-row>
   </v-container>
