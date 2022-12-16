@@ -299,7 +299,7 @@
             </v-container>
         </v-card>
 
-        <v-card>
+        <v-card class="mb-6" color="#ECEFF1">
             <v-container>
                 <v-row>
                     <v-col>
@@ -325,7 +325,9 @@
                                 Some states are particularly catching our attention:
                                 <br><br>
                                 ▪️ The states of Vermont, Mississippi, Virginia, Massachusetts, Minnesota with very rapid growth since 2014
+                                <br>
                                 ▪️ The states of California, Colorado, Oregon, Michigan, and Ohio which are growing more slowly but are in the top 10 states with the highest percentage of local ratings in 2016 (between  40 % and  60 %).
+                                <br>
                                 ▪️ The remaining states may still represent potential targets for our client.
                             </v-card-text>
                         </v-card>
@@ -335,6 +337,68 @@
 
         </v-card>
 
+        <!-- 4. Evolution of beer lovers -->
+        <v-card class="mb-6" color="primary" >
+            <v-container>
+                <v-row>
+                    <v-col cols="8" sm="6">
+                        <v-card-text class="d-flex align-center mt-5 text-h6 white--text font-weight-black">
+                            Where are the real beer fans who make a lot of ratings ?
+                        </v-card-text>
+                     </v-col>
+                </v-row>
+            </v-container>
+        </v-card>
+
+        <v-card class="mb-6" color="#ECEFF1">
+            <v-container>
+                <v-row>
+                    <v-col>
+                        <v-card>
+                            <v-card-text>
+                                In order for our client's brewery to endure over time, we advise them to create a real community around their brewery. It would therefore be interesting to determine which states are home to consumers who are passionate about beer and who are invested in this growing community. Indeed, these are the users most likely to be interested in our client's offer.
+                                <br><br>
+                                We will therefore determine in which states the most active people on beer reviews sites are located.                            </v-card-text>
+                        </v-card>
+                    </v-col>
+                </v-row>
+                <v-row>
+                    <v-col>
+                        <v-img src="@/assets/images/beer_lovers.png"></v-img>
+                    </v-col>
+                </v-row>
+
+                <v-row>
+                    <v-col>
+                        <v-card>
+                            <TableLovers></TableLovers>
+                        </v-card>
+                    </v-col>
+                    <v-col>
+                        <v-card>
+                            <v-card-text>
+                                Idaho, leading with a very high ratio of nb_ratings/nb_users (~  77 ) and an average of 240 ratings per user has only 400 consumers. The number of ratings is lower than in other countries, but it has only 10,000 fewer ratings than Tennessee which has 4 times as many consumers. The few users that there are in this state are therefore very active in the beer community.
+                                <br><br>
+                                We observe the same phenomenon in Arizona and Tennessee which have a high average of ratings per user but few comments.
+                                <br><br>
+                                The states of Colorado, Washington and Minesota, on the other hand, have a very active community with about 93,500, 111,500 and 91,500 ratings respectively. The users seem to be very invested in the community since the average number of ratings is about 132, 125 and 126 ratings/user.
+                                <br><br>
+                                We therefore recommend these 3 states to our client whose beer community seems very strong. Idaho, Arizona and Tenneesse could be real potential targets with a beer loving audience.
+                            </v-card-text>>
+                        </v-card>
+                    </v-col>
+                </v-row>
+            </v-container>
+
+        </v-card>
+
+        <v-card>
+            <v-row>
+                <v-col>
+                    <v-img src="@/assets/images/top_states.png"></v-img>
+                </v-col>
+            </v-row>
+        </v-card>
 
 
 
@@ -344,6 +408,7 @@
 </template>
 
 <script>
+import TableLovers from '@/components/TableLovers.vue'
 import TableUsers from '@/components/TableUsers.vue'
 import TabRatio from '@/components/TabRatio.vue'
 
@@ -351,6 +416,7 @@ export default {
   components: {
     TableUsers,
     TabRatio,
+    TableLovers,
   },
   setup() {
     return {

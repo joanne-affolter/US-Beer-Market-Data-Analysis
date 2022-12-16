@@ -483,7 +483,7 @@
       </v-container>
     </v-card>
 
-    <v-card class="mb-6" color="#ECEFF1">
+    <v-card class="mb-6">
       <v-card-text>
         <v-timeline dense class="timeline-custom-dense timeline-custom-dots">
 
