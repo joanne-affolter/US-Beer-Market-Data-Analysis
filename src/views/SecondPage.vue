@@ -50,10 +50,10 @@
       </v-container>
     </v-card>
 
-    <v-card class="mb-6" color="#607D8B">
+    <v-card class="mb-6" color="#ECEFF1">
       <v-container fill-height>
         <v-row>
-          <v-card width="100%">
+          <v-card width="100%" color="#F3E5F5">
             <v-card-text>
               <span class="text-subtitle-1 font-weight-medium">
                 First of all, we will count the number of ratings per country in order to see from where the customers are coming from.
