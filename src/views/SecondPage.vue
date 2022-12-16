@@ -146,14 +146,14 @@
           <v-card>
             <v-card-text>
               <v-row>
-                <v-col cols = 1 :justify='center'>
-                   <v-btn :align='center' dark large color="primary" height='100%'>
+                <v-col cols="1" justify='center'>
+                   <v-btn :align="center" dark large color="primary" height='100%'>
                     <v-icon :align="center" large>
-                      mdi-calendar
+                      {{icons.mdiChartTimelineVariantShimmer}}
                     </v-icon>
                   </v-btn>
                 </v-col>
-                <v-col>
+                <v-col cols="11">
                   The number of breweries involved in ratings has been growing very quickly over the past decade in the United States. Indeed, we can see on Rate Beer that this evolution even follows an exponential trend since 2007. We don't need to worry about the stabilization in 2017 because the ratings we have available stop in July 2017.
                   <br>In only 10 years, the number of breweries involved in the ratings has increased from
                   <strong>1304 </strong>
