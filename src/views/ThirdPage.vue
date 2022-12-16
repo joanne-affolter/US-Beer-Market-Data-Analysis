@@ -216,7 +216,6 @@
             </v-container>
         </v-card>
 
-
         <!-- II.1. Ratio -->
         <v-card class="mb-6" color="#ECEFF1">
         <v-container fill-height>
@@ -234,7 +233,9 @@
 
             <v-row align="center" justify="center">
             <v-col>
-                <TabRatio></TabRatio>
+                <v-card class="mb-6">
+                    <TabRatio></TabRatio>
+                </v-card>
             </v-col>
             </v-row>
 
@@ -242,7 +243,7 @@
 
         <v-row align="center">
           <v-col>
-            <v-card>
+            <v-card class="mb-6">
               <v-card-text>
                 Although the ratio is high in these states, some of them do not have many users (Rhode Island, Alabama) and our client may not find a suitable customer base for its products.
                 <br><br>
@@ -252,7 +253,38 @@
           </v-col>
         </v-row>
       </v-container>
-    </v-card>
+        </v-card>
+
+        <!-- 2.  Evolution of users-->
+        <v-card class="mb-6" color="primary" >
+            <v-container>
+                <v-row>
+                    <v-col cols="8" sm="6">
+                        <v-card-text class="d-flex align-center mt-5 text-h6 white--text font-weight-black">
+                            Evolution of the number of users over the years                        </v-card-text>
+                    </v-col>
+                </v-row>
+            </v-container>
+        </v-card>
+
+        <v-card class="mb-6" color="primary">
+            <v-row>
+                <v-col>
+                    <v-img src="@/assets/images/ev_usersss.png"> </v-img>
+                </v-col>
+            </v-row>
+            <v-row>
+                <v-col>
+                    <v-card>
+                        <v-card-text>
+                            We can see here that some states have seen their number of users increasing over the last few years or stabilizing, which signifies a recent and growing craze in the states. Texas, Ohio, Virginia and Idaho are the 4 states with the best evolution in the last years. The population of these states could therefore represent a potential target for our client.
+                            <br><br>
+                            Other states, however, have seen their number of users drop in recent years. California and Illinois are among the states with the most consumers and the most breweries. We strongly advise against these states because it seems that there was a big hype around beer in the last few years but that this fervor is decreasing.
+                        </v-card-text>
+                    </v-card>
+                </v-col>
+            </v-row>
+        </v-card>
 
 
 
