@@ -231,7 +231,7 @@
 
         <v-row align="center">
           <v-col>
-            <v-card>
+            <v-card class="mt-8">
               <v-card-text>
                 We can indeed see that the number of ratings on Beer Advocate drops drastically from 2015, while it decreases minimally on Rate Beer (taking into account that ratings stop in July 2017).
                 <br><br>
@@ -279,7 +279,7 @@
           </v-card>
         </v-row>
 
-        <v-row align="center">
+        <v-row align="center" justify="center">
           <v-col>
             <v-card>
               <v-card-text>
@@ -309,7 +309,7 @@
 
         <v-row align="center">
           <v-col cols="8">
-            <Period></Period>
+            <Period2></Period2>
           </v-col>
 
           <v-col cols="4">
@@ -326,7 +326,7 @@
 
         <v-row align="center">
           <v-col>
-            <v-card>
+            <v-card class="mt-6">
               <v-card-title>
                 ✏️ Conclusion
               </v-card-title>
@@ -352,11 +352,14 @@
 
 <script>
 import Period from '@/components/Period.vue'
+import Period2 from '@/components/Period2.vue'
+
 import { mdiChartTimelineVariantShimmer } from '@mdi/js'
 
 export default {
   components: {
     Period,
+    Period2,
   },
   setup() {
     return {
