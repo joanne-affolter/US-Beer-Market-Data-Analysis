@@ -365,12 +365,16 @@
                 <v-list>
                   <v-list-item class="pa-0">
                     <v-icon large color="primary">{{icons.mdiMeteor}}</v-icon>
+                    <span class="mb-4">
                     The number of breweries involved in the reviews has grown very quickly.
                     Were these breweries already known to users on the beer review sites or did new breweries appear in the ratings ?
+                    </span>
                   </v-list-item>
                   <v-list-item class="pa-0">
                     <v-icon large color="primary">{{icons.mdiMeteor}}</v-icon>
+                    <span class="mb-4">
                     Do users adopt easily a new brewery and continue to keep rating it over time after the first rating?
+                    </span>
                   </v-list-item>
                 </v-list>
               </v-card-text>
@@ -418,16 +422,53 @@
           <v-col>
             <v-card>
               <v-card-text class="text-subtitle-1 font-weight-medium">
-                <v-icon large color="primary">{{icons.mdiLightbulbQuestion}}</v-icon>
+                <v-icon large color="primary">{{icons.mdiLightbulbQuestionOutline}}</v-icon>
                 We would have to take the analysis further to determine where the causal link is: Did the number of new breweries generate this desire among Americans to discover new beers? Or are people taking advantage of this trend to open breweries?
               </v-card-text>
             </v-card>
           </v-col>
         </v-row>
-
-      <v-spacer/>
     </v-container>
-  </v-card>
+    </v-card>
+
+    <!-- II.4. Impact on breweries 2 -->
+    <v-card class="mb-6" color="#ECEFF1">
+      <v-container fill-height>
+        <v-row>
+          <v-card width="100%" color="#9E9E9E">
+            <v-card-text>
+              <span class="text-subtitle-1 font-weight-medium white--text">
+                But what are these 'out' breweries?
+                <br>Are they old breweries that have been surpassed by the new 'in' breweries?
+                <br>Or do the new breweries appearing in the comments fail to last?               </span>
+            </v-card-text>
+          </v-card>
+        </v-row>
+
+        <v-spacer></v-spacer>
+        <v-spacer></v-spacer>
+
+        <Table></Table>
+
+        <v-spacer/>
+
+        <v-row align="center">
+          <v-col>
+            <v-card class="mt-8">
+              <v-card-text>
+                In the table above, we have grouped the breweries according to the difference between the year of the first and last rating. We also calculated the average number of comments per beer for each category, and the average rate.
+                <br><br>
+                We can see here that 6 % of the breweries disappear in the ratings the same year as the first rating. Moreover, the average number of ratings per beer is almost equal to  1 . These breweries have not been able to break through among their competitors.
+                <br><br>
+                We also notice that the percentage of breweries decreases as the number of years increases, while the average number of ratings per beer increases. Thus, the new breweries appearing in the ratings do not seem to persist over time and it seems difficult to reach consumers over time.
+                <br><br>
+                However, when breweries have succeeded in establishing themselves in the sector, the average number of comments increases as the years go by. It should be noted, however, that the percentage of breweries with more than 5 years between the first and last comment is quite low, around  16.5  %.
+              </v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-card>
 
 
 </div>
@@ -437,20 +478,22 @@
 <script>
 import Period from '@/components/Period.vue'
 import Period2 from '@/components/Period2.vue'
+import Table from '@/components/Table.vue'
 
-import { mdiChartTimelineVariantShimmer, mdiLightbulbQuestion, mdiMeteor } from '@mdi/js'
+import { mdiChartTimelineVariantShimmer, mdiLightbulbQuestionOutline, mdiMeteor } from '@mdi/js'
 
 export default {
   components: {
     Period,
     Period2,
+    Table,
   },
   setup() {
     return {
       icons: {
         mdiChartTimelineVariantShimmer,
         mdiMeteor,
-        mdiLightbulbQuestion,
+        mdiLightbulbQuestionOutline,
       },
     }
   },
