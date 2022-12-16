@@ -145,11 +145,12 @@
         <v-container :align="center">
           <v-row :align="center">
             <v-col cols='1' :align="center" justify="center">
-              <v-btn class="mx-2" fab dark large color="primary" >
-                <v-icon :align="center" large dark class="elevation-1">
+              <v-btn :align='center' class="mx-2" dark large color="primary" height='100%'>
+                <v-icon :align="center" large>
                   {{icons.mdiChartTimelineVariantShimmer}}
                 </v-icon>
               </v-btn>
+
             </v-col>
             <v-col cols='11' :align="center">
               <v-card>
@@ -167,7 +168,7 @@
           <v-row>
             <v-card>
               <v-card-text>
-                <br>Regarding Beer Advocate, there are fewer breweries involved in the ratings. We observe a peak in 2014 corresponding to about 1200 breweries, which matches the number of breweries in 2007 on Rate Beer before the explosion started.
+                Regarding Beer Advocate, there are fewer breweries involved in the ratings. We observe a peak in 2014 corresponding to about 1200 breweries, which matches the number of breweries in 2007 on Rate Beer before the explosion started.
                 <br>In addition, the curve does not follow the same trend as Rate Beer and the number of breweries is decreasing since 2014.
                 <br><br>
                 💡Knowing that we want to study the competition on the beer market, focusing on the Rate Beer review site seems to be more relevant
