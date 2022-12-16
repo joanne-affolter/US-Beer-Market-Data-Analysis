@@ -221,7 +221,7 @@
         <v-row align="center" justify="center">
           <v-col>
             <div class="my-8">
-              <v-img src="@/assets/images/2.png"> </v-img>
+              <v-img src="@/assets/images/1.png"> </v-img>
             </div>
           </v-col>
         </v-row>
@@ -245,7 +245,7 @@
         <v-row align="center">
           <v-col cols="6" md="6">
             <div class="my-8">
-              <v-img src="@/assets/images/1.png"> </v-img>
+              <v-img src="@/assets/images/2.png"> </v-img>
             </div>
           </v-col>
 
