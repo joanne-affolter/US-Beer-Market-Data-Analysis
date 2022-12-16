@@ -1,14 +1,19 @@
-import { mdiFileOutline, mdiHomeOutline } from '@mdi/js'
+import { mdiBriefcaseOutline, mdiHomeOutline, mdiMapMarker } from '@mdi/js'
 
 export default [
   {
-    title: 'Description',
+    title: 'Project Presentation',
     icon: mdiHomeOutline,
     to: 'home',
   },
   {
-    title: 'Structure',
-    icon: mdiFileOutline,
+    title: 'Market Analysis',
+    icon: mdiBriefcaseOutline,
     to: 'second-page',
+  },
+  {
+    title: 'Location',
+    icon: mdiMapMarker,
+    to: 'third-page',
   },
 ]

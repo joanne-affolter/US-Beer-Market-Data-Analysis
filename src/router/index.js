@@ -25,6 +25,14 @@ const routes = [
     },
   },
   {
+    path: '/third-page',
+    name: 'third-page',
+    component: () => import('@/views/ThirdPage.vue'),
+    meta: {
+      layout: 'content',
+    },
+  },
+  {
     path: '/login',
     name: 'auth-login',
     component: () => import('@/views/Login.vue'),

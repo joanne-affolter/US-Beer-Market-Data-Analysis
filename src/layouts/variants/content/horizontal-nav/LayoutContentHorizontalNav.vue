@@ -54,7 +54,7 @@
     <!-- Slot: footer -->
     <template #footer>
       <div class="d-flex justify-space-between">
-        <span>COPYRIGHT &copy; {{ new Date().getFullYear() }} ThemeSelection, All rights Reserved</span>
+        <span>COPYRIGHT &copy; {{ new Date().getFullYear() }} teAmDreAm </span>
         <div class="d-flex align-center">
           <span>Hand-crafted &amp; Made with</span>
           <v-icon

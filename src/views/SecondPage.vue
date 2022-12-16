@@ -377,7 +377,7 @@
                       </v-icon>
                     </v-list-item-avatar>
                     <v-list-item-content>
-                      <span class="mb-4">
+                      <span class="mb-4 text-subtitle-1 font-weight-medium">
                         The number of breweries involved in the reviews has grown very quickly.
                         Were these breweries already known to users on the beer review sites or did new breweries appear in the ratings ?
                         </span>
@@ -398,7 +398,7 @@
                       </v-icon>
                     </v-list-item-avatar>
                     <v-list-item-content>
-                      <span class="mb-4">
+                      <span class="mb-4 text-subtitle-1 font-weight-medium">
                         Do users adopt easily a new brewery and continue to keep rating it over time after the first rating?
                       </span>
                     </v-list-item-content>
@@ -473,9 +473,6 @@
           </v-card>
         </v-row>
 
-        <v-spacer></v-spacer>
-        <v-spacer></v-spacer>
-
         <v-row align="center">
           <v-col class="mb-6 my-6">
             <Table></Table>
@@ -521,7 +518,11 @@
             ></v-img>
           </v-col>
         </v-row>
+      </v-container>
+    </v-card>
 
+    <v-card class="mb-6" color="#ECEFF1">
+      <v-container>
         <v-row>
           <v-col>
             <v-card>
