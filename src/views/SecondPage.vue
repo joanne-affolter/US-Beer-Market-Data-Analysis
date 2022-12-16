@@ -56,7 +56,7 @@
     </v-row>
   </v-card>
 
-  <v-card>
+  <v-card class="mb-6">
   <v-container>
     <v-row>
       <v-col cols="8" sm="8" lg="8" md="8">
@@ -69,7 +69,7 @@
       <v-col cols="4" sm="4" lg="4" md="4">
           <v-spacer></v-spacer>
           <v-row>
-            <v-card>
+            <v-card class="mb-4">
               <v-card-text>
                   On this figure, we plotted the number of ratings posted in US
                   in blue and the number of ratings for all the other countries in yellow.
@@ -83,7 +83,7 @@
           </v-row>
           <v-spacer></v-spacer>
           <v-row>
-            <v-card>
+            <v-card class="mb-4">
               <v-card-text>
                 💡 Given the number of comments we have from the United States,
                 we therefore advise our client to open his brewery in the United States.
@@ -128,24 +128,22 @@
 
   <v-card class="mb-6">
     <v-card-title>
-      <span class="text-h6 primary--text font-weight-black">
+      <span class="text-xl primary--text font-weight-black">
         Evolution of the number of breweries involved in the ratings per year
       </span>
     </v-card-title>
-    <v-card-text  class="text-subtitle-2">
-
+    <v-card-text  class="text-subtitle-1">
       We need to understand how the current beer market behaves in US to be able to know if opening a brewery is a strategic choice for our client.
       To do this, we will determine <i>how many breweries have opened the past few years and of which kind they are</i>.
     </v-card-text>
 
       <v-card class="mb-6">
-      <v-row>
         <v-img
-          width="80%"
           src="@/assets/images/evolution_breweries.png">
         </v-img>
-      </v-row>
+      </v-card>
 
+      <v-card class="mb-6">
       <v-row>
         <v-col cols = 1>
             <v-icon
@@ -155,32 +153,29 @@
               rounded
               class="elevation-1"
             >
-              mdi-trending-up
+              📈
             </v-icon>
         </v-col>
 
         <v-col cols = 11>
-
           The number of breweries involved in ratings has been growing very quickly over the past decade in the United States. Indeed, we can see on Rate Beer that this evolution even follows an exponential trend since 2007. We don't need to worry about the stabilization in 2017 because the ratings we have available stop in July 2017.
-          In only 10 years, the number of breweries involved in the ratings has increased from
+          <br>In only 10 years, the number of breweries involved in the ratings has increased from
           <strong>1304 </strong>
           in 2006 to
           <strong>4410</strong> in 2016 , which corresponds to a growth of
           <strong> 238%</strong>.
-
-
         </v-col>
       </v-row>
+      <v-row>
           <br>Regarding Beer Advocate, there are fewer breweries involved in the ratings. We observe a peak in 2014 corresponding to about 1200 breweries, which matches the number of breweries in 2007 on Rate Beer before the explosion started.
           <br>In addition, the curve does not follow the same trend as Rate Beer and the number of breweries is decreasing since 2014.
           <br><br>
           💡Knowing that we want to study the competition on the beer market, focusing on the Rate Beer review site seems to be more relevant
           to study our client's potential competitors.
-      <v-row>
-
       </v-row>
       </v-card>
-  </v-card>
+
+    </v-card>
 
 </div>
 
