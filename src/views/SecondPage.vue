@@ -32,13 +32,13 @@
       <v-container>
         <v-row>
 
-          <v-col cols="8" sm="6">
+          <v-col cols="9" sm="6">
             <v-card-text class="d-flex align-center mt-5 text-h5 white--text font-weight-black">
                 From where the customers are coming from ?
             </v-card-text>
           </v-col>
 
-          <v-col cols="4" sm="6">
+          <v-col cols="3" sm="6">
             <v-img
               width="121"
               src="@/assets/images/3d-characters/pose-m-14.png"
@@ -50,6 +50,51 @@
       </v-container>
     </v-card>
 
+    <v-card class="mb-6" color="primary">
+      <v-container>
+
+        <v-row>
+
+          <span class="text-subtitle-2">
+            First of all, we will count the number of ratings per country in order to see from where the customers are coming from.
+          </span>
+
+        </v-row>
+
+        <v-row>
+
+          <v-col cols="8" sm="6">
+            <v-img src="@/assets/images/evolution_breweries.png"> </v-img>
+          </v-col>
+
+          <v-col cols="4" sm="6">
+            <v-container flex-direction="column" justify-content="space-between">
+
+              <v-row>
+                <v-card>
+                  <v-card-text>
+                    On the above figure we plotted the number of ratings posted in US in blue and the number of ratings for all the other countries in yellow. The y-axis is in logarithmic scale.
+                    We can see that the total number of rating from the US is much higher than in the other countries. There are nearly 10 millions ratings from the US whereas the second country (Canada) only has 1 million.
+                  </v-card-text>
+                </v-card>
+              </v-row>
+
+              <v-row>
+                <v-card>
+                  <v-card-text>
+                    Given the number of comments we have from the United States, we therefore advise our client to open his brewery in the United States.
+                    Indeed, knowing that our client wants to build its business and market intelligence on the study of consumer comments, the analysis will be much more relevant in the United States and our client will be able to get real benefits from our work.
+                  </v-card-text>
+                </v-card>
+              </v-row>
+            </v-container>
+
+          </v-col>
+
+        </v-row>
+
+      </v-container>
+    </v-card>
 
 </div>
 
