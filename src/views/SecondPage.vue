@@ -1,13 +1,17 @@
 <template>
   <div>
-  <v-card class="mb-6" color="primary">
-    <v-card-title>
-      <p class="text-h4 white--text font-weight-black">
-        First insights from the beer reviews
-        <br>websites
-      </p>
-    </v-card-title>
-  </v-card>
+
+    <v-card>
+      <v-img
+        height="160"
+        width="100%"
+        src="@/assets/images/pages/developerMeetup.png"
+      ></v-img>
+
+      <v-card-text class="d-flex align-center mt-5">
+          First insights from the beer reviews websites
+      </v-card-text>
+    </v-card>
 
   <v-card class="mb-6">
     <v-card-text>
