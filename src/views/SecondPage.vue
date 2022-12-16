@@ -407,28 +407,17 @@
               </v-card-title>
               <v-card-text>
                 The number of 'out' breweries remains stable until 2012 and then increases very sharply to 730 'out' breweries in 2016, which is almost the same number as the 'in' breweries that year! which also seems to be related to the hype around beer in the US, and the strong competition in this field where hundreds of breweries appear every year.
-                <br><br>But what are these 'out' breweries? Are they old breweries that have been surpassed by the new 'in' breweries? Or do the new breweries appearing in the comments fail to last? To answer this, we will separate the breweries according to the number of years between the first and the last rating.
               </v-card-text>
             </v-card>
           </v-col>
 
           <v-col cols="4">
-            <v-row align="center">
-              <v-col>
-                <v-card>
-                  <v-card-text>
-                  📍 The number of 'in' breweries and the number of breweries involved in the ratings follow the same trend over the years. The Pearson coefficient that measures this correlation is very high (~  0.83 ) and significant (p-value ~ 10−5 ).
-                  </v-card-text>
-                </v-card>
-              </v-col>
-              <v-col>
-                <v-card>
-                  <v-card-text>
-                  📍 We would have to take the analysis further to determine where the causal link is: Did the number of new breweries generate this desire among Americans to discover new beers? Or are people taking advantage of this trend to open breweries?
-                  </v-card-text>
-                </v-card>
-              </v-col>
-            </v-row>
+            <v-card>
+              <v-card-text>
+                <v-icon large color="primary">{{icons.mdiLightbulbQuestion}}</v-icon>
+                We would have to take the analysis further to determine where the causal link is: Did the number of new breweries generate this desire among Americans to discover new beers? Or are people taking advantage of this trend to open breweries?
+              </v-card-text>
+            </v-card>
           </v-col>
 
       </v-row>
@@ -446,7 +435,7 @@
 import Period from '@/components/Period.vue'
 import Period2 from '@/components/Period2.vue'
 
-import { mdiChartTimelineVariantShimmer } from '@mdi/js'
+import { mdiChartTimelineVariantShimmer, mdiLightbulbQuestion, mdiMeteor } from '@mdi/js'
 
 export default {
   components: {
@@ -457,6 +446,8 @@ export default {
     return {
       icons: {
         mdiChartTimelineVariantShimmer,
+        mdiMeteor,
+        mdiLightbulbQuestion,
       },
     }
   },
