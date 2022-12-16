@@ -26,9 +26,9 @@ export default {
     return {
       headers: [
         { text: 'State', value: 'state' },
-        { text: 'Number of users', value: 'nb' },
-        { text: 'Number of breweries', value: 'nb2' },
-        { text: 'Nb_users/Nb_breweries', value: 'rat' },
+        { text: 'nb_users', value: 'nb' },
+        { text: 'nb_breweries', value: 'nb2' },
+        { text: 'nb_users/nb_breweries', value: 'rat' },
       ],
       results: [
         {
@@ -90,9 +90,9 @@ export default {
   },
   methods: {
     getColor(nb) {
-      if (nb == 7332) return 'green'
-      else if (nb == 5934) return 'green'
-      else return 'orange'
+      if (nb == 7332) return 'success'
+      else if (nb == 5934) return 'success'
+      else return 'warning'
     },
   },
 }

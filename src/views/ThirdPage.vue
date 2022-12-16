@@ -72,21 +72,21 @@
                 <v-card-actions>
                     <v-container>
                         <v-row>
-                            <v-btn elevation="13" rounded text x-large dark color="primary">
+                            <v-btn elevation="13" rounded text x-large dark color="primary" class="my-4">
                                 A large market share to reach with a lot of potential clients
                             </v-btn>
                         </v-row>
                         <v-spacer></v-spacer>
                         <v-spacer></v-spacer>
                         <v-row>
-                            <v-btn elevation="13" rounded text large dark color="primary">
+                            <v-btn elevation="13" rounded text large dark color="primary" class="my-4">
                                 Consumers who like local beers
                             </v-btn>
                         </v-row>
                         <v-spacer></v-spacer>
                         <v-spacer></v-spacer>
                         <v-row>
-                            <v-btn elevation="13" rounded text large dark color="primary">
+                            <v-btn elevation="13" rounded text large dark color="primary" class="my-4">
                                 Beer lovers who make a lot of ratings
                             </v-btn>
                         </v-row>
@@ -133,7 +133,7 @@
             </v-card-text>
         </v-card>
 
-        <!-- I.1. Users per state -->
+        <!-- I.1. Users/Breweries per state -->
         <v-card class="mb-6" color="#ECEFF1">
             <v-container fill-height>
                 <!-- First line -->
@@ -212,10 +212,47 @@
                             </v-card-text>
                         </v-card>
                     </v-col>
-
                     </v-row>
             </v-container>
         </v-card>
+
+
+        <!-- II.1. Ratio -->
+        <v-card class="mb-6" color="#ECEFF1">
+        <v-container fill-height>
+            <v-row>
+            <v-card width="100%" color="#9E9E9E">
+                <v-card-text>
+                <span class="text-subtitle-1 font-weight-medium white--text">
+                    From what we have just seen, it may be interesting to *study the ratio nb_users/nb_breweries*.              </span>
+                </v-card-text>
+            </v-card>
+            </v-row>
+
+            <v-spacer> </v-spacer>
+            <v-spacer></v-spacer>
+
+            <v-row align="center" justify="center">
+            <v-col>
+                <TabRatio></TabRatio>
+            </v-col>
+            </v-row>
+
+            <v-spacer/>
+
+        <v-row align="center">
+          <v-col>
+            <v-card>
+              <v-card-text>
+                Although the ratio is high in these states, some of them do not have many users (Rhode Island, Alabama) and our client may not find a suitable customer base for its products.
+                <br><br>
+                However, it might be interesting to study the evolution of the number of users over the last few years to determine if the demand could increase in the coming years. Our client would then gain a large market share and become a leader in states where few breweries are still established.
+              </v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-card>
 
 
 
@@ -225,9 +262,12 @@
 
 <script>
 import TableUsers from '@/components/TableUsers.vue'
+import TabRatio from '@/components/TabRatio.vue'
+
 export default {
   components: {
     TableUsers,
+    TabRatio,
   },
   setup() {
     return {
