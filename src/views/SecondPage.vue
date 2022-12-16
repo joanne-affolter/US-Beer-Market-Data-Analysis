@@ -153,7 +153,9 @@
 
         <v-row align="center" justify="center">
           <v-col>
-            <v-img src="@/assets/images/1.png"> </v-img>
+            <div class="my-8">
+              <v-img src="@/assets/images/1.png"> </v-img>
+            </div>
           </v-col>
         </v-row>
 
