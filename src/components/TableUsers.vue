@@ -5,7 +5,17 @@
     :items-per-page="5"
     :item-class= "row_classes"
     class="elevation-1"
-  ></v-data-table>
+  >
+  <template v-slot:item.calories="{ item }">
+      <v-chip
+        :color="getColor(item.name)"
+        dark
+      >
+        {{ item.name }}
+      </v-chip>
+  </template>
+
+  </v-data-table>
 </template>
 
 
@@ -78,14 +88,10 @@ export default {
     }
   },
   methods: {
-    row_classes(item) {
-      if (item.name == 'Ohio') {
-        return { 'background-color': 'orange' }
-      } else if (item.name == 'Massachusetts') {
-        return 'orange'
-      } else {
-        return 'red'
-      }
+    getColor(state) {
+      if (state == 'Massachusetts') return 'green'
+      else if (state == Ohio) return 'green'
+      else return 'orange'
     },
   },
 }

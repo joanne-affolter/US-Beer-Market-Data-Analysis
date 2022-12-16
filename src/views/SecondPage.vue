@@ -410,7 +410,7 @@
         <v-row>
           <v-col>
             <v-card>
-              <v-card-text class="text-subtitle-1 font-weight-light">
+              <v-card-text>
                 💡 We would have to take the analysis further to determine where the causal link is :
                 <br>Did the number of new breweries generate this desire among Americans to discover new beers?
                 <br>Or are people taking advantage of this trend to open breweries?
