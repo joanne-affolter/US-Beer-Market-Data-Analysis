@@ -292,16 +292,32 @@
         <v-spacer></v-spacer>
 
         <v-row align="center">
-          <v-col>
+          <v-col cols="6">
             <Period></Period>
+          </v-col>
+
+          <v-col cols="6">
+            <v-card>
+              <v-card-text>
+                First, the number of consumers is significantly higher between 2012 and 2015 on both sites.
+                It is therefore possible that there was a big hype in the United States during between 2012 and 2015 and that many *new consumers *started to test new beers and to give their opinions on sites such as Beer Advocate and Rate Beer.
+              </v-card-text>
+            </v-card>
           </v-col>
         </v-row>
 
-        <v-row align="center" justify="center">
-          <v-col>
-            <div class="my-8">
-              <v-img src="@/assets/images/evolution_breweries.png"> </v-img>
-            </div>
+        <v-row align="center">
+          <v-col cols="6">
+            <Period></Period>
+          </v-col>
+
+          <v-col cols="6">
+            <v-card>
+              <v-card-text>
+                Secondly, we can see that outside of the 2012 to 2015 period, Rate Beer users rate on average many more beers than Beer Advocate users.
+                <br>Note that the average number of beers rated remains stable (around 15) on BA between 2012 and 2015, whereas it has dropped significantly for RB (around 16).
+                <br>That could be explained by the fact that many amateurs gave ratings on RB during that period.               </v-card-text>
+            </v-card>
           </v-col>
         </v-row>
 
@@ -310,29 +326,22 @@
         <v-row align="center">
           <v-col>
             <v-card>
+              <v-card-title>
+                ✏️ Conclusion
+              </v-card-title>
               <v-card-text>
-                <v-icon large color="primary">{{icons.mdiChartTimelineVariantShimmer}}</v-icon>
+                Rate Beer users are therefore a more confirmed public, which has not changed much over the years. They must be real passionate by beers and do not hesitate to test new ones and give their opinion.
 
-                  The number of breweries involved in ratings has been growing very quickly over the past decade in the United States. Indeed, we can see on Rate Beer that this evolution even follows an exponential trend since 2007. We don't need to worry about the stabilization in 2017 because the ratings we have available stop in July 2017.
-                  In only 10 years, the number of breweries involved in the ratings has increased from  1304  in 2006 to  4410  in 2016, which corresponds to a growth of  238%
+                <br><br>Beer Advocate consumers, on the other hand, correspond more to a public of amateurs, who became passionate about beer during a few years (from 2012 to 2015), when the number of ratings exploded on Beer Advocate and overtook Rate Beer.
 
-                  <br><br>
+                <br><br>Our interpretation, then, would be that many people got into this fad of discovering new beers during this period, but that hype died down pretty quickly and users started rating fewer and fewer beers.
 
-                  Regarding Beer Advocate, there are fewer breweries involved in the ratings. We observe a peak in 2014 corresponding to about 1200 breweries, which matches the number of breweries in 2007 on Rate Beer before the explosion started. In addition, the curve does not follow the same trend as Rate Beer and the number of breweries is decreasing since 2014.
-
+                <br><br>These consumers caught up in that hype turned more to Beer Advocate, while those with more experience favor Rate Beer for their ratings.
               </v-card-text>
             </v-card>
           </v-col>
         </v-row>
 
-        <v-row align="center">
-          <v-col>
-            <v-card>
-              <v-card-text>
-                Knowing that we want to study the competition on the beer market, focusing on the Rate Beer review site seems to be more relevant to study our client's potential competitors.              </v-card-text>
-            </v-card>
-          </v-col>
-        </v-row>
       </v-container>
     </v-card>
 
