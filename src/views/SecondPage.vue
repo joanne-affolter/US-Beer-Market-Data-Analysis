@@ -9,28 +9,28 @@
       ></v-img>
 
       <v-card-text class="d-flex align-center mt-5 text-h4 font-weight-black">
-          FIRST INSIGHTS FROM THE BEER REVIEW SITES
+          Fist insights from the beer review sites
       </v-card-text>
     </v-card>
 
-  <v-card class="mb-6">
-    <v-card-text>
-        We have chosen to base our market analysis on two beer review sites:
-        <span class= 'primary--text'> Beer Advocate </span> and
-        <span class= 'primary--text'> Rate Beer</span>.
-            These two sites are widely considered the go-to beer resource for
-        millions of consumers each month and the benchmark for beer reviews.
-        <br> Indeed, in order to understand the demand of our customers and to adapt
-        our offer as well as possible, <i>isn't it worth getting information directly from them ?</i>
-        <br>
-        We start our work with a first data exploratory of the two websites to understand the evolution
-        of the beer industry over the last years as well as the behavior of beer consumers.
-    </v-card-text>
-  </v-card>
+    <v-card class="mb-6">
+      <v-card-text>
+          We have chosen to base our market analysis on two beer review sites:
+          <span class= 'primary--text'> Beer Advocate </span> and
+          <span class= 'primary--text'> Rate Beer</span>.
+              These two sites are widely considered the go-to beer resource for
+          millions of consumers each month and the benchmark for beer reviews.
+          <br> Indeed, in order to understand the demand of our customers and to adapt
+          our offer as well as possible, <i>isn't it worth getting information directly from them ?</i>
+          <br>
+          We start our work with a first data exploratory of the two websites to understand the evolution
+          of the beer industry over the last years as well as the behavior of beer consumers.
+      </v-card-text>
+    </v-card>
 
 
 
-  <v-card class="mb-6">
+  <v-card class="mb-6" color = '#B388FF'>
     <v-row class="ma-0 pa-0">
       <v-col cols="8" sm="6">
         <v-card-title class="greeting-title d-flex flex-nowrap text-2xl primary--text">
@@ -58,7 +58,9 @@
         </div>
       </v-col>
     </v-row>
+  </v-card>
 
+  <v-card>
     <v-row>
       <v-col cols="8" sm="8" lg="8" md="8">
         <v-card>
@@ -97,22 +99,15 @@
     </v-row>
   </v-card>
 
-  <v-card class="mb-6">
+  <v-card class="mb-6" color = '#B388FF'>
     <v-row class="ma-0 pa-0">
-      <v-col
-        cols="8"
-        sm="6"
-      >
+      <v-col cols="8" sm="6">
         <v-card-title class="greeting-title d-flex flex-nowrap text-2xl primary--text">
           <span class="text-no-wrap font-weight-bold mx-1">Evolution of the beer industry <br>over the past few years</span>
         </v-card-title>
-
       </v-col>
 
-      <v-col
-        cols="4"
-        sm="6"
-      >
+      <v-col cols="4" sm="6">
         <div>
           <v-img
             width="121"
@@ -129,7 +124,6 @@
     </v-row>
   </v-card>
 
-
   <v-card class="mb-6">
     <v-card-title>
       <span class="text-h6 primary--text font-weight-black">
@@ -142,7 +136,15 @@
       To do this, we will determine <i>how many breweries have opened the past few years and of which kind they are</i>.
 
       <v-row>
-        <v-avatar
+        <v-img
+          wdith="80%"
+          src="@/assets/images/evolution_breweries.png">
+        </v-img>
+      </v-row>
+
+      <v-row>
+        <v-col cols = 2>
+          <v-avatar
             size="44"
             :color="primary"
             rounded
@@ -156,9 +158,9 @@
               mdi-trending-up
             </v-icon>
           </v-avatar>
+        </v-col>
 
-          <div class="ms-3">
-
+        <v-col cols = 10>
 
           The number of breweries involved in ratings has been growing very quickly over the past decade in the United States. Indeed, we can see on Rate Beer that this evolution even follows an exponential trend since 2007. We don't need to worry about the stabilization in 2017 because the ratings we have available stop in July 2017.
           In only 10 years, the number of breweries involved in the ratings has increased
@@ -170,12 +172,12 @@
           <br>
           Knowing that we want to study the competition on the beer market, focusing on the Rate Beer review site seems to be more relevant
           to study our client's potential competitors.
-          </div>
-
+        </v-col>
       </v-row>
     </v-card-text>
   </v-card>
-  </div>
+
+</div>
 
 </template>
 
