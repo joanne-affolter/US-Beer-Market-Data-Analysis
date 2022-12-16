@@ -1,6 +1,6 @@
 <template>
   <div>
-
+    <!--Title with image-->
     <v-card class="mb-6" color="primary">
       <v-img
         height="200"
@@ -13,6 +13,7 @@
       </v-card-text>
     </v-card>
 
+    <!--Introduction-->
     <v-card class="mb-6">
       <v-card-text>
           We have chosen to base our market analysis on two beer review sites:
@@ -28,6 +29,7 @@
       </v-card-text>
     </v-card>
 
+    <!--I. Title with avatar-->
     <v-card class="mb-6" color="primary">
       <v-container>
         <v-row>
@@ -50,10 +52,11 @@
       </v-container>
     </v-card>
 
+    <!-- I.1. Subpart-->
     <v-card class="mb-6" color="#ECEFF1">
       <v-container fill-height>
         <v-row>
-          <v-card width="100%" color="#757575">
+          <v-card width="100%" color="#9E9E9E">
             <v-card-text>
               <span class="text-subtitle-1 font-weight-medium white--text">
                 First, we will count the number of ratings per country in order to see from where the customers are coming from.
@@ -102,6 +105,94 @@
 
       </v-container>
     </v-card>
+
+    <!--II. Title with avatar-->
+    <v-card class="mb-6" color="primary">
+      <v-container>
+        <v-row>
+
+          <v-col cols="8" sm="6">
+            <v-card-text class="d-flex align-center mt-5 text-h5 white--text font-weight-black">
+              Evolution of the beer industry over the past few years            </v-card-text>
+          </v-col>
+
+          <v-col cols="4" sm="6">
+            <v-img
+              width="121"
+              src="@/assets/images/3d-characters/pose-f-28.png"
+              class="gamification-john-pose-2"
+            ></v-img>
+          </v-col>
+
+        </v-row>
+      </v-container>
+    </v-card>
+
+    <!-- Introduction -->
+    <v-card class="mb-6">
+      <v-card-text>
+        We need to understand how the current beer market behaves in US to be able to know if opening a brewery is a strategic choice for our client.
+      </v-card-text>
+    </v-card>
+
+    <!-- II.1. Number of breweries -->
+    <v-card class="mb-6" color="#ECEFF1">
+      <v-container fill-height>
+        <v-row>
+          <v-card width="100%" color="primary">
+            <v-card-text>
+              <span class="text-subtitle-1 font-weight-medium white--text">
+                How many breweries have opened the past few years ?
+              </span>
+            </v-card-text>
+          </v-card>
+        </v-row>
+
+        <v-spacer/>
+
+        <v-row align="center">
+          <v-col>
+            <v-img src="@/assets/images/1.png"> </v-img>
+          </v-col>
+        </v-row>v-row>
+
+        <v-spacer/>
+
+        <v-row align="center">
+          <v-col>
+            <v-card>
+              <v-card-text>
+                <v-icon>{{icons.mdiChartTimelineVariantShimmer}}</v-icon>
+                <div>
+                  The number of breweries involved in ratings has been growing very quickly over the past decade in the United States. Indeed, we can see on Rate Beer that this evolution even follows an exponential trend since 2007. We don't need to worry about the stabilization in 2017 because the ratings we have available stop in July 2017.
+                  In only 10 years, the number of breweries involved in the ratings has increased from  1304  in 2006 to  4410  in 2016, which corresponds to a growth of  238%
+                </div>
+              </v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
+
+        <v-row align="center">
+          <v-col>
+            <v-card>
+              <v-card-text>
+                  Regarding Beer Advocate, there are fewer breweries involved in the ratings. We observe a peak in 2014 corresponding to about 1200 breweries, which matches the number of breweries in 2007 on Rate Beer before the explosion started. In addition, the curve does not follow the same trend as Rate Beer and the number of breweries is decreasing since 2014.
+              </v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
+
+        <v-row align="center">
+          <v-col>
+            <v-card>
+              <v-card-text>
+                Knowing that we want to study the competition on the beer market, focusing on the Rate Beer review site seems to be more relevant to study our client's potential competitors.              </v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-card>
+
 
 </div>
 
