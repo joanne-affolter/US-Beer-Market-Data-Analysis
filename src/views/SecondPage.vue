@@ -143,14 +143,15 @@
       </v-card>
       <v-card>
         <v-container :align="center">
-          <v-row :align="center">
+          <v-row>
             <v-col cols='1'>
-              <v-btn :align="center" class="mx-2" dark large color="primary" height='100%'>
-                <v-icon :align="center" large>
-                  {{icons.mdiChartTimelineVariantShimmer}}
-                </v-icon>
-              </v-btn>
-
+              <v-row :align="'center'">
+                <v-btn class="mx-2" dark large color="primary" height='100%'>
+                  <v-icon :align="center" large>
+                    {{icons.mdiChartTimelineVariantShimmer}}
+                  </v-icon>
+                </v-btn>
+              </v-row>
             </v-col>
             <v-col cols='11' :align="center">
               <v-card>
@@ -213,21 +214,31 @@
             Let's now compare the evolution of ratings on the two websites by plotting them on the same plot.
           </v-card-text>
         </v-card>
-        <v-card>
-          <v-img
-            src="@/assets/images/2.png">
-          </v-img>
-        </v-card>
-        <v-card>
-          <v-card-text>
-            We can see a peak in the number of ratings between 2010 and 2016 for the two websites, with the maximum values reached in 2014.
-            <br><br>Moreover, Beer Advocate gets a higher number of ratings between 2012 and 2015 whereas Rate Beer was always above outside these dates.
-            <br><br>Hence, Beer Advocate reached a high peak in popularity in 2013/2014 with a number of ratings almost equals to 582 242 (so 6 times higher than in 2014 - 88 398 ratings), but since then, the number of ratings is higher on Rate Beer.
-          </v-card-text>
-        </v-card>
+
+        <v-container>
+          <v-row>
+            <v-col cols="6">
+              <v-card>
+                <v-img
+                  src="@/assets/images/2.png">
+                </v-img>
+              </v-card>
+            </v-col>
+            <v-col cols="6">
+              <v-row :align="center">
+                <v-card>
+                  <v-card-text>
+                    We can see a peak in the number of ratings between 2010 and 2016 for the two websites, with the maximum values reached in 2014.
+                    <br><br>Moreover, Beer Advocate gets a higher number of ratings between 2012 and 2015 whereas Rate Beer was always above outside these dates.
+                    <br><br>Hence, Beer Advocate reached a high peak in popularity in 2013/2014 with a number of ratings almost equals to 582 242 (so 6 times higher than in 2014 - 88 398 ratings), but since then, the number of ratings is higher on Rate Beer.
+                  </v-card-text>
+                </v-card>
+              </v-row>
+            </v-col>
+          </v-row>
+        </v-container>
       </v-card>
     </v-card>
-
 
 </div>
 
