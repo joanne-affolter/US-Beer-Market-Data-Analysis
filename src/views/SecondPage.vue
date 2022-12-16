@@ -66,10 +66,10 @@
           ></v-img>
         </v-card>
       </v-col>
-      <v-col cols="4" sm="4" lg="4" md="4">
+      <v-col justify='space-around' cols="4" sm="4" lg="4" md="4">
           <v-spacer></v-spacer>
           <v-row>
-            <v-card class="mb-4">
+            <v-card class="mb-6">
               <v-card-text>
                   On this figure, we plotted the number of ratings posted in US
                   in blue and the number of ratings for all the other countries in yellow.
@@ -132,7 +132,7 @@
         Evolution of the number of breweries involved in the ratings per year
       </span>
     </v-card-title>
-    <v-card-text  class="text-subtitle-1">
+    <v-card-text  class="text-subtitle-2">
       We need to understand how the current beer market behaves in US to be able to know if opening a brewery is a strategic choice for our client.
       To do this, we will determine <i>how many breweries have opened the past few years and of which kind they are</i>.
     </v-card-text>
@@ -147,13 +147,13 @@
       <v-row>
         <v-col cols = 1>
             <v-icon
-              size="44"
+              large
               dark
               color="primary"
               rounded
               class="elevation-1"
             >
-              📈
+              mdi-chart-timeline-variant-shimmer
             </v-icon>
         </v-col>
 
