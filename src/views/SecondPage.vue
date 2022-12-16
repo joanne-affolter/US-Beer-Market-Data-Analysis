@@ -365,11 +365,12 @@
                 <v-list>
                   <v-list-item class="pa-0">
                     <v-icon large color="primary">{{icons.mdiMeteor}}</v-icon>
-                    The number of breweries involved in the reviews has grown very quickly. <i>Were these breweries already known to users on the beer review sites or did new breweries appear in the ratings ?</i>
+                    The number of breweries involved in the reviews has grown very quickly.
+                    Were these breweries already known to users on the beer review sites or did new breweries appear in the ratings ?
                   </v-list-item>
                   <v-list-item class="pa-0">
                     <v-icon large color="primary">{{icons.mdiMeteor}}</v-icon>
-                    <i>Do users adopt easily a new brewery and continue to keep rating it over time after the first rating?</i>
+                    Do users adopt easily a new brewery and continue to keep rating it over time after the first rating?
                   </v-list-item>
                 </v-list>
               </v-card-text>
@@ -389,7 +390,7 @@
         </v-row>
 
       <v-row align="center">
-          <v-col cols="8">
+          <v-col cols="7">
             <v-card color="#C8E6C9">
               <v-card-title>
                 'In' breweries
@@ -401,7 +402,7 @@
             </v-card>
           </v-col>
 
-          <v-col cols="4">
+          <v-col cols="5">
             <v-card color="#FFCDD2">
               <v-card-title>
                 'Out breweries'
@@ -416,7 +417,7 @@
         <v-row>
           <v-col>
             <v-card>
-              <v-card-text>
+              <v-card-text class="text-subtitle-1 font-weight-medium">
                 <v-icon large color="primary">{{icons.mdiLightbulbQuestion}}</v-icon>
                 We would have to take the analysis further to determine where the causal link is: Did the number of new breweries generate this desire among Americans to discover new beers? Or are people taking advantage of this trend to open breweries?
               </v-card-text>
