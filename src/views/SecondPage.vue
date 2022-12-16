@@ -144,10 +144,12 @@
       <v-card>
         <v-container :align="center">
           <v-row :align="center">
-            <v-col cols='1' :align="center">
-              <v-icon large dark color="primary" rounded class="elevation-1">
-                {{icons.mdiChartTimelineVariantShimmer}}
-              </v-icon>
+            <v-col cols='1' :align="center" justify="center">
+              <v-btn class="mx-2" fab dark large color="primary" >
+                <v-icon :align="center" large dark class="elevation-1">
+                  {{icons.mdiChartTimelineVariantShimmer}}
+                </v-icon>
+              </v-btn>
             </v-col>
             <v-col cols='11' :align="center">
               <v-card>
