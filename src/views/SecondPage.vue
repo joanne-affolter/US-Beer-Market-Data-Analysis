@@ -31,6 +31,7 @@
     <v-spacer></v-spacer>
 
     <v-card class="mb-6" color = 'primary' height="80">
+      <v-container align-items='center'>
       <v-row class="ma-0 pa-0">
         <v-col cols="8" sm="6">
           <v-card-title class="greeting-title d-flex flex-nowrap text-2xl white--text">
@@ -52,6 +53,7 @@
           </div>
         </v-col>
       </v-row>
+    </v-container>
     </v-card>
 
     <v-card class="mb-6">
@@ -64,8 +66,8 @@
               </v-img>
             </v-card>
           </v-col>
-          <v-col cols="4" sm="4" lg="4" md="4" :align="center" justify="space-around">
-            <v-container :align="center">
+          <v-col cols="4" sm="4" lg="4" md="4">
+            <v-container align-items="center" align-content="space-around" flex-direction='columns'>
               <v-row>
                   <v-card class="mb-6">
                     <v-card-text>
