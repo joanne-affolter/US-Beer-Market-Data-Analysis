@@ -76,11 +76,15 @@
                                 A large market share to reach with a lot of potential clients
                             </v-btn>
                         </v-row>
+                        <v-spacer></v-spacer>
+                        <v-spacer></v-spacer>
                         <v-row>
                             <v-btn elevation="13" rounded text large dark color="primary">
                                 Consumers who like local beers
                             </v-btn>
                         </v-row>
+                        <v-spacer></v-spacer>
+                        <v-spacer></v-spacer>
                         <v-row>
                             <v-btn elevation="13" rounded text large dark color="primary">
                                 Beer lovers who make a lot of ratings
@@ -104,7 +108,7 @@
         </v-card>
 
         <!-- 1. States with a large market share to reach -->
-        <v-card class="mb-6" color="primary" width="80%">
+        <v-card class="mb-6" color="primary" >
             <v-container>
                 <v-row>
                     <v-col cols="8" sm="6">

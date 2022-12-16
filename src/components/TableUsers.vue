@@ -80,11 +80,11 @@ export default {
   methods: {
     row_classes(item) {
       if (item.name == 'Ohio') {
-        return 'success'
+        return { 'background-color': 'orange' }
       } else if (item.name == 'Massachusetts') {
-        return 'success'
-      } else {
         return 'orange'
+      } else {
+        return 'red'
       }
     },
   },
