@@ -5,7 +5,9 @@
       <v-col>
         <v-card>
           <v-card-title>
-            Average number of users per year
+            <span class='text-subtitle-2 font-weight-bold primary--text'>
+              Average number of users per year
+            </span>
           </v-card-title>
           <v-card-text>
             <v-row>
@@ -13,7 +15,7 @@
               <v-col>
                 <v-card>
                   <v-card-title>
-                    <span class='text-subtitle-2 font-weight-bold'>
+                    <span class='font-weight-bold'>
                       2007 - 2011
                     </span>
                   </v-card-title>
@@ -58,7 +60,7 @@
               <v-col>
                 <v-card>
                   <v-card-title>
-                    <span class='text-subtitle-2 font-weight-bold'>
+                    <span class='font-weight-bold'>
                       2011 - 2015
                     </span>
                   </v-card-title>
@@ -103,7 +105,7 @@
               <v-col>
                 <v-card>
                   <v-card-title>
-                    <span class='text-subtitle-2 font-weight-bold'>
+                    <span class='font-weight-bold'>
                       2015 - 2017
                     </span>
                   </v-card-title>

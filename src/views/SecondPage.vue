@@ -291,11 +291,11 @@
         <v-spacer></v-spacer>
 
         <v-row align="center">
-          <v-col cols="6">
+          <v-col cols="8">
             <Period></Period>
           </v-col>
 
-          <v-col cols="6">
+          <v-col cols="4">
             <v-card>
               <v-card-text>
                 First, the number of consumers is significantly higher between 2012 and 2015 on both sites.
@@ -306,11 +306,11 @@
         </v-row>
 
         <v-row align="center">
-          <v-col cols="6">
+          <v-col cols="8">
             <Period></Period>
           </v-col>
 
-          <v-col cols="6">
+          <v-col cols="4">
             <v-card>
               <v-card-text>
                 Secondly, we can see that outside of the 2012 to 2015 period, Rate Beer users rate on average many more beers than Beer Advocate users.
