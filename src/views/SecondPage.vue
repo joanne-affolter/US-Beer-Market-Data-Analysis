@@ -364,18 +364,46 @@
               <v-card-text>
                 <v-list>
                   <v-list-item class="pa-0">
-                    <v-icon large color="primary">{{icons.mdiMeteor}}</v-icon>
-                    <span class="mb-4">
-                    The number of breweries involved in the reviews has grown very quickly.
-                    Were these breweries already known to users on the beer review sites or did new breweries appear in the ratings ?
-                    </span>
+                    <v-list-item-avatar
+                      class="v-avatar-light-bg success--text justify-center"
+                      size="40"
+                      rounded
+                    >
+                      <v-icon
+                        size="30"
+                        color="success"
+                      >
+                        {{ icons.mdiMeteor }}
+                      </v-icon>
+                    </v-list-item-avatar>
+                    <v-list-item-content>
+                      <span class="mb-4">
+                        The number of breweries involved in the reviews has grown very quickly.
+                        Were these breweries already known to users on the beer review sites or did new breweries appear in the ratings ?
+                        </span>
+                    </v-list-item-content>
                   </v-list-item>
+
                   <v-list-item class="pa-0">
-                    <v-icon large color="primary">{{icons.mdiMeteor}}</v-icon>
-                    <span class="mb-4">
-                    Do users adopt easily a new brewery and continue to keep rating it over time after the first rating?
-                    </span>
+                    <v-list-item-avatar
+                      class="v-avatar-light-bg success--text justify-center"
+                      size="40"
+                      rounded
+                    >
+                      <v-icon
+                        size="30"
+                        color="success"
+                      >
+                        {{ icons.mdiMeteor }}
+                      </v-icon>
+                    </v-list-item-avatar>
+                    <v-list-item-content>
+                      <span class="mb-4">
+                        Do users adopt easily a new brewery and continue to keep rating it over time after the first rating?
+                      </span>
+                    </v-list-item-content>
                   </v-list-item>
+
                 </v-list>
               </v-card-text>
             </v-card>
@@ -438,9 +466,9 @@
           <v-card width="100%" color="#9E9E9E">
             <v-card-text>
               <span class="text-subtitle-1 font-weight-medium white--text">
-                But what are these 'out' breweries?
-                <br>Are they old breweries that have been surpassed by the new 'in' breweries?
-                <br>Or do the new breweries appearing in the comments fail to last?               </span>
+                But what are these 'out' breweries? Are they old breweries that have been surpassed by the new 'in' breweries?
+                Or do the new breweries appearing in the comments fail to last?
+              </span>
             </v-card-text>
           </v-card>
         </v-row>
@@ -448,7 +476,11 @@
         <v-spacer></v-spacer>
         <v-spacer></v-spacer>
 
-        <Table></Table>
+        <v-row align="center">
+          <v-col class="mb-6 my-6">
+            <Table></Table>
+          </v-col>
+        </v-row>
 
         <v-spacer/>
 
