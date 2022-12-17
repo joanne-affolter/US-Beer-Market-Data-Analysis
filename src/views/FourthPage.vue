@@ -374,6 +374,9 @@
             <v-col cols="8" sm="8">
                 <v-img src="@/assets/images/resbilan.png"></v-img>
             </v-col>
+            <v-col cols="4" sm="4">
+                <v-img src="@/assets/images/beer1.png"></v-img>
+            </v-col>
         </v-row>
 
         <v-row>
