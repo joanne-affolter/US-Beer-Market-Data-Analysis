@@ -372,10 +372,17 @@
         </v-row>
 
         <v-row>
-            <v-col cols="6" sm="6">
+            <v-col cols="8" sm="8">
                 <v-img src="@/assets/images/resbilan.png"></v-img>
             </v-col>
-            <v-col cols="6" sm="6">
+        </v-row>
+
+        <v-row>
+            <v-col cols="2" sm="2">
+                <v-img src="@/assets/images/virginia.gif"></v-img>
+            </v-col>
+
+            <v-col cols="10" sm="10">
                 <v-card>
                     <v-card-text class="text-subtitle-2 font-weight-bold">
                     <span class=" text-m my-6">
@@ -408,16 +415,7 @@
                     </v-card-text>
                 </v-card>
             </v-col>
-        </v-row>
 
-        <v-row>
-            <v-col cols="10" sm="10">
-
-            </v-col>
-
-            <v-col cols="2" sm="2">
-                <v-img src="@/assets/images/virginia.gif"></v-img>
-            </v-col>
         </v-row>
     </v-container>
     </v-card>
