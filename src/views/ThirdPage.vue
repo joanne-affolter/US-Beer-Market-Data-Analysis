@@ -427,7 +427,7 @@
                     <span class="my-6">
                     We will filter the breweries according to the following criteria:
                     </span>
-                    <v-timeline dense class="timeline-custom-dense timeline-custom-dots">
+                    <v-timeline dense class="timeline-custom-dense timeline-custom-dots my-2">
 
                         <v-timeline-item small color="primary">
                             <div class="d-flex justify-space-between align-center flex-wrap">
@@ -504,14 +504,14 @@
                 <v-row>
                     <v-col>
                         <v-card>
-                            <v-card-title>
+                            <v-card-title class="text-subtitle-1">
                                 The above shows the results of our market research. On the left you can see the number of potential competitors for our client for each state whose total score is strictly greater than 0. On the right is the ranking of the states according to the total score which corresponds to the sum of the scores obtained on the following criteria:
                             </v-card-title>
                             <v-card-text>
                                 <v-list three-line>
                                     <v-list-item>
                                         <v-list-item-content>
-                                        <v-list-item-title class="primary-text">Number of users</v-list-item-title>
+                                        <v-list-item-title class="primary--text">Number of users</v-list-item-title>
                                         <v-list-item-subtitle>A high number of users and therefore a potential market to reach</v-list-item-subtitle>
                                         </v-list-item-content>
                                     </v-list-item>
@@ -520,35 +520,39 @@
 
                                     <v-list-item>
                                         <v-list-item-content>
-                                        <v-list-item-title class="primary-text">Number of users / Number of breweries </v-list-item-title>
+                                        <v-list-item-title class="primary--text">Number of users / Number of breweries </v-list-item-title>
                                         <v-list-item-subtitle>A low ratio and therefore a market not saturated, with less competition</v-list-item-subtitle>
                                         </v-list-item-content>
                                     </v-list-item>
+                                    <v-divider width='50%'></v-divider>
 
                                     <v-list-item>
                                         <v-list-item-content>
-                                        <v-list-item-title class="primary-text">Evolution of the number of users </v-list-item-title>
+                                        <v-list-item-title class="primary--text">Evolution of the number of users </v-list-item-title>
                                         <v-list-item-subtitle>A fast evolution since few years and a public which is getting more and more interested in beer</v-list-item-subtitle>
                                         </v-list-item-content>
                                     </v-list-item>
+                                    <v-divider width='50%'></v-divider>
 
                                     <v-list-item>
                                         <v-list-item-content>
-                                        <v-list-item-title class="primary-text">Evolution of the percentage of ratings on local beers</v-list-item-title>
+                                        <v-list-item-title class="primary--text">Evolution of the percentage of ratings on local beers</v-list-item-title>
                                         <v-list-item-subtitle>A fast evolution and consumers who are more and more attached to the local character.</v-list-item-subtitle>
                                         </v-list-item-content>
                                     </v-list-item>
+                                    <v-divider width='50%'></v-divider>
 
                                     <v-list-item>
                                         <v-list-item-content>
-                                        <v-list-item-title class="primary-text">Evolution of the percentage of ratings on local beers</v-list-item-title>
+                                        <v-list-item-title class="primary--text">Evolution of the percentage of ratings on local beers</v-list-item-title>
                                         <v-list-item-subtitle>A fast evolution and consumers who are more and more attached to the local character. A potential target for our client.</v-list-item-subtitle>
                                         </v-list-item-content>
                                     </v-list-item>
+                                    <v-divider width='50%'></v-divider>
 
                                     <v-list-item>
                                         <v-list-item-content>
-                                        <v-list-item-title class="primary-text">Average number of ratings per user</v-list-item-title>
+                                        <v-list-item-title class="primary--text">Average number of ratings per user</v-list-item-title>
                                         <v-list-item-subtitle>A fairly high number and therefore a strong community of beer lovers who would be interested in our client's products.</v-list-item-subtitle>
                                         </v-list-item-content>
                                     </v-list-item>
