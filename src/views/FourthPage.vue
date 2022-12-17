@@ -362,8 +362,8 @@
       <v-container fill-height>
         <v-row>
           <v-card width="100%">
-            <v-card-text>
-              <span class="text-subtitle-1 font-weight-medium primary--text">
+            <v-card-text color="primary">
+              <span class="text-subtitle-1 font-weight-medium">
                 Let's find the best state in which our client should locate its brewery among Washington, Virginia and Massachusetts.
               </span>
             </v-card-text>
@@ -427,11 +427,13 @@
               </v-col>
 
               <v-col cols="3" sm="3" >
-                        <v-img
-                            height="100"
-                            max-width="100"
-                            src="@/assets/images/virginia.gif"
-                        ></v-img>
+                <v-img
+                contain
+                height="130"
+                max-width="83"
+                class="greeting-card-trophy"
+                src="@/assets/images/misc/trophy.png"
+                ></v-img>
               </v-col>
 
 
