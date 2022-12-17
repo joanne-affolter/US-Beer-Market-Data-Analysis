@@ -416,7 +416,7 @@
 
         <!-- COMPETITORS -->
         <!--I. Title with avatar-->
-        <v-card class="mb-6 my-8">
+        <v-card class="mb-6 my-6">
             <v-container>
             <v-row class="ma-0 pa-0">
               <v-col cols="9" sm="9">
@@ -427,7 +427,7 @@
                     <span class="my-6">
                     We will filter the breweries according to the following criteria:
                     </span>
-                    <v-timeline dense class="timeline-custom-dense timeline-custom-dots my-2">
+                    <v-timeline dense class="timeline-custom-dense timeline-custom-dots mt-6">
 
                         <v-timeline-item small color="primary">
                             <div class="d-flex justify-space-between align-center flex-wrap">
