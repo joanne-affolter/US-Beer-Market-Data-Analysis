@@ -377,13 +377,13 @@
             <v-col cols="4" sm="4">
                 <v-container>
                     <v-row>
-                        <v-img src="@/assets/images/virginia_pres.jpg"></v-img>
+                        <v-img src="@/assets/images/virginia_pres.png"></v-img>
                     </v-row>
                     <v-row>
-                        <v-img src="@/assets/images/wash_pres.jpg"></v-img>
+                        <v-img src="@/assets/images/wash_pres.png"></v-img>
                     </v-row>
                     <v-row>
-                        <v-img src="@/assets/images/massachu.jpg"></v-img>
+                        <v-img src="@/assets/images/massachu.png"></v-img>
                     </v-row>
                 </v-container>
             </v-col>
