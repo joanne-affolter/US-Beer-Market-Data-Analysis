@@ -75,7 +75,7 @@
     <v-card class="mb-6" color="primary" >
         <v-container>
             <v-row>
-                <v-col cols="8" sm="6">
+                <v-col cols="8" sm="8">
                     <v-card-text class="d-flex align-center mt-5 text-h5 white--text font-weight-black">
                             Which breweries are the most popular in each state ?
                     </v-card-text>
@@ -97,7 +97,7 @@
             <v-card flat>
                 <v-card-text>
                     <v-container><v-row align="center" justify="center">
-                        <v-col cols="8"><v-img src="@/assets/images/wash1.png"></v-img></v-col></v-row>
+                        <v-col cols="10" sm="10"><v-img src="@/assets/images/wash1.png"></v-img></v-col></v-row>
                     <v-row>
                 The 3 breweries with the highest number of comments dominate by far the other breweries in the top 10, and are the breweries to watch. Yakima Brewing and Malting Co. is far ahead of its competitors with 1,627 ratings, twice as many as the brewery just behind it.
                 </v-row></v-container>
@@ -109,7 +109,7 @@
             <v-card flat>
                 <v-card-text>
                     <v-container><v-row align="center" justify="center">
-                        <v-col cols="8"><v-img src="@/assets/images/vir1.png"></v-img></v-col></v-row>
+                        <v-col cols="10" sm="10"><v-img src="@/assets/images/vir1.png"></v-img></v-col></v-row>
                     <v-row>
                     The distribution of the number of ratings is more uniform among the breweries here. This is not surprising, as this is the state with the most breweries in the country (33 breweries) and therefore fewer market leaders like in Washington. Howewer, we can note that Blue & Gray Brewing Co. slightly dominates the market.
                     </v-row></v-container>
@@ -131,7 +131,7 @@
         </v-tabs>
     </v-card>
 
-    <v-card class="mb-6">
+    <v-card class="mb-6 my-6">
         <v-card-text class="font-weight-black">
             💡 Following the analysis of the number of ratings per brewery for each state, we can observe that there are generally fewer ratings per brewery in Virginia: the most popular brewery has only 346 ratings, while this number is much higher in Massachusetts (1627) and Virginia (1493). This means that there are fewer popular breweries dominating the market. The sector will be less competitive for our client, which is a positive point.
         </v-card-text>
@@ -141,12 +141,12 @@
     <v-card class="mb-6" color="primary" >
         <v-container>
             <v-row>
-                <v-col cols="10" sm="6">
-                    <v-card-text class="d-flex align-center mt-5 text-h5 white--text font-weight-black">
+                <v-col cols="10" sm="8">
+                    <v-card-title class="d-flex align-center mt-5 text-h5 white--text font-weight-black">
                         Which breweries are well-established in the market ?
-                        <div class="text-subtitle-2">
-                            We can actually consider that breweries with a high number of years since the first rating **have become institutions in the state** and that consumers like their products. These breweries will be the ones to watch.
-                        </div>
+                    </v-card-title>
+                    <v-card-text class="d-flex align-center mt-5 text-subtitle-1 white--text font-weight-black">
+                        We can actually consider that breweries with a high number of years since the first rating **have become institutions in the state** and that consumers like their products. These breweries will be the ones to watch.
                     </v-card-text>
                     </v-col>
             </v-row>
@@ -202,7 +202,7 @@
         </v-tabs>
     </v-card>
 
-    <v-card class="mb-6">
+    <v-card class="mb-6 my-8">
         <v-card-text class="font-weight-black">
             There are a large number of long-established breweries in Washington. We do not recommend this state because the competition could be tough. The number of institutions is lower in Virginia and Massachusetts, which seems to be more suitable for our client.        </v-card-text>
     </v-card>
