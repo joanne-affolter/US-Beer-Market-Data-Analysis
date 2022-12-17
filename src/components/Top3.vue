@@ -3,7 +3,8 @@
     <v-row class="ma-0 pa-0">
       <v-col cols="8">
         <v-card-title class="text-no-wrap pt-1 ps-2">
-          The top 3 states
+          <div>The </div>
+          <div class="primary--text">top 3 states</div>
         </v-card-title>
         <v-card-subtitle class="text-no-wrap ps-2">
           for our client's brewery location
@@ -24,10 +25,10 @@
 
               <v-col cols=4>
                 <div>
-                  <p class="text-xl font-weight-semibold mb-2">
+                  <p class="text-xl font-weight-semibold primary--text mb-2">
                     Virginia
                   </p>
-                  <p class="text-xl font-weight-semibold mb-2">
+                  <p class="text-l font-weight-semibold mb-2">
                     With the highest score, many competitors but a strong community of beer lovers.
                   </p>
                 </div>
@@ -38,7 +39,7 @@
                   <p class="text-xl font-weight-semibold primary--text mb-2">
                     Massachusetts
                   </p>
-                  <p class="text-xl font-weight-semibold primary--text mb-2">
+                  <p class="text-l font-weight-semibold mb-2">
                     With the second best score and a low number of competitors
                   </p>
                 </div>
@@ -53,7 +54,7 @@
 
         <v-img
           contain
-          height="108"
+          height="130"
           max-width="83"
           class="greeting-card-trophy"
           src="@/assets/images/misc/trophy.png"
