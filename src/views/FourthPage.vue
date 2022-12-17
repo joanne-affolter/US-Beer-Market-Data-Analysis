@@ -95,27 +95,33 @@
             <v-tab-item>
             <v-card flat>
                 <v-card-text>
-                <v-img src="@/assets/images/wash1.png"></v-img>
-                The 3 breweries with the highest number of comments dominate by far the other breweries in the top 10, and are the breweries to watch. Yakima Brewing and Malting Co. is far ahead of its competitors with 1,627 ratings, twice as many as the brewery just behind it.
-                </v-card-text>
-            </v-card>
-            </v-tab-item>
-
-            <v-tab-item>
-            <v-card flat>
-                <v-card-text>
-                <v-img src="@/assets/images/vir1.png"></v-img>
-                    The distribution of the number of ratings is more uniform among the breweries here. This is not surprising, as this is the state with the most breweries in the country (33 breweries) and therefore fewer market leaders like in Washington. Howewer, we can note that Blue & Gray Brewing Co. slightly dominates the market.
-                </v-card-text>
-            </v-card>
-            </v-tab-item>
-
-            <v-tab-item>
-            <v-card flat>
-                <v-card-text>
-                <v-container><v-row><v-col cols="7"><v-img src="@/assets/images/m1.png"></v-img></v-col></v-row>
-
+                    <v-container><v-row align="center" justify="center">
+                        <v-col cols="7"><v-img src="@/assets/images/wash1.png"></v-img></v-col></v-row>
                     <v-row>
+                The 3 breweries with the highest number of comments dominate by far the other breweries in the top 10, and are the breweries to watch. Yakima Brewing and Malting Co. is far ahead of its competitors with 1,627 ratings, twice as many as the brewery just behind it.
+                </v-row></v-container>
+            </v-card-text>
+            </v-card>
+            </v-tab-item>
+
+            <v-tab-item>
+            <v-card flat>
+                <v-card-text>
+                    <v-container><v-row align="center" justify="center">
+                        <v-col cols="7"><v-img src="@/assets/images/vir1.png"></v-img></v-col></v-row>
+                    <v-row>
+                    The distribution of the number of ratings is more uniform among the breweries here. This is not surprising, as this is the state with the most breweries in the country (33 breweries) and therefore fewer market leaders like in Washington. Howewer, we can note that Blue & Gray Brewing Co. slightly dominates the market.
+                    </v-row></v-container>
+                </v-card-text>
+            </v-card>
+            </v-tab-item>
+
+            <v-tab-item>
+            <v-card flat>
+                <v-card-text>
+                <v-container><v-row align="center" justify="center">
+                    <v-col cols="7"><v-img src="@/assets/images/m1.png"></v-img></v-col></v-row>
+                <v-row>
                     The top 3 breweries here share more than half of the total number of ratings of the 10 most popular breweries, and are therefore the breweries to watch.
                 </v-row></v-container>
                 </v-card-text>
@@ -124,6 +130,11 @@
         </v-tabs>
     </v-card>
 
+    <v-card>
+        <v-card-text>
+            💡 Following the analysis of the number of ratings per brewery for each state, we can observe that there are generally fewer ratings per brewery in Virginia: the most popular brewery has only 346 ratings, while this number is much higher in Massachusetts (1627) and Virginia (1493). This means that there are fewer popular breweries dominating the market. The sector will be less competitive for our client, which is a positive point.
+        </v-card-text>
+    </v-card>
 </div>
 </template>
 
