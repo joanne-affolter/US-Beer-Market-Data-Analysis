@@ -56,6 +56,16 @@
                         </div>
                     </v-card-text>
               </v-col>
+
+              <v-col cols="3" sm="3" >
+                <div>
+                  <v-img
+                    width="121"
+                    src="@/assets/images/3d-characters/launching-soon.png"
+                    class="gamification-john-pose-2"
+                  ></v-img>
+                </div>
+              </v-col>
             </v-row>
         </v-container>
         </v-card>

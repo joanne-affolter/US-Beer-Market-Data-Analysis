@@ -3,8 +3,7 @@
     <v-row class="ma-0 pa-0">
       <v-col cols="8">
         <v-card-title class="text-no-wrap pt-1 ps-2">
-          <span>The </span>
-          <span class="primary--text"> top 3 states</span>
+          <span class="primary--text">The top 3 states</span>
         </v-card-title>
         <v-card-subtitle class="text-no-wrap ps-2">
           for our client's brewery location

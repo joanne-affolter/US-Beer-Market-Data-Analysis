@@ -470,7 +470,7 @@
                 <div>
                   <v-img
                     width="121"
-                    src="@/assets/images/3d-characters/pose-fs-9.png"
+                    src="@/assets/images/3d-characters/under-maintenance.png"
                     class="gamification-john-pose-2"
                   ></v-img>
                 </div>
@@ -504,10 +504,10 @@
                 <v-row>
                     <v-col>
                         <v-card>
-                            <v-card-title class="text-subtitle-1">
-                                The above shows the results of our market research. On the left you can see the number of potential competitors for our client for each state whose total score is strictly greater than 0. On the right is the ranking of the states according to the total score which corresponds to the sum of the scores obtained on the following criteria:
-                            </v-card-title>
                             <v-card-text>
+                                <div class="text-subtitle-2 font-weight-bold my-6">
+                                The above shows the results of our market research. On the left you can see the number of potential competitors for our client for each state whose total score is strictly greater than 0. On the right is the ranking of the states according to the total score which corresponds to the sum of the scores obtained on the following criteria:
+                                </div>
                                 <v-list three-line>
                                     <v-list-item>
                                         <v-list-item-content>
