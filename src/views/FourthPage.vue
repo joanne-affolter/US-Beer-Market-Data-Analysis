@@ -377,13 +377,13 @@
             <v-col cols="4" sm="4">
                 <v-container>
                     <v-row>
-                        <v-img src="@/assets/images/virginia_pres.png"></v-img>
+                        <v-img src="@/assets/images/flag_virginia.png"></v-img>
                     </v-row>
                     <v-row>
                         <v-img src="@/assets/images/wash_pres.png"></v-img>
                     </v-row>
                     <v-row>
-                        <v-img src="@/assets/images/massachu.png"></v-img>
+                        <v-img src="@/assets/images/flag_massachu.png"></v-img>
                     </v-row>
                 </v-container>
             </v-col>
@@ -427,22 +427,11 @@
               </v-col>
 
               <v-col cols="3" sm="3" >
-                <v-container>
-                    <v-row>
-                        <v-img
-                            height="100"
-                            width="100"
-                            src="@/assets/images/virginia.gif"
-                        ></v-img>
-                    </v-row>
-                    <v-row>
                         <v-img
                             height="130"
                             max-width="83"
                             src="@/assets/images/misc/trophy.png"
                         ></v-img>
-                    </v-row>
-                </v-container>
               </v-col>
 
 
