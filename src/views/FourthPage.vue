@@ -286,13 +286,142 @@
         </v-card-text>
     </v-card>
 
+    <!-- Top 5 breweries -->
+    <v-card class="mb-6" color="#ECEFF1">
+      <v-container fill-height>
+        <v-row>
+          <v-card width="100%" color="#9E9E9E">
+            <v-card-text>
+              <span class="text-subtitle-1 font-weight-medium white--text">
+                Let's determine which breweries are leaders in each state according to the criteria studied : number of ratings, number of years since the first rating, percentage of local comments.
+              </span>
+            </v-card-text>
+          </v-card>
+        </v-row>
 
-    <v-card>
-        <v-img src="@/assets/images/virginia.gif">
+        <v-row>
+            <v-card>
+                <v-card-title>Percentage of local ratings</v-card-title>
+                <v-tabs color="primary">
 
+                    <v-tab>Washington </v-tab>
+                    <v-tab>Virginia</v-tab>
+                    <v-tab>Massachusetts</v-tab>
 
-        </v-img>
+                    <v-tab-item>
+                    <v-card flat>
+                        <v-card-text>
+                            <v-container>
+                                <v-row align="center" justify="center">
+                                <v-col cols="8" sm="8">
+                                    <v-img src="@/assets/images/resw.png"></v-img>
+                                </v-col>
+                                </v-row>
+                            </v-container>
+                        </v-card-text>
+                    </v-card>
+                    </v-tab-item>
+
+                    <v-tab-item>
+                    <v-card flat>
+                        <v-card-text>
+                            <v-container>
+                                <v-row align="center" justify="center">
+                                <v-col cols="8" sm="8">
+                                    <v-img src="@/assets/images/resv.png"></v-img>
+                                </v-col>
+                                </v-row>
+                            </v-container>
+                        </v-card-text>
+                    </v-card>
+                    </v-tab-item>
+
+                    <v-tab-item>
+                    <v-card flat>
+                        <v-card-text>
+                            <v-container>
+                                <v-row align="center" justify="center">
+                                <v-col cols="8" sm="8">
+                                    <v-img src="@/assets/images/resm.png"></v-img>
+                                </v-col>
+                                </v-row>
+                            </v-container>
+                        </v-card-text>
+                    </v-card>
+                    </v-tab-item>
+                </v-tabs>
+            </v-card>
+
+        </v-row>
+
+      </v-container>
     </v-card>
+
+
+    <!-- Scores -->
+    <v-card class="mb-6" color="#ECEFF1">
+      <v-container fill-height>
+        <v-row>
+          <v-card width="100%" color="#9E9E9E">
+            <v-card-text>
+              <span class="text-subtitle-1 font-weight-medium white--text">
+                Let's find the best state in which our client should locate its brewery among Washington, Virginia and Massachusetts.
+              </span>
+            </v-card-text>
+          </v-card>
+        </v-row>
+
+        <v-row>
+            <v-col cols="6" sm="6">
+                <v-img src="@/assets/images/top_states.png"></v-img>
+            </v-col>
+            <v-col cols="6" sm="6">
+                <v-card>
+                    <v-card-text class="text-subtitle-2 font-weight-bold">
+                    <span class=" text-m my-6">
+                        Virginia is the top state with a total score of 6. It stands out from its competitors thanks to the following criteria:                    </span>
+                    <v-timeline dense class="timeline-custom-dense timeline-custom-dots mt-6">
+
+                        <v-timeline-item small color="primary">
+                            <div class="d-flex justify-space-between align-center flex-wrap">
+                            <h4 class="font-weight-semibold me-1">
+                                The number of active consumers on Beer reviews sites has been growing very rapidly in recent years. As the population is increasingly interested in beer, this is a very interesting target for our client.                            </h4>
+                            </div>
+                        </v-timeline-item>
+
+                        <v-timeline-item small color="primary">
+                            <div class="d-flex justify-space-between align-center flex-wrap">
+                            <h4 class="font-weight-semibold me-1">
+                                Users are increasingly turning to local beers, with the number of local ratings rising steadily. In fact, the state has fewer local breweries than Washington, meaning our client could reach a large market share with customers attracted to its local offerings and products.                            </h4>
+                            </div>
+                        </v-timeline-item>
+
+                        <v-timeline-item small color="primary">
+                            <div class="d-flex justify-space-between align-center flex-wrap">
+                            <h4 class="font-weight-semibold me-1">
+                                Even though this is the state with the most potential competitors (33 breweries), none of them dominate the market. Our client will have less difficulty gaining a foothold in the industry. Indeed, the number of years since the first rating is quite low for breweries located in this state. Only 3 out of 33 are established in the comments for more than 7 years.                            </h4>
+                            </div>
+                        </v-timeline-item>
+
+                        </v-timeline>
+
+                    </v-card-text>
+                </v-card>
+            </v-col>
+        </v-row>
+
+        <v-row>
+            <v-col cols="10" sm="10">
+
+            </v-col>
+
+            <v-col cols="2" sm="2">
+                <v-img src="@/assets/images/virginia.gif"></v-img>
+            </v-col>
+        </v-row>
+    </v-container>
+    </v-card>
+
 
 
 
