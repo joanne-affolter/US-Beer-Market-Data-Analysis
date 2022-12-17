@@ -418,7 +418,8 @@
 
               <v-col cols="3" sm="3" >
                 <v-container class="d-flex space-around">
-                <v-row>
+                <v-row align='center' justify="center">
+                    <v-col>
                     <div>
                     <v-img
                         height="100"
@@ -426,8 +427,10 @@
                         src="@/assets/images/virginia.gif"
                     ></v-img>
                     </div>
+                    </v-col>
                 </v-row>
-                <v-row>
+                <v-row align='center' justify="center">
+                    <v-col>
                     <div>
                         <v-img
                             contain
@@ -436,6 +439,7 @@
                             src="@/assets/images/misc/trophy.png"
                         ></v-img>
                     </div>
+                    </v-col>
                 </v-row>
                 </v-container>
               </v-col>
