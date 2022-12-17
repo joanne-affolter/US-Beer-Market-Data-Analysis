@@ -377,13 +377,13 @@
             <v-col cols="4" sm="4">
                 <v-container>
                     <v-row>
-                        <v-img src="@/assets/images/beer1.jpg"></v-img>
+                        <v-img src="@/assets/images/virginia_pres.jpg"></v-img>
                     </v-row>
                     <v-row>
-                        <v-img src="@/assets/images/beer1.jpg"></v-img>
+                        <v-img src="@/assets/images/wash_pres.jpg"></v-img>
                     </v-row>
                     <v-row>
-                        <v-img src="@/assets/images/beer1.jpg"></v-img>
+                        <v-img src="@/assets/images/massachu.jpg"></v-img>
                     </v-row>
                 </v-container>
             </v-col>
@@ -427,17 +427,16 @@
               </v-col>
 
               <v-col cols="3" sm="3" >
-                <v-container class="d-flex space-around">
-                    <v-row align='center' justify="center">
+                <v-container>
+                    <v-row>
                         <v-img
                             height="100"
                             width="100"
                             src="@/assets/images/virginia.gif"
                         ></v-img>
                     </v-row>
-                    <v-row align='center' justify="center">
+                    <v-row>
                         <v-img
-                            contain
                             height="130"
                             max-width="83"
                             src="@/assets/images/misc/trophy.png"
