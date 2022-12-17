@@ -113,8 +113,11 @@
             <v-tab-item>
             <v-card flat>
                 <v-card-text>
-                <v-img src="@/assets/images/m1.png"></v-img>
+                <v-container><v-row><v-col cols="7"><v-img src="@/assets/images/m1.png"></v-img></v-col></v-row>
+
+                    <v-row>
                     The top 3 breweries here share more than half of the total number of ratings of the 10 most popular breweries, and are therefore the breweries to watch.
+                </v-row></v-container>
                 </v-card-text>
             </v-card>
             </v-tab-item>
