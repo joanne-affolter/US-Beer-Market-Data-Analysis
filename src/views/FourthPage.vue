@@ -131,11 +131,95 @@
         </v-tabs>
     </v-card>
 
-    <v-card>
-        <v-card-text>
+    <v-card class="mb-6">
+        <v-card-text class="font-weight-black">
             💡 Following the analysis of the number of ratings per brewery for each state, we can observe that there are generally fewer ratings per brewery in Virginia: the most popular brewery has only 346 ratings, while this number is much higher in Massachusetts (1627) and Virginia (1493). This means that there are fewer popular breweries dominating the market. The sector will be less competitive for our client, which is a positive point.
         </v-card-text>
     </v-card>
+
+    <!-- Number of ratings -->
+    <v-card class="mb-6" color="primary" >
+        <v-container>
+            <v-row>
+                <v-col cols="10" sm="6">
+                    <v-card-text class="d-flex align-center mt-5 text-h5 white--text font-weight-black">
+                        Which breweries are well-established in the market ?
+                        <div class="text-subtitle-2">
+                            We can actually consider that breweries with a high number of years since the first rating **have become institutions in the state** and that consumers like their products. These breweries will be the ones to watch.
+                        </div>
+                    </v-card-text>
+                    </v-col>
+            </v-row>
+        </v-container>
+    </v-card>
+
+    <v-card>
+        <v-card-title>Number of years since first rating</v-card-title>
+          <v-tabs color="primary">
+
+            <v-tab>Washington </v-tab>
+            <v-tab>Virginia</v-tab>
+            <v-tab>Massachusetts</v-tab>
+
+            <v-tab-item>
+            <v-card flat>
+                <v-card-text>
+                    <v-container><v-row align="center" justify="center">
+                        <v-col cols="8"><v-img src="@/assets/images/w2.png"></v-img></v-col></v-row>
+                    <v-row>
+                        The 10 oldest breweries in the comments have been in the area for a long time: 17 years for the first one, 16 for the second one, and 14 for the next 3. These breweries can be real competitors and might be institutions in Washington. Furthermore, given the large number of established breweries in the area, Washington users may not instinctively go to new breweries and turn to the state's established breweries by habit.                </v-row></v-container>
+            </v-card-text>
+            </v-card>
+            </v-tab-item>
+
+            <v-tab-item>
+            <v-card flat>
+                <v-card-text>
+                    <v-container><v-row align="center" justify="center">
+                        <v-col cols="8"><v-img src="@/assets/images/v2.png"></v-img></v-col></v-row>
+                    <v-row>
+                        The difference between long-established breweries in the comments and newer breweries is much more pronounced in Virginia than in Washington. Williamsburg Brewing Company, in the lead, has been appearing in the comments for 16 years, followed closely by Founders Restaurant & Brewing Co. (14 years) and Blue & Gray Brewing Co. (13 years).
+
+                        <br><br>He get much lower results for the other breweries. The 10th brewery, for example, got its first rating only 3 years ago.
+
+                        <br><br>Most of the breweries in Virginia are therefore very new whereas it is the state with the largest number of potential competitors (33 breweries). Of these 33 breweries, only 5 have been in the comments for more than 7 years. Thus, our client will be able to find its place in the market more easily than in Washington, knowing that it has also the highest score regarding the evolution of the number of users for several years.                    </v-row></v-container>
+                </v-card-text>
+            </v-card>
+            </v-tab-item>
+
+            <v-tab-item>
+            <v-card flat>
+                <v-card-text>
+                <v-container><v-row align="center" justify="center">
+                    <v-col cols="7"><v-img src="@/assets/images/m2.png"></v-img></v-col></v-row>
+                <v-row>
+                    In Massachusetts, 4 breweries are present in the comments since 15 years and dominate the other breweries in the top 10. Except for Gardner Ale House, the period since the first rating is twice as long as in the other breweries.
+
+                    <br><br>We find the same pattern as in Virginia, with only 5 breweries appearing in the comments for more than 10 years. These are the ones to watch, but the market is quite favorable for our client.                </v-row></v-container>
+                </v-card-text>
+            </v-card>
+            </v-tab-item>
+        </v-tabs>
+    </v-card>
+
+    <v-card class="mb-6">
+        <v-card-text class="font-weight-black">
+            There are a large number of long-established breweries in Washington. We do not recommend this state because the competition could be tough. The number of institutions is lower in Virginia and Massachusetts, which seems to be more suitable for our client.        </v-card-text>
+    </v-card>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
 </template>
 
