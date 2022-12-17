@@ -60,6 +60,7 @@
               <v-col cols="3" sm="3" >
                 <div>
                   <v-img
+                    height="80%"
                     width="121"
                     src="@/assets/images/3d-characters/launching-soon.png"
                     class="gamification-john-pose-2"
@@ -96,7 +97,7 @@
             <v-card flat>
                 <v-card-text>
                     <v-container><v-row align="center" justify="center">
-                        <v-col cols="7"><v-img src="@/assets/images/wash1.png"></v-img></v-col></v-row>
+                        <v-col cols="8"><v-img src="@/assets/images/wash1.png"></v-img></v-col></v-row>
                     <v-row>
                 The 3 breweries with the highest number of comments dominate by far the other breweries in the top 10, and are the breweries to watch. Yakima Brewing and Malting Co. is far ahead of its competitors with 1,627 ratings, twice as many as the brewery just behind it.
                 </v-row></v-container>
@@ -108,7 +109,7 @@
             <v-card flat>
                 <v-card-text>
                     <v-container><v-row align="center" justify="center">
-                        <v-col cols="7"><v-img src="@/assets/images/vir1.png"></v-img></v-col></v-row>
+                        <v-col cols="8"><v-img src="@/assets/images/vir1.png"></v-img></v-col></v-row>
                     <v-row>
                     The distribution of the number of ratings is more uniform among the breweries here. This is not surprising, as this is the state with the most breweries in the country (33 breweries) and therefore fewer market leaders like in Washington. Howewer, we can note that Blue & Gray Brewing Co. slightly dominates the market.
                     </v-row></v-container>
