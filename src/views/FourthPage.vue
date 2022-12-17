@@ -88,21 +88,19 @@
       <v-toolbar color="primary" dark flat>
         <v-toolbar-title>Ratings per brewery</v-toolbar-title>
         <v-spacer></v-spacer>
-        <template v-slot:extension>
           <v-tabs v-model="tab" align-with-title >
             <v-tabs-slider color="yellow"></v-tabs-slider>
             <v-tab>Washington </v-tab>
             <v-tab>Virginia</v-tab>
             <v-tab>Massachusetts</v-tab>
           </v-tabs>
-        </template>
       </v-toolbar>
 
       <v-tabs-items v-model="tab">
         <v-tab-item>
           <v-card flat>
             <v-card-text>
-              <v-img src="@/assets/images/wash1.png"></v-img>
+
               The 3 breweries with the highest number of comments dominate by far the other breweries in the top 10, and are the breweries to watch. Yakima Brewing and Malting Co. is far ahead of its competitors with 1,627 ratings, twice as many as the brewery just behind it.
             </v-card-text>
           </v-card>
