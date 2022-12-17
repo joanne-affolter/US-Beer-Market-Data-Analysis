@@ -363,7 +363,7 @@
         <v-row>
           <v-card width="100%">
             <v-card-text color="primary">
-              <span class="text-subtitle-1 font-weight-medium">
+              <span class="text-subtitle-1 font-weight-medium primary--text">
                 Let's find the best state in which our client should locate its brewery among Washington, Virginia and Massachusetts.
               </span>
             </v-card-text>
@@ -481,7 +481,19 @@
   bottom: 0;
   right: 30%;
 }
-
+.greeting-card {
+  position: relative;
+  .greeting-card-bg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .greeting-card-trophy {
+    position: absolute;
+    bottom: 10%;
+    right: 8%;
+  }
+}
 @media (max-width: 600px) {
   .gamification-tree,
   .gamification-tree-4 {
@@ -517,6 +529,15 @@
     }
     .gamification-tree-4 {
       left: 30%;
+      right: initial;
+    }
+    .greeting-card-bg {
+      right: initial;
+      left: 0;
+      transform: rotateY(180deg);
+    }
+    .greeting-card-trophy {
+      left: 8%;
       right: initial;
     }
   }
