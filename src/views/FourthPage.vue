@@ -414,15 +414,32 @@
               </v-col>
 
               <v-col cols="3" sm="3" >
-                <div>
-                  <v-img
-                    height="50"
-                    width="50"
-                    src="@/assets/images/virginia.gif"
-                    class="gamification-john-pose-2"
-                  ></v-img>
-                </div>
+                <v-container class="d-flex space-around">
+                <v-row>
+                    <div>
+                    <v-img
+                        height="80"
+                        width="80"
+                        src="@/assets/images/virginia.gif"
+                        class="gamification-john-pose-2"
+                    ></v-img>
+                    </div>
+                </v-row>
+                <v-row>
+                    <div>
+                        <v-img
+                            contain
+                            height="130"
+                            max-width="83"
+                            class="greeting-card-trophy"
+                            src="@/assets/images/misc/trophy.png"
+                        ></v-img>
+                    </div>
+                </v-row>
+                </v-container>
               </v-col>
+
+
             </v-row>
         </v-container>
         </v-card>
