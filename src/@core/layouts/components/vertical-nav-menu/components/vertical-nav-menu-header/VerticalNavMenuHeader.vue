@@ -18,7 +18,7 @@
           v-show="!(menuIsVerticalNavMini && !isMouseHovered)"
           class="app-title text--primary"
         >
-          {{ appName }}
+          teAmDreAm
         </h2>
       </v-slide-x-transition>
     </router-link>
@@ -58,8 +58,8 @@
 </template>
 
 <script>
-import { mdiRadioboxBlank, mdiRecordCircleOutline, mdiClose } from '@mdi/js'
 import useAppConfig from '@core/@app-config/useAppConfig'
+import { mdiClose, mdiRadioboxBlank, mdiRecordCircleOutline } from '@mdi/js'
 import themeConfig from '@themeConfig'
 import { inject } from '@vue/composition-api'
 

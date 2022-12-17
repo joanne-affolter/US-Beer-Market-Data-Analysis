@@ -152,7 +152,7 @@ export default {
       searchFilterFunc,
 
       // App Config
-      appName: teAmDrAm,
+      appName: teAmDreAm,
       appLogo: themeConfig.app.logo,
 
       // Icons
