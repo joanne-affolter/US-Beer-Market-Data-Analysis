@@ -375,7 +375,7 @@
                 <v-img src="@/assets/images/resbilan.png"></v-img>
             </v-col>
             <v-col cols="4" sm="4">
-                <v-img src="@/assets/images/beer1.png"></v-img>
+                <v-img src="@/assets/images/beer1.jpg"></v-img>
             </v-col>
         </v-row>
 
@@ -385,7 +385,7 @@
             <v-row class="ma-0 pa-0">
               <v-col cols="9" sm="9">
                 <v-card-text class="text-subtitle-2 font-weight-bold">
-                    <span class=" text-m my-6">
+                    <span class=" text-l my-6 primary--text">
                         Virginia is the top state with a total score of 6. It stands out from its competitors thanks to the following criteria:
                     </span>
                     <v-timeline dense class="timeline-custom-dense timeline-custom-dots mt-6">
@@ -421,10 +421,9 @@
                 <v-row>
                     <div>
                     <v-img
-                        height="80"
-                        width="80"
+                        height="100"
+                        width="100"
                         src="@/assets/images/virginia.gif"
-                        class="gamification-john-pose-2"
                     ></v-img>
                     </div>
                 </v-row>
@@ -434,7 +433,6 @@
                             contain
                             height="130"
                             max-width="83"
-                            class="greeting-card-trophy"
                             src="@/assets/images/misc/trophy.png"
                         ></v-img>
                     </div>
