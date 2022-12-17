@@ -75,7 +75,7 @@
     <v-card class="mb-6" color="primary" >
         <v-container>
             <v-row>
-                <v-col cols="8" sm="8">
+                <v-col cols="12" sm="12">
                     <v-card-text class="d-flex align-center mt-5 text-h5 white--text font-weight-black">
                             Which breweries are the most popular in each state ?
                     </v-card-text>
@@ -141,7 +141,7 @@
     <v-card class="mb-6" color="primary" >
         <v-container>
             <v-row>
-                <v-col cols="10" sm="8">
+                <v-col cols="12" sm="12">
                     <v-card-text class="d-flex align-center mt-5 text-h5 white--text font-weight-black">
                         Which breweries are well-established in the market ?
                     </v-card-text>
@@ -272,8 +272,24 @@
         </v-card-text>
     </v-card>
 
+
+    <!-- Results -->
+    <v-card class="mb-6" color="primary">
+        <v-img
+            height="200"
+            width="100%"
+            src="@/assets/images/res_img.jpg"
+        ></v-img>
+
+        <v-card-text class="d-flex align-center mt-5 text-h5 white--text font-weight-black">
+            Results
+        </v-card-text>
+    </v-card>
+
+
     <v-card>
-        <v-img src="@/assets/images/virginia.png">
+        <v-img src="@/assets/images/virginia.gif">
+
 
         </v-img>
     </v-card>
