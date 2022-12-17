@@ -312,7 +312,7 @@
                         <v-card-text>
                             <v-container>
                                 <v-row align="center" justify="center">
-                                <v-col cols="10" sm="10">
+                                <v-col cols="8" sm="8">
                                     <v-img src="@/assets/images/resw.png"></v-img>
                                 </v-col>
                                 </v-row>
@@ -326,7 +326,7 @@
                         <v-card-text>
                             <v-container>
                                 <v-row align="center" justify="center">
-                                <v-col cols="10" sm="10">
+                                <v-col cols="8" sm="8">
                                     <v-img src="@/assets/images/resv.png"></v-img>
                                 </v-col>
                                 </v-row>
@@ -340,7 +340,7 @@
                         <v-card-text>
                             <v-container>
                                 <v-row align="center" justify="center">
-                                <v-col cols="10" sm="10">
+                                <v-col cols="8" sm="8">
                                     <v-img src="@/assets/images/resm.png"></v-img>
                                 </v-col>
                                 </v-row>
@@ -375,7 +375,17 @@
                 <v-img src="@/assets/images/resbilan.png"></v-img>
             </v-col>
             <v-col cols="4" sm="4">
-                <v-img src="@/assets/images/beer1.jpg"></v-img>
+                <v-container>
+                    <v-row>
+                        <v-img src="@/assets/images/beer1.jpg"></v-img>
+                    </v-row>
+                    <v-row>
+                        <v-img src="@/assets/images/beer1.jpg"></v-img>
+                    </v-row>
+                    <v-row>
+                        <v-img src="@/assets/images/beer1.jpg"></v-img>
+                    </v-row>
+                </v-container>
             </v-col>
         </v-row>
 
@@ -418,29 +428,21 @@
 
               <v-col cols="3" sm="3" >
                 <v-container class="d-flex space-around">
-                <v-row align='center' justify="center">
-                    <v-col>
-                    <div>
-                    <v-img
-                        height="100"
-                        width="100"
-                        src="@/assets/images/virginia.gif"
-                    ></v-img>
-                    </div>
-                    </v-col>
-                </v-row>
-                <v-row align='center' justify="center">
-                    <v-col>
-                    <div>
+                    <v-row align='center' justify="center">
+                        <v-img
+                            height="100"
+                            width="100"
+                            src="@/assets/images/virginia.gif"
+                        ></v-img>
+                    </v-row>
+                    <v-row align='center' justify="center">
                         <v-img
                             contain
                             height="130"
                             max-width="83"
                             src="@/assets/images/misc/trophy.png"
                         ></v-img>
-                    </div>
-                    </v-col>
-                </v-row>
+                    </v-row>
                 </v-container>
               </v-col>
 
