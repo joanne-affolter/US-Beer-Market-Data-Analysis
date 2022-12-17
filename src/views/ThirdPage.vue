@@ -516,7 +516,10 @@
                     </v-col>
                 </v-row>
             </v-container>
+        </v-card>
 
+        <v-card class="mb-6" color="primary">
+            <Top3></Top3>
         </v-card>
 
 
@@ -530,12 +533,14 @@
 import TableLovers from '@/components/TableLovers.vue'
 import TableUsers from '@/components/TableUsers.vue'
 import TabRatio from '@/components/TabRatio.vue'
+import Top3 from '@/components/Top3.vue'
 
 export default {
   components: {
     TableUsers,
     TabRatio,
     TableLovers,
+    Top3,
   },
   setup() {
     return {
