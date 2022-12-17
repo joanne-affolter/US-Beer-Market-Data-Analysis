@@ -173,7 +173,7 @@
             <v-card flat>
                 <v-card-text>
                     <v-container><v-row align="center" justify="center">
-                        <v-col cols="10" sm="10"><v-img src="@/assets/images/v2.png"></v-img></v-col></v-row>
+                        <v-col cols="8" sm="8"><v-img src="@/assets/images/v2.png"></v-img></v-col></v-row>
                     <v-row>
                         The difference between long-established breweries in the comments and newer breweries is much more pronounced in Virginia than in Washington. Williamsburg Brewing Company, in the lead, has been appearing in the comments for 16 years, followed closely by Founders Restaurant & Brewing Co. (14 years) and Blue & Gray Brewing Co. (13 years).
 
@@ -230,7 +230,7 @@
             <v-card flat>
                 <v-card-text>
                     <v-container><v-row align="center" justify="center">
-                        <v-col cols="10" sm="10"><v-img src="@/assets/images/w3.png"></v-img></v-col></v-row>
+                        <v-col cols="8" sm="8"><v-img src="@/assets/images/w3.png"></v-img></v-col></v-row>
                     <v-row>
                         The percentage of local ratings is very high for these 10 breweries, ranging from 62% for Ghostfish Brewing Company to almost 95% for Top Rung Brewing Company. This suggests an audience in Washington with a preference for local beers, which is very interesting for our client.
                     </v-row>
@@ -243,7 +243,7 @@
             <v-card flat>
                 <v-card-text>
                     <v-container><v-row align="center" justify="center">
-                        <v-col cols="10" sm="10"><v-img src="@/assets/images/v3.png"></v-img></v-col></v-row>
+                        <v-col cols="8" sm="8"><v-img src="@/assets/images/v3.png"></v-img></v-col></v-row>
                     <v-row>
                         The percentage of local ratings is much lower in Virginia than in Washington. In fact, only 61% of the ratings are local for the first brewery, which is 1% less than the last brewery in the top 10 of Washington.
                         <br><br>However, the population in Virginia seems to be more and more interested in local beers as it has the highest score for the evolution of the percentage of local ratings. Our client could therefore position itself as a market leader with its brewery.
@@ -256,7 +256,7 @@
             <v-card flat>
                 <v-card-text>
                 <v-container><v-row align="center" justify="center">
-                    <v-col cols="7" sm="7"><v-img src="@/assets/images/m3.png"></v-img></v-col></v-row>
+                    <v-col cols="8" sm="8"><v-img src="@/assets/images/m3.png"></v-img></v-col></v-row>
                 <v-row>
                     Similarly to Virginia, the trend for local is less pronounced than in Washington. Moreover, the percentage of local ratings is quite tight for the breweries in the top 10. Down the Road Beer Company still stands out among the other breweries.
                 </v-row></v-container>
@@ -272,6 +272,11 @@
         </v-card-text>
     </v-card>
 
+    <v-card>
+        <v-img src="@/assets/images/virginia.png">
+
+        </v-img>
+    </v-card>
 
 
 
