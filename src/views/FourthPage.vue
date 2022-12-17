@@ -313,7 +313,7 @@
                         <v-card-text>
                             <v-container>
                                 <v-row align="center" justify="center">
-                                <v-col cols="8" sm="8">
+                                <v-col cols="10" sm="10">
                                     <v-img src="@/assets/images/resw.png"></v-img>
                                 </v-col>
                                 </v-row>
@@ -327,7 +327,7 @@
                         <v-card-text>
                             <v-container>
                                 <v-row align="center" justify="center">
-                                <v-col cols="8" sm="8">
+                                <v-col cols="10" sm="10">
                                     <v-img src="@/assets/images/resv.png"></v-img>
                                 </v-col>
                                 </v-row>
@@ -341,7 +341,7 @@
                         <v-card-text>
                             <v-container>
                                 <v-row align="center" justify="center">
-                                <v-col cols="8" sm="8">
+                                <v-col cols="10" sm="10">
                                     <v-img src="@/assets/images/resm.png"></v-img>
                                 </v-col>
                                 </v-row>
@@ -373,7 +373,7 @@
 
         <v-row>
             <v-col cols="6" sm="6">
-                <v-img src="@/assets/images/top_states.png"></v-img>
+                <v-img src="@/assets/images/resbilan.png"></v-img>
             </v-col>
             <v-col cols="6" sm="6">
                 <v-card>
