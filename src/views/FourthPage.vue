@@ -19,7 +19,7 @@
             <v-row class="ma-0 pa-0">
               <v-col cols="9" sm="9">
                 <v-card-text class="text-subtitle-2 font-weight-bold">
-                    <span class="my-6">
+                    <span class=" text-m my-6">
                         To detect potential competitors of our client, we will find which breweries...
                     </span>
                     <v-timeline dense class="timeline-custom-dense timeline-custom-dots mt-6">
@@ -76,12 +76,7 @@
             <v-row>
                 <v-col cols="8" sm="6">
                     <v-card-text class="d-flex align-center mt-5 text-h5 white--text font-weight-black">
-                        <span class="text-h5 font-weight-black ">
-                        Highest number of ratings
-                        </span>
-                        <span class="text-subtitle-2">
-                            We'll start by determining which breweries are the most popular in each state looking at the total number of ratings per brewery.
-                        </span>
+                            Which breweries are the most popular in each state ?
                     </v-card-text>
                 </v-col>
             </v-row>
@@ -139,3 +134,64 @@
 
 <script>
 </script>
+
+
+<style lang="scss" scoped>
+.gamification-tree-4,
+.gamification-john-pose-2,
+.gamification-tree {
+  position: absolute;
+}
+.gamification-tree {
+  top: 10%;
+  right: 0;
+}
+.gamification-john-pose-2 {
+  bottom: 0;
+  right: 15%;
+}
+.gamification-tree-4 {
+  bottom: 0;
+  right: 30%;
+}
+
+@media (max-width: 600px) {
+  .gamification-tree,
+  .gamification-tree-4 {
+    display: none;
+  }
+  .gamification-john-pose-2 {
+    right: 5%;
+  }
+}
+
+@media (max-width: 500px) {
+  .gamification-john-pose-2 {
+    max-width: 70px;
+  }
+}
+
+@media (max-width: 400px) {
+  .greeting-title {
+    font-size: 1.2rem !important;
+  }
+}
+
+// rtl
+.v-application {
+  &.v-application--is-rtl {
+    .gamification-john-pose-2 {
+      right: initial;
+      left: 15%;
+    }
+    .gamification-tree {
+      right: initial;
+      left: 0;
+    }
+    .gamification-tree-4 {
+      left: 30%;
+      right: initial;
+    }
+  }
+}
+</style>

@@ -597,3 +597,63 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+.gamification-tree-4,
+.gamification-john-pose-2,
+.gamification-tree {
+  position: absolute;
+}
+.gamification-tree {
+  top: 10%;
+  right: 0;
+}
+.gamification-john-pose-2 {
+  bottom: 0;
+  right: 15%;
+}
+.gamification-tree-4 {
+  bottom: 0;
+  right: 30%;
+}
+
+@media (max-width: 600px) {
+  .gamification-tree,
+  .gamification-tree-4 {
+    display: none;
+  }
+  .gamification-john-pose-2 {
+    right: 5%;
+  }
+}
+
+@media (max-width: 500px) {
+  .gamification-john-pose-2 {
+    max-width: 70px;
+  }
+}
+
+@media (max-width: 400px) {
+  .greeting-title {
+    font-size: 1.2rem !important;
+  }
+}
+
+// rtl
+.v-application {
+  &.v-application--is-rtl {
+    .gamification-john-pose-2 {
+      right: initial;
+      left: 15%;
+    }
+    .gamification-tree {
+      right: initial;
+      left: 0;
+    }
+    .gamification-tree-4 {
+      left: 30%;
+      right: initial;
+    }
+  }
+}
+</style>
