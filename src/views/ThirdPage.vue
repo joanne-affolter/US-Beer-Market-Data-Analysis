@@ -9,7 +9,7 @@
             ></v-img>
 
             <v-card-text class="d-flex align-center mt-5 text-h5 white--text font-weight-black">
-                <span class="text-h5">
+                <span class="text-h5 font-weight-black ">
                 Market analysis
                 </span>
                 <span class="text-subtitle-2">

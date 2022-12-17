@@ -33,6 +33,15 @@ const routes = [
     },
   },
   {
+    path: '/fourth-page',
+    name: 'fourth-page',
+    component: () => import('@/views/FourthPage.vue'),
+    meta: {
+      layout: 'content',
+    },
+  },
+
+  {
     path: '/login',
     name: 'auth-login',
     component: () => import('@/views/Login.vue'),

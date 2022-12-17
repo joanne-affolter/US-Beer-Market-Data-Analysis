@@ -1,4 +1,4 @@
-import { mdiBriefcaseOutline, mdiHomeOutline, mdiMapMarker } from '@mdi/js'
+import { mdiBriefcaseOutline, mdiHomeOutline, mdiMapMarker, mdiTrophyVariantOutline } from '@mdi/js'
 
 export default [
   {
@@ -7,7 +7,7 @@ export default [
     to: 'home',
   },
   {
-    title: 'Market Analysis',
+    title: 'First Insights',
     icon: mdiBriefcaseOutline,
     to: 'second-page',
   },
@@ -15,5 +15,10 @@ export default [
     title: 'Location',
     icon: mdiMapMarker,
     to: 'third-page',
+  },
+  {
+    title: 'Leading Breweries',
+    icon: mdiTrophyVariantOutline,
+    to: 'fourth-page',
   },
 ]
