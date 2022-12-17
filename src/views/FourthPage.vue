@@ -57,6 +57,23 @@
         </v-container>
     </v-card>
 
+    <!-- -->
+    <v-card class="mb-6" color="primary" >
+        <v-container>
+            <v-row>
+                <v-col cols="8" sm="6">
+                    <v-card-text class="d-flex align-center mt-5 text-h5 white--text font-weight-black">
+                        <span class="text-h5 font-weight-black ">
+                        Highest number of ratings
+                        </span>
+                        <span class="text-subtitle-2">
+                            We'll start by determining which breweries are the most popular in each state by determining the total number of ratings per brewery.
+                        </span>
+                    </v-card-text>
+                </v-col>
+            </v-row>
+        </v-container>
+    </v-card>
 </div>
 </template>
 
