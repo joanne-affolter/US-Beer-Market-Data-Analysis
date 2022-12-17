@@ -292,7 +292,7 @@
         <v-row>
           <v-card width="100%">
             <v-card-text>
-              <span class="text-subtitle-1 font-weight-medium">
+              <span class="text-subtitle-1 font-weight-medium primary--text">
                 Let's determine which breweries are leaders in each state according to the criteria studied : number of ratings, number of years since the first rating, percentage of local comments.
               </span>
             </v-card-text>
@@ -428,8 +428,8 @@
 
               <v-col cols="3" sm="3" >
                         <v-img
-                            height="80"
-                            max-width="80"
+                            height="100"
+                            max-width="100"
                             src="@/assets/images/virginia.gif"
                         ></v-img>
               </v-col>
