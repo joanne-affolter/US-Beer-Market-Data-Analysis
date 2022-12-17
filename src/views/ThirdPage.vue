@@ -393,7 +393,7 @@
         </v-card>
 
 
-        <!-- 3. Evolution of local users -->
+        <!-- 5. States with the highest score
         <v-card class="mb-6" color="primary" >
             <v-container>
                 <v-row>
@@ -412,7 +412,7 @@
                 </v-col>
             </v-row>
         </v-card>
-
+        -->
 
         <!-- COMPETITORS -->
         <!--I. Title with avatar-->
@@ -424,7 +424,9 @@
                     Which breweries are our client's competitors ?
                 </v-card-title>
                 <v-card-text class="text-subtitle-2 font-weight-bold">
+                    <span class="my-6">
                     We will filter the breweries according to the following criteria:
+                    </span>
                     <v-timeline dense class="timeline-custom-dense timeline-custom-dots">
 
                         <v-timeline-item small color="primary">
@@ -458,7 +460,7 @@
 
                         </v-timeline>
 
-                        <div class="text-subtitle-2 font-weight-bold">
+                        <div class="text-subtitle-2 font-weight-bold my-6">
                             Then, we will study some characteristics of the breweries to determine which ones could be our client's potential competitors, while continuing to score the states to select at the end only the best state to install our client's brewery.
                         </div>
                     </v-card-text>
@@ -475,6 +477,46 @@
               </v-col>
             </v-row>
         </v-container>
+        </v-card>
+
+        <!-- Filtering - Title -->
+        <v-card class="mb-6" color="primary" >
+            <v-container>
+                <v-row>
+                    <v-col cols="8" sm="6">
+                        <v-card-text class="d-flex align-center mt-5 text-h6 white--text font-weight-black">
+                            Number of concurrent breweries per state - After filtering
+                         </v-card-text>
+                     </v-col>
+                </v-row>
+            </v-container>
+        </v-card>
+
+        <!-- Filtering - Content -->
+        <v-card class="mb-6" color="#ECEFF1">
+            <v-container>
+                <v-row>
+                    <v-col>
+                        <v-img src="@/assets/images/bilan_ranking.png"></v-img>
+                    </v-col>
+                </v-row>
+
+                <v-row>
+                    <v-col>
+                        <v-card>
+                            <v-card-text>
+                                The above shows the results of our market research. On the left you can see the number of potential competitors for our client for each state whose total score is strictly greater than 0. On the right is the ranking of the states according to the total score which corresponds to the sum of the scores obtained on the following criteria:
+                                <br>▪️ Number of users: a high number of users and therefore a potential market to reach
+                                <br>▪️ Number of users / Number of breweries : a low ratio and therefore a market not saturated, with less competition
+                                <br>▪️ Evolution of the number of users : a fast evolution since few years and a public which is getting more and more interested in beer
+                                <br>▪️ Evolution of the percentage of ratings on local beers: a fast evolution and consumers who are more and more attached to the local character. A potential target for our client.
+                                <br>▪️ Average number of ratings per user: a fairly high number and therefore a strong community of beer lovers who would be interested in our client's products.
+                            </v-card-text>
+                        </v-card>
+                    </v-col>
+                </v-row>
+            </v-container>
+
         </v-card>
 
 
