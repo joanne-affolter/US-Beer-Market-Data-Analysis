@@ -223,7 +223,7 @@
             <v-card width="100%" color="#9E9E9E">
                 <v-card-text>
                 <span class="text-subtitle-1 font-weight-medium white--text">
-                    From what we have just seen, it may be interesting to *study the ratio nb_users/nb_breweries*.              </span>
+                    From what we have just seen, it may be interesting to study the ratio nb_users/nb_breweries.              </span>
                 </v-card-text>
             </v-card>
             </v-row>
@@ -384,7 +384,7 @@
                                 The states of Colorado, Washington and Minesota, on the other hand, have a very active community with about 93,500, 111,500 and 91,500 ratings respectively. The users seem to be very invested in the community since the average number of ratings is about 132, 125 and 126 ratings/user.
                                 <br><br>
                                 We therefore recommend these 3 states to our client whose beer community seems very strong. Idaho, Arizona and Tenneesse could be real potential targets with a beer loving audience.
-                            </v-card-text>>
+                            </v-card-text>
                         </v-card>
                     </v-col>
                 </v-row>
@@ -411,6 +411,70 @@
                     <v-img src="@/assets/images/top_states.png"></v-img>
                 </v-col>
             </v-row>
+        </v-card>
+
+
+        <!-- COMPETITORS -->
+        <!--I. Title with avatar-->
+        <v-card class="mb-6 my-8">
+            <v-container>
+            <v-row class="ma-0 pa-0">
+              <v-col cols="9" sm="9">
+                <v-card-title class="greeting-title d-flex flex-nowrap text-2xl font-weight-bold primary--text">
+                    Which breweries are our client's competitors ?
+                </v-card-title>
+                <v-card-text class="text-subtitle-2 font-weight-bold">
+                    We will filter the breweries according to the following criteria:
+                    <v-timeline dense class="timeline-custom-dense timeline-custom-dots">
+
+                        <v-timeline-item small color="primary">
+                            <div class="d-flex justify-space-between align-center flex-wrap">
+                            <h4 class="font-weight-semibold me-1">
+                                We remove breweries from the states with a total score of 0.                            </h4>
+                            </div>
+                        </v-timeline-item>
+
+                        <v-timeline-item small color="primary">
+                            <div class="d-flex justify-space-between align-center flex-wrap">
+                            <h4 class="font-weight-semibold me-1">
+                                We remove the breweries which don't have ratings in 2016/2017.                            </h4>
+                            </div>
+                        </v-timeline-item>
+
+                        <v-timeline-item small color="primary">
+                            <div class="d-flex justify-space-between align-center flex-wrap">
+                            <h4 class="font-weight-semibold me-1">
+                                We keep only the breweries of the same size as our client, new on the market and which will therefore not have the capacity to compete with breweries producing more than 30 beers.                            </h4>
+                            </div>
+                        </v-timeline-item>
+
+                        <v-timeline-item small color="primary">
+                            <div class="d-flex justify-space-between align-center flex-wrap">
+                            <h4 class="font-weight-semibold me-1">
+                                We remove the breweries that have a very low number of ratings.
+                            </h4>
+                            </div>
+                        </v-timeline-item>
+
+                        </v-timeline>
+
+                        <div class="text-subtitle-2 font-weight-bold">
+                            Then, we will study some characteristics of the breweries to determine which ones could be our client's potential competitors, while continuing to score the states to select at the end only the best state to install our client's brewery.
+                        </div>
+                    </v-card-text>
+              </v-col>
+
+              <v-col cols="3" sm="3" >
+                <div>
+                  <v-img
+                    width="121"
+                    src="@/assets/images/3d-characters/pose-fs-9.png"
+                    class="gamification-john-pose-2"
+                  ></v-img>
+                </div>
+              </v-col>
+            </v-row>
+        </v-container>
         </v-card>
 
 
