@@ -300,7 +300,7 @@
         </v-row>
 
         <v-row>
-            <v-card>
+            <v-card width="100%">
                 <v-tabs color="primary">
 
                     <v-tab>Washington </v-tab>
@@ -361,31 +361,30 @@
     <v-card class="mb-6" color="#ECEFF1">
       <v-container fill-height>
         <v-row>
-          <v-card width="100%" color="#9E9E9E">
+          <v-card width="100%">
             <v-card-text>
-              <span class="text-subtitle-1 font-weight-medium white--text">
+              <span class="text-subtitle-1 font-weight-medium">
                 Let's find the best state in which our client should locate its brewery among Washington, Virginia and Massachusetts.
               </span>
             </v-card-text>
           </v-card>
         </v-row>
 
-        <v-row>
+        <v-row align="center" justify="center">
             <v-col cols="8" sm="8">
                 <v-img src="@/assets/images/resbilan.png"></v-img>
             </v-col>
         </v-row>
 
         <v-row>
-            <v-col cols="2" sm="2">
-                <v-img src="@/assets/images/virginia.gif"></v-img>
-            </v-col>
-
-            <v-col cols="10" sm="10">
-                <v-card>
-                    <v-card-text class="text-subtitle-2 font-weight-bold">
+        <v-card class="mb-6 my-8">
+        <v-container>
+            <v-row class="ma-0 pa-0">
+              <v-col cols="9" sm="9">
+                <v-card-text class="text-subtitle-2 font-weight-bold">
                     <span class=" text-m my-6">
-                        Virginia is the top state with a total score of 6. It stands out from its competitors thanks to the following criteria:                    </span>
+                        Virginia is the top state with a total score of 6. It stands out from its competitors thanks to the following criteria:
+                    </span>
                     <v-timeline dense class="timeline-custom-dense timeline-custom-dots mt-6">
 
                         <v-timeline-item small color="primary">
@@ -412,8 +411,21 @@
                         </v-timeline>
 
                     </v-card-text>
-                </v-card>
-            </v-col>
+              </v-col>
+
+              <v-col cols="3" sm="3" >
+                <div>
+                  <v-img
+                    height="50"
+                    width="50"
+                    src="@/assets/images/virginia.gif"
+                    class="gamification-john-pose-2"
+                  ></v-img>
+                </div>
+              </v-col>
+            </v-row>
+        </v-container>
+        </v-card>
 
         </v-row>
     </v-container>
