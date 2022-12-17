@@ -290,9 +290,9 @@
     <v-card class="mb-6" color="#ECEFF1">
       <v-container fill-height>
         <v-row>
-          <v-card width="100%" color="#9E9E9E">
+          <v-card width="100%">
             <v-card-text>
-              <span class="text-subtitle-1 font-weight-medium white--text">
+              <span class="text-subtitle-1 font-weight-medium">
                 Let's determine which breweries are leaders in each state according to the criteria studied : number of ratings, number of years since the first rating, percentage of local comments.
               </span>
             </v-card-text>
@@ -301,7 +301,6 @@
 
         <v-row>
             <v-card>
-                <v-card-title>Percentage of local ratings</v-card-title>
                 <v-tabs color="primary">
 
                     <v-tab>Washington </v-tab>
