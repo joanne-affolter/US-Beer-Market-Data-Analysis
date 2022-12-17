@@ -5,7 +5,7 @@
         <v-img
             height="200"
             width="100%"
-            src="@/assets/images/4top.png"
+            src="@/assets/images/4top.jpg"
         ></v-img>
 
         <v-card-text class="d-flex align-center mt-5 text-h5 white--text font-weight-black">
