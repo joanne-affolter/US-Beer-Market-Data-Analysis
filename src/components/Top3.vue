@@ -50,13 +50,7 @@
       </v-col>
 
       <v-col cols="4">
-        <v-img
-          contain
-          height="180"
-          width="159"
-          :src="require(`@/assets/images/misc/triangle-${$vuetify.theme.dark ? 'dark':'light'}.png`)"
-          class="greeting-card-bg"
-        ></v-img>
+
         <v-img
           contain
           height="108"
