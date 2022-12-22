@@ -412,10 +412,11 @@
           </v-card>
         </v-row>
         <v-row>
+            <v-card>
             <v-card-text class="text-subtitle-2 font-weight-bold">
                 In this section, we analyze for each of the most popular beers which features have the most influence on the ratings.
                 <span class=" text-m my-6 primary--text">
-                With these informations, we will be able to identify :
+                <br><br>With these informations, we will be able to identify :
                 </span>
                 <v-timeline dense class="timeline-custom-dense timeline-custom-dots mt-6">
 
@@ -436,18 +437,32 @@
                 </v-timeline-item>
                 </v-timeline>
                 </v-card-text>
+            </v-card>
         </v-row>
         <v-row>
             <v-card class="mb-6 my-6">
                 <v-card-title class="text--primary font-weight-bold">
-                    India Pale Ale (IPA)
+                    <span class="text--primary">India Pale Ale (IPA)</span>
                 </v-card-title>
                 <v-card-text>
                     <v-row>
+                        <v-col cols="12" sm="12">
+                        <v-card class="mb-6 my-6">
                         <v-img src="@/assets/images/f1.png"></v-img>
+                        </v-card>
+                        </v-col>
                     </v-row>
                     <v-row>
-                        <v-img src="@/assets/images/f2.png"></v-img>
+                        <v-col cols="8" sm="8">
+                            <v-card class="mb-6 my-6">
+                            <v-img src="@/assets/images/f2.png"></v-img>
+                            </v-card>
+                        </v-col>
+                        <v-col cols="4" sm="4">
+                            <v-card class="mb-6 my-6">
+                            Amine's text
+                            </v-card>
+                        </v-col>
                     </v-row>
                 </v-card-text>
             </v-card>
@@ -456,14 +471,27 @@
         <v-row>
             <v-card class="mb-6 my-6">
                 <v-card-title class="text--primary font-weight-bold">
-                    Imperial IPA
+                    <span class="text--primary">Imperial IPA</span>
                 </v-card-title>
                 <v-card-text>
                     <v-row>
+                        <v-col cols="12" sm="12">
+                        <v-card class="mb-6 my-6">
                         <v-img src="@/assets/images/f3.png"></v-img>
+                        </v-card>
+                        </v-col>
                     </v-row>
                     <v-row>
-                        <v-img src="@/assets/images/f4.png"></v-img>
+                        <v-col cols="8" sm="8">
+                            <v-card class="mb-6 my-6">
+                            <v-img src="@/assets/images/f4.png"></v-img>
+                            </v-card>
+                        </v-col>
+                        <v-col cols="4" sm="4">
+                            <v-card class="mb-6 my-6">
+                            Amine's text
+                            </v-card>
+                        </v-col>
                     </v-row>
                 </v-card-text>
             </v-card>
