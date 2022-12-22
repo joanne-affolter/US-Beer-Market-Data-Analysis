@@ -40,6 +40,14 @@ const routes = [
       layout: 'content',
     },
   },
+  {
+    path: '/fifth-page',
+    name: 'fifth-page',
+    component: () => import('@/views/FifthPage.vue'),
+    meta: {
+      layout: 'content',
+    },
+  },
 
   {
     path: '/login',

@@ -1,4 +1,4 @@
-import { mdiBriefcaseOutline, mdiHomeOutline, mdiMapMarker, mdiTrophyVariantOutline } from '@mdi/js'
+import { mdiArmFlexOutline, mdiBriefcaseOutline, mdiHomeOutline, mdiMapMarker, mdiTrophyVariantOutline } from '@mdi/js'
 
 export default [
   {
@@ -19,6 +19,11 @@ export default [
   {
     title: 'Leading Breweries',
     icon: mdiTrophyVariantOutline,
+    to: 'fourth-page',
+  },
+  {
+    title: 'Strategic Advice',
+    icon: mdiArmFlexOutline,
     to: 'fourth-page',
   },
 ]
