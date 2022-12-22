@@ -1,0 +1,119 @@
+<template>
+    <v-card class="greeting-card">
+      <v-row class="ma-0 pa-0">
+        <v-col cols="8">
+          <v-card-title class="text-no-wrap pt-1 ps-2">
+            <span class="primary--text">Average rating</span>
+          </v-card-title>
+          <v-card-subtitle class="text-no-wrap ps-2">
+            for the 5 most similar beers
+          </v-card-subtitle>
+          <v-card-text class="d-flex align-center mt-2 pb-2 ps-2">
+            <v-container>
+              <v-row>
+                <v-col cols=2>
+                  <div>
+                    <p class="text-l font-weight-semibold warning--text mb-2">
+                        Average over all ratings in Virginia
+                    </p>
+                    <p class="text-m font-weight-semibold mb-2">
+                        3.261/5
+                    </p>
+                  </div>
+                </v-col>
+
+                <v-col cols=2>
+                  <div>
+                    <p class="text-l font-weight-semibold primary--text mb-2">
+                        Williamsburg Irish Stout
+                    </p>
+                    <p class="text-m font-weight-semibold mb-2">
+                        2.8/5
+                    </p>
+                  </div>
+                </v-col>
+
+                <v-col cols=2>
+                  <div>
+                    <p class="text-l font-weight-semibold primary--text mb-2">
+                        Williamsburg Colonial Mild
+                    </p>
+                    <p class="text-m font-weight-semibold mb-2">
+                        2.5/5
+                    </p>
+                  </div>
+                </v-col>
+
+                <v-col cols=2>
+                  <div>
+                    <p class="text-l font-weight-semibold primary--text mb-2">
+                        Founders India Pale Ale
+                    </p>
+                    <p class="text-m font-weight-semibold mb-2">
+                        2.33/5
+                    </p>
+                  </div>
+                </v-col>
+
+                <v-col cols=2>
+                  <div>
+                    <p class="text-l font-weight-semibold primary--text mb-2">
+                        Blue & Gray Chocolate Raspberry Stout
+                    </p>
+                    <p class="text-m font-weight-semibold mb-2">
+                        2.58/5
+                    </p>
+                  </div>
+                </v-col>
+
+                <v-col cols=2>
+                  <div>
+                    <p class="text-l font-weight-semibold primary--text mb-2">
+                        Blue & Gray Bormans Belgian Ale
+                    </p>
+                    <p class="text-m font-weight-semibold mb-2">
+                        2.5/5
+                    </p>
+                  </div>
+                </v-col>
+
+              </v-row>
+            </v-container>
+          </v-card-text>
+
+        </v-col>
+
+
+      </v-row>
+    </v-card>
+  </template>
+
+  <style lang="scss" scoped>
+.greeting-card {
+  position: relative;
+  .greeting-card-bg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .greeting-card-trophy {
+    position: absolute;
+    bottom: 10%;
+    right: 8%;
+  }
+}
+// rtl
+.v-application {
+  &.v-application--is-rtl {
+    .greeting-card-bg {
+      right: initial;
+      left: 0;
+      transform: rotateY(180deg);
+    }
+    .greeting-card-trophy {
+      left: 8%;
+      right: initial;
+    }
+  }
+}
+</style>

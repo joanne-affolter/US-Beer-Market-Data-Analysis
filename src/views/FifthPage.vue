@@ -159,6 +159,10 @@
             </v-card-text>
         </v-card>
         </v-row>
+
+        <v-row>
+            <Top5></Top5>
+        </v-row>
         </v-container>
         </v-card>
 
@@ -172,10 +176,12 @@
 
 <script>
 import TabNeighbors from '@/components/TabNeighbors.vue'
+import Top5 from '@/components/Top5.vue'
 
 export default {
   components: {
     TabNeighbors,
+    Top5,
   },
   setup() {
     return {
