@@ -33,7 +33,8 @@
               <p class="text-2xl font-weight-medium primary--text mb-2">
                 Our mission
               </p>
-              <p>
+              <br>
+              <p class="mb-3">
                 Our client, Sam Smith, recently graduated from college in Massachusetts and is interested in starting a brewery.
               </p>
               <p>
@@ -74,11 +75,11 @@
       </v-row>
     </v-card-text>
 
-    <v-card-text>
+    <v-card-text class="pricing-free-trial my-16">
       <v-row>
         <v-col
           cols="12"
-          md="6"
+          md="8"
           sm="8"
           class="mx-auto"
         >
@@ -89,8 +90,8 @@
       </v-row>
     </v-card-text>
 
-    <v-card-text>
-      <v-row>
+    <v-card-text class="my-8">
+      <v-row align="center" justify="center">
         <v-col cols="4" sm="4">
           <v-img src="@/assets/images/home1.jpg"></v-img>     </v-col>
         <v-col cols="8" sm="8">
