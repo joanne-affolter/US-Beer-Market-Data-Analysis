@@ -68,11 +68,13 @@
                         </span>
                     </v-col>
                     <v-col cols="2" sm="2">
+                        <v-card class="my-6">
                         <v-img
                         src="@/assets/images/question_gif.gif"
                         height="100%"
                         width="90">
                         </v-img>
+                        </v-card>
                     </v-col>
                 </v-row>
                 </v-container>
@@ -147,7 +149,7 @@
 
                 <v-row justify="center">
                     <v-col cols="8" sm="8">
-                        <v-card class="mb-6">
+                        <v-card class="mb-6 my-6">
                             <v-img src="@/assets/images/ratings_knn.png">
                             </v-img>
                         </v-card>
