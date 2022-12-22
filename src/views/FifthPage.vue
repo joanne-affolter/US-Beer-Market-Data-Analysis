@@ -133,8 +133,9 @@
                                         <TabNeighbors></TabNeighbors>
                                     </v-col>
                                     <v-col cols="6" sm="6">
-
-
+                                        <v-img
+                                        src="@/assets/images/ratings_knn.png">
+                                        </v-img>
                                     </v-col>
                                 </v-row>
                             </v-card-text>
