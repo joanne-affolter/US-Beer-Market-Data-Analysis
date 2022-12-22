@@ -318,27 +318,35 @@
         </v-row>
 
         <v-row>
+            <v-card>
+            <v-card-title class="text-xl font-weight-bold primary--text">
+                India Pale Ale (IPA)</v-card-title>
+            <v-row>
             <v-col cols="4" sm="4">
                 <v-card>
                     <v-img
-                    src="@/assets/images/red_clay.jpeg"></v-img>
+                    src="@/assets/images/red_clay.jpeg"
+                    width="80"></v-img>
                     </v-card>
-                    <v-card-text>
+                    <v-card-text class="font-weight-bold primary--text">
                         Popularity : 163.1
                     </v-card-text>
             </v-col>
             <v-col cols="4" sm="4">
                 <v-card>
                     <v-img
-                    src="@/assets/images/ran.jpeg"></v-img>
+                    src="@/assets/images/ran.jpeg"
+                    width="80"></v-img>
                 </v-card>
             </v-col>
             <v-col cols="4" sm="4">
                 <v-card>
                     <v-img
-                    src="@/assets/images/honor.jpeg"></v-img>
+                    src="@/assets/images/honor.jpeg" width="80"></v-img>
                 </v-card>
             </v-col>
+            </v-row>
+            </v-card>
         </v-row>
         </v-container>
         </v-card>
