@@ -188,10 +188,8 @@ export default {
     Top5,
   },
   setup() {
-    return {
-      icons: {},
-    }
+    return {}
   },
 }
-</script
+</script>
 

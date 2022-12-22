@@ -87,33 +87,3 @@
       </v-row>
     </v-card>
   </template>
-
-  <style lang="scss" scoped>
-.greeting-card {
-  position: relative;
-  .greeting-card-bg {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
-  .greeting-card-trophy {
-    position: absolute;
-    bottom: 10%;
-    right: 8%;
-  }
-}
-// rtl
-.v-application {
-  &.v-application--is-rtl {
-    .greeting-card-bg {
-      right: initial;
-      left: 0;
-      transform: rotateY(180deg);
-    }
-    .greeting-card-trophy {
-      left: 8%;
-      right: initial;
-    }
-  }
-}
-</style>
