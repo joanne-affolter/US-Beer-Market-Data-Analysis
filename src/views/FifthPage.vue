@@ -155,11 +155,7 @@
                     </v-col>
                 </v-row>
                 <v-row>
-                    <v-card class="mb-6">
-                            <v-card-text>
-                            We see that our taste rating is the lowest compared to our closest competitors. On the other hand, the palate and appearance scores are relatively high. This enables us to pinpoint the problem to our client so they don't waste their resources on improving the appearance of their beer as it already rates high. Instead, he should develop other products that provide a different taste while keeping the same palate feel.
-                            </v-card-text>
-                        </v-card>
+                    We see that our taste rating is the lowest compared to our closest competitors. On the other hand, the palate and appearance scores are relatively high. This enables us to pinpoint the problem to our client so they don't waste their resources on improving the appearance of their beer as it already rates high. Instead, he should develop other products that provide a different taste while keeping the same palate feel.
                 </v-row>
 
             </v-card-text>
@@ -197,53 +193,50 @@
                     </v-card>
                 </v-row>
                 <v-row>
-                    <v-card color>
-                        <v-card-text>
-                            <v-container>
-                                <v-row>
-                                    <v-card outlined elevation="24" color="#ECEFF1">
-                                    <v-col cols="10" sm="10">
-                                        Using
-                                        <span class='primary-text'>Linear Regression</span>
-                                        , we will find out which features have the most influence on the overall rating.
-                                    </v-col>
-                                    <v-col cols="2" sm="2">
-                                        <v-img
-                                        src="@/assets/images/question_gif.gif"
-                                        height="100%"
-                                        width="90">
-                                        </v-img>
-                                    </v-col>
-                                    </v-card>
-                                </v-row>
-                                <v-row>
-                                    <v-col cols="5" sm="5">
-                                        <v-img
-                                            src="@/assets/images/linreg.png">
-                                        </v-img>
-                                    </v-col>
-                                    <v-col cols="7" sm="7">
-                                        <v-card><v-card-text>
-                                        The taste score has the highest coefficient and thus has the biggest impact on the global rating. Appearance, on the other hand, has a coefficient that is only half as high and does not have as much influence on the consumers' score.
-                                        <br><br>
-                                        <div class='primary--text text-subtitle-2'>
-                                        💡 When developing new beers, our client should then focus on taste and palate, and not on appearance as he did with its existing products.
-                                        </div>
-                                        </v-card-text></v-card>
-                                    </v-col>
-                                </v-row>
-                        </v-container>
-                        </v-card-text>
+                    <v-card outlined elevation="24">
+                        <v-col cols="10" sm="10">
+                        Using <strong>Linear Regression</strong>, we will find out which features have the most influence on the overall rating.
+                        </v-col>
+                        <v-col cols="2" sm="2">
+                            <v-img
+                            src="@/assets/images/question_gif.gif"
+                            height="100%"
+                            width="90">
+                            </v-img>
+                        </v-col>
                     </v-card>
+                </v-row>
+                <v-row>
+                    <v-col cols="5" sm="5">
+                        <v-img
+                        src="@/assets/images/linreg.png">
+                        </v-img>
+                    </v-col>
+                    <v-col cols="7" sm="7">
+                        <v-card><v-card-text>
+                        The taste score has the highest coefficient and thus has the biggest impact on the global rating. Appearance, on the other hand, has a coefficient that is only half as high and does not have as much influence on the consumers' score.
+                        <br><br>
+                        <div class='primary--text text-subtitle-2'>
+                        💡 When developing new beers, our client should then focus on taste and palate, and not on appearance as he did with its existing products.
+                         </div>
+                        </v-card-text></v-card>
+                    </v-col>
                 </v-row>
             </v-container>
         </v-card>
+
 
         <v-card class="mb-6 my-6">
             <v-card-text>
             <v-row>
                 <v-col cols="7" sm="7">
                     Disappointed with the results on the potential ratings his beer could have in Virginia, our client asked us for advice on what type of beer he should produce in the state.
+                    <br><br>
+                    <v-divider></v-divider>
+                    In response to his query, we proposed the following strategy: create a flagship product that would allow him to enter the market successfully but also to last over time.
+                    <br><br>
+                    <p class="font-weight-bold">🤔 But how do we define this product?</p>
+                    First of all, the product must attract consumers. The goal here is not to be original. Instead, we need to choose a style that is rooted in Virginia, a beer that customers will look for and want to repurchase because it is their favorite style.
                 </v-col>
                 <v-col cols="5" sm="5">
                     <v-img
