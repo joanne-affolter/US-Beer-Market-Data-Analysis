@@ -243,7 +243,68 @@
         </v-card>
 
         <v-card>
+        <v-container>
+        <v-row>
+          <v-card width="100%" color="#9E9E9E">
+            <v-card-text>
+              <span class="text-subtitle-1 font-weight-medium white--text">
+                Which style should you chose ?
+              </span>
+            </v-card-text>
+          </v-card>
+        </v-row>
+        <v-row>
+            <v-img
+            src="@/assets/images/styles.png"></v-img>
+        </v-row>
+        <v-row>
+            <v-card class="mb-6 my-6" outlined elevation="24">
+                Imperial IPA is the most established style in Virginia with the highest number of ratings. India Pale Ale (IPA), on the other hand, has been growing very rapidly since 2014 and is becoming more and more popular in Virginia, even surpassing Imperial IPA in the number of ratings in 2016.
+                <br><br>
+                Our client should therefore focus on the following styles:
+                <v-timeline dense class="timeline-custom-dense timeline-custom-dots mt-6">
+                    <v-timeline-item small color="primary">
+                        <div class="d-flex justify-space-between align-center flex-wrap">
+                        <h4 class="font-weight-semibold me-1">
+                            <strong>Imperial IPA</strong>, a long-standing favorite in Virginia
+                        </h4>
+                        </div>
+                    </v-timeline-item>
 
+                    <v-timeline-item small color="primary">
+                        <div class="d-flex justify-space-between align-center flex-wrap">
+                        <h4 class="font-weight-semibold me-1">
+                            <strong>India Pale Ale (IPA)</strong>, a style that has become increasingly popular in recent years
+                        </h4>
+                        </div>
+                    </v-timeline-item>
+                </v-timeline>
+            </v-card>
+        </v-row>
+        <v-row>
+            <v-img
+            src="@/assets/images/ev_styles.png"></v-img>
+        </v-row>
+        </v-container>
+        </v-card>
+
+        <v-card>
+        <v-container>
+        <v-row>
+          <v-card width="100%" color="#9E9E9E">
+            <v-card-text>
+              <span class="text-subtitle-1 font-weight-medium white--text">
+                For each style, which are the most popular beers?
+              </span>
+            </v-card-text>
+          </v-card>
+        </v-row>
+        <v-row>
+            Now that we have decided which style of beer to produce, we need to determine which beers are the most popular. This will tell us which beers we need to outperform and on which criterias we need to focus.
+        </v-row>
+
+
+        </v-container>
         </v-card>
 
 
