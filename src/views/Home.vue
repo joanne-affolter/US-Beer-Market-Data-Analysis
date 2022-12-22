@@ -2,6 +2,9 @@
   <div>
     <!-- 1ere ligne - Welcome Anthony + Liste des chantiers en cours -->
     <v-row>
+      <ConfettiExplosion :colors=[primary, warning, success, primary] />
+    </v-row>
+    <v-row>
       <!-- Welcome Anthony ! -->
       <v-col cols="12" md="7" lg="7">
         <v-card>
@@ -52,6 +55,8 @@
 </template>
 
 <script>
+import ConfettiExplosion from 'vue-confetti-explosion'
+
 export default {
   data: () => ({}),
   computed: {},
