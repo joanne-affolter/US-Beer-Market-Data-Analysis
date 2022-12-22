@@ -224,7 +224,7 @@
                     <v-divider></v-divider>
                     <br>
                     In response to his query, we proposed the following strategy :
-                    <span class='primary--text'>create a flagship product that would allow him to enter the market successfully but also to last over time.</span>
+                    create a flagship product that would allow him to enter the market successfully but also to last over time.
                     <br><br>
                     <p class="font-weight-bold text-h8">🤔 But how do we define this product?</p>
                     First of all, the product must attract consumers. The goal here is not to be original. Instead, we need to choose a style that is rooted in Virginia, a beer that customers will look for and want to repurchase because it is their favorite style.
@@ -315,7 +315,30 @@
             <v-card><v-card-text class="text-subtitle-2">
             Now that we have decided which style of beer to produce, we need to determine which beers are the most popular. This will tell us which beers we need to outperform and on which criterias we need to focus.
             </v-card-text></v-card>
+        </v-row>
 
+        <v-row>
+            <v-col cols="4" sm="4">
+                <v-card>
+                    <v-img
+                    src="@/assets/images/red_clay.jpeg"></v-img>
+                    </v-card>
+                    <v-card-text>
+                        Popularity : 163.1
+                    </v-card-text>
+            </v-col>
+            <v-col cols="4" sm="4">
+                <v-card>
+                    <v-img
+                    src="@/assets/images/ran.jpeg"></v-img>
+                </v-card>
+            </v-col>
+            <v-col cols="4" sm="4">
+                <v-card>
+                    <v-img
+                    src="@/assets/images/honor.jpeg"></v-img>
+                </v-card>
+            </v-col>
         </v-row>
         </v-container>
         </v-card>
