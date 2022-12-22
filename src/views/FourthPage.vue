@@ -429,10 +429,10 @@
               <v-col cols="3" sm="3" >
                 <v-img
                 contain
-                height="130"
-                max-width="83"
+                height="80"
+                width="80"
                 class="greeting-card-trophy"
-                src="@/assets/images/misc/trophy.png"
+                src="@/assets/images/virginia.gif"
                 ></v-img>
               </v-col>
 
