@@ -145,21 +145,27 @@
             <v-card-text>
                 Remember that our client has already gathered some reviews from his friends and family. We run our k-NN algorithm and we find the following 5 beers to be most similar to our client's.
                 <v-row>
-                    <div>
+                    <div class="my-6">
                         <v-col>
-                        <TabNeighbors></TabNeighbors>
+                            <TabNeighbors></TabNeighbors>
                         </v-col>
                     </div>
                 </v-row>
                 <v-row justify="center">
                     <v-col cols="8" sm="8">
                         <v-card class="mb-6">
-                    <v-img src="@/assets/images/ratings_knn.png">
-                    </v-img>
+                            <v-img src="@/assets/images/ratings_knn.png">
+                            </v-img>
+                        </v-card>
+                    </v-col>
+                    <v-col cols="4" sm="4">
+                        <v-card class="mb-6">
+                            <v-card-title>
+                            We see that our taste rating is the lowest compared to our closest competitors. On the other hand, the palate and appearance scores are relatively high. This enables us to pinpoint the problem to our client so they don't waste their resources on improving the appearance of their beer as it already rates high. Instead, he should develop other products that provide a different taste while keeping the same palate feel.
+                            </v-card-title>
                         </v-card>
                     </v-col>
                 </v-row>
-                We see that our taste rating is the lowest compared to our closest competitors. On the other hand, the palate and appearance scores are relatively high. This enables us to pinpoint the problem to our client so they don't waste their resources on improving the appearance of their beer as it already rates high. Instead, he should develop other products that provide a different taste while keeping the same palate feel.
             </v-card-text>
         </v-card>
         </v-row>
@@ -168,6 +174,19 @@
             <Top5></Top5>
         </v-row>
         </v-container>
+        </v-card>
+
+        <!-- Influent features -->
+        <v-card class="mb-6" color="primary" >
+            <v-container>
+                <v-row>
+                    <v-col cols="12" sm="12">
+                        <v-card-text class="d-flex align-center mt-5 text-h5 white--text font-weight-black">
+                            Which features most influence the global rating?
+                        </v-card-text>
+                    </v-col>
+                </v-row>
+            </v-container>
         </v-card>
 
 

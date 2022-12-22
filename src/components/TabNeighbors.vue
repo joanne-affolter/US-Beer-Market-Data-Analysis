@@ -1,6 +1,6 @@
 <template>
   <v-data-table :headers="headers" :items="results" :items-per-page="6" :item-class="row_classes" class="elevation-1">
-    <template v-slot:item.ta="{ item }">
+    <template v-slot:item.name="{ item }">
       <v-chip :color="getColor(item.ta)" dark>
         {{ item.name }}
       </v-chip>
@@ -67,7 +67,8 @@ export default {
   },
   methods: {
     getColor(ta) {
-      if (ta == 0.5) return 'primary'
+      if (ta == 0.5) return 'warning'
+      else return 'primary'
     },
   },
 }
