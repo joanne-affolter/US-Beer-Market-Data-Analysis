@@ -412,7 +412,7 @@
           </v-card>
         </v-row>
         <v-row>
-            <v-card>
+            <v-card width="100%" >
             <v-card-text class="text-subtitle-2 font-weight-bold">
                 In this section, we analyze for each of the most popular beers which features have the most influence on the ratings.
                 <span class=" text-m my-6 primary--text">
