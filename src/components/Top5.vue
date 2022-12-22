@@ -11,7 +11,7 @@
           <v-card-text class="d-flex align-center mt-2 pb-2 ps-2">
             <v-container>
               <v-row>
-                <v-col cols="3" sm="3">
+                <v-col cols="2" sm="2">
                   <div>
                     <p class="text-l font-weight-semibold warning--text mb-2">
                         Average over all ratings in Virginia
@@ -22,7 +22,7 @@
                   </div>
                 </v-col>
 
-                <v-col cols="3" sm="3">
+                <v-col cols="2" sm="2">
                   <div>
                     <p class="text-l font-weight-semibold primary--text mb-2">
                         Williamsburg Irish Stout
@@ -33,7 +33,7 @@
                   </div>
                 </v-col>
 
-                <v-col cols="3" sm="3">
+                <v-col cols="2" sm="2">
                   <div>
                     <p class="text-l font-weight-semibold primary--text mb-2">
                         Williamsburg Colonial Mild
@@ -44,7 +44,7 @@
                   </div>
                 </v-col>
 
-                <v-col cols="3" sm="3">
+                <v-col cols="2" sm="2">
                   <div>
                     <p class="text-l font-weight-semibold primary--text mb-2">
                         Founders India Pale Ale
@@ -55,7 +55,7 @@
                   </div>
                 </v-col>
 
-                <v-col cols="3" sm="3">
+                <v-col cols="2" sm="2">
                   <div>
                     <p class="text-l font-weight-semibold primary--text mb-2">
                         Blue & Gray Chocolate Raspberry Stout
@@ -66,7 +66,7 @@
                   </div>
                 </v-col>
 
-                <v-col cols="3" sm="3">
+                <v-col cols="2" sm="2">
                   <div>
                     <p class="text-l font-weight-semibold primary--text mb-2">
                         Blue & Gray Bormans Belgian Ale

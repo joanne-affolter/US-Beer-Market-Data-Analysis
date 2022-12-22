@@ -5,7 +5,7 @@
             <v-img
                 height="200"
                 width="100%"
-                src="@/assets/images/beer_page5.jpg"
+                src="@/assets/images/back.jpg"
             ></v-img>
 
             <v-card-text >
@@ -144,13 +144,7 @@
           <v-card>
             <v-card-text>
                 Remember that our client has already gathered some reviews from his friends and family. We run our k-NN algorithm and we find the following 5 beers to be most similar to our client's.
-                <v-row>
-                    <div class="my-6">
-                        <v-col>
-                            <TabNeighbors></TabNeighbors>
-                        </v-col>
-                    </div>
-                </v-row>
+
                 <v-row justify="center">
                     <v-col cols="8" sm="8">
                         <v-card class="mb-6">
@@ -160,9 +154,9 @@
                     </v-col>
                     <v-col cols="4" sm="4">
                         <v-card class="mb-6">
-                            <v-card-title>
+                            <v-card-text>
                             We see that our taste rating is the lowest compared to our closest competitors. On the other hand, the palate and appearance scores are relatively high. This enables us to pinpoint the problem to our client so they don't waste their resources on improving the appearance of their beer as it already rates high. Instead, he should develop other products that provide a different taste while keeping the same palate feel.
-                            </v-card-title>
+                            </v-card-text>
                         </v-card>
                     </v-col>
                 </v-row>
@@ -173,11 +167,20 @@
         <v-row>
             <Top5></Top5>
         </v-row>
+
+        <v-row>
+            <v-card class="mb-6 my-6">
+                <v-card-text>
+                    However, we can see that beers similar to our client's are not very well rated in general. Indeed, their average rating is lower than the average taken over all the beers rated in Virginia.
+                    <br><br>💡 Our client must therefore offer other products in order to reach customers.
+                </v-card-text>
+            </v-card>
+        </v-row>
         </v-container>
         </v-card>
 
         <!-- Influent features -->
-        <v-card class="mb-6" color="primary" >
+        <v-card class="mb-6 my-6" color="primary" >
             <v-container>
                 <v-row>
                     <v-col cols="12" sm="12">
