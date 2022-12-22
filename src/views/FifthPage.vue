@@ -314,10 +314,13 @@
         <v-row>
             <v-card><v-card-text class="text-subtitle-2">
             Now that we have decided which style of beer to produce, we need to determine which beers are the most popular. This will tell us which beers we need to outperform and on which criterias we need to focus.
+            <br><br>Note that we defined the following score to find beers we are interested in :
+            <span class="primary--text">popularity = number_of_ratings x average_rating  </span>
             </v-card-text></v-card>
         </v-row>
 
         <v-row>
+            <v-col cols="6" sm="6">
             <v-card class="my-6">
             <v-card-title class="primary--text text-xl font-weight-bold ">
                 <span class="primary--text">India Pale Ale (IPA)</span>
@@ -329,8 +332,8 @@
                     src="@/assets/images/red_clay.jpeg"
                     width="120" height="150"></v-img>
                     </v-card>
-                    <v-card-text class="font-weight-bold">
-                        Popularity : 163.17
+                    <v-card-text class="font-weight-bold my-2">
+                        Score : 163.17
                     </v-card-text>
             </v-col>
             <v-col cols="4" sm="4">
@@ -339,8 +342,8 @@
                     src="@/assets/images/ran.jpeg"
                     width="120" height="150"></v-img>
                 </v-card>
-                <v-card-text class="font-weight-bold">
-                        Popularity : 87.75
+                <v-card-text class="font-weight-bold my-2">
+                        Score : 87.75
                     </v-card-text>
             </v-col>
             <v-col cols="4" sm="4">
@@ -348,12 +351,51 @@
                     <v-img
                     src="@/assets/images/honor.jpeg" width="120" height="150"></v-img>
                 </v-card>
-                <v-card-text class="font-weight-bold">
-                        Popularity : 76.80
+                <v-card-text class="font-weight-bold my-2">
+                        Score : 76.80
                 </v-card-text>
             </v-col>
             </v-row>
             </v-card>
+            </v-col>
+            <v-col cols="6" sm="6">
+            <v-card class="my-6">
+            <v-card-title class="primary--text text-xl font-weight-bold ">
+                <span class="primary--text">Imperial IPA</span>
+            </v-card-title>
+            <v-row>
+            <v-col cols="4" sm="4">
+                <v-card>
+                    <v-img
+                    src="@/assets/images/stone2.png"
+                    width="120" height="150"></v-img>
+                    </v-card>
+                    <v-card-text class="font-weight-bold my-2">
+                        Score : 292.4
+                    </v-card-text>
+            </v-col>
+            <v-col cols="4" sm="4">
+                <v-card>
+                    <v-img
+                    src="@/assets/images/apoca.jpeg"
+                    width="120" height="150"></v-img>
+                </v-card>
+                <v-card-text class="font-weight-bold my-2">
+                        Score : 164.5
+                    </v-card-text>
+            </v-col>
+            <v-col cols="4" sm="4">
+                <v-card>
+                    <v-img
+                    src="@/assets/images/stone3.jpg" width="120" height="150"></v-img>
+                </v-card>
+                <v-card-text class="font-weight-bold my-2">
+                        Score : 111
+                </v-card-text>
+            </v-col>
+            </v-row>
+            </v-card>
+            </v-col>
         </v-row>
         </v-container>
         </v-card>
