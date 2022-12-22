@@ -235,9 +235,26 @@
                         </v-card-text>
                     </v-card>
                 </v-row>
-
             </v-container>
         </v-card>
+
+        <v-card class="mb-6 my-6">
+            <v-card-text>
+            <v-row>
+                <v-col cols="7" sm="7">
+                    Disappointed with the results on the potential ratings his beer could have in Virginia, our client asked us for advice on what type of beer he should produce in the state.
+                </v-col>
+                <v-col cols="5" sm="5">
+                    <v-img
+                    src="@/assets/images/sadboy.jpg"
+                    >
+                    </v-img>
+                </v-col>
+            </v-row>
+            </v-card-text>
+        </v-card>
+
+
 
 
 
