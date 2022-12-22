@@ -141,3 +141,18 @@
     </div>
 </template>
 
+<script>
+import TabNeighbors from '@/components/TabNeighbors.vue'
+
+export default {
+  components: {
+    TabNeighbors,
+  },
+  setup() {
+    return {
+      icons: {},
+    }
+  },
+}
+</script
+
