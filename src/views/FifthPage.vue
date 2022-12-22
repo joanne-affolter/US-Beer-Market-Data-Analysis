@@ -82,7 +82,7 @@
                     <v-row>
                         <v-col cols="5" sm="5">
                             <v-row>
-                            <v-card class="mb-6" color="#BBDEFB">
+                            <v-card class="mb-6" outlined border-color="primary">
                                 <v-card-text>
                                     <div class = 'font-weight-bold'>
                                     1️⃣ Represent each beer by a vector with components :
@@ -97,14 +97,14 @@
                             </v-row>
 
                             <v-row>
-                                <v-card class="mb-6" color="#BBDEFB">
+                                <v-card class="mb-6" outlined border-color="primary">
                                 <v-card-text class = 'font-weight-bold'>
                                     2️⃣ Use <strong>Euclidean distance </strong> to measure similarity between beers
                                 </v-card-text>
                                 </v-card>
                             </v-row>
                             <v-row>
-                            <v-card class="mb-6" color="#BBDEFB">
+                            <v-card class="mb-6" outlined border-color="primary">
                                 <v-card-text class = 'font-weight-bold'>
                                     3️⃣ Use <strong>k-Nearest Neighbors algorithm </strong> to get the neighbors of our client's beer which will be considered as the most similar ones
                                 </v-card-text>
@@ -128,7 +128,15 @@
                         <v-card>
                             <v-card-text>
                                 Remember that our client has already gathered some reviews from his friends and family. We run our k-NN algorithm and we find the following 5 beers to be most similar to our client's.
-                                <TabNeighbors></TabNeighbors>
+                                <v-row>
+                                    <v-col cols="6" sm="6">
+                                        <TabNeighbors></TabNeighbors>
+                                    </v-col>
+                                    <v-col cols="6" sm="6">
+
+
+                                    </v-col>
+                                </v-row>
                             </v-card-text>
                         </v-card>
                     </v-row>
