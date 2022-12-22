@@ -73,26 +73,13 @@
       </v-row>
     </v-card-text>
 
-    <v-card-text class="my-16" color="#EDE7F6">
-      <v-row>
-        <v-col
-          cols="12"
-          md="8"
-          sm="8"
-          class="mx-auto"
-        >
-          <h3 class="font-weight-medium mb-5 primary--text">
-            To help Sam create a successful brewery, we will follow a few steps.
-          </h3>
-        </v-col>
-      </v-row>
-    </v-card-text>
-
     <v-card-text class="my-8">
       <v-row align="center" justify="center">
         <v-col cols="4" sm="4">
           <v-img src="@/assets/images/home1.jpg"></v-img>     </v-col>
         <v-col cols="8" sm="8">
+          To help Sam create a successful brewery, we will follow a few steps.
+          <br><br>
           First, we will conduct a general market research on the beer industry in the United States. This will involve examining data on where consumers come from (by state), the evolution of the number of breweries over time, and trends in consumer behavior.
         </v-col>
       </v-row>
