@@ -112,7 +112,7 @@
                             </v-row>
                         </v-col>
                         <v-col cols="7" sm="7">
-                            <v-card>
+                            <v-card class="mb-6" outlined border-color="primary" elevation="24">
                                 <v-card-text>
                                     Let's visualize our beer vectors. But since they live in a four-dimensional space, we first need to apply a dimensionality reduction method. We have opted for
                                     <span class="primary--text">PCA</span>.
@@ -146,9 +146,11 @@
                 <v-row>
                     <TabNeighbors></TabNeighbors>
                 </v-row>
-                <v-row>
+                <v-row justify="center">
+                    <v-col cols="6" sm="6">
                     <v-img src="@/assets/images/ratings_knn.png">
                     </v-img>
+                    </v-col>
                 </v-row>
                 We see that our taste rating is the lowest compared to our closest competitors. On the other hand, the palate and appearance scores are relatively high. This enables us to pinpoint the problem to our client so they don't waste their resources on improving the appearance of their beer as it already rates high. Instead, he should develop other products that provide a different taste while keeping the same palate feel.
             </v-card-text>
