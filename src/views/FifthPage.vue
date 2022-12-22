@@ -244,7 +244,7 @@
             </v-card-text>
         </v-card>
 
-        <v-card>
+        <v-card class="mb-6" color="#ECEFF1">
         <v-container>
         <v-row>
           <v-card width="100%" color="#9E9E9E">
@@ -399,6 +399,80 @@
         </v-row>
         </v-container>
         </v-card>
+
+        <v-card class="mb-6" color="#ECEFF1">
+        <v-container>
+        <v-row>
+          <v-card width="100%" color="#9E9E9E">
+            <v-card-text>
+              <span class="text-subtitle-1 font-weight-medium white--text">
+                Which characteristics make the top beers stand out?
+              </span>
+            </v-card-text>
+          </v-card>
+        </v-row>
+        <v-row>
+            <v-card-text class="text-subtitle-2 font-weight-bold">
+                In this section, we analyze for each of the most popular beers which features have the most influence on the ratings.
+                <span class=" text-m my-6 primary--text">
+                With these informations, we will be able to identify :
+                </span>
+                <v-timeline dense class="timeline-custom-dense timeline-custom-dots mt-6">
+
+                <v-timeline-item small color="primary">
+                    <div class="d-flex justify-space-between align-center flex-wrap">
+                    <h4 class="font-weight-semibold me-1">
+                    On which features we should focus for our beer to have a maximum rating
+                    </h4>
+                    </div>
+                </v-timeline-item>
+
+                <v-timeline-item small color="primary">
+                    <div class="d-flex justify-space-between align-center flex-wrap">
+                    <h4 class="font-weight-semibold me-1">
+                        Which features we can improve to surpass the best beers
+                    </h4>
+                    </div>
+                </v-timeline-item>
+                </v-timeline>
+                </v-card-text>
+        </v-row>
+        <v-row>
+            <v-card class="mb-6 my-6">
+                <v-card-title class="text--primary font-weight-bold">
+                    India Pale Ale (IPA)
+                </v-card-title>
+                <v-card-text>
+                    <v-row>
+                        <v-img src="@/assets/images/f1.png"></v-img>
+                    </v-row>
+                    <v-row>
+                        <v-img src="@/assets/images/f2.png"></v-img>
+                    </v-row>
+                </v-card-text>
+            </v-card>
+        </v-row>
+
+        <v-row>
+            <v-card class="mb-6 my-6">
+                <v-card-title class="text--primary font-weight-bold">
+                    Imperial IPA
+                </v-card-title>
+                <v-card-text>
+                    <v-row>
+                        <v-img src="@/assets/images/f3.png"></v-img>
+                    </v-row>
+                    <v-row>
+                        <v-img src="@/assets/images/f4.png"></v-img>
+                    </v-row>
+                </v-card-text>
+            </v-card>
+        </v-row>
+
+        </v-container>
+        </v-card>
+
+
 
 
 
