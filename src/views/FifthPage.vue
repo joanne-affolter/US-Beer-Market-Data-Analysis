@@ -314,7 +314,7 @@
         <v-row>
             <v-card><v-card-text class="text-subtitle-2">
             Now that we have decided which style of beer to produce, we need to determine which beers are the most popular. This will tell us which beers we need to outperform and on which criterias we need to focus.
-            <br>Note that we defined the following score to find beers we are interested in :
+            <br><br>Note that we defined the following score to find beers we are interested in :
             <span class="primary--text">popularity = number_of_ratings x average_rating  </span>
             </v-card-text></v-card>
         </v-row>
@@ -367,17 +367,17 @@
             <v-col cols="4" sm="4">
                 <v-card>
                     <v-img
-                    src="@/assets/images/red_clay.jpeg"
+                    src="@/assets/images/stone2.jpeg"
                     width="120" height="150"></v-img>
                     </v-card>
                     <v-card-text class="font-weight-bold my-2">
-                        Score : 292.41
+                        Score : 292.4
                     </v-card-text>
             </v-col>
             <v-col cols="4" sm="4">
                 <v-card>
                     <v-img
-                    src="@/assets/images/ran.jpeg"
+                    src="@/assets/images/apoca.jpeg"
                     width="120" height="150"></v-img>
                 </v-card>
                 <v-card-text class="font-weight-bold my-2">
@@ -387,7 +387,7 @@
             <v-col cols="4" sm="4">
                 <v-card>
                     <v-img
-                    src="@/assets/images/honor.jpeg" width="120" height="150"></v-img>
+                    src="@/assets/images/stone.jpeg" width="120" height="150"></v-img>
                 </v-card>
                 <v-card-text class="font-weight-bold my-2">
                         Score : 111.07
