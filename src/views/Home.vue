@@ -11,8 +11,8 @@
           sm="8"
           class="mx-auto"
         >
-          <h1 class="font-weight-medium mb-5">
-            teAmDreAm
+          <h1 class="font-weight-medium mb-5 primary--text">
+            About us
           </h1>
           <p class="mb-3">
             We are a consulting firm that specializes in helping breweries succeed through the use of data analytics. Our team has expertise in the brewery industry and utilizes a wide range of data sources to provide our clients with informed and strategic advice.
@@ -54,7 +54,7 @@
         <v-col cols="6" sm="6">
           <v-avatar
             color="primary"
-            size="128"
+            size="100"
           >
           <img
           src="@/assets/images/beer_advocate.png"
@@ -64,12 +64,37 @@
         <v-col cols="6" sm="6">
           <v-avatar
             color="primary"
-            size="128"
+            size="100"
           >
           <img
           src="@/assets/images/rate_beer.png"
           >
         </v-avatar>
+        </v-col>
+      </v-row>
+    </v-card-text>
+
+    <v-card-text>
+      <v-row>
+        <v-col
+          cols="12"
+          md="6"
+          sm="8"
+          class="mx-auto"
+        >
+          <p class="mb-3 text-l">
+            To help Sam create a successful brewery, we will follow a few steps.
+          </p>
+        </v-col>
+      </v-row>
+    </v-card-text>
+
+    <v-card-text>
+      <v-row>
+        <v-col cols="4" sm="4">
+          <v-img src="@/assets/images/home1.jpg"></v-img>     </v-col>
+        <v-col cols="8" sm="8">
+          First, we will conduct a general market research on the beer industry in the United States. This will involve examining data on where consumers come from (by state), the evolution of the number of breweries over time, and trends in consumer behavior.
         </v-col>
       </v-row>
     </v-card-text>
