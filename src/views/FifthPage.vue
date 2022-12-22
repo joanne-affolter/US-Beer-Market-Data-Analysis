@@ -153,16 +153,15 @@
                             </v-img>
                         </v-card>
                     </v-col>
-                    <v-col cols="3" sm="3">
-                        <v-row align="center" justify="center">
-                        <v-card class="mb-6">
+                </v-row>
+                <v-row>
+                    <v-card class="mb-6">
                             <v-card-text>
                             We see that our taste rating is the lowest compared to our closest competitors. On the other hand, the palate and appearance scores are relatively high. This enables us to pinpoint the problem to our client so they don't waste their resources on improving the appearance of their beer as it already rates high. Instead, he should develop other products that provide a different taste while keeping the same palate feel.
                             </v-card-text>
                         </v-card>
-                        </v-row>
-                    </v-col>
                 </v-row>
+
             </v-card-text>
         </v-card>
         </v-row>
@@ -198,13 +197,14 @@
                     </v-card>
                 </v-row>
                 <v-row>
-                    <v-card color="#ECEFF1">
+                    <v-card color>
                         <v-card-text>
                             <v-container>
                                 <v-row>
+                                    <v-card outlined elevation="24" color="#ECEFF1">
                                     <v-col cols="10" sm="10">
                                         Using
-                                        <div class='primary-text'>Linear Regression</div>
+                                        <span class='primary-text'>Linear Regression</span>
                                         , we will find out which features have the most influence on the overall rating.
                                     </v-col>
                                     <v-col cols="2" sm="2">
@@ -214,6 +214,7 @@
                                         width="90">
                                         </v-img>
                                     </v-col>
+                                    </v-card>
                                 </v-row>
                                 <v-row>
                                     <v-col cols="5" sm="5">
