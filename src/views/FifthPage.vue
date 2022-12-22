@@ -58,23 +58,20 @@
         </v-card>
 
         <v-card class="mb-6">
-            <v-card-title class="my-1">
+            <v-card-title>
                 <v-container>
                 <v-row align="center">
-
                     <v-col cols="4" sm="4">
                         <span class="d-flex align-center mt-5 text-h6 primary--text font-weight-bold">
                             How to find similar beers ?
                         </span>
                     </v-col>
                     <v-col cols="2" sm="2">
-                        <v-card class="my-6">
                         <v-img
                         src="@/assets/images/question_gif.gif"
                         height="100%"
                         width="90">
                         </v-img>
-                        </v-card>
                     </v-col>
                 </v-row>
                 </v-container>
@@ -91,10 +88,12 @@
                                     1️⃣ Represent each beer by a vector with components :
                                     aroma, palate, appearance, taste
                                     </div>
+                                    <v-card class="my-6">
                                     <v-img
                                     src="@/assets/images/rep_beer.jpg"
                                     width="300">
                                     </v-img>
+                                    </v-card>
                                 </v-card-text>
                             </v-card>
                             </v-row>
@@ -147,19 +146,21 @@
             <v-card-text>
                 Remember that our client has already gathered some reviews from his friends and family. We run our k-NN algorithm and we find the following 5 beers to be most similar to our client's.
 
-                <v-row justify="center">
-                    <v-col cols="8" sm="8">
+                <v-row justify="center" align="center">
+                    <v-col cols="9" sm="9">
                         <v-card class="mb-6 my-6">
                             <v-img src="@/assets/images/ratings_knn.png">
                             </v-img>
                         </v-card>
                     </v-col>
-                    <v-col cols="4" sm="4">
+                    <v-col cols="3" sm="3">
+                        <v-row align="center" justify="center">
                         <v-card class="mb-6">
                             <v-card-text>
                             We see that our taste rating is the lowest compared to our closest competitors. On the other hand, the palate and appearance scores are relatively high. This enables us to pinpoint the problem to our client so they don't waste their resources on improving the appearance of their beer as it already rates high. Instead, he should develop other products that provide a different taste while keeping the same palate feel.
                             </v-card-text>
                         </v-card>
+                        </v-row>
                     </v-col>
                 </v-row>
             </v-card-text>
@@ -191,39 +192,50 @@
             <v-container>
                 <v-row>
                     <v-card>
-                        <v-card-text>
+                        <v-card-text class='text-subtitle-2'>
                             We need to understand which features most influence the overall rating and therefore are most important to consumers to determine on which aspects our client should focus on when creating new products.
                         </v-card-text>
                     </v-card>
                 </v-row>
                 <v-row>
-                    <v-card>
+                    <v-card color="#ECEFF1">
                         <v-card-text>
-                            <v-img
-                            src="@/assets/images/question_gif.gif"
-                            height="100%"
-                            width="90">
-                            </v-img>
-                            Using
-                            <span class='primary-text'>Linear Regression</span>
-                            , we will find out which features have the most influence on the overall rating.
+                            <v-container>
+                                <v-row>
+                                    <v-col cols="10" sm="10">
+                                        Using
+                                        <div class='primary-text'>Linear Regression</div>
+                                        , we will find out which features have the most influence on the overall rating.
+                                    </v-col>
+                                    <v-col cols="2" sm="2">
+                                        <v-img
+                                        src="@/assets/images/question_gif.gif"
+                                        height="100%"
+                                        width="90">
+                                        </v-img>
+                                    </v-col>
+                                </v-row>
+                                <v-row>
+                                    <v-col cols="5" sm="5">
+                                        <v-img
+                                            src="@/assets/images/linreg.png">
+                                        </v-img>
+                                    </v-col>
+                                    <v-col cols="7" sm="7">
+                                        <v-card><v-card-text>
+                                        The taste score has the highest coefficient and thus has the biggest impact on the global rating. Appearance, on the other hand, has a coefficient that is only half as high and does not have as much influence on the consumers' score.
+                                        <br><br>
+                                        <div class='primary--text text-subtitle-2'>
+                                        💡 When developing new beers, our client should then focus on taste and palate, and not on appearance as he did with its existing products.
+                                        </div>
+                                        </v-card-text></v-card>
+                                    </v-col>
+                                </v-row>
+                        </v-container>
                         </v-card-text>
                     </v-card>
                 </v-row>
-                <v-row>
-                    <v-col cols="6" sm="6">
-                        <v-img
-                            src="@/assets/images/linreg.png">
-                        </v-img>
-                    </v-col>
-                    <v-col cols="6" sm="6">
-                        The taste score has the highest coefficient and thus has the biggest impact on the global rating. Appearance, on the other hand, has a coefficient that is only half as high and does not have as much influence on the consumers' score.
-                        <br><br>
-                        <div class='primary--text text-subtitle-1'>
-                        💡 When developing new beers, our client should then focus on taste and palate, and not on appearance as he did with its existing products.
-                        </div>
-                    </v-col>
-                </v-row>
+
             </v-container>
         </v-card>
 

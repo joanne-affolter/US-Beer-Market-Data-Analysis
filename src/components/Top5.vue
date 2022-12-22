@@ -80,17 +80,11 @@
               </v-row>
 
               <v-row>
-                <v-row>
-            <v-card class="mb-6 my-6">
-                <v-card-text>
                     However, we can see that beers similar to our client's are not very well rated in general. Indeed, their average rating is lower than the average taken over all the beers rated in Virginia.
                     <br><br>
-                    <div class='text-subtitle-1 primary--text'>
+                    <div class='text-subtitle-1 '>
                         💡 Our client must therefore offer other products in order to reach customers.
                     </div>
-                </v-card-text>
-            </v-card>
-        </v-row>
               </v-row>
             </v-container>
           </v-card-text>
