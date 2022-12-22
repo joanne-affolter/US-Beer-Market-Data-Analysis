@@ -24,6 +24,6 @@ export default [
   {
     title: 'Strategic Advice',
     icon: mdiArmFlexOutline,
-    to: 'fourth-page',
+    to: 'fifth-page',
   },
 ]
