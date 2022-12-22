@@ -189,7 +189,7 @@
                     <v-card>
                         <v-card-text class='text-subtitle-2'>
                             We need to understand which features most influence the overall rating and therefore are most important to consumers to determine on which aspects our client should focus on when creating new products.
-                            Using <strong>Linear Regression</strong>, we will find out which features have the most influence on the overall rating.
+                            <br><br>Using <span class="primary--text">Linear Regression</span>, we will find out which features have the most influence on the overall rating.
                         </v-card-text>
                     </v-card>
                 </v-row>
@@ -218,13 +218,15 @@
             <v-card-text>
             <v-row>
                 <v-col cols="7" sm="7">
+                    <p class="text-subtitle-1">
                     Disappointed with the results on the potential ratings his beer could have in Virginia, our client asked us for advice on what type of beer he should produce in the state.
+                    </p>
                     <br><br>
                     <v-divider></v-divider>
+                    <br>
+                    In response to his query, we proposed the following strategy : create a flagship product that would allow him to enter the market successfully but also to last over time.
                     <br><br>
-                    In response to his query, we proposed the following strategy: create a flagship product that would allow him to enter the market successfully but also to last over time.
-                    <br><br>
-                    <p class="font-weight-bold text-h6">🤔 But how do we define this product?</p>
+                    <p class="font-weight-bold text-h8">🤔 But how do we define this product?</p>
                     First of all, the product must attract consumers. The goal here is not to be original. Instead, we need to choose a style that is rooted in Virginia, a beer that customers will look for and want to repurchase because it is their favorite style.
                     <br><br>
                     Then, after having found the right beer style, our client must propose a product that stands out from the competitors, and therefore from the most popular beers of these styles.
@@ -254,11 +256,22 @@
           </v-card>
         </v-row>
         <v-row>
+            <v-card class="mb-6 my-6">
             <v-img
             src="@/assets/images/styles.png"></v-img>
+            </v-card>
         </v-row>
+
+        <v-row>
+            <v-card class="mb-6 my-6">
+            <v-img
+            src="@/assets/images/ev_styles.png"></v-img>
+            </v-card>
+        </v-row>
+
         <v-row>
             <v-card class="mb-6 my-6" outlined elevation="24">
+                <v-card-text>
                 Imperial IPA is the most established style in Virginia with the highest number of ratings. India Pale Ale (IPA), on the other hand, has been growing very rapidly since 2014 and is becoming more and more popular in Virginia, even surpassing Imperial IPA in the number of ratings in 2016.
                 <br><br>
                 Our client should therefore focus on the following styles:
@@ -266,7 +279,7 @@
                     <v-timeline-item small color="primary">
                         <div class="d-flex justify-space-between align-center flex-wrap">
                         <h4 class="font-weight-semibold me-1">
-                            <strong>Imperial IPA</strong>, a long-standing favorite in Virginia
+                            <span class="primary--text">Imperial IPA</span>, a long-standing favorite in Virginia
                         </h4>
                         </div>
                     </v-timeline-item>
@@ -274,24 +287,22 @@
                     <v-timeline-item small color="primary">
                         <div class="d-flex justify-space-between align-center flex-wrap">
                         <h4 class="font-weight-semibold me-1">
-                            <strong>India Pale Ale (IPA)</strong>, a style that has become increasingly popular in recent years
+                            <span class="primary--text">India Pale Ale (IPA)</span>, a style that has become increasingly popular in recent years
                         </h4>
                         </div>
                     </v-timeline-item>
                 </v-timeline>
+            </v-card-text>
             </v-card>
         </v-row>
-        <v-row>
-            <v-img
-            src="@/assets/images/ev_styles.png"></v-img>
-        </v-row>
+
         </v-container>
         </v-card>
 
         <v-card>
         <v-container>
         <v-row>
-          <v-card width="100%" color="#9E9E9E">
+          <v-card width="100%" color="#9E9E9E" class="my-6 mb-6">
             <v-card-text>
               <span class="text-subtitle-1 font-weight-medium white--text">
                 For each style, which are the most popular beers?
@@ -300,8 +311,11 @@
           </v-card>
         </v-row>
         <v-row>
+            <v-card><v-card-text class="text-subtitle-2">
             Now that we have decided which style of beer to produce, we need to determine which beers are the most popular. This will tell us which beers we need to outperform and on which criterias we need to focus.
+            </v-card-text></v-card>
         </v-row>
+
 
 
         </v-container>
