@@ -189,23 +189,11 @@
                     <v-card>
                         <v-card-text class='text-subtitle-2'>
                             We need to understand which features most influence the overall rating and therefore are most important to consumers to determine on which aspects our client should focus on when creating new products.
+                            Using <strong>Linear Regression</strong>, we will find out which features have the most influence on the overall rating.
                         </v-card-text>
                     </v-card>
                 </v-row>
-                <v-row>
-                    <v-card outlined elevation="24">
-                        <v-col cols="10" sm="10">
-                        Using <strong>Linear Regression</strong>, we will find out which features have the most influence on the overall rating.
-                        </v-col>
-                        <v-col cols="2" sm="2">
-                            <v-img
-                            src="@/assets/images/question_gif.gif"
-                            height="100%"
-                            width="90">
-                            </v-img>
-                        </v-col>
-                    </v-card>
-                </v-row>
+
                 <v-row>
                     <v-col cols="5" sm="5">
                         <v-img
@@ -233,10 +221,16 @@
                     Disappointed with the results on the potential ratings his beer could have in Virginia, our client asked us for advice on what type of beer he should produce in the state.
                     <br><br>
                     <v-divider></v-divider>
+                    <br><br>
                     In response to his query, we proposed the following strategy: create a flagship product that would allow him to enter the market successfully but also to last over time.
                     <br><br>
-                    <p class="font-weight-bold">🤔 But how do we define this product?</p>
+                    <p class="font-weight-bold text-h6">🤔 But how do we define this product?</p>
                     First of all, the product must attract consumers. The goal here is not to be original. Instead, we need to choose a style that is rooted in Virginia, a beer that customers will look for and want to repurchase because it is their favorite style.
+                    <br><br>
+                    Then, after having found the right beer style, our client must propose a product that stands out from the competitors, and therefore from the most popular beers of these styles.
+                    <br><br>
+                    By doing so, our client can be assured that his product will appeal to consumers, hoping that they will prefer his beer to the most popular over the state.
+
                 </v-col>
                 <v-col cols="5" sm="5">
                     <v-img
@@ -248,6 +242,9 @@
             </v-card-text>
         </v-card>
 
+        <v-card>
+
+        </v-card>
 
 
 
