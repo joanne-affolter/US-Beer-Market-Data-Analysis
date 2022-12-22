@@ -14,7 +14,7 @@
           <h1 class="font-weight-medium mb-5 primary--text">
             About us
           </h1>
-          <p class="mb-3">
+          <p class="mb-3 text-subtitle-1">
             We are a consulting firm that specializes in helping breweries succeed through the use of data analytics. Our team has expertise in the brewery industry and utilizes a wide range of data sources to provide our clients with informed and strategic advice.
           </p>
         </v-col>
@@ -36,7 +36,7 @@
               <br>
               <p class="mb-3">
                 Our client, Sam Smith, recently graduated from college in Massachusetts and is interested in starting a brewery.
-                He has noticed that local breweries are now trendy and wants to create a local vibe for his beer. He has already taken the first steps towards this goal by creating some sample beers and seeking feedback from his family and friends.
+                <br>He has noticed that local breweries are now trendy and wants to create a local vibe for his beer. He has already taken the first steps towards this goal by creating some sample beers and seeking feedback from his family and friends.
               </p>
               <p>
                 However, he has received differing opinions on the quality and potential success of his brews, leaving him unsure of how to move forward. Seeking a more objective perspective, Sam has decided to turn to our consulting service for guidance.
@@ -73,7 +73,7 @@
       </v-row>
     </v-card-text>
 
-    <v-card-text class="my-16">
+    <v-card-text class="my-16" color="#EDE7F6">
       <v-row>
         <v-col
           cols="12"
@@ -81,8 +81,9 @@
           sm="8"
           class="mx-auto"
         >
-          <h1 class="font-weight-medium mb-5 primary--text">
-            To help Sam create a successful brewery, we will follow a few steps.          </h1>
+          <h3 class="font-weight-medium mb-5 primary--text">
+            To help Sam create a successful brewery, we will follow a few steps.
+          </h3>
         </v-col>
       </v-row>
     </v-card-text>
@@ -116,7 +117,7 @@
         <v-col cols="8" sm="8">
           After identifying a few states that meet these criteria, we will select one of them to focus on in more depth. We will examine the breweries and stats in this state to understand the competition and identify opportunities for Sam's brewery to stand out and succeed.
           <br><br>
-          At this stage, we will also consider the feedback Sam has received from his family on his sample beers. We will use the business intelligence we have gathered thus far to evaluate this feedback and make recommendations for improvements to Sam's products. We may also suggest new products that we believe have the potential to perform well in the chosen state and fit with Sam's goal of creating a local vibe for his beer. Our goal is to help Sam create a successful brewery that meets the needs and preferences of local beer drinkers.
+          At this stage, we will also consider the feedback Sam has received from his family on his sample beers. We will use the business intelligence we have gathered thus far to evaluate this feedback and make recommendations for improvements to Sam's products. We may also suggest new products that we believe have the potential to perform well in the chosen state and fit with Sam's goal of creating a local vibe for his beer.
         </v-col>
       </v-row>
     </v-card-text>
