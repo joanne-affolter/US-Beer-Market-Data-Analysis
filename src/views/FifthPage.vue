@@ -61,17 +61,18 @@
             <v-card-title class="my-1">
                 <v-container>
                 <v-row align="center">
-                    <v-col cols="2" sm="2">
-                        <v-img
-                        src="@/assets/images/question_gif.gif"
-                        height="90"
-                        width="90">
-                        </v-img>
-                    </v-col>
+
                     <v-col cols="10" sm="10">
                         <span class="d-flex align-center mt-5 text-h6 primary--text font-weight-bold">
                             How to find similar beers ?
                         </span>
+                    </v-col>
+                    <v-col cols="2" sm="2">
+                        <v-img
+                        src="@/assets/images/question_gif.gif"
+                        height="100%"
+                        width="90">
+                        </v-img>
                     </v-col>
                 </v-row>
                 </v-container>
@@ -144,10 +145,12 @@
             <v-card-text>
                 Remember that our client has already gathered some reviews from his friends and family. We run our k-NN algorithm and we find the following 5 beers to be most similar to our client's.
                 <v-row>
+                    <div>
                     <TabNeighbors></TabNeighbors>
+                    </div>
                 </v-row>
                 <v-row justify="center">
-                    <v-col cols="6" sm="6">
+                    <v-col cols="8" sm="8">
                     <v-img src="@/assets/images/ratings_knn.png">
                     </v-img>
                     </v-col>
@@ -168,7 +171,7 @@
 </template>
 
 <script>
-import TabNeighbors from '@/components/TaNeighbors.vue'
+import TabNeighbors from '@/components/TabNeighbors.vue'
 
 export default {
   components: {
