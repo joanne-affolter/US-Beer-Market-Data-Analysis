@@ -62,7 +62,7 @@
                 <v-container>
                 <v-row align="center">
 
-                    <v-col cols="10" sm="10">
+                    <v-col cols="4" sm="4">
                         <span class="d-flex align-center mt-5 text-h6 primary--text font-weight-bold">
                             How to find similar beers ?
                         </span>
@@ -153,8 +153,10 @@
                 </v-row>
                 <v-row justify="center">
                     <v-col cols="8" sm="8">
+                        <v-card class="mb-6">
                     <v-img src="@/assets/images/ratings_knn.png">
                     </v-img>
+                        </v-card>
                     </v-col>
                 </v-row>
                 We see that our taste rating is the lowest compared to our closest competitors. On the other hand, the palate and appearance scores are relatively high. This enables us to pinpoint the problem to our client so they don't waste their resources on improving the appearance of their beer as it already rates high. Instead, he should develop other products that provide a different taste while keeping the same palate feel.
