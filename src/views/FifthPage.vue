@@ -320,36 +320,36 @@
         <v-row>
             <v-card class="my-6">
             <v-card-title class="primary--text text-xl font-weight-bold ">
-                India Pale Ale (IPA)
+                <span class="primary--text">India Pale Ale (IPA)</span>
             </v-card-title>
             <v-row>
             <v-col cols="4" sm="4">
                 <v-card>
                     <v-img
                     src="@/assets/images/red_clay.jpeg"
-                    width="120"></v-img>
+                    width="120" height="150"></v-img>
                     </v-card>
                     <v-card-text class="font-weight-bold">
-                        Popularity : 163.1
+                        Popularity : 163.17
                     </v-card-text>
             </v-col>
             <v-col cols="4" sm="4">
                 <v-card>
                     <v-img
                     src="@/assets/images/ran.jpeg"
-                    width="120"></v-img>
+                    width="120" height="150"></v-img>
                 </v-card>
                 <v-card-text class="font-weight-bold">
-                        Popularity : 163.1
+                        Popularity : 87.75
                     </v-card-text>
             </v-col>
             <v-col cols="4" sm="4">
                 <v-card>
                     <v-img
-                    src="@/assets/images/honor.jpeg" width="120"></v-img>
+                    src="@/assets/images/honor.jpeg" width="120" height="150"></v-img>
                 </v-card>
                 <v-card-text class="font-weight-bold">
-                        Popularity : 163.1
+                        Popularity : 76.80
                 </v-card-text>
             </v-col>
             </v-row>
