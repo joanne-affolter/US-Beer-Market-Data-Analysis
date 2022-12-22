@@ -124,30 +124,44 @@
                             </v-card>
                         </v-col>
                     </v-row>
-                    <v-row>
-                        <v-card>
-                            <v-card-text>
-                                <v-container>
-                                Remember that our client has already gathered some reviews from his friends and family. We run our k-NN algorithm and we find the following 5 beers to be most similar to our client's.
-                                <v-row>
-                                    <TabNeighbors></TabNeighbors>
-                                </v-row>
-                                <v-row>
-                                    <v-img
-                                    src="@/assets/images/ratings_knn.png">
-                                    </v-img>
-                                </v-row>
-                                    We see that our taste rating is the lowest compared to our closest competitors. On the other hand, the palate and appearance scores are relatively high. This enables us to pinpoint the problem to our client so they don't waste their resources on improving the appearance of their beer as it already rates high. Instead, he should develop other products that provide a different taste while keeping the same palate feel.
-                                </v-container>
-                            </v-card-text>
-                        </v-card>
-                    </v-row>
-
-
-
                 </v-container>
             </v-card-text>
         </v-card>
+
+        <v-card>
+        <v-container>
+        <v-row>
+          <v-card width="100%" color="#9E9E9E">
+            <v-card-text>
+              <span class="text-subtitle-1 font-weight-medium white--text">
+                Top 5 similar beers to our client's
+              </span>
+            </v-card-text>
+          </v-card>
+        </v-row>
+        <v-row>
+          <v-card>
+            <v-card-text>
+                Remember that our client has already gathered some reviews from his friends and family. We run our k-NN algorithm and we find the following 5 beers to be most similar to our client's.
+                <v-row>
+                    <TabNeighbors></TabNeighbors>
+                </v-row>
+                <v-row>
+                    <v-img src="@/assets/images/ratings_knn.png">
+                    </v-img>
+                </v-row>
+                We see that our taste rating is the lowest compared to our closest competitors. On the other hand, the palate and appearance scores are relatively high. This enables us to pinpoint the problem to our client so they don't waste their resources on improving the appearance of their beer as it already rates high. Instead, he should develop other products that provide a different taste while keeping the same palate feel.
+            </v-card-text>
+        </v-card>
+        </v-row>
+        </v-container>
+        </v-card>
+
+
+
+
+
+
     </div>
 </template>
 
