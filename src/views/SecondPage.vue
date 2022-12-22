@@ -16,16 +16,12 @@
     <!--Introduction-->
     <v-card class="mb-6">
       <v-card-text>
-          We have chosen to base our market analysis on two beer review sites:
-          <span class= 'primary--text'> Beer Advocate </span> and
-          <span class= 'primary--text'> Rate Beer</span>.
-              These two sites are widely considered the go-to beer resource for
-          millions of consumers each month and the benchmark for beer reviews.
-          <br> Indeed, in order to understand the demand of our customers and to adapt
-          our offer as well as possible, <i>isn't it worth getting information directly from them ?</i>
-          <br>
-          We start our work with a first data exploratory of the two websites to understand the evolution
-          of the beer industry over the last years as well as the behavior of beer consumers.
+        In order to provide the most informed advice to our customers, 
+        we have decided to use 
+        <span class= 'primary--text'> Beer Advocate </span> and
+        <span class= 'primary--text'> Rate Beer</span> as the primary sources for our market analysis. 
+        These websites are highly regarded by millions of consumers each month as the go-to resources for beer reviews and are considered to be the benchmark in the industry. 
+        <br> In order to gain a comprehensive understanding of the beer industry and consumer behavior, we will begin our analysis by exploring the data provided by these websites through initial data exploration.
       </v-card-text>
     </v-card>
 
@@ -79,9 +75,9 @@
                 <v-col>
                 <v-card>
                   <v-card-text>
-                    On the above figure we plotted the number of ratings posted in US in blue and the number of ratings for all the other countries in yellow. The y-axis is in logarithmic scale.
-                    We can see that the total number of rating from the US is much higher than in the other countries. There are nearly 10 millions ratings from the US whereas the second country (Canada) only has 1 million.
-                  </v-card-text>
+                    On the above figure we plotted the number of ratings posted in US in blue and the number of ratings for all the other countries in yellow. 
+                    <br>The y-axis is in logarithmic scale.
+                    <br>We can see that the total number of rating from the US is much higher than in the other countries. There are nearly 10 millions ratings from the US whereas the second country (Canada) only has 1 million.                  </v-card-text>
                 </v-card>
                 </v-col>
               </v-row>
@@ -92,9 +88,8 @@
                 <v-col>
                 <v-card>
                   <v-card-text>
-                    Given the number of comments we have from the United States, we therefore advise our client to open his brewery in the United States.
-                    Indeed, knowing that our client wants to build its business and market intelligence on the study of consumer comments, the analysis will be much more relevant in the United States and our client will be able to get real benefits from our work.
-                  </v-card-text>
+                    Based on the high volume of consumer comments from the United States, it is our recommendation that our client consider opening their brewery in the United States. 
+                    <br>This decision is further supported by the fact that our client wishes to use consumer comments to inform the development and growth of their business. Conducting this analysis in the United States would provide the most relevant and useful insights.  </v-card-text>
                 </v-card>
                 </v-col>
               </v-row>
@@ -131,7 +126,8 @@
     <!-- Introduction -->
     <v-card class="mb-6">
       <v-card-text>
-        We need to understand how the current beer market behaves in US to be able to know if opening a brewery is a strategic choice for our client.
+        In order to assess the feasibility of opening a brewery in the United States for our client, it is necessary to analyze the current state of the beer market in the country. To gather this information, we will research the number and types of breweries that have opened in the United States in recent years. 
+        <br> This will provide valuable insight into the market demand and competition for different types of breweries.
       </v-card-text>
     </v-card>
 
@@ -166,14 +162,9 @@
             <v-card>
               <v-card-text>
                 <v-icon large color="primary">{{icons.mdiChartTimelineVariantShimmer}}</v-icon>
-
-                  The number of breweries involved in ratings has been growing very quickly over the past decade in the United States. Indeed, we can see on Rate Beer that this evolution even follows an exponential trend since 2007. We don't need to worry about the stabilization in 2017 because the ratings we have available stop in July 2017.
-                  In only 10 years, the number of breweries involved in the ratings has increased from  1304  in 2006 to  4410  in 2016, which corresponds to a growth of  238%
-
-                  <br><br>
-
-                  Regarding Beer Advocate, there are fewer breweries involved in the ratings. We observe a peak in 2014 corresponding to about 1200 breweries, which matches the number of breweries in 2007 on Rate Beer before the explosion started. In addition, the curve does not follow the same trend as Rate Beer and the number of breweries is decreasing since 2014.
-
+                  There has been significant growth in the number of breweries in the United States in recent years. 
+                  <br>According to data from Rate Beer, the number of breweries has increased exponentially since 2007, going from 1304 in 2006 to 4410 in 2016, a growth of 238%. On the other hand, data from Beer Advocate shows a different trend, with a peak of around 1200 breweries in 2014, followed by a decrease in the number of breweries since then. 
+                  <br>Based on these observations, it seems that studying competition in the beer market through the Rate Beer review site would be more relevant in terms of understanding potential competitors for our client.
               </v-card-text>
             </v-card>
           </v-col>
@@ -211,9 +202,8 @@
           <v-col>
             <v-card class="mb-6 my-8">
               <v-card-text class="text-subtitle-2 font-weight-medium">
-                The evolution of the number of breweries involved in the ratings might depend strongly on the number of ratings on the site, which could explain why the curve for Beer Advocate does not follow the same trend as the curve for Rate Beer.
-                <br><br>
-                Hence, we will study the evolution of the number of ratings for the two websites only for beers produced by American breweries.
+                It is possible that the trend in the number of breweries included in the ratings on different review sites may be influenced by the number of ratings on those sites. 
+                <br>This could explain the difference in trends between the data from Rate Beer and Beer Advocate. As such, we will investigate the evolution of the number of ratings for American breweries on both of these websites in order to better understand these trends.
               </v-card-text>
             </v-card>
           </v-col>
@@ -283,7 +273,13 @@
           <v-col>
             <v-card>
               <v-card-text>
-                Let's check how consumers behave on both websites to understand why we get this spike in ratings and why Beer Advocate got a higher number of ratings between 2012 and 2015.
+                To gain insight into the reasons behind the spike in ratings and the shift in popularity between the two websites, we will analyze consumer behavior on both Rate Beer and Beer Advocate. To do this, we will divide the ratings into three periods:
+                <ul>
+                  <li> The first period between 2007 and 2011, when Rate Beer had the most ratings. </li>
+                  <li> The second period between 2012 and 2015, when Beer Advocate was the most popular. </li>
+                  <li> The third period after 2015, when Rate Beer regained its leading position. </li>
+                </ul>
+                By examining these periods separately, we can better understand the factors that influenced consumer behavior and the relative popularity of the two websites.
               </v-card-text>
             </v-card>
           </v-col>
@@ -300,8 +296,12 @@
           <v-col cols="4">
             <v-card>
               <v-card-text>
-                First, the number of consumers is significantly higher between 2012 and 2015 on both sites.
-                It is therefore possible that there was a big hype in the United States during between 2012 and 2015 and that many *new consumers *started to test new beers and to give their opinions on sites such as Beer Advocate and Rate Beer.
+                First, it is clear that there were significantly more consumers on both sites between 2012 and 2015:
+                <ul>
+                  <li>107713  users vs  32003  before and  25040  after for BA.</li>
+                  <li>43798  users vs  24209  before and  17862  after for RB.</li>
+                </ul>
+                This suggests that there may have been a surge of interest in trying new beers and giving opinions on review sites like Beer Advocate and Rate Beer during this period.
               </v-card-text>
             </v-card>
           </v-col>
@@ -315,9 +315,12 @@
           <v-col cols="4">
             <v-card>
               <v-card-text>
-                Secondly, we can see that outside of the 2012 to 2015 period, Rate Beer users rate on average many more beers than Beer Advocate users.
-                <br>Note that the average number of beers rated remains stable (around 15) on BA between 2012 and 2015, whereas it has dropped significantly for RB (around 16).
-                <br>That could be explained by the fact that many amateurs gave ratings on RB during that period.               </v-card-text>
+                Additionally, we see that outside of the 2012 to 2015 period, Rate Beer users tend to rate more beers on average per year than Beer Advocate users:
+                <ul>
+                  <li>On average 14 beers per user per year before and 13 after for BA</li>
+                  <li>On average 39 beers per user per year before and 43 after for RB</li>
+                </ul>
+                It is interesting to note that the average number of beers rated remains relatively constant (around 15) on Beer Advocate between 2012 and 2015, while it has decreased significantly for Rate Beer (around 16) during this period. This could be explained by the fact that many amateurs rated beers on Rate Beer during this time.            </v-card-text>
             </v-card>
           </v-col>
         </v-row>
@@ -331,14 +334,7 @@
                 ✏️ Conclusion
               </v-card-title>
               <v-card-text>
-                Rate Beer users are therefore a more confirmed public, which has not changed much over the years. They must be real passionate by beers and do not hesitate to test new ones and give their opinion.
-
-                <br><br>Beer Advocate consumers, on the other hand, correspond more to a public of amateurs, who became passionate about beer during a few years (from 2012 to 2015), when the number of ratings exploded on Beer Advocate and overtook Rate Beer.
-
-                <br><br>Our interpretation, then, would be that many people got into this fad of discovering new beers during this period, but that hype died down pretty quickly and users started rating fewer and fewer beers.
-
-                <br><br>These consumers caught up in that hype turned more to Beer Advocate, while those with more experience favor Rate Beer for their ratings.
-              </v-card-text>
+                We can interpret these findings as follows: Rate Beer users are more experienced and consistent in their rating activity, likely being true beer enthusiasts who are willing to try and review new beers. On the other hand, Beer Advocate consumers seem to be more amateur in their approach, with a surge in activity between 2012 and 2015 when the number of ratings on Beer Advocate surpassed those on Rate Beer. These consumers may have been caught up in the hype of discovering new beers during this time, but as the hype died down, their rating activity decreased. It appears that these amateur consumers turned more to Beer Advocate, while those with more experience favored Rate Beer for their ratings.         </v-card-text>
             </v-card>
           </v-col>
         </v-row>
@@ -353,7 +349,8 @@
           <v-card width="100%" color="#9E9E9E">
             <v-card-text>
               <span class="text-subtitle-1 font-weight-medium white--text">
-                Do this hype around beers in US had an impact on breweries ?              </span>
+                Did this hype around beers have an impact on breweries ?
+              </span>
             </v-card-text>
           </v-card>
         </v-row>
@@ -362,10 +359,13 @@
           <v-col>
             <v-card>
               <v-card-text>
-                ▪️ The number of breweries involved in the reviews has grown very quickly.
-                Were these breweries already known to users on the beer review sites or did new breweries appear in the ratings ?
-                <br><br>
-                ▪️ Do users adopt easily a new brewery and continue to keep rating it over time after the first rating?
+                We want to determine whether the recent growth in the number of beer ratings on review websites has had a positive impact on the brewery business in the United States. To do this, we will focus on the breweries listed on Rate Beer, as there are more of them listed on this site than on Beer Advocate.
+                To answer the following questions, we will compare the evolution over the years of the number of "in" breweries (those that appear for the first time in the ratings) and "out" breweries (those that no longer appear in the ratings):
+                <ul>
+                  <li>Were the breweries already known to users on the beer review sites or did new breweries appear in the ratings? </li>
+                  <li>Do users easily adopt a new brewery and continue rating it over time after their first rating?</li>
+                </ul>
+                By examining these trends, we can better understand the success and sustainability of new breweries in the market.  
               </v-card-text>
             </v-card>
           </v-col>
@@ -389,8 +389,7 @@
                 'In' breweries
               </v-card-title>
               <v-card-text>
-                While the number of 'in' breweries remain quite low between 2004 and 2008, it then explodes until it reaches  841  new breweries in the ratings in 2016.
-                <br>The quick growth in the number of 'in' breweries seems to be strongly related to the hype in the US around beer and the increase in the number of comments starting in 2012. From 2011 to 2014, there are approximately  150  new 'in' breweries each year, which matched well with the spike in the number of ratings we observed earlier.
+                While the number of 'in' breweries remained relatively low between 2004 and 2008, it then saw a rapid increase until reaching 841 new breweries in the ratings in 2016. This growth appears to be closely connected to the increase in interest and activity in the beer market in the United States starting in 2012, as there were approximately 150 new 'in' breweries added each year between 2011 and 2014, corresponding to the spike in ratings we observed earlier. However, further analysis would be needed to determine the direction of causality between the two trends: whether the influx of new breweries drove the desire among Americans to discover new beers, or if the trend of discovering new beers prompted an increase in the number of new breweries.
               </v-card-text>
             </v-card>
           </v-col>
@@ -401,7 +400,7 @@
                 'Out' breweries
               </v-card-title>
               <v-card-text>
-                The number of 'out' breweries remains stable until 2012 and then increases very sharply to 730 'out' breweries in 2016, which is almost the same number as the 'in' breweries that year! which also seems to be related to the hype around beer in the US, and the strong competition in this field where hundreds of breweries appear every year.
+                The number of 'out' breweries, or those that are no longer included in the ratings, remained relatively stable until 2012 and then saw a sharp increase to 730 'out' breweries in 2016, almost the same number as the 'in' breweries that year. This could potentially be linked to the increased competition in the market and the presence of hundreds of new breweries each year. To better understand the nature of these 'out' breweries, we will separate them based on the number of years between their first and last rating.
               </v-card-text>
             </v-card>
           </v-col>
@@ -448,13 +447,13 @@
             <v-card class="mt-4">
               <v-card-text>
                 In the table above, we have grouped the breweries according to the difference between the year of the first and last rating. We also calculated the average number of comments per beer for each category, and the average rate.
-                <br><br>
-                We can see here that 6 % of the breweries disappear in the ratings the same year as the first rating. Moreover, the average number of ratings per beer is almost equal to  1 . These breweries have not been able to break through among their competitors.
-                <br><br>
-                We also notice that the percentage of breweries decreases as the number of years increases, while the average number of ratings per beer increases. Thus, the new breweries appearing in the ratings do not seem to persist over time and it seems difficult to reach consumers over time.
-                <br><br>
-                However, when breweries have succeeded in establishing themselves in the sector, the average number of comments increases as the years go by. It should be noted, however, that the percentage of breweries with more than 5 years between the first and last comment is quite low, around  16.5  %.
-              </v-card-text>
+                <br> 
+                We can see here that  6  % of the breweries disappear in the ratings the same year as the first rating. Moreover, the average number of ratings per beer is almost equal to  1 . These breweries have not been able to break through the competition.
+                <br> 
+                It could be interesting to study the comments on these beers to determine the reason for their failure with consumers.
+                <br>
+                We have observed that the percentage of breweries decreases as the number of years between their first and last rating increases, while the average number of ratings per beer increases. This suggests that new breweries that appear in the ratings tend to not last over time and may struggle to maintain consumer interest. However, those breweries that have been successful in establishing themselves in the industry tend to see an increase in the average number of comments over time. It is worth noting that the percentage of breweries with more than 5 years between their first and last comment is relatively small, around 16.5%.
+            </v-card-text>
             </v-card>
           </v-col>
         </v-row>
@@ -490,44 +489,31 @@
         <v-timeline-item small color="primary">
           <div class="d-flex justify-space-between align-center flex-wrap">
             <h4 class="font-weight-semibold me-1">
-              A big hype around beer was born in the United States between 2012 and 2015. The numbers can confirm:
-              <br>
-              ▪️ In only 10 years, the number of breweries involved in the ratings has increased from  1304  in 2006 to  4410  in 2016, which corresponds to a growth of  238% .
-              <br>
-              ▪️ The number of ratings on Rate Beer and Beer Advocate has exploded during this period, which is related to the large number of amateurs who have become interested in beer.
-             </h4>
-          </div>
-        </v-timeline-item>
-        <v-timeline-item small color="primary">
-          <div class="d-flex justify-space-between align-center flex-wrap">
-            <h4 class="font-weight-semibold me-1">
-              The number of competitors has grown significantly and the industry has become very competitive. Indeed, many breweries did not manage to federate consumers over time and more than half of the new breweries on the market have comments on their beers during only 1 year. Our client has to be very careful not to lose customers after the first year and compete successfully.
+              States, as evidenced by the rapid growth in the number of breweries included in the ratings, which rose from 1,304 in 2006 to 4,410 in 2016, representing a 238% increase. This growth was accompanied by a surge in the number of ratings on Rate Beer and Beer Advocate, likely due to an influx of amateur beer enthusiasts.
             </h4>
           </div>
         </v-timeline-item>
         <v-timeline-item small color="primary">
           <div class="d-flex justify-space-between align-center flex-wrap">
             <h4 class="font-weight-semibold me-1">
-              To help our client maximize his chances of success, we will do a competitive analysis to know where our client should locate its brewery and succeed in outperforming the competition. We will base this analysis on Rate Beer as the number of breweries involved in the reviews is much higher than on Beer Advocate.
+              The highly competitive nature of the industry is reflected in the fact that many new breweries struggle to maintain consumer interest over time, with more than half of the new breweries on the market receiving comments on their beers for only one year. Our client will need to be particularly mindful of this challenge and focus on ways to differentiate their brewery and retain customers.
             </h4>
           </div>
         </v-timeline-item>
         <v-timeline-item small color="primary">
           <div class="d-flex justify-space-between align-center flex-wrap">
             <h4 class="font-weight-semibold me-1">
-              Since the confirmed audience favors Rate Beer, we will focus on this site for the analysis of the characteristics of a beer that appeal to a real community of experts: what associations of flavors, aromas, palates, etc. in order to best advise our client on the choice of his recipe.
+              To help our client maximize their chances of success, we will conduct a competitive analysis to determine the most strategic location for their brewery and identify opportunities to outperform the competition. We will focus on Rate Beer for this analysis, as it has a larger number of breweries included in the ratings.
             </h4>
           </div>
         </v-timeline-item>
-
         <v-timeline-item small color="primary">
           <div class="d-flex justify-space-between align-center flex-wrap">
             <h4 class="font-weight-semibold me-1">
-              It can be interesting to reach the public of amateurs, because it is a very important market according to what we have seen earlier. For this, we will use Beer Advocate to determine the aspects that create a hype around a beer: packaging, style, certain flavors in particular?
+              Additionally, we will use Rate Beer to analyze the characteristics of a beer that appeal to a more experienced and discerning audience, such as the associations of flavors, aromas, and palates, in order to provide the most informed advice on recipe selection. Meanwhile, we will use Beer Advocate to understand what aspects of a beer create a buzz and generate hype, such as packaging, style, and certain flavors, in order to appeal to the amateur market, which we have seen is a significant portion of the market.
             </h4>
           </div>
         </v-timeline-item>
-
         </v-timeline>
       </v-card-text>
     </v-card>
