@@ -392,7 +392,7 @@
         <v-row>
         <v-card class="mb-6 my-8">
         <v-container>
-            <v-row class="ma-0 pa-0">
+            <v-row class="ma-0 pa-0" align="center" justify="center">
               <v-col cols="9" sm="9">
                 <v-card-text class="text-subtitle-2 font-weight-bold">
                     <span class=" text-l my-6 primary--text">
@@ -429,8 +429,8 @@
               <v-col cols="3" sm="3" >
                 <v-img
                 contain
-                height="80"
-                width="80"
+                height="160"
+                width="160"
                 class="greeting-card-trophy"
                 src="@/assets/images/virginia.gif"
                 ></v-img>
