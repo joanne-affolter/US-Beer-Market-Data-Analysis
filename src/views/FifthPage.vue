@@ -82,7 +82,7 @@
                     <v-row>
                         <v-col cols="5" sm="5">
                             <v-row>
-                            <v-card class="mb-6" outlined border-color="primary">
+                            <v-card class="mb-6" outlined border-color="primary" elevation="24">
                                 <v-card-text>
                                     <div class = 'font-weight-bold'>
                                     1️⃣ Represent each beer by a vector with components :
@@ -97,14 +97,14 @@
                             </v-row>
 
                             <v-row>
-                                <v-card class="mb-6" outlined border-color="primary">
+                                <v-card class="mb-6" outlined border-color="primary" elevation="24">
                                 <v-card-text class = 'font-weight-bold'>
                                     2️⃣ Use <strong>Euclidean distance </strong> to measure similarity between beers
                                 </v-card-text>
                                 </v-card>
                             </v-row>
                             <v-row>
-                            <v-card class="mb-6" outlined border-color="primary">
+                            <v-card class="mb-6" outlined border-color="primary" elevation="24">
                                 <v-card-text class = 'font-weight-bold'>
                                     3️⃣ Use <strong>k-Nearest Neighbors algorithm </strong> to get the neighbors of our client's beer which will be considered as the most similar ones
                                 </v-card-text>
@@ -127,17 +127,18 @@
                     <v-row>
                         <v-card>
                             <v-card-text>
+                                <v-container>
                                 Remember that our client has already gathered some reviews from his friends and family. We run our k-NN algorithm and we find the following 5 beers to be most similar to our client's.
                                 <v-row>
-                                    <v-col cols="6" sm="6">
-                                        <TabNeighbors></TabNeighbors>
-                                    </v-col>
-                                    <v-col cols="6" sm="6">
-                                        <v-img
-                                        src="@/assets/images/ratings_knn.png">
-                                        </v-img>
-                                    </v-col>
+                                    <TabNeighbors></TabNeighbors>
                                 </v-row>
+                                <v-row>
+                                    <v-img
+                                    src="@/assets/images/ratings_knn.png">
+                                    </v-img>
+                                </v-row>
+                                    We see that our taste rating is the lowest compared to our closest competitors. On the other hand, the palate and appearance scores are relatively high. This enables us to pinpoint the problem to our client so they don't waste their resources on improving the appearance of their beer as it already rates high. Instead, he should develop other products that provide a different taste while keeping the same palate feel.
+                                </v-container>
                             </v-card-text>
                         </v-card>
                     </v-row>
@@ -151,7 +152,7 @@
 </template>
 
 <script>
-import TabNeighbors from '@/components/TabNeighbors.vue'
+import TabNeighbors from '@/components/TaNeighbors.vue'
 
 export default {
   components: {
