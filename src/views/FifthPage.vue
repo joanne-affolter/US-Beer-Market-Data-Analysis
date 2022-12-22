@@ -146,7 +146,9 @@
                 Remember that our client has already gathered some reviews from his friends and family. We run our k-NN algorithm and we find the following 5 beers to be most similar to our client's.
                 <v-row>
                     <div>
-                    <TabNeighbors></TabNeighbors>
+                        <v-col>
+                        <TabNeighbors></TabNeighbors>
+                        </v-col>
                     </div>
                 </v-row>
                 <v-row justify="center">

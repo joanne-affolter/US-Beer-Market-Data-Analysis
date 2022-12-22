@@ -1,6 +1,6 @@
 <template>
   <v-data-table :headers="headers" :items="results" :items-per-page="6" :item-class="row_classes" class="elevation-1">
-    <template v-slot:item.state="{ item }">
+    <template v-slot:item.ta="{ item }">
       <v-chip :color="getColor(item.ta)" dark>
         {{ item.name }}
       </v-chip>
