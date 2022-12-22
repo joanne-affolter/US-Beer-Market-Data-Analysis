@@ -21,7 +21,6 @@
       </v-row>
     </v-card-text>
 
-    <!-- pricing free trial -->
     <v-card-text class="pricing-free-trial my-16">
       <v-row>
         <v-col
@@ -34,13 +33,13 @@
               <p class="text-2xl font-weight-medium primary--text mb-2">
                 Our mission
               </p>
-              <p class="text-base">
+              <p>
                 Our client, Sam Smith, recently graduated from college in Massachusetts and is interested in starting a brewery.
               </p>
-              <p class="text-base">
+              <p>
                 He has noticed that local breweries are now trendy and wants to create a local vibe for his beer. He has already taken the first steps towards this goal by creating some sample beers and seeking feedback from his family and friends.
               </p>
-              <p class="text-base">
+              <p>
                 However, he has received differing opinions on the quality and potential success of his brews, leaving him unsure of how to move forward. Seeking a more objective perspective, Sam has decided to turn to our consulting service for guidance.
               </p>
             </div>
@@ -48,8 +47,7 @@
             <!-- images -->
             <v-img
               contain
-              height="278"
-              max-width="250"
+              max-width="100"
               src="@/assets/images/3d-characters/pose-fs-9.png"
               class="pricing-trial-img mx-auto"
               alt="svg img"
@@ -62,32 +60,27 @@
     <!--/ pricing free trial -->
 
     <v-card-text>
-      <h2 class="text-2xl font-weight-medium mb-2">
-        FAQ's
-      </h2>
-      <p>Let us help answer the most common questions.</p>
-    </v-card-text>
-
-    <v-card-text class="pricing-accordion mt-1">
-      <v-row>
-        <v-col
-          cols="12"
-          md="8"
-          class="mx-auto text-left"
+      <v-row align="center" justify="center">
+        <v-col cols="6" sm="6">
+          <v-avatar
+          color="primary"
+          size="128"
         >
-          <v-expansion-panels v-model="pricingAccordion">
-            <v-expansion-panel
-              v-for="item in faqsList"
-              :key="item.title"
-            >
-              <v-expansion-panel-header>
-                {{ item.title }}
-              </v-expansion-panel-header>
-              <v-expansion-panel-content>
-                {{ item.desc }}
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-          </v-expansion-panels>
+        <img
+        src="@/assets/images/beer_advocate.png"
+        >
+        </v-avatar>
+        </v-col>
+        <v-avatar
+          color="primary"
+          size="128"
+        >
+        <img
+        src="@/assets/images/rate_beer.png"
+        >
+        </v-avatar>
+        <v-col cols="6" sm="6">
+
         </v-col>
       </v-row>
     </v-card-text>
