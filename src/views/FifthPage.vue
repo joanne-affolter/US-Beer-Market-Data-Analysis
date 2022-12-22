@@ -170,14 +170,7 @@
             <Top5></Top5>
         </v-row>
 
-        <v-row>
-            <v-card class="mb-6 my-6">
-                <v-card-text>
-                    However, we can see that beers similar to our client's are not very well rated in general. Indeed, their average rating is lower than the average taken over all the beers rated in Virginia.
-                    <br><br>💡 Our client must therefore offer other products in order to reach customers.
-                </v-card-text>
-            </v-card>
-        </v-row>
+
         </v-container>
         </v-card>
 
@@ -189,6 +182,46 @@
                         <v-card-text class="d-flex align-center mt-5 text-h5 white--text font-weight-black">
                             Which features most influence the global rating?
                         </v-card-text>
+                    </v-col>
+                </v-row>
+            </v-container>
+        </v-card>
+
+        <v-card>
+            <v-container>
+                <v-row>
+                    <v-card>
+                        <v-card-text>
+                            We need to understand which features most influence the overall rating and therefore are most important to consumers to determine on which aspects our client should focus on when creating new products.
+                        </v-card-text>
+                    </v-card>
+                </v-row>
+                <v-row>
+                    <v-card>
+                        <v-card-text>
+                            <v-img
+                            src="@/assets/images/question_gif.gif"
+                            height="100%"
+                            width="90">
+                            </v-img>
+                            Using
+                            <span class='primary-text'>Linear Regression</span>
+                            , we will find out which features have the most influence on the overall rating.
+                        </v-card-text>
+                    </v-card>
+                </v-row>
+                <v-row>
+                    <v-col cols="6" sm="6">
+                        <v-img
+                            src="@/assets/images/linreg.png">
+                        </v-img>
+                    </v-col>
+                    <v-col cols="6" sm="6">
+                        The taste score has the highest coefficient and thus has the biggest impact on the global rating. Appearance, on the other hand, has a coefficient that is only half as high and does not have as much influence on the consumers' score.
+                        <br><br>
+                        <div class='primary--text text-subtitle-1'>
+                        💡 When developing new beers, our client should then focus on taste and palate, and not on appearance as he did with its existing products.
+                        </div>
                     </v-col>
                 </v-row>
             </v-container>
