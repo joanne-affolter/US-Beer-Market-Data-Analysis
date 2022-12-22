@@ -36,8 +36,6 @@
               <br>
               <p class="mb-3">
                 Our client, Sam Smith, recently graduated from college in Massachusetts and is interested in starting a brewery.
-              </p>
-              <p>
                 He has noticed that local breweries are now trendy and wants to create a local vibe for his beer. He has already taken the first steps towards this goal by creating some sample beers and seeking feedback from his family and friends.
               </p>
               <p>
@@ -75,7 +73,7 @@
       </v-row>
     </v-card-text>
 
-    <v-card-text class="pricing-free-trial my-16">
+    <v-card-text class="my-16">
       <v-row>
         <v-col
           cols="12"
@@ -83,9 +81,8 @@
           sm="8"
           class="mx-auto"
         >
-          <p class="mb-3 text-l">
-            To help Sam create a successful brewery, we will follow a few steps.
-          </p>
+          <h1 class="font-weight-medium mb-5 primary--text">
+            To help Sam create a successful brewery, we will follow a few steps.          </h1>
         </v-col>
       </v-row>
     </v-card-text>
@@ -99,6 +96,31 @@
         </v-col>
       </v-row>
     </v-card-text>
+
+    <v-card-text class="my-8">
+      <v-row align="center" justify="center">
+        <v-col cols="4" sm="4">
+          <v-img src="@/assets/images/home2.jpg"></v-img>     </v-col>
+        <v-col cols="8" sm="8">
+          Once we have a good understanding of the overall market, we will focus on identifying the most promising states for Sam's brewery to operate in.
+          <br><br>
+          We will consider factors such as the size of the market, the level of competition, and the popularity of local breweries in each state. Our goal is to identify states that have a large market share, low competition, and a strong preference for local breweries.
+        </v-col>
+      </v-row>
+    </v-card-text>
+
+    <v-card-text class="my-8">
+      <v-row align="center" justify="center">
+        <v-col cols="4" sm="4">
+          <v-img src="@/assets/images/home3.jpg"></v-img>     </v-col>
+        <v-col cols="8" sm="8">
+          After identifying a few states that meet these criteria, we will select one of them to focus on in more depth. We will examine the breweries and stats in this state to understand the competition and identify opportunities for Sam's brewery to stand out and succeed.
+          <br><br>
+          At this stage, we will also consider the feedback Sam has received from his family on his sample beers. We will use the business intelligence we have gathered thus far to evaluate this feedback and make recommendations for improvements to Sam's products. We may also suggest new products that we believe have the potential to perform well in the chosen state and fit with Sam's goal of creating a local vibe for his beer. Our goal is to help Sam create a successful brewery that meets the needs and preferences of local beer drinkers.
+        </v-col>
+      </v-row>
+    </v-card-text>
+
   </v-card>
 </template>
 
