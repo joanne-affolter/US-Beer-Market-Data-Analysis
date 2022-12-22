@@ -381,16 +381,16 @@
                     width="120" height="150"></v-img>
                 </v-card>
                 <v-card-text class="font-weight-bold my-2">
-                        Score : 164.50
+                        Score : 164.5
                     </v-card-text>
             </v-col>
             <v-col cols="4" sm="4">
                 <v-card>
                     <v-img
-                    src="@/assets/images/stone.jpg" width="120" height="150"></v-img>
+                    src="@/assets/images/stone3.jpg" width="120" height="150"></v-img>
                 </v-card>
                 <v-card-text class="font-weight-bold my-2">
-                        Score : 111.07
+                        Score : 111
                 </v-card-text>
             </v-col>
             </v-row>
