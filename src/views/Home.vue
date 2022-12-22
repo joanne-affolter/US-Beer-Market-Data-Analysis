@@ -25,7 +25,7 @@
       <v-row>
         <v-col
           cols="12"
-          md="10"
+          md="12"
           class="mx-auto"
         >
           <div class="pricing-trial-content d-flex justify-space-between flex-column flex-md-row">
@@ -43,16 +43,6 @@
                 However, he has received differing opinions on the quality and potential success of his brews, leaving him unsure of how to move forward. Seeking a more objective perspective, Sam has decided to turn to our consulting service for guidance.
               </p>
             </div>
-
-            <!-- images -->
-            <v-img
-              contain
-              max-width="100"
-              src="@/assets/images/3d-characters/pose-fs-9.png"
-              class="pricing-trial-img mx-auto"
-              alt="svg img"
-            />
-            <!--/ images -->
           </div>
         </v-col>
       </v-row>
@@ -63,24 +53,23 @@
       <v-row align="center" justify="center">
         <v-col cols="6" sm="6">
           <v-avatar
-          color="primary"
-          size="128"
-        >
-        <img
-        src="@/assets/images/beer_advocate.png"
-        >
-        </v-avatar>
+            color="primary"
+            size="128"
+          >
+          <img
+          src="@/assets/images/beer_advocate.png"
+          >
+          </v-avatar>
         </v-col>
-        <v-avatar
-          color="primary"
-          size="128"
-        >
-        <img
-        src="@/assets/images/rate_beer.png"
-        >
-        </v-avatar>
         <v-col cols="6" sm="6">
-
+          <v-avatar
+            color="primary"
+            size="128"
+          >
+          <img
+          src="@/assets/images/rate_beer.png"
+          >
+        </v-avatar>
         </v-col>
       </v-row>
     </v-card-text>
