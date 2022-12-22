@@ -10,7 +10,7 @@
 
             <v-card-text >
                     <p class = "d-flex align-center mt-5 text-h5 white--text font-weight-black">Strategic advice for market positioning in Virginia</p>
-                    <p class = 'd-flex align-center mt-5 text-subtitle-1 white--text'>The American beer industry has become increasingly competitive in recent years. It is therefore essential for our client to define a strategy in order to stand out from other breweries and to survive over the years.</p>
+                    <p class = 'd-flex align-center mt-5 white--text'>The American beer industry has become increasingly competitive in recent years. It is therefore essential for our client to define a strategy in order to stand out from other breweries and to survive over the years.</p>
             </v-card-text>
         </v-card>
 
@@ -58,10 +58,10 @@
         </v-card>
 
         <v-card class="mb-6">
-            <v-card-title>
+            <v-card-title class="my-1">
                 <v-container>
                 <v-row align="center">
-                    <v-col cols="2" sm="2">
+                    <v-col cols="1" sm="1">
                         <v-img
                         src="@/assets/images/question_gif.gif"
                         height="90"
@@ -81,16 +81,12 @@
                 <v-container>
                     <v-row>
                         <v-col cols="5" sm="5">
+                            <v-row>
                             <v-card class="mb-6">
                                 <v-card-text>
                                     <div class = 'font-weight-bold'>
                                     1️⃣ Represent each beer by a vector with components :
-                                    </div>
-                                    <div class="primary--text">
-                                    ▪️ aroma
-                                    <br> ▪️ palate
-                                    <br> ▪️ appearance
-                                    <br> ▪️ taste
+                                    aroma, palate, appearance, taste
                                     </div>
                                     <v-img
                                     src="@/assets/images/rep_beer.jpg"
@@ -98,11 +94,28 @@
                                     </v-img>
                                 </v-card-text>
                             </v-card>
+                            </v-row>
+
+                            <v-row>
+                                <v-card class="mb-6">
+                                <v-card-text class = 'font-weight-bold'>
+                                    2️⃣ Use <strong>Euclidean distance </strong> to measure similarity between beers
+                                </v-card-text>
+                                </v-card>
+                            </v-row>
+                            <v-row>
+                            <v-card class="mb-6" color="primary">
+                                <v-card-text class = 'font-weight-bold'>
+                                    3️⃣ Use <strong>k-Nearest Neighbors algorithm </strong> to get the neighbors of our client's beer which will be considered as the most similar ones
+                                </v-card-text>
+                            </v-card>
+                            </v-row>
                         </v-col>
                         <v-col cols="7" sm="7">
                             <v-card>
                                 <v-card-text>
-                                    Let's visualize our beer vectors. But since they live in a four-dimensional, we first need to apply a dimensionality reduction method. We have opted for PCA.
+                                    Let's visualize our beer vectors. But since they live in a four-dimensional space, we first need to apply a dimensionality reduction method. We have opted for
+                                    <span class="primary--text">PCA</span>.
                                     <v-img
                                     src="@/assets/images/viz_beers.png">
                                     </v-img>
@@ -112,21 +125,8 @@
                         </v-col>
                     </v-row>
 
-                    <v-row>
-                        <v-card class="mb-6" color="primary">
-                                <v-card-text class = 'font-weight-bold'>
-                                    2️⃣ Use <strong>Euclidean distance </strong> to measure similarity between beers
-                                </v-card-text>
-                            </v-card>
-                    </v-row>
 
-                    <v-row>
-                        <v-card class="mb-6" color="primary">
-                                <v-card-text class = 'font-weight-bold'>
-                                    3️⃣ Use <strong>k-Nearest Neighbors algorithm </strong> to get the neighbors of our client's beer which will be considered as the most similar ones
-                                </v-card-text>
-                            </v-card>
-                    </v-row>
+
 
                 </v-container>
             </v-card-text>
