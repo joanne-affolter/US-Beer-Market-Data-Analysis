@@ -367,7 +367,7 @@
             <v-col cols="4" sm="4">
                 <v-card>
                     <v-img
-                    src="@/assets/images/stone2.jpeg"
+                    src="@/assets/images/stone2.png"
                     width="120" height="150"></v-img>
                     </v-card>
                     <v-card-text class="font-weight-bold my-2">
@@ -387,7 +387,7 @@
             <v-col cols="4" sm="4">
                 <v-card>
                     <v-img
-                    src="@/assets/images/stone.jpeg" width="120" height="150"></v-img>
+                    src="@/assets/images/stone.jpg" width="120" height="150"></v-img>
                 </v-card>
                 <v-card-text class="font-weight-bold my-2">
                         Score : 111.07
