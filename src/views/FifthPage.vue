@@ -62,7 +62,7 @@
                 <v-container>
                 <v-row align="center">
                     <v-col cols="2" sm="2">
-                        <v-img src="@assets/images/question_gif.gif">
+                        <v-img src="@/assets/images/question_gif.gif">
                         </v-img>
                     </v-col>
                     <v-col cols="10" sm="10">
@@ -87,6 +87,9 @@
                                     <br> ▪️ appearance
                                     <br> ▪️ taste
                                     </div>
+                                    <v-img src="@/assets/images/rep_beer.jpg">
+
+                                    </v-img>
                                 </v-card-text>
                             </v-card>
                         </v-col>
