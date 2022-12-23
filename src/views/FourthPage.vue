@@ -99,7 +99,11 @@
                     <v-container><v-row align="center" justify="center">
                         <v-col cols="10" sm="10"><v-img src="@/assets/images/wash1.png"></v-img></v-col></v-row>
                     <v-row>
-                        The 3 breweries with the highest number of comments dominate by far the other breweries in the top 10, and are the breweries to watch. <strong>Yakima Brewing and Malting Co. </strong> is far ahead of its competitors with  <strong> 1,627 ratings </strong>, twice as many as the brewery just behind it.
+                        The 3 breweries with the highest number of comments dominate by far the other breweries in the top 10, and are the breweries to watch.
+                        <strong> Yakima Brewing and Malting Co. </strong>
+                        is far ahead of its competitors with
+                        <strong> 1,627 ratings </strong>
+                        , twice as many as the brewery just behind it.
                 </v-row></v-container>
             </v-card-text>
             </v-card>
@@ -111,7 +115,9 @@
                     <v-container><v-row align="center" justify="center">
                         <v-col cols="10" sm="10"><v-img src="@/assets/images/vir1.png"></v-img></v-col></v-row>
                     <v-row>
-                        The distribution of the <strong>number of ratings is more uniform</strong> among the breweries here. This is not surprising, as this is the state with the most breweries in the country (33 breweries) and therefore fewer market leaders like in Washington. Howewer, we can note that Blue & Gray Brewing Co. slightly dominates the market.
+                        The distribution of the
+                        <strong> number of ratings is more uniform </strong>
+                         among the breweries here. This is not surprising, as this is the state with the most breweries in the country (33 breweries) and therefore fewer market leaders like in Washington. Howewer, we can note that Blue & Gray Brewing Co. slightly dominates the market.
                     </v-row></v-container>
                 </v-card-text>
             </v-card>
@@ -123,7 +129,11 @@
                 <v-container><v-row align="center" justify="center">
                     <v-col cols="7"><v-img src="@/assets/images/m1.png"></v-img></v-col></v-row>
                 <v-row>
-                    The <strong>top 3 breweries</strong> here share <strong>more than half of the total number of ratings of the 10 most popular breweries</strong>, and are therefore the breweries to watch.
+                    The
+                    <strong> top 3 breweries </strong>
+                    here share
+                    <strong> more than half of the total number of ratings of the 10 most popular breweries </strong>
+                    , and are therefore the breweries to watch.
                 </v-row></v-container>
                 </v-card-text>
             </v-card>
@@ -133,7 +143,17 @@
 
     <v-card class="mb-6 my-6">
         <v-card-text class="text-subtitle-2">
-            Following the analysis of the number of ratings per brewery for each state, we can observe that there are generally <strong>fewer ratings per brewery in Virginia:</strong> the <strong>most popular brewery</strong> has only <strong>346 ratings</strong>, while this number is <strong>much higher in Massachusetts (1627) and Virginia (1493)</strong>. This means that there are fewer breweries dominating the market. The sector will be <strong>less competitive</strong> for our client, which is a positive point.
+            Following the analysis of the number of ratings per brewery for each state, we can observe that there are generally
+            <strong> fewer ratings per brewery in Virginia : </strong>
+            the
+            <strong> most popular brewery </strong>
+            has only
+            <strong> 346 ratings </strong>
+            , while this number is
+            <strong> much higher in Massachusetts (1627) and Virginia (1493) </strong>
+            . This means that there are fewer breweries dominating the market. The sector will be
+            <strong> less competitive </strong>
+            for our client, which is a positive point.
             <br><br>
             Let's continue to fill the table containing the scores determined through our analysis. We recommend the state of Virginia for this criterion since it is the state with the least number of popular competitors (high number of ratings).
         </v-card-text>
@@ -154,7 +174,7 @@
 
     <v-card class="mb-6 my-8">
         <v-card-text class="font-weight-semibold">
-            In this analysis, we will identify breweries that are <strong>well-established in the market</strong> and <strong>have a reputation for quality among consumers</strong>. 
+            In this analysis, we will identify breweries that are <strong>well-established in the market</strong> and <strong>have a reputation for quality among consumers</strong>.
             <br><br>
             We will focus on breweries that have the most years of experience, as these are likely to have a strong presence in the market and be well-known by consumers. By identifying these breweries, we can better understand the competitive landscape and determine which ones may pose the greatest threat to our client's success.
         </v-card-text>
@@ -175,8 +195,9 @@
                         <v-col cols="10" sm="10"><v-img src="@/assets/images/w2.png"></v-img></v-col></v-row>
                     <v-row>
                         The oldest breweries in the comments have a significant amount of experience, with the first one having been in the area for 17 years and the second one for 16 years. The next three breweries have been in the area for 14 years. These breweries are well-established and <strong>may be considered institutions in Washington.</strong>
-                        <br><br>
-                        Additionally, the large number of established breweries in the area may make it more difficult for new breweries to gain a foothold, as consumers may be more inclined to visit established breweries out of habit. As such, these breweries <strong>may pose a real threat to our client as potential competitors.</strong>
+                        <br>
+                        Additionally, the large number of established breweries in the area may make it more difficult for new breweries to gain a foothold, as consumers may be more inclined to visit established breweries out of habit. As such, these breweries
+                        <strong> may pose a real threat to our client as potential competitors.</strong>
                     </v-row></v-container>
             </v-card-text>
             </v-card>
@@ -188,9 +209,17 @@
                     <v-container><v-row align="center" justify="center">
                         <v-col cols="8" sm="8"><v-img src="@/assets/images/v2.png"></v-img></v-col></v-row>
                     <v-row>
-                        In Virginia, there is <strong>a greater difference between long-established breweries and newer breweries</strong> than there is in Washington. The top three breweries in Virginia have been in the reviews for 16, 14, and 13 years, respectively, while the 10th brewery has only been rated for 3 years. This indicates that <strong>most of the breweries in Virginia are relatively new</strong>, with only 5 of the 33 breweries having been in the comments for more than 7 years. 
+                        In Virginia, there is
+                        <strong> a greater difference between long-established breweries and newer breweries </strong>
+                        than there is in Washington. The top three breweries in Virginia have been in the reviews for 16, 14, and 13 years, respectively, while the 10th brewery has only been rated for 3 years. This indicates that
+                        <strong> most of the breweries in Virginia are relatively new </strong>,
+                        with only 5 of the 33 breweries having been in the comments for more than 7 years.
                         <br><br>
-                        Despite having the largest number of potential competitors among the states we analyzed, Virginia also has <strong>the highest score in terms of the evolution of the number of users over the years</strong>. This suggests that <strong>there may be more room for new breweries to succeed in Virginia</strong> compared to Washington, and that our client may be able to find a place in the market more easily in this state.    
+                        Despite having the largest number of potential competitors among the states we analyzed, Virginia also has
+                        <strong> the highest score in terms of the evolution of the number of users over the years </strong>.
+                        This suggests that
+                        <strong> there may be more room for new breweries to succeed in Virginia </strong>
+                        compared to Washington, and that our client may be able to find a place in the market more easily in this state.
                     </v-row></v-container>
                 </v-card-text>
             </v-card>
