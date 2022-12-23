@@ -20,15 +20,15 @@
         <v-card>
 
             <v-card-text>
-                <span class="text-subtitle-1 primary--text">
+                <span class="text-subtitle-2 primary--text">
                     In this second part, we will determine who are the potential competitors of our client. Let's note that our client has given us the following specifications:
                 </span>
-                <br><br>
+                <br><br><br>
                 <v-timeline dense class="timeline-custom-dense timeline-custom-dots">
 
                 <v-timeline-item small color="primary">
                     <div class="d-flex justify-space-between align-center flex-wrap">
-                    <h4 class="me-1">
+                    <h4 class="me-1 font-weight-lite">
                         Passionate about beer, he wants to be as close as possible to his customers and therefore wants to reach a local clientele in the state where he will set up his brewery.
                     </h4>
                     </div>
@@ -36,7 +36,7 @@
 
                 <v-timeline-item small color="primary">
                     <div class="d-flex justify-space-between align-center flex-wrap">
-                        <h4 class="me-1">
+                        <h4 class="me-1 font-weight-lite">
                         He is not able to produce more than 30 beers.
                     </h4>
                     </div>
@@ -44,7 +44,7 @@
 
                 <v-timeline-item small color="primary">
                     <div class="d-flex justify-space-between align-center flex-wrap">
-                        <h4 class="me-1">
+                        <h4 class="me-1 font-weight-lite">
                         He is open to all states to set up his brewery.
                     </h4>
                     </div>
@@ -53,7 +53,7 @@
                 </v-timeline>
 
                 <br><br>
-                <div class="text-subtitle-2">
+                <div class="text-subtitle-2 font-weight-lite">
                 To assist our client in selecting the location for their brewery, we will first examine consumer behavior in each state. Then, we will identify competitors with a similar production capacity, meaning
                 <span class='primary--text'>
                 local breweries that produce no more than 30 beers.
@@ -76,8 +76,8 @@
                 <v-card-actions>
                     <v-container>
                         <v-row>
-                            <v-card dark color="primary" class="my-4">
-                                <v-card-text class="white--text">
+                            <v-card dark elevation="64" class="my-4" width="440">
+                                <v-card-text class="primary--text">
                                 A large market share to reach with a lot of potential clients
                                 </v-card-text>
                             </v-card>
@@ -85,8 +85,8 @@
                         <v-spacer></v-spacer>
                         <v-spacer></v-spacer>
                         <v-row>
-                            <v-card dark color="primary" class="my-4">
-                                <v-card-text class="white--text">
+                            <v-card dark elevation="64" class="my-4" width="440">
+                                <v-card-text class="primary--text">
                                 Consumers who like local beers
                                 </v-card-text>
                             </v-card>
@@ -94,8 +94,8 @@
                         <v-spacer></v-spacer>
                         <v-spacer></v-spacer>
                         <v-row>
-                            <v-card dark color="primary" class="my-4">
-                                <v-card-text class="white--text">
+                            <v-card dark elevation="64" class="my-4" width="440">
+                                <v-card-text class="primary--text">
                                 Beer lovers who make a lot of ratings
                                 </v-card-text>
                             </v-card>
@@ -431,6 +431,7 @@
                                 We therefore strongly support our client's idea to set up a local brewery.
                                 <br><br>
                                 Some states are particularly catching our attention:
+                                <br><br>
                                 <ul>
                                     <li>The states of Vermont, Mississippi, Virginia, Massachusetts, Minnesota with very rapid growth since 2014</li>
                                     <li>The states of California, Colorado, Oregon, Michigan, and Ohio which are growing more slowly but are in the top 10 states with the highest percentage of local ratings in 2016 (between 40 % and 60 %).</li>
@@ -584,8 +585,7 @@
                 <v-card-text >
                     <span class="my-6 text-subtitle-2 font-weight-bold">
                         After investigating user behavior by state in detail, we will now complete our market research by focusing on our client's potential competitors.
-                        <br>
-                        We will filter the breweries according to the following criteria:
+                        We will filter the breweries according to the following criteria :
                     </span>
                     <v-timeline dense class="timeline-custom-dense timeline-custom-dots mt-6">
 
@@ -596,7 +596,9 @@
                                 We remove breweries from the states with a total score of 0.
                                 </span>
                                 <br>
+                                <span class="font-weight-light">
                                 By eliminating breweries located in states with a low score, we can focus on markets that are more likely to be viable for our client's brewery. This will help to ensure that our analysis is more accurate and relevant, as it will exclude areas that may not be attractive to our client.
+                                </span>
                             </h4>
                             </div>
                         </v-timeline-item>
@@ -608,7 +610,9 @@
                                 We remove the breweries which don't have ratings in 2016/2017.
                                 </span>
                                 <br>
+                                <span class="font-weight-light">
                                 We want to consider only competitors that are still in the market. Since the latest date available in the dataset is in 2017, we will remove all breweries that stopped receiving reviews prior to 2016.
+                            </span>
                             </h4>
                             </div>
                         </v-timeline-item>
@@ -620,8 +624,9 @@
                                 We keep only the breweries of the same size as our client.
                                 </span>
                                 <br>
+                                <span class="font-weight-light">
                                 By limiting our analysis to breweries that are the same size as our client, we can more accurately compare their capabilities and resources. This will allow us to identify potential competitors that may be more evenly matched with our client in terms of production capacity and market presence.
-
+                            </span>
                             </h4>
                             </div>
                         </v-timeline-item>
@@ -633,7 +638,9 @@
                                 We remove the breweries that have a very low number of ratings.
                                 </span>
                                 <br>
+                                <span class="font-weight-light">
                                 Breweries with a low number of ratings may not be well-established or popular, and therefore may not pose a significant threat to our client. By removing these breweries from our analysis, we can focus on more relevant competitors that are more likely to be viable threats to our client.
+                            </span>
                             </h4>
                             </div>
                         </v-timeline-item>
@@ -678,7 +685,7 @@
                     <v-col>
                         <v-card>
                             <v-card-text>
-                                <div class="text-subtitle-2 font-weight-bold">
+                                <div class="text-subtitle-2">
                                     The plot above shows the results of our market research.
                                     On the left you can see the number of potential competitors for our client for each state whose total score is strictly greater than 0.
                                     On the right is the ranking of the states according to the total score which corresponds to the sum of the scores obtained on the following criteria:

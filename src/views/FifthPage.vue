@@ -28,7 +28,7 @@
                             <v-timeline-item small color="primary">
                                 <div class="d-flex justify-space-between align-center flex-wrap">
                                 <h4 class="font-weight-semibold me-1">
-                                    First, we'll see if our client's products can reach consumers in Virginia. First, we will determine which similar beers can be found on the market and see if they are liked by consumers in Virginia.                                </h4>
+                                    First, we'll see if our client's products can reach consumers in Virginia. We will then determine which similar beers can be found on the market and see if they are liked by consumers in Virginia.                                </h4>
                                 </div>
                             </v-timeline-item>
 
@@ -121,8 +121,7 @@
                                     <v-img
                                     src="@/assets/images/viz_beers.png">
                                     </v-img>
-                                    We can see a linear dependency between the values of the two axes, with points located around the regression line with a stable variance. A sub-matching pattern seems to exist, meaning that the beers in the ratings have similarities even if we cannot interpret the values of the two axes as such.
-                                </v-card-text>
+                                    The 2-dimensional PCA representation of the data appears to show a linear dependency between the values of the two axes, with points distributed around a regression line with a consistent variance. It appears that there may be sub-matching patterns present in the data, indicating that the beers in the ratings have similarities even though we cannot interpret the exact meanings of the values on the two axes. Overall, this suggests that the original data has a strong, predictable relationship between the variables and may be amenable to linear modeling techniques.                                </v-card-text>
                             </v-card>
                         </v-col>
                     </v-row>
@@ -155,7 +154,7 @@
                     </v-col>
                 </v-row>
                 <v-row>
-                    We see that our taste rating is the lowest compared to our closest competitors. On the other hand, the palate and appearance scores are relatively high. This enables us to pinpoint the problem to our client so they don't waste their resources on improving the appearance of their beer as it already rates high. Instead, he should develop other products that provide a different taste while keeping the same palate feel.
+                    We see that our taste rating is the lowest compared to our closest competitors. On the other hand, the palate and appearance scores are relatively high. This enables us to pinpoint the problem to our client so he doesn't waste its resources on improving the appearance of its beers as it already rates high. Instead, he should develop other products that provide a different taste while keeping the same palate feel.
                 </v-row>
 
             </v-card-text>
@@ -188,8 +187,21 @@
                 <v-row>
                     <v-card>
                         <v-card-text class='text-subtitle-2'>
-                            We need to understand which features most influence the overall rating and therefore are most important to consumers to determine on which aspects our client should focus on when creating new products.
-                            <br><br>Using <span class="primary--text">Linear Regression</span>, we will find out which features have the most influence on the overall rating.
+                            In order to understand
+                            <span class='primary--text'>which features are most important to consumers </span>
+                            and have the greatest influence on the overall rating of a product, we will use
+                            <span class='primary--text'>
+                            linear regression
+                            </span>
+                            to identify the relative importance of each feature.
+                            <br><br>
+                            By analyzing the coefficients of the linear regression model, we can determine
+                            <span class='primary--text'>
+                            which features have the most impact on the predicted outcome
+                            </span>
+                            and are therefore considered the most important.
+                            <br><br>
+                            This information can be used to guide the development of new products by focusing on the aspects that are most important to consumers.
                         </v-card-text>
                     </v-card>
                 </v-row>
@@ -223,12 +235,11 @@
                     </p>
                     <v-divider></v-divider>
                     <br>
-                    In response to his query, we proposed the following strategy :
+                    In response to our client's request, we proposed the following strategy :
                     create a flagship product that would allow him to enter the market successfully but also to last over time.
                     <br><br>
                     <p class="font-weight-bold text-h8">🤔 But how do we define this product?</p>
-                    First of all, the product must attract consumers. The goal here is not to be original. Instead, we need to choose a style that is rooted in Virginia, a beer that customers will look for and want to repurchase because it is their favorite style.
-                    <br><br>
+                    To define the flagship product, it is important to focus on creating a product that will attract and retain consumers. This means choosing a style of beer that is popular and well-liked by customers in Virginia, rather than trying to be too original or experimental. By selecting a style that is already rooted in the local market, our client's beer will have a higher chance of success because customers will be more familiar with and likely to seek out this type of beer. Additionally, by producing a beer that customers enjoy and want to repurchase, our client can build a loyal customer base and establish a lasting presence in the market.                    <br><br>
                     Then, after having found the right beer style, our client must propose a product that stands out from the competitors, and therefore from the most popular beers of these styles.
                     <br><br>
                     By doing so, our client can be assured that his product will appeal to consumers, hoping that they will prefer his beer to the most popular over the state.
@@ -397,6 +408,10 @@
             </v-card>
             </v-col>
         </v-row>
+
+        <v-row>
+
+        </v-row>
         </v-container>
         </v-card>
 
@@ -414,16 +429,15 @@
         <v-row>
             <v-card width="100%" >
             <v-card-text class="text-subtitle-2 font-weight-bold">
-                In this section, we analyze for each of the most popular beers which features have the most influence on the ratings.
-                <span class=" text-m my-6 primary--text">
-                <br><br>With these informations, we will be able to identify :
-                </span>
+                In this section, we will analyze the most popular beers to determine which features have the greatest influence on their ratings.                 <span class=" text-m my-6 primary--text">
+                <br><br>
+                By understanding which characteristics are most important to consumers, we can identify :                </span>
                 <v-timeline dense class="timeline-custom-dense timeline-custom-dots mt-6">
 
                 <v-timeline-item small color="primary">
                     <div class="d-flex justify-space-between align-center flex-wrap">
                     <h4 class="font-weight-semibold me-1">
-                    On which features we should focus for our beer to have a maximum rating
+                        Areas to focus on in order to maximize the rating of our client's beer and potentially surpass the competition
                     </h4>
                     </div>
                 </v-timeline-item>
@@ -431,8 +445,7 @@
                 <v-timeline-item small color="primary">
                     <div class="d-flex justify-space-between align-center flex-wrap">
                     <h4 class="font-weight-semibold me-1">
-                        Which features we can improve to surpass the best beers
-                    </h4>
+                        Specific features that can be improved or emphasized in order to enhance the overall appeal and appeal of the beer                    </h4>
                     </div>
                 </v-timeline-item>
                 </v-timeline>
@@ -460,7 +473,18 @@
                         </v-col>
                         <v-col cols="4" sm="4">
                             <v-card class="mb-6 my-6">
-                            Amine's text
+                                Based on the plot, it appears that
+                                <span class="primary--text">
+                                taste is the most influential factor
+                                </span>
+                                on overall ratings for the popular beers of the regular IPA style.
+                                <br><br>
+                                The three leading beers stand out from their competitors due to their high ratings in this category, rather than their appearance or palate, which our client may have thought were more important factors.
+                                <br><br>
+                                This suggests that taste is a particularly important consideration for consumers when evaluating and rating beers, and that
+                                <span class="text-subtitle-2">
+                                focusing on producing a beer with a highly rated taste may be crucial for success in the market.
+                                </span>
                             </v-card>
                         </v-col>
                     </v-row>
@@ -489,7 +513,14 @@
                         </v-col>
                         <v-col cols="4" sm="4">
                             <v-card class="mb-6 my-6">
-                            Amine's text
+                                For the Imperial IPA style, the analysis shows that th importance of the different characteristics is
+                                <span class="primary--text">
+                                more evenly distributed.
+                                </span>
+                                <br><br>
+                                While taste is still the most influential factor, aroma and palate are close seconds and should also be taken into consideration when developing a beer in this style.
+                                <br>
+                                This indicates that a well-rounded approach to producing a high-quality Imperial IPA, with a focus on all aspects of the beer including taste, aroma, and palate, may be necessary for success in this market.
                             </v-card>
                         </v-col>
                     </v-row>
@@ -500,8 +531,54 @@
         </v-container>
         </v-card>
 
+        <v-card class="mb-6" color="primary">
+        <v-container>
+        <v-row>
 
+          <v-col cols="8" sm="6">
+            <v-card-text class="d-flex align-center mt-5 text-h5 white--text font-weight-black">
+                Conclusion
+            </v-card-text>
+          </v-col>
 
+          <v-col cols="4" sm="6">
+            <v-img
+              width="121"
+              src="@/assets/images/3d-characters/pose-m-34.png"
+              class="gamification-john-pose-2"
+            ></v-img>
+          </v-col>
+        </v-row>
+      </v-container>
+        </v-card>
+
+        <v-card>
+            <v-card-text>
+                Based on the analysis of the most popular beers in Virginia, it appears that
+                <span class="primary--text">
+                taste is the most influential factor
+                </span>
+                for both the India Pale Ale (IPA) and Imperial IPA styles.
+
+                <br><br>
+                For the
+                <strong> India Pale Ale (IPA) style, </strong>
+                taste is the primary characteristic that sets the leading beers apart from their competitors.
+                <br><br>
+                For the
+                <strong> Imperial IPA style, </strong> the importance of the different characteristics is more evenly distributed, with taste, aroma, and palate all being important factors.
+                <br><br>
+
+                <span class="text-subtitle-1">
+                💡 Given these findings, we would advise our client to consider developing two beers – one regular IPA and one Imperial IPA – that prioritize these characteristics in their development.
+                <br>
+                This could involve focusing on producing a beer with a particularly high-rated taste, as well as ensuring that the aroma and palate are well-balanced and appealing to consumers.
+                <br><br>
+                By targeting these key aspects of the beer, our client can position themselves for success in the Virginia market and potentially surpass their competitors.
+                </span>
+            </v-card-text>
+
+        </v-card>
 
 
 
@@ -526,3 +603,62 @@ export default {
 }
 </script>
 
+<style lang="scss" scoped>
+.gamification-tree-4,
+.gamification-john-pose-2,
+.gamification-tree {
+  position: absolute;
+}
+.gamification-tree {
+  top: 10%;
+  right: 0;
+}
+.gamification-john-pose-2 {
+  bottom: 0;
+  right: 15%;
+}
+.gamification-tree-4 {
+  bottom: 0;
+  right: 30%;
+}
+
+@media (max-width: 600px) {
+  .gamification-tree,
+  .gamification-tree-4 {
+    display: none;
+  }
+  .gamification-john-pose-2 {
+    right: 5%;
+  }
+}
+
+@media (max-width: 500px) {
+  .gamification-john-pose-2 {
+    max-width: 70px;
+  }
+}
+
+@media (max-width: 400px) {
+  .greeting-title {
+    font-size: 1.2rem !important;
+  }
+}
+
+// rtl
+.v-application {
+  &.v-application--is-rtl {
+    .gamification-john-pose-2 {
+      right: initial;
+      left: 15%;
+    }
+    .gamification-tree {
+      right: initial;
+      left: 0;
+    }
+    .gamification-tree-4 {
+      left: 30%;
+      right: initial;
+    }
+  }
+}
+</style>
