@@ -124,7 +124,7 @@
                                 </v-list-item-avatar>
                                 <v-list-item-content>
                                   <v-list-item-title class="font-weight-semibold">
-                                    13.0
+                                    13.1
                                   </v-list-item-title>
                                 </v-list-item-content>
                         </v-list-item>

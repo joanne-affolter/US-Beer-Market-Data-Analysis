@@ -94,7 +94,7 @@
                               </v-list-item-avatar>
                               <v-list-item-content>
                                 <v-list-item-title class="font-weight-semibold">
-                                  43 798
+                                  61 629
                                 </v-list-item-title>
                               </v-list-item-content>
                       </v-list-item>
@@ -124,7 +124,7 @@
                               </v-list-item-avatar>
                               <v-list-item-content>
                                 <v-list-item-title class="font-weight-semibold">
-                                  107 713
+                                  25 040
                                 </v-list-item-title>
                               </v-list-item-content>
                       </v-list-item>
