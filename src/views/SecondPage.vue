@@ -65,7 +65,7 @@
         <v-row>
 
           <v-col cols="8" sm="6">
-            <v-img src="@/assets/images/graph.png"> </v-img>
+            <v-img src="@/assets/images/graph.png" height="500"> </v-img>
           </v-col>
 
           <v-col cols="4" sm="6">
@@ -73,9 +73,9 @@
 
               <v-row>
                 <v-col>
-                <v-card>
+                <v-card class="my-6">
                   <v-card-text>
-                    On the above figure we plotted the
+                    We plotted the
                     <strong>number of ratings</strong> posted in US in blue and the number of ratings for all the other countries in yellow.
                     <br>The y-axis is in logarithmic scale.
                     <br><br>We can see that the total number of rating from the US is much higher than in the other countries.
@@ -90,12 +90,13 @@
 
               <v-row>
                 <v-col>
-                <v-card>
+                <v-card class="my-6">
                   <v-card-text>
                     Based on the high volume of consumer comments from the United States, it is our recommendation that our client consider
                     <span class='primary--text'>opening its brewery in the United States</span>.
                     <br>This decision is further supported by the fact that our client wishes to use consumer comments to inform the development and growth of their business. Conducting this analysis in the United States would provide the most
-                    <strong>relevant and useful insights. </strong> </v-card-text>
+                    <span class='primary--text'>relevant and useful insights. </span>
+                  </v-card-text>
                 </v-card>
                 </v-col>
               </v-row>
@@ -292,7 +293,7 @@
                   <li> The second period between 2012 and 2015, when Beer Advocate was the most popular. </li>
                   <li> The third period after 2015, when Rate Beer regained its leading position. </li>
                 </ul>
-                <br><br>
+                <br>
                 By examining these periods separately, we can better understand the factors that influenced consumer behavior and the relative popularity of the two websites.
               </v-card-text>
             </v-card>
@@ -302,12 +303,12 @@
         <v-spacer> </v-spacer>
         <v-spacer></v-spacer>
 
-        <v-row align="center" justify="center">
-          <v-col cols="8">
+        <v-row align="center">
+          <v-col cols="7" sm="7">
             <Period></Period>
           </v-col>
 
-          <v-col cols="4">
+          <v-col cols="5" sm="5">
             <v-card>
               <v-card-text>
                 First, it is clear that there were significantly
@@ -324,11 +325,11 @@
         </v-row>
 
         <v-row align="center">
-          <v-col cols="8">
+          <v-col cols="7" sm="7">
             <Period2></Period2>
           </v-col>
 
-          <v-col cols="4">
+          <v-col cols="5" sm="5">
             <v-card>
               <v-card-text>
                 Additionally, we see that outside of the 2012 to 2015 period, Rate Beer users tend to rate more beers on average per year than Beer Advocate users.
@@ -347,11 +348,16 @@
                 ✏️ Conclusion
               </v-card-title>
               <v-card-text class="text-subtitle-2">
-                We can interpret these findings as follows.
-                <br>Rate Beer users are more experienced and consistent in their rating activity, likely being true beer enthusiasts who are willing to try and review new beers.
-                <br>On the other hand, Beer Advocate consumers seem to be more amateur in their approach, with a surge in activity between 2012 and 2015 when the number of ratings on Beer Advocate surpassed those on Rate Beer.
-                <br>These consumers may have been caught up in the hype of discovering new beers during this time, but as the hype died down, their rating activity decreased.
-                <br>It appears that these amateur consumers turned more to Beer Advocate, while those with more experience favored Rate Beer for their ratings.         </v-card-text>
+                <br>
+                <span class='primary--text'>Rate Beer users are more experienced and consistent in their rating activity </span>,
+                likely being true beer enthusiasts who are willing to try and review new beers.
+                <br><br>On the other hand,
+                <span class='primary--text'>Beer Advocate consumers seem to be more amateur in their approach</span>, with a surge in activity between 2012 and 2015 when the number of ratings on Beer Advocate surpassed those on Rate Beer.
+                <br>These consumers may have been caught up in the
+                <span class='primary--text'>
+                hype of discovering new beers </span>
+                during this time, but as the hype died down, their rating activity decreased.
+                <br><br>It appears that these amateur consumers turned more to Beer Advocate, while those with more experience favored Rate Beer for their ratings.         </v-card-text>
             </v-card>
           </v-col>
         </v-row>
@@ -395,7 +401,7 @@
                   <li>Do users easily adopt a new brewery and continue rating it over time after their first rating?</li>
                 </ul>
                 </div>
-                <br><br>
+                <br>
                 By examining these trends, we can better understand the success and sustainability of new breweries in the market.
               </v-card-text>
             </v-card>
@@ -485,7 +491,6 @@
                 <div class="text-subtitle-2">
                 In the table above, we have grouped the breweries according to the difference between the year of the first and last rating. We also calculated the average number of comments per beer for each category, and the average rate.
                 </div>
-                <br><br>
                 We can see here that  6  % of the breweries disappear in the ratings the same year as the first rating. Moreover, the average number of ratings per beer is almost equal to  1.
                 <br>
                 <span class='primary--text'>
