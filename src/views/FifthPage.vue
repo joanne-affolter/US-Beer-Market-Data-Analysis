@@ -353,6 +353,7 @@
                     <v-card-text class="font-weight-bold my-2">
                         Score : 163.17
                     </v-card-text>
+
             </v-col>
             <v-col cols="4" sm="4">
                 <v-card>

@@ -15,8 +15,7 @@
               Results of our analysis
             </h1>
             <p class="mb-3 text-subtitle-1">
-                Our client has decided to open a local brewery in the US. Analyzing the beer market with data collected on RateBeer and BeerAdvocate websites brings out evidence on where to implement his new business and what to sell in order to maximize its success.
-            </p>
+                Our client, Sam Smith, has decided to open a local brewery in the United States and has enlisted our consulting services to help him identify the best location and products for his business.             </p>
           </v-col>
         </v-row>
       </v-card-text>
@@ -32,12 +31,13 @@
       <v-card-text class="my-8">
         <v-row align="center" justify="center">
           <v-col cols="10" sm="10">
-            First of all, we want to warn our client about the competitiveness of the beer market. We discovered that many new breweries only receive ratings during one year.  Consequently it is difficult to ensure long-lasting success for Sam’s brewery. Nevertheless, we perform an in-depth analysis of the market to give Sam Smith the tools to create a sustainable activity.
+            Using data from RateBeer and BeerAdvocate, we have analyzed the beer market and determined that Virginia is the most promising state for Sam's brewery. Virginia has a rapidly growing number of users, a strong preference for local beers, and evenly distributed competition levels, making it an ideal location for Sam's business.
             <br><br>
-            The complete analysis of all states of America has shown that Virginia stands out to be THE place to start a brewery. In fact, recently the number of users in Virginia has drastically increased which implies that new consumers are entering the market. And Virginians are more and more getting into local beers. Those new and local oriented customers will be thrilled to discover a new trendy brewery. Furthermore, even though there are many competitors none of them dominate the market and there are fewer breweries focused on local consumers than in other states. So Sam’s brewery will be easily settled in this environment.
+            However, we want to caution Sam about the competitiveness of the beer market. Many new breweries only receive ratings for a short period of time, which can make it challenging to achieve long-term success. Therefore, we have performed an in-depth market analysis to provide Sam with the tools he needs to create a sustainable business.          </v-col>
             <br><br>
-            The in-depth analysis of Virginia’s customers' taste has shown that the beer that Sam wanted to commercialize is not the most accurate, indeed he would be wiser to concentrate on creating beers with taste because it has been shown to be the characteristic which has the most impacts on users in Virginia. Those beers would be an IPA or Imperial IPA due to their high popularity in that state. In addition, we have found that the main appealing characteristic of IPA and Imperial IPA beers is taste which should be the aspect on which to focus on to succeed in the beer market. So Sam’s brewery beers should trend toward tasty regular and Imperial IPA to launch a thriving business.
-          </v-col>
+            We compared the reviews that Sam gathered on his first brews with the reviews of Virginian beers to identify specific competitors and analyze their characteristics. We found that the closest competitors significantly outperformed Sam's brews in terms of taste, which we determined to be the most important aspect based on feature importance analysis. While Sam's beer has a decent appearance and palate, it won’t be enough to compete with his competitors and establish a foothold in the Virginian beer market. As a result, we suggested new flagship products that incorporate the best features of the most successful beers in Virginia.
+            <br><br>
+            Our analysis of Virginia's consumer preferences shows that Sam should focus on creating beers with strong taste, particularly IPAs and Imperial IPAs, which are particularly popular in that state. These beers are known for their taste, which is the most important factor for Virginia's beer drinkers. By concentrating on creating tasty IPAs and Imperial IPAs, Sam's brewery can stand out in the crowded beer market and succeed.
         </v-row>
       </v-card-text>
 
