@@ -172,7 +172,10 @@
                     <v-container><v-row align="center" justify="center">
                         <v-col cols="10" sm="10"><v-img src="@/assets/images/w2.png"></v-img></v-col></v-row>
                     <v-row>
-                        The 10 oldest breweries in the comments have been in the area for a long time: 17 years for the first one, 16 for the second one, and 14 for the next 3. These breweries can be real competitors and might be institutions in Washington. Furthermore, given the large number of established breweries in the area, Washington users may not instinctively go to new breweries and turn to the state's established breweries by habit.                </v-row></v-container>
+                        The oldest breweries in the comments have a significant amount of experience, with the first one having been in the area for 17 years and the second one for 16 years. The next three breweries have been in the area for 14 years. These breweries are well-established and may be considered institutions in Washington. 
+                        <br><br>
+                        Additionally, the large number of established breweries in the area may make it more difficult for new breweries to gain a foothold, as consumers may be more inclined to visit established breweries out of habit. As such, these breweries may pose a real threat to our client as potential competitors.
+                    </v-row></v-container>
             </v-card-text>
             </v-card>
             </v-tab-item>
@@ -183,11 +186,10 @@
                     <v-container><v-row align="center" justify="center">
                         <v-col cols="8" sm="8"><v-img src="@/assets/images/v2.png"></v-img></v-col></v-row>
                     <v-row>
-                        The difference between long-established breweries in the comments and newer breweries is much more pronounced in Virginia than in Washington. Williamsburg Brewing Company, in the lead, has been appearing in the comments for 16 years, followed closely by Founders Restaurant & Brewing Co. (14 years) and Blue & Gray Brewing Co. (13 years).
-
-                        <br><br>He get much lower results for the other breweries. The 10th brewery, for example, got its first rating only 3 years ago.
-
-                        <br><br>Most of the breweries in Virginia are therefore very new whereas it is the state with the largest number of potential competitors (33 breweries). Of these 33 breweries, only 5 have been in the comments for more than 7 years. Thus, our client will be able to find its place in the market more easily than in Washington, knowing that it has also the highest score regarding the evolution of the number of users for several years.                    </v-row></v-container>
+                        In Virginia, there is a greater difference between long-established breweries and newer breweries than there is in Washington. The top three breweries in Virginia have been in the reviews for 16, 14, and 13 years, respectively, while the 10th brewery has only been rated for 3 years. This indicates that most of the breweries in Virginia are relatively new, with only 5 of the 33 breweries having been in the comments for more than 7 years. 
+                        <br><br>
+                        Despite having the largest number of potential competitors among the states we analyzed, Virginia also has the highest score in terms of the evolution of the number of users over the years. This suggests that there may be more room for new breweries to succeed in Virginia compared to Washington, and that our client may be able to find a place in the market more easily in this state.    
+                    </v-row></v-container>
                 </v-card-text>
             </v-card>
             </v-tab-item>
@@ -199,8 +201,9 @@
                     <v-col cols="7" sm="7"><v-img src="@/assets/images/m2.png"></v-img></v-col></v-row>
                 <v-row>
                     In Massachusetts, 4 breweries are present in the comments since 15 years and dominate the other breweries in the top 10. Except for Gardner Ale House, the period since the first rating is twice as long as in the other breweries.
-
-                    <br><br>We find the same pattern as in Virginia, with only 5 breweries appearing in the comments for more than 10 years. These are the ones to watch, but the market is quite favorable for our client.                </v-row></v-container>
+                    <br><br>
+                    We find the same pattern as in Virginia, with only 5 breweries appearing in the comments for more than 10 years. These are the ones to watch, but the market is quite favorable for our client.
+                </v-row></v-container>
                 </v-card-text>
             </v-card>
             </v-tab-item>
@@ -211,7 +214,8 @@
 
     <v-card class="mb-6 my-8">
         <v-card-text class="font-weight-black">
-            There are a large number of long-established breweries in Washington. We do not recommend this state because the competition could be tough. The number of institutions is lower in Virginia and Massachusetts, which seems to be more suitable for our client.        </v-card-text>
+            There are a large number of long-established breweries in Washington. We do not recommend this state because the competition could be tough. This number is lower in Virginia and Massachusetts, which seems to be more suitable for our client.
+        </v-card-text>
     </v-card>
 
 
@@ -406,28 +410,31 @@
               <v-col cols="9" sm="9">
                 <v-card-text class="text-subtitle-2 font-weight-bold">
                     <span class=" text-l my-6 primary--text">
-                        Virginia is the top state with a total score of 6. It stands out from its competitors thanks to the following criteria:
+                        Virginia is the top state with a total score of 6, making it an attractive location for our client's brewery. There are several reasons why Virginia stands out as a favorable market:
                     </span>
                     <v-timeline dense class="timeline-custom-dense timeline-custom-dots mt-6">
 
                         <v-timeline-item small color="primary">
                             <div class="d-flex justify-space-between align-center flex-wrap">
                             <h4 class="font-weight-semibold me-1">
-                                The number of active consumers on Beer reviews sites has been growing very rapidly in recent years. As the population is increasingly interested in beer, this is a very interesting target for our client.                            </h4>
+                                The population in Virginia has shown a rapid increase in interest in beer in recent years, with a growing number of active consumers on beer review sites. This presents a strong opportunity for our client to tap into a receptive market.
+                            </h4>
                             </div>
                         </v-timeline-item>
 
                         <v-timeline-item small color="primary">
                             <div class="d-flex justify-space-between align-center flex-wrap">
                             <h4 class="font-weight-semibold me-1">
-                                Users are increasingly turning to local beers, with the number of local ratings rising steadily. In fact, the state has fewer local breweries than Washington, meaning our client could reach a large market share with customers attracted to its local offerings and products.                            </h4>
+                                Consumers in Virginia are increasingly turning to local beers, with a steady rise in the number of local ratings. With fewer local breweries than Washington, our client could potentially capture a significant market share with customers attracted to its local offerings.
+                            </h4>
                             </div>
                         </v-timeline-item>
 
                         <v-timeline-item small color="primary">
                             <div class="d-flex justify-space-between align-center flex-wrap">
                             <h4 class="font-weight-semibold me-1">
-                                Even though this is the state with the most potential competitors (33 breweries), none of them dominate the market. Our client will have less difficulty gaining a foothold in the industry. Indeed, the number of years since the first rating is quite low for breweries located in this state. Only 3 out of 33 are established in the comments for more than 7 years.                            </h4>
+                                Despite being the state with the most potential competitors, none of these breweries dominate the market in Virginia. This means that our client may have an easier time gaining a foothold in the industry, as many of the breweries in this state are relatively new and have not been in the comments for more than 7 years.
+                            </h4>
                             </div>
                         </v-timeline-item>
 
