@@ -50,6 +50,15 @@ const routes = [
   },
 
   {
+    path: '/conclusion',
+    name: 'conclusion',
+    component: () => import('@/views/Conclusion.vue'),
+    meta: {
+      layout: 'content',
+    },
+  },
+
+  {
     path: '/login',
     name: 'auth-login',
     component: () => import('@/views/Login.vue'),

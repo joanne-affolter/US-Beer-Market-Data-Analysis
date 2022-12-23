@@ -1,4 +1,11 @@
-import { mdiArmFlexOutline, mdiBriefcaseOutline, mdiHomeOutline, mdiMapMarker, mdiTrophyVariantOutline } from '@mdi/js'
+import {
+  mdiArmFlexOutline,
+  mdiBriefcaseOutline,
+  mdiHomeOutline,
+  mdiMapMarker,
+  mdiStarOutline,
+  mdiTrophyVariantOutline,
+} from '@mdi/js'
 
 export default [
   {
@@ -25,5 +32,10 @@ export default [
     title: 'Strategic Advice',
     icon: mdiArmFlexOutline,
     to: 'fifth-page',
+  },
+  {
+    title: 'Results',
+    icon: mdiStarOutline,
+    to: 'conclusion',
   },
 ]
