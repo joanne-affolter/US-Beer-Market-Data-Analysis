@@ -51,6 +51,7 @@
                 </v-timeline-item>
 
                 </v-timeline>
+                <br>
                 To assist our client in selecting the location for their brewery, we will first examine consumer behavior in each state. Then, we will identify competitors with a similar production capacity, meaning local breweries that produce no more than 30 beers.
             </v-card-text>
         </v-card>
@@ -560,6 +561,7 @@
                                     </v-timeline-item>
 
                                     </v-timeline>
+                                    <br>
                                     Based on these insights, we are now able to determine the 3 most favorable states for our client's brewery location.
                             </v-card-text>
 
