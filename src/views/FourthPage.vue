@@ -99,11 +99,13 @@
                     <v-container><v-row align="center" justify="center">
                         <v-col cols="10" sm="10"><v-img src="@/assets/images/wash1.png"></v-img></v-col></v-row>
                     <v-row>
+                        <v-card-text>
                         The 3 breweries with the highest number of comments dominate by far the other breweries in the top 10, and are the breweries to watch.
                         <strong> Yakima Brewing and Malting Co. </strong>
                         is far ahead of its competitors with
                         <strong> 1,627 ratings </strong>
                         , twice as many as the brewery just behind it.
+                        </v-card-text>
                 </v-row></v-container>
             </v-card-text>
             </v-card>
@@ -276,7 +278,9 @@
                     <v-container><v-row align="center" justify="center">
                         <v-col cols="8" sm="8"><v-img src="@/assets/images/w3.png"></v-img></v-col></v-row>
                     <v-row>
-                        The percentage of local ratings is <strong>very high</strong> for these 10 breweries, ranging from 62% for Ghostfish Brewing Company to almost 95% for Top Rung Brewing Company. This suggests an audience in Washington with a preference for local beers, which is very interesting for our client.
+                        The percentage of local ratings is
+                        <strong> very high </strong>
+                        for these 10 breweries, ranging from 62% for Ghostfish Brewing Company to almost 95% for Top Rung Brewing Company. This suggests an audience in Washington with a preference for local beers, which is very interesting for our client.
                     </v-row>
                     </v-container>
                 </v-card-text>
@@ -289,8 +293,13 @@
                     <v-container><v-row align="center" justify="center">
                         <v-col cols="8" sm="8"><v-img src="@/assets/images/v3.png"></v-img></v-col></v-row>
                     <v-row>
-                        The percentage of local ratings is <strong>much lower</strong> in Virginia than in Washington. In fact, only 61% of the ratings are local for the first brewery, which is 1% less than the last brewery in the top 10 of Washington.
-                        <br><br>However, the population in Virginia <strong>seems to be more and more interested in local beers</strong> as it has the highest score for the evolution of the percentage of local ratings. Our client could therefore position itself as a market leader with its brewery.
+                        The percentage of local ratings is
+                        <strong> much lower </strong>
+                        in Virginia than in Washington. In fact, only 61% of the ratings are local for the first brewery, which is 1% less than the last brewery in the top 10 of Washington.
+                        <br><br>
+                        However, the population in Virginia
+                        <strong> seems to be more and more interested in local beers </strong>
+                        as it has the highest score for the evolution of the percentage of local ratings. Our client could therefore position itself as a market leader with its brewery.
                       </v-row></v-container>
                 </v-card-text>
             </v-card>
@@ -302,7 +311,9 @@
                 <v-container><v-row align="center" justify="center">
                     <v-col cols="8" sm="8"><v-img src="@/assets/images/m3.png"></v-img></v-col></v-row>
                 <v-row>
-                    Similarly to Virginia, <strong>the trend for local is less pronounced than in Washington.</strong> Moreover, the percentage of local ratings is quite tight for the breweries in the top 10. Down the Road Beer Company still stands out among the other breweries.
+                    Similarly to Virginia,
+                    <strong> the trend for local is less pronounced than in Washington. </strong>
+                    Moreover, the percentage of local ratings is quite tight for the breweries in the top 10. Down the Road Beer Company still stands out among the other breweries.
                 </v-row></v-container>
                 </v-card-text>
             </v-card>
