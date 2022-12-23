@@ -21,9 +21,13 @@
         </v-row>
       </v-card-text>
 
-      <v-card-text class="pricing-free-trial my-16" height="300">
-        <v-img src="@/assets/images/bil2.jpg"></v-img>
-      </v-card-text>
+      <v-card class="mb-6" color="primary">
+      <v-img
+        height="200"
+        width="100%"
+        src="@/assets/images/bil2.jpg"
+      ></v-img>
+        </v-card>
 
       <v-card-text class="my-8">
         <v-row align="center" justify="center">
@@ -35,9 +39,13 @@
         </v-row>
       </v-card-text>
 
-      <v-card-text class="pricing-free-trial my-16" height="300">
-        <v-img src="@/assets/images/bil1.jpg"></v-img>
-      </v-card-text>
+      <v-card class="mb-6" color="primary">
+      <v-img
+        height="200"
+        width="100%"
+        src="@/assets/images/bil1.jpg"
+      ></v-img>
+        </v-card>
     </v-card>
   </template>
 
