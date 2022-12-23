@@ -121,7 +121,12 @@
                                     <v-img
                                     src="@/assets/images/viz_beers.png">
                                     </v-img>
-                                    The 2-dimensional PCA representation of the data appears to show a linear dependency between the values of the two axes, with points distributed around a regression line with a consistent variance. It appears that there may be sub-matching patterns present in the data, indicating that the beers in the ratings have similarities even though we cannot interpret the exact meanings of the values on the two axes. Overall, this suggests that the original data has a strong, predictable relationship between the variables and may be amenable to linear modeling techniques.                                </v-card-text>
+                                    <br><br>
+                                    The 2-dimensional PCA representation of the data appears to show a linear dependency between the values of the two axes, with points distributed around a regression line with a consistent variance.
+                                    <br>
+                                    It appears that there may be sub-matching patterns present in the data, indicating that the beers in the ratings have similarities even though we cannot interpret the exact meanings of the values on the two axes.
+                                    <br><br>
+                                    Overall, this suggests that the original data has a strong, predictable relationship between the variables and may be amenable to linear modeling techniques.                                </v-card-text>
                             </v-card>
                         </v-col>
                     </v-row>
@@ -239,10 +244,12 @@
                     create a flagship product that would allow him to enter the market successfully but also to last over time.
                     <br><br>
                     <p class="font-weight-bold text-h8">🤔 But how do we define this product?</p>
-                    To define the flagship product, it is important to focus on creating a product that will attract and retain consumers. This means choosing a style of beer that is popular and well-liked by customers in Virginia, rather than trying to be too original or experimental. By selecting a style that is already rooted in the local market, our client's beer will have a higher chance of success because customers will be more familiar with and likely to seek out this type of beer. Additionally, by producing a beer that customers enjoy and want to repurchase, our client can build a loyal customer base and establish a lasting presence in the market.                    <br><br>
-                    Then, after having found the right beer style, our client must propose a product that stands out from the competitors, and therefore from the most popular beers of these styles.
+                    To define the flagship product, it is important to focus on creating a product that will attract and retain consumers.
+                    <br>
+                    This means choosing a style of beer that is popular and well-liked by customers in Virginia, rather than trying to be too original or experimental.
+                    <br>By selecting a style that is already rooted in the local market, our client's beer will have a higher chance of success because customers will be more familiar with and likely to seek out this type of beer.
                     <br><br>
-                    By doing so, our client can be assured that his product will appeal to consumers, hoping that they will prefer his beer to the most popular over the state.
+                    Additionally, by producing a beer that customers enjoy and want to repurchase, our client can build a loyal customer base and establish a lasting presence in the market.
 
                 </v-col>
                 <v-col cols="5" sm="5">
@@ -429,7 +436,9 @@
         <v-row>
             <v-card width="100%" >
             <v-card-text class="text-subtitle-2 font-weight-bold">
+                <span class = 'font-weight-lite'>
                 In this section, we will analyze the most popular beers to determine which features have the greatest influence on their ratings.                 <span class=" text-m my-6 primary--text">
+                </span>
                 <br><br>
                 By understanding which characteristics are most important to consumers, we can identify :                </span>
                 <v-timeline dense class="timeline-custom-dense timeline-custom-dots mt-6">
@@ -569,7 +578,7 @@
                 <strong> Imperial IPA style, </strong> the importance of the different characteristics is more evenly distributed, with taste, aroma, and palate all being important factors.
                 <br><br>
 
-                <span class="text-subtitle-1">
+                <span class="text-subtitle-2">
                 💡 Given these findings, we would advise our client to consider developing two beers – one regular IPA and one Imperial IPA – that prioritize these characteristics in their development.
                 <br>
                 This could involve focusing on producing a beer with a particularly high-rated taste, as well as ensuring that the aroma and palate are well-balanced and appealing to consumers.
