@@ -672,10 +672,10 @@
                     <v-col>
                         <v-card>
                             <v-card-text>
-                                <div class="text-subtitle-2 my-4 font-weight-bold">
+                                <div class="text-subtitle-2 my-4 font-weight-light">
                                     The plot above shows the results of our market research.
-                                    <br>On the left you can see the number of potential competitors for our client for each state whose total score is strictly greater than 0.
-                                    <br>On the right is the ranking of the states according to the total score which corresponds to the sum of the scores obtained on the following criteria:
+                                    On the left you can see the number of potential competitors for our client for each state whose total score is strictly greater than 0.
+                                    On the right is the ranking of the states according to the total score which corresponds to the sum of the scores obtained on the following criteria:
                                 </div>
                                 <v-timeline dense class="timeline-custom-dense timeline-custom-dots mt-6">
 
