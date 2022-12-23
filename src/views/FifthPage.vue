@@ -343,7 +343,7 @@
             <v-card-title class="primary--text text-xl font-weight-bold ">
                 <span class="primary--text">India Pale Ale (IPA)</span>
             </v-card-title>
-            <v-row>
+            <v-row justify ='center' align="center">
             <v-col cols="4" sm="4">
                 <v-card>
                     <v-img
@@ -381,7 +381,7 @@
             <v-card-title class="primary--text text-xl font-weight-bold ">
                 <span class="primary--text">Imperial IPA</span>
             </v-card-title>
-            <v-row>
+            <v-row justify ='center' align="center">
             <v-col cols="4" sm="4">
                 <v-card>
                     <v-img
