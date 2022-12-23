@@ -77,21 +77,27 @@
                     <v-container>
                         <v-row>
                             <v-card dark color="primary" class="my-4">
+                                <v-card-text class="white--text">
                                 A large market share to reach with a lot of potential clients
+                                </v-card-text>
                             </v-card>
                         </v-row>
                         <v-spacer></v-spacer>
                         <v-spacer></v-spacer>
                         <v-row>
                             <v-card dark color="primary" class="my-4">
+                                <v-card-text class="white--text">
                                 Consumers who like local beers
+                                </v-card-text>
                             </v-card>
                         </v-row>
                         <v-spacer></v-spacer>
                         <v-spacer></v-spacer>
                         <v-row>
                             <v-card dark color="primary" class="my-4">
+                                <v-card-text class="white--text">
                                 Beer lovers who make a lot of ratings
+                                </v-card-text>
                             </v-card>
                         </v-row>
                     </v-container>
@@ -672,7 +678,7 @@
                     <v-col>
                         <v-card>
                             <v-card-text>
-                                <div class="text-subtitle-2 my-4 font-weight-light">
+                                <div class="text-subtitle-2 font-weight-bold">
                                     The plot above shows the results of our market research.
                                     On the left you can see the number of potential competitors for our client for each state whose total score is strictly greater than 0.
                                     On the right is the ranking of the states according to the total score which corresponds to the sum of the scores obtained on the following criteria:
@@ -685,8 +691,9 @@
                                             <span class="primary--text">
                                                 Number of users
                                             </span><br>
+                                            <span class="font-weight-light">
                                             A high number of users and therefore a potential market to reach
-                                        </h4>
+                                        </span></h4>
                                         </div>
                                     </v-timeline-item>
 
@@ -696,8 +703,10 @@
                                                 <span class="primary--text">
                                                 Number of users / Number of breweries
                                             </span>
-                                            <br>A low ratio and therefore a market not saturated, with less competition.
-                                        </h4>
+                                            <br>
+                                            <span class="font-weight-light">
+                                                A low ratio and therefore a market not saturated, with less competition.
+                                        </span></h4>
                                         </div>
                                     </v-timeline-item>
 
@@ -706,8 +715,10 @@
                                             <h4 class="me-1">
                                                 <span class="primary--text">
                                                 Evolution of the number of users</span>
-                                            <br>A fast evolution since few years and a public which is getting more and more interested in beer.
-                                        </h4>
+                                            <br>
+                                            <span class="font-weight-light">
+                                                A fast evolution since few years and a public which is getting more and more interested in beer.
+                                        </span></h4>
                                         </div>
                                     </v-timeline-item>
 
@@ -717,8 +728,10 @@
                                                 <span class="primary--text">
                                                 Evolution of the percentage of ratings on local beers
                                             </span>
-                                            <br>A fast evolution and consumers who are more and more attached to the local character. A potential target for our client.
-                                        </h4>
+                                            <br>
+                                            <span class="font-weight-light">
+                                                A fast evolution and consumers who are more and more attached to the local character. A potential target for our client.
+                                        </span></h4>
                                         </div>
                                     </v-timeline-item>
 
@@ -728,8 +741,10 @@
                                                 <span class="primary--text">
                                             Average number of ratings per user
                                         </span>
-                                        <br>A fairly high number and therefore a strong community of beer lovers who would be interested in our client's products.
-                                        </h4>
+                                        <br>
+                                        <span class="font-weight-light">
+                                            A fairly high number and therefore a strong community of beer lovers who would be interested in our client's products.
+                                        </span></h4>
                                         </div>
                                     </v-timeline-item>
 
