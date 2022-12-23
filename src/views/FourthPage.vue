@@ -117,10 +117,11 @@
                     <v-container><v-row align="center" justify="center">
                         <v-col cols="10" sm="10"><v-img src="@/assets/images/vir1.png"></v-img></v-col></v-row>
                     <v-row>
+                        <v-card-text>
                         The distribution of the
                         <strong> number of ratings is more uniform </strong>
                          among the breweries here. This is not surprising, as this is the state with the most breweries in the country (33 breweries) and therefore fewer market leaders like in Washington. Howewer, we can note that Blue & Gray Brewing Co. slightly dominates the market.
-                    </v-row></v-container>
+                        </v-card-text></v-row></v-container>
                 </v-card-text>
             </v-card>
             </v-tab-item>
@@ -131,12 +132,13 @@
                 <v-container><v-row align="center" justify="center">
                     <v-col cols="7"><v-img src="@/assets/images/m1.png"></v-img></v-col></v-row>
                 <v-row>
+                    <v-card-text>
                     The
                     <strong> top 3 breweries </strong>
                     here share
                     <strong> more than half of the total number of ratings of the 10 most popular breweries </strong>
                     , and are therefore the breweries to watch.
-                </v-row></v-container>
+                </v-card-text></v-row></v-container>
                 </v-card-text>
             </v-card>
             </v-tab-item>
@@ -196,11 +198,12 @@
                     <v-container><v-row align="center" justify="center">
                         <v-col cols="10" sm="10"><v-img src="@/assets/images/w2.png"></v-img></v-col></v-row>
                     <v-row>
+                        <v-card-text>
                         The oldest breweries in the comments have a significant amount of experience, with the first one having been in the area for 17 years and the second one for 16 years. The next three breweries have been in the area for 14 years. These breweries are well-established and <strong>may be considered institutions in Washington.</strong>
                         <br>
                         Additionally, the large number of established breweries in the area may make it more difficult for new breweries to gain a foothold, as consumers may be more inclined to visit established breweries out of habit. As such, these breweries
                         <strong> may pose a real threat to our client as potential competitors.</strong>
-                    </v-row></v-container>
+                    </v-card-text></v-row></v-container>
             </v-card-text>
             </v-card>
             </v-tab-item>
@@ -211,6 +214,7 @@
                     <v-container><v-row align="center" justify="center">
                         <v-col cols="8" sm="8"><v-img src="@/assets/images/v2.png"></v-img></v-col></v-row>
                     <v-row>
+                        <v-card-text>
                         In Virginia, there is
                         <strong> a greater difference between long-established breweries and newer breweries </strong>
                         than there is in Washington. The top three breweries in Virginia have been in the reviews for 16, 14, and 13 years, respectively, while the 10th brewery has only been rated for 3 years. This indicates that
@@ -222,7 +226,7 @@
                         This suggests that
                         <strong> there may be more room for new breweries to succeed in Virginia </strong>
                         compared to Washington, and that our client may be able to find a place in the market more easily in this state.
-                    </v-row></v-container>
+                    </v-card-text></v-row></v-container>
                 </v-card-text>
             </v-card>
             </v-tab-item>
@@ -233,10 +237,11 @@
                 <v-container><v-row align="center" justify="center">
                     <v-col cols="7" sm="7"><v-img src="@/assets/images/m2.png"></v-img></v-col></v-row>
                 <v-row>
+                    <v-card-text>
                     In Massachusetts, 4 breweries are present in the comments since 15 years and dominate the other breweries in the top 10. Except for Gardner Ale House, the period since the first rating is twice as long as in the other breweries.
                     <br><br>
                     We find the same pattern as in Virginia, with only 5 breweries appearing in the comments for more than 10 years. <strong>These are the ones to watch, but the market is quite favorable for our client.</strong>
-                </v-row></v-container>
+                </v-card-text></v-row></v-container>
                 </v-card-text>
             </v-card>
             </v-tab-item>
@@ -278,10 +283,11 @@
                     <v-container><v-row align="center" justify="center">
                         <v-col cols="8" sm="8"><v-img src="@/assets/images/w3.png"></v-img></v-col></v-row>
                     <v-row>
+                        <v-card-text>
                         The percentage of local ratings is
                         <strong> very high </strong>
                         for these 10 breweries, ranging from 62% for Ghostfish Brewing Company to almost 95% for Top Rung Brewing Company. This suggests an audience in Washington with a preference for local beers, which is very interesting for our client.
-                    </v-row>
+                    </v-card-text></v-row>
                     </v-container>
                 </v-card-text>
             </v-card>
@@ -293,6 +299,7 @@
                     <v-container><v-row align="center" justify="center">
                         <v-col cols="8" sm="8"><v-img src="@/assets/images/v3.png"></v-img></v-col></v-row>
                     <v-row>
+                        <v-card-text>
                         The percentage of local ratings is
                         <strong> much lower </strong>
                         in Virginia than in Washington. In fact, only 61% of the ratings are local for the first brewery, which is 1% less than the last brewery in the top 10 of Washington.
@@ -300,7 +307,7 @@
                         However, the population in Virginia
                         <strong> seems to be more and more interested in local beers </strong>
                         as it has the highest score for the evolution of the percentage of local ratings. Our client could therefore position itself as a market leader with its brewery.
-                      </v-row></v-container>
+                      </v-card-text></v-row></v-container>
                 </v-card-text>
             </v-card>
             </v-tab-item>
@@ -311,10 +318,11 @@
                 <v-container><v-row align="center" justify="center">
                     <v-col cols="8" sm="8"><v-img src="@/assets/images/m3.png"></v-img></v-col></v-row>
                 <v-row>
+                    <v-card-text>
                     Similarly to Virginia,
                     <strong> the trend for local is less pronounced than in Washington. </strong>
                     Moreover, the percentage of local ratings is quite tight for the breweries in the top 10. Down the Road Beer Company still stands out among the other breweries.
-                </v-row></v-container>
+                </v-card-text></v-row></v-container>
                 </v-card-text>
             </v-card>
             </v-tab-item>
