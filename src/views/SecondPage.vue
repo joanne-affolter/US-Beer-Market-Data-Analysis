@@ -64,16 +64,16 @@
 
         <v-row>
 
-          <v-col cols="8" sm="6">
-            <v-img src="@/assets/images/graph.png" height="500"> </v-img>
+          <v-col cols="7" sm="7">
+            <v-img src="@/assets/images/graph.png"> </v-img>
           </v-col>
 
-          <v-col cols="4" sm="6">
+          <v-col cols="5" sm="5">
             <v-container d-flex fill-height>
 
               <v-row>
                 <v-col>
-                <v-card class="my-6">
+                <v-card class="my-4">
                   <v-card-text>
                     We plotted the
                     <strong>number of ratings</strong> posted in US in blue and the number of ratings for all the other countries in yellow.
@@ -90,7 +90,7 @@
 
               <v-row>
                 <v-col>
-                <v-card class="my-6">
+                <v-card class="my-4">
                   <v-card-text>
                     Based on the high volume of consumer comments from the United States, it is our recommendation that our client consider
                     <span class='primary--text'>opening its brewery in the United States</span>.
@@ -208,7 +208,7 @@
             <v-card class="mb-6 my-8">
               <v-card-text class="text-subtitle-2 font-weight-medium">
                 It is possible that the trend in the number of breweries included in the ratings on different review sites may be influenced by the number of ratings on those sites.
-                <br>This could explain the difference in trends between the data from Rate Beer and Beer Advocate.
+                <br><br>This could explain the difference in trends between the data from Rate Beer and Beer Advocate.
                 As such, we will investigate the
                 <span class='primary--text'>evolution of the number of ratings </span>
                 for American breweries on both of these websites in order to better understand these trends.
@@ -332,9 +332,15 @@
           <v-col cols="5" sm="5">
             <v-card>
               <v-card-text>
-                Additionally, we see that outside of the 2012 to 2015 period, Rate Beer users tend to rate more beers on average per year than Beer Advocate users.
+                Additionally, we see that outside of the 2012 to 2015 period,
+                <span class='primary--text'>
+                Rate Beer users tend to rate more beers on average per year
+                </span>
+                than Beer Advocate users.
                <br><br>
-                It is interesting to note that the average number of beers rated remains relatively constant (around 15) on Beer Advocate between 2012 and 2015, while it has decreased significantly for Rate Beer (around 16) during this period. This could be explained by the fact that many amateurs rated beers on Rate Beer during this time.            </v-card-text>
+                It is interesting to note that the average number of beers rated remains relatively constant (around 15) on Beer Advocate between 2012 and 2015, while it has decreased significantly for Rate Beer (around 16) during this period.
+                <br><br>
+                This could be explained by the fact that many amateurs rated beers on Rate Beer during this time.            </v-card-text>
             </v-card>
           </v-col>
         </v-row>
@@ -380,7 +386,7 @@
 
         <v-row align="center" justify="center">
           <v-col>
-            <v-card>
+            <v-card class="my-6">
               <v-card-text>
                 We want to determine whether the recent growth in the number of beer ratings on review websites has had
                 <span class='primary--text'>a positive impact on the brewery business
@@ -420,7 +426,7 @@
         </v-row>
 
       <v-row align="center">
-          <v-col cols="7">
+          <v-col cols="6" sm="6">
             <v-card color="#C8E6C9">
               <v-card-title>
                 'In' breweries
@@ -432,7 +438,7 @@
             </v-card>
           </v-col>
 
-          <v-col cols="5">
+          <v-col cols="6" sm="6">
             <v-card color="#FFCDD2">
               <v-card-title>
                 'Out' breweries
@@ -491,6 +497,7 @@
                 <div class="text-subtitle-2">
                 In the table above, we have grouped the breweries according to the difference between the year of the first and last rating. We also calculated the average number of comments per beer for each category, and the average rate.
                 </div>
+                <br><br>
                 We can see here that  6  % of the breweries disappear in the ratings the same year as the first rating. Moreover, the average number of ratings per beer is almost equal to  1.
                 <br>
                 <span class='primary--text'>
@@ -538,14 +545,14 @@
 
         <v-timeline-item small color="primary">
           <div class="d-flex justify-space-between align-center flex-wrap">
-            <h4 class="font-weight-semibold me-1">
+            <h4 class="me-1">
               Our analysis highlighted a rapid growth in the number of breweries included in the ratings, which rose from 1,304 in 2006 to 4,410 in 2016, representing a 238% increase. This growth was accompanied by a surge in the number of ratings on Rate Beer and Beer Advocate, likely due to an influx of amateur beer enthusiasts.
             </h4>
           </div>
         </v-timeline-item>
         <v-timeline-item small color="primary">
           <div class="d-flex justify-space-between align-center flex-wrap">
-            <h4 class="font-weight-semibold me-1">
+            <h4 class="me-1">
               The highly competitive nature of the industry is reflected in the fact that many new breweries struggle to maintain consumer interest over time, with more than half of the new breweries on the market receiving comments on their beers for only one year.
               <br>
               <span class='primary--text'>
@@ -556,14 +563,14 @@
         </v-timeline-item>
         <v-timeline-item small color="primary">
           <div class="d-flex justify-space-between align-center flex-wrap">
-            <h4 class="font-weight-semibold me-1">
+            <h4 class="me-1">
               To help our client maximize their chances of success, we will conduct a competitive analysis to determine the most strategic location for their brewery and identify opportunities to outperform the competition. We will focus on Rate Beer for this analysis, as it has a larger number of breweries included in the ratings.
             </h4>
           </div>
         </v-timeline-item>
         <v-timeline-item small color="primary">
           <div class="d-flex justify-space-between align-center flex-wrap">
-            <h4 class="font-weight-semibold me-1">
+            <h4 class="me-1">
               Additionally, we will use Rate Beer to analyze the characteristics of a beer that appeal to a more experienced and discerning audience, such as the associations of flavors, aromas, and palates, in order to provide the most informed advice on recipe selection.
             </h4>
           </div>

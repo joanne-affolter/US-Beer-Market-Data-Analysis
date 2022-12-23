@@ -20,14 +20,15 @@
         <v-card>
 
             <v-card-text>
-                <div class="text-subtitle-1 primary--text">
+                <span class="text-subtitle-1 primary--text">
                     In this second part, we will determine who are the potential competitors of our client. Let's note that our client has given us the following specifications:
-                </div>
+                </span>
+                <br><br>
                 <v-timeline dense class="timeline-custom-dense timeline-custom-dots">
 
                 <v-timeline-item small color="primary">
                     <div class="d-flex justify-space-between align-center flex-wrap">
-                    <h4 class="font-weight-semibold me-1">
+                    <h4 class="me-1">
                         Passionate about beer, he wants to be as close as possible to his customers and therefore wants to reach a local clientele in the state where he will set up his brewery.
                     </h4>
                     </div>
@@ -35,7 +36,7 @@
 
                 <v-timeline-item small color="primary">
                     <div class="d-flex justify-space-between align-center flex-wrap">
-                    <h4 class="font-weight-semibold me-1">
+                        <h4 class="me-1">
                         He is not able to produce more than 30 beers.
                     </h4>
                     </div>
@@ -43,14 +44,16 @@
 
                 <v-timeline-item small color="primary">
                     <div class="d-flex justify-space-between align-center flex-wrap">
-                    <h4 class="font-weight-semibold me-1">
+                        <h4 class="me-1">
                         He is open to all states to set up his brewery.
                     </h4>
                     </div>
                 </v-timeline-item>
 
                 </v-timeline>
-                <div class="font-weight-semibold">
+
+                <br><br>
+                <div class="text-subtitle-2">
                 To assist our client in selecting the location for their brewery, we will first examine consumer behavior in each state. Then, we will identify competitors with a similar production capacity, meaning
                 <span class='primary--text'>
                 local breweries that produce no more than 30 beers.
@@ -73,23 +76,23 @@
                 <v-card-actions>
                     <v-container>
                         <v-row>
-                            <v-chip rounded text dark color="primary" class="my-4">
+                            <v-avatar rounded text dark color="primary" class="my-4">
                                 A large market share to reach with a lot of potential clients
-                            </v-chip>
+                            </v-avatar>
                         </v-row>
                         <v-spacer></v-spacer>
                         <v-spacer></v-spacer>
                         <v-row>
-                            <v-chip rounded text dark color="primary" class="my-4">
+                            <v-avatar rounded text dark color="primary" class="my-4">
                                 Consumers who like local beers
-                            </v-chip>
+                            </v-avatar>
                         </v-row>
                         <v-spacer></v-spacer>
                         <v-spacer></v-spacer>
                         <v-row>
-                            <v-chip rounded text dark color="primary" class="my-4">
+                            <v-avatar rounded text dark color="primary" class="my-4">
                                 Beer lovers who make a lot of ratings
-                            </v-chip>
+                            </v-avatar>
                         </v-row>
                     </v-container>
                 </v-card-actions>
@@ -209,7 +212,7 @@
 
                 <v-row align="center" justify="center">
                     <!-- Second column -->
-                    <v-col cols="6">
+                    <v-col cols="12" sm="12">
                         <!-- Recap -->
                         <v-card class="mb-6">
                             <v-card-text>
@@ -397,7 +400,7 @@
                                 <span class='primary--text'>
                                 total number of ratings in the state.
                                 </span>
-                                <br>
+                                <br><br>
                                 Next, we will determine which states could potentially contain local beer lovers by studying the change in the percentage of local ratings over time.
                             </v-card-text>
                         </v-card>
@@ -469,9 +472,9 @@
                                 average number of ratings per user
                                 </span>
                                 in each state using data from Rate Beer.
-                                <br>
+                                <br><br>
                                 This will allow us to determine which states have the most dedicated and active users, and therefore the most potential for building a strong community around our client's brewery.
-                                <br>
+                                <br><br>
                                 We will focus on Rate Beer due to its higher number of experienced users. By targeting these states, our client can establish their brewery in a location where they are likely to find an
                                 <span class='primary--text'>
                                 engaged and supportive customer base.
@@ -553,12 +556,12 @@
         <v-card class="mb-6 my-6">
             <v-container>
             <v-row class="ma-0 pa-0">
-              <v-col cols="9" sm="9">
+              <v-col cols="12" sm="12">
                 <v-card-title class="greeting-title d-flex flex-nowrap text-2xl font-weight-bold primary--text">
                     Which breweries are our client's competitors ?
                 </v-card-title>
-                <v-card-text class="text-subtitle-2">
-                    <span class="my-6 primary--text">
+                <v-card-text >
+                    <span class="my-6 text-subtitle-2">
                         After investigating user behavior by state in detail, we will now complete our market research by focusing on our client's potential competitors.
                         <br>
                         We will filter the breweries according to the following criteria:
@@ -604,7 +607,7 @@
 
                         <v-timeline-item small color="primary">
                             <div class="d-flex justify-space-between align-center flex-wrap">
-                            <h4 class="font-weight-semibold me-1">
+                            <h4 class="me-1">
                                 <span class='primary--text'>
                                 We remove the breweries that have a very low number of ratings.
                                 </span>
@@ -624,15 +627,6 @@
                     </v-card-text>
               </v-col>
 
-              <v-col cols="3" sm="3" >
-                <div>
-                  <v-img
-                    width="121"
-                    src="@/assets/images/3d-characters/under-maintenance.png"
-                    class="gamification-john-pose-2"
-                  ></v-img>
-                </div>
-              </v-col>
             </v-row>
         </v-container>
         </v-card>

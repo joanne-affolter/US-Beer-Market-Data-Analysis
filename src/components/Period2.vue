@@ -12,10 +12,10 @@
             <v-card-text>
               <v-row>
 
-                <v-col>
-                  <v-card>
-                    <v-card-title>
-                      <span class='font-weight-bold'>
+                <v-col cols="4" sm="4">
+                <v-card>
+                  <v-card-title>
+                    <span class='font-weight-bold text-h6'>
                         2007 - 2011
                       </span>
                     </v-card-title>
@@ -57,10 +57,10 @@
                     </v-card-text>
                   </v-card>
                 </v-col>
-                <v-col>
-                  <v-card>
-                    <v-card-title>
-                      <span class='font-weight-bold'>
+                <v-col cols="4" sm="4">
+                <v-card>
+                  <v-card-title>
+                    <span class='font-weight-bold text-h6'>
                         2011 - 2015
                       </span>
                     </v-card-title>
@@ -102,10 +102,10 @@
                     </v-card-text>
                   </v-card>
                 </v-col>
-                <v-col>
-                  <v-card>
-                    <v-card-title>
-                      <span class='font-weight-bold'>
+                <v-col cols="4" sm="4">
+                <v-card>
+                  <v-card-title>
+                    <span class='font-weight-bold text-h6'>
                         2015 - 2017
                       </span>
                     </v-card-title>
