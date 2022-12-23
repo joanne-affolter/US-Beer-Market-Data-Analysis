@@ -314,11 +314,12 @@
                 First, it is clear that there were significantly
                 <span class='primary--text'>
                 more consumers on both sites between 2012 and 2015</span>:
+                <br>
                 <ul>
                   <li><strong>107 713 </strong>users vs 32 003  before and  25 040  after for BA.</li>
                   <li><strong>61 629 </strong>users vs  24 209  before and  17 862  after for RB.</li>
                 </ul>
-                <br><br>This suggests that there may have been a surge of interest in trying new beers and giving opinions on review sites like Beer Advocate and Rate Beer during this period.
+                <br>This suggests that there may have been a surge of interest in trying new beers and giving opinions on review sites like Beer Advocate and Rate Beer during this period.
               </v-card-text>
             </v-card>
           </v-col>

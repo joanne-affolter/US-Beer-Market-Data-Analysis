@@ -19,7 +19,7 @@
             <v-row class="ma-0 pa-0">
               <v-col cols="9" sm="9">
                 <v-card-text class="text-subtitle-2 font-weight-bold">
-                    <span class=" text-m my-6">
+                    <span class="font-weight-semibold text-m my-6 primary--text">
                         Now that we have chosen 3 potential states where our client could set up his brewery, let's determine who are the potential competitors of our client in each of these states. To do this, we will use 3 criteria and find which breweries :
                     </span>
                     <v-timeline dense class="timeline-custom-dense timeline-custom-dots mt-6">
@@ -50,7 +50,7 @@
 
                         </v-timeline>
 
-                        <div class="text-subtitle-2 font-weight-bold my-6">
+                        <div class="text-subtitle-2 font-weight-semibold my-6">
                             By examining these different criteria, we will assign scores to each brewery and then determine which ones are the strongest on the market and therefore which breweries represent the biggest competitors of our client.
                             <br><br>In parallel, we are going to compare the 3 states retained to finally retain one for the next part of our work.
                         </div>
@@ -99,7 +99,7 @@
                     <v-container><v-row align="center" justify="center">
                         <v-col cols="10" sm="10"><v-img src="@/assets/images/wash1.png"></v-img></v-col></v-row>
                     <v-row>
-                        The 3 breweries with the highest number of comments dominate by far the other breweries in the top 10, and are the breweries to watch. <strong>Yakima Brewing and Malting Co.</strong> is far ahead of its competitors with <strong>1,627 ratings</strong>, twice as many as the brewery just behind it.
+                        The 3 breweries with the highest number of comments dominate by far the other breweries in the top 10, and are the breweries to watch. <strong>Yakima Brewing and Malting Co. </strong> is far ahead of its competitors with <strong> 1,627 ratings </strong>, twice as many as the brewery just behind it.
                 </v-row></v-container>
             </v-card-text>
             </v-card>
@@ -132,7 +132,7 @@
     </v-card>
 
     <v-card class="mb-6 my-6">
-        <v-card-text class="font-weight-black">
+        <v-card-text class="text-subtitle-2">
             Following the analysis of the number of ratings per brewery for each state, we can observe that there are generally fewer ratings per brewery in Virginia: the most popular brewery has only 346 ratings, while this number is much higher in Massachusetts (1627) and Virginia (1493). This means that there are fewer breweries dominating the market. The sector will be less competitive for our client, which is a positive point.
             <br><br>
             Let's continue to fill the table containing the scores determined through our analysis. We recommend the state of Virginia for this criterion since it is the state with the least number of popular competitors (high number of ratings).
@@ -153,7 +153,7 @@
     </v-card>
 
     <v-card class="mb-6 my-8">
-        <v-card-text class="font-weight-black">
+        <v-card-text class="font-weight-semibold">
             In this analysis, we will identify breweries that are well-established in the market and have a reputation for quality among consumers. We will focus on breweries that have the most years of experience, as these are likely to have a strong presence in the market and be well-known by consumers. By identifying these breweries, we can better understand the competitive landscape and determine which ones may pose the greatest threat to our client's success.
         </v-card-text>
     </v-card>
@@ -210,7 +210,7 @@
 
 
     <v-card class="mb-6 my-8">
-        <v-card-text class="font-weight-black">
+        <v-card-text class="font-weight-semibold">
             There are a large number of long-established breweries in Washington. We do not recommend this state because the competition could be tough. The number of institutions is lower in Virginia and Massachusetts, which seems to be more suitable for our client.        </v-card-text>
     </v-card>
 
@@ -277,7 +277,7 @@
     </v-card>
 
     <v-card class="mb-6 my-8">
-        <v-card-text class="font-weight-black">
+        <v-card-text class="font-weight-semibold">
             Washington stands out from the other two states with a very high percentage of local ratings for the 10 breweries in the top 10. Even though these breweries are potential competitors, there is a very strong trend for local here and that is why we recommend this state.
         </v-card-text>
     </v-card>
