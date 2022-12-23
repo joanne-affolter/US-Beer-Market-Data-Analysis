@@ -12,10 +12,10 @@
           <v-card-text>
             <v-row>
 
-              <v-col>
+              <v-col cols="4" sm="4">
                 <v-card>
                   <v-card-title>
-                    <span class='font-weight-bold'>
+                    <span class='font-weight-bold text-h6'>
                       2007 - 2011
                     </span>
                   </v-card-title>
@@ -57,10 +57,10 @@
                   </v-card-text>
                 </v-card>
               </v-col>
-              <v-col>
+              <v-col cols="4" sm="4">
                 <v-card>
                   <v-card-title>
-                    <span class='font-weight-bold'>
+                    <span class='font-weight-bold text-h6'>
                       2011 - 2015
                     </span>
                   </v-card-title>
@@ -94,7 +94,7 @@
                               </v-list-item-avatar>
                               <v-list-item-content>
                                 <v-list-item-title class="font-weight-semibold">
-                                  43 798
+                                  61 629
                                 </v-list-item-title>
                               </v-list-item-content>
                       </v-list-item>
@@ -102,10 +102,10 @@
                   </v-card-text>
                 </v-card>
               </v-col>
-              <v-col>
+              <v-col cols="4" sm="4">
                 <v-card>
                   <v-card-title>
-                    <span class='font-weight-bold'>
+                    <span class='font-weight-bold text-h6'>
                       2015 - 2017
                     </span>
                   </v-card-title>
@@ -124,7 +124,7 @@
                               </v-list-item-avatar>
                               <v-list-item-content>
                                 <v-list-item-title class="font-weight-semibold">
-                                  107 713
+                                  25 040
                                 </v-list-item-title>
                               </v-list-item-content>
                       </v-list-item>

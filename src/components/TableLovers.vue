@@ -2,18 +2,10 @@
     <v-data-table
       :headers="headers"
       :items="results"
-      :items-per-page="5"
+      :items-per-page="4"
       :item-class= "row_classes"
       class="elevation-1"
     >
-    <template v-slot:item.state="{ item }">
-        <v-chip
-          :color="getColor(item.nb)"
-          dark
-        >
-          {{ item.state }}
-        </v-chip>
-    </template>
 
 
     </v-data-table>
@@ -78,12 +70,6 @@ export default {
       ],
     }
   },
-  methods: {
-    getColor(nb) {
-      if (nb == 7332) return 'success'
-      else if (nb == 5934) return 'success'
-      else return 'warning'
-    },
-  },
+  methods: {},
 }
 </script>

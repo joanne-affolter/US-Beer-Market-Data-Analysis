@@ -2,7 +2,7 @@
   <v-data-table
     :headers="headers"
     :items="results"
-    :items-per-page="5"
+    :items-per-page="9"
     :item-class= "row_classes"
     class="elevation-1"
   >
