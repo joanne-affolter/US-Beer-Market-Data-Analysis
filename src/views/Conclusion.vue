@@ -23,7 +23,7 @@
 
       <v-card class="mb-6" color="primary">
       <v-img
-        height="200"
+        height="300"
         width="100%"
         src="@/assets/images/bil2.jpg"
       ></v-img>
@@ -32,16 +32,18 @@
       <v-card-text class="my-8">
         <v-row align="center" justify="center">
           <v-col cols="10" sm="10">
-            Once we have a good understanding of the overall market, we will focus on identifying the most promising states for Sam's brewery to operate in.
+            First of all, we want to warn our client about the competitiveness of the beer market. We discovered that many new breweries only receive ratings during one year.  Consequently it is difficult to ensure long-lasting success for Sam’s brewery. Nevertheless, we perform an in-depth analysis of the market to give Sam Smith the tools to create a sustainable activity.
             <br><br>
-            We will consider factors such as the size of the market, the level of competition, and the popularity of local breweries in each state. Our goal is to identify states that have a large market share, low competition, and a strong preference for local breweries.
+            The complete analysis of all states of America has shown that Virginia stands out to be THE place to start a brewery. In fact, recently the number of users in Virginia has drastically increased which implies that new consumers are entering the market. And Virginians are more and more getting into local beers. Those new and local oriented customers will be thrilled to discover a new trendy brewery. Furthermore, even though there are many competitors none of them dominate the market and there are fewer breweries focused on local consumers than in other states. So Sam’s brewery will be easily settled in this environment.
+            <br><br>
+            The in-depth analysis of Virginia’s customers' taste has shown that the beer that Sam wanted to commercialize is not the most accurate, indeed he would be wiser to concentrate on creating beers with taste because it has been shown to be the characteristic which has the most impacts on users in Virginia. Those beers would be an IPA or Imperial IPA due to their high popularity in that state. In addition, we have found that the main appealing characteristic of IPA and Imperial IPA beers is taste which should be the aspect on which to focus on to succeed in the beer market. So Sam’s brewery beers should trend toward tasty regular and Imperial IPA to launch a thriving business.
           </v-col>
         </v-row>
       </v-card-text>
 
       <v-card class="mb-6" color="primary">
       <v-img
-        height="200"
+        height="300"
         width="100%"
         src="@/assets/images/bil1.jpg"
       ></v-img>
