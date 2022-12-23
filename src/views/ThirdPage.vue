@@ -76,7 +76,7 @@
                 <v-card-actions>
                     <v-container>
                         <v-row>
-                            <v-card dark elevation="64" class="my-4" width="440">
+                            <v-card elevation="64" class="my-4" width="440">
                                 <v-card-text class="primary--text">
                                 A large market share to reach with a lot of potential clients
                                 </v-card-text>
@@ -85,7 +85,7 @@
                         <v-spacer></v-spacer>
                         <v-spacer></v-spacer>
                         <v-row>
-                            <v-card dark elevation="64" class="my-4" width="440">
+                            <v-card elevation="64" class="my-4" width="440">
                                 <v-card-text class="primary--text">
                                 Consumers who like local beers
                                 </v-card-text>
@@ -94,7 +94,7 @@
                         <v-spacer></v-spacer>
                         <v-spacer></v-spacer>
                         <v-row>
-                            <v-card dark elevation="64" class="my-4" width="440">
+                            <v-card elevation="64" class="my-4" width="440">
                                 <v-card-text class="primary--text">
                                 Beer lovers who make a lot of ratings
                                 </v-card-text>
@@ -580,10 +580,10 @@
             <v-row class="ma-0 pa-0">
               <v-col cols="12" sm="12">
                 <v-card-title class="greeting-title d-flex flex-nowrap text-2xl font-weight-bold primary--text">
-                    Which breweries are our client's competitors ?
+                   <span class="primary--text">Which breweries are our client's competitors ?</span>
                 </v-card-title>
                 <v-card-text >
-                    <span class="my-6 text-subtitle-2 font-weight-bold">
+                    <span class="my-6 font-weight-lite">
                         After investigating user behavior by state in detail, we will now complete our market research by focusing on our client's potential competitors.
                         We will filter the breweries according to the following criteria :
                     </span>
@@ -647,7 +647,7 @@
 
                         </v-timeline>
 
-                        <div class="text-subtitle-2 my-6">
+                        <div class="font-weight-lite my-6">
                             Then, we will study some characteristics of the breweries to determine which ones could be our client's potential competitors, while continuing to score the states to select at the end only the best state to install our client's brewery
                             <br>
                             Note that we will focus on Rate Beer as the number of breweries is much more important than on Beer Advocate.
