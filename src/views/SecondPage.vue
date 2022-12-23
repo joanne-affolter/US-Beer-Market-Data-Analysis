@@ -62,7 +62,7 @@
 
         </v-row>
 
-        <v-row>
+        <v-row align="center" justify="center">
 
           <v-col cols="7" sm="7">
             <v-img src="@/assets/images/graph.png"> </v-img>
@@ -304,11 +304,11 @@
         <v-spacer></v-spacer>
 
         <v-row align="center">
-          <v-col cols="7" sm="7">
+          <v-col cols="8" sm="8">
             <Period></Period>
           </v-col>
 
-          <v-col cols="5" sm="5">
+          <v-col cols="4" sm="4">
             <v-card>
               <v-card-text>
                 First, it is clear that there were significantly
@@ -325,11 +325,11 @@
         </v-row>
 
         <v-row align="center">
-          <v-col cols="7" sm="7">
+          <v-col cols="8" sm="8">
             <Period2></Period2>
           </v-col>
 
-          <v-col cols="5" sm="5">
+          <v-col cols="4" sm="4">
             <v-card>
               <v-card-text>
                 Additionally, we see that outside of the 2012 to 2015 period,
@@ -497,7 +497,7 @@
                 <div class="text-subtitle-2">
                 In the table above, we have grouped the breweries according to the difference between the year of the first and last rating. We also calculated the average number of comments per beer for each category, and the average rate.
                 </div>
-                <br><br>
+                <br>
                 We can see here that  6  % of the breweries disappear in the ratings the same year as the first rating. Moreover, the average number of ratings per beer is almost equal to  1.
                 <br>
                 <span class='primary--text'>

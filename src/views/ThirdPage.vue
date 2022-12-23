@@ -76,23 +76,23 @@
                 <v-card-actions>
                     <v-container>
                         <v-row>
-                            <v-avatar rounded text dark color="primary" class="my-4">
+                            <v-card dark color="primary" class="my-4">
                                 A large market share to reach with a lot of potential clients
-                            </v-avatar>
+                            </v-card>
                         </v-row>
                         <v-spacer></v-spacer>
                         <v-spacer></v-spacer>
                         <v-row>
-                            <v-avatar rounded text dark color="primary" class="my-4">
+                            <v-card dark color="primary" class="my-4">
                                 Consumers who like local beers
-                            </v-avatar>
+                            </v-card>
                         </v-row>
                         <v-spacer></v-spacer>
                         <v-spacer></v-spacer>
                         <v-row>
-                            <v-avatar rounded text dark color="primary" class="my-4">
+                            <v-card dark color="primary" class="my-4">
                                 Beer lovers who make a lot of ratings
-                            </v-avatar>
+                            </v-card>
                         </v-row>
                     </v-container>
                 </v-card-actions>
@@ -225,9 +225,7 @@
                                 California, Pennsylvania and New York.
                                 </span>
                                 The abundance of consumers is usually good news because it indicates a
-                                <span class='primary--text'>
                                 large market for our product.
-                                </span>
                                 <br>
                                 However, the
                                 <span class='primary--text'>
@@ -263,9 +261,9 @@
                                 <br>
                                 However, for
                                 <span class='primary--text'>
-                                Ohio
+                                Ohio,
                                 </span>
-                                , the number of breweries is very high while the number of users is not in the top 10.
+                                the number of breweries is very high while the number of users is not in the top 10.
                                 <span class='text-subtitle-2'>
                                 We therefore do not recommend this state.
                                 </span>
@@ -485,7 +483,24 @@
                 </v-row>
                 <v-row>
                     <v-col cols="6">
-                        <v-img src="@/assets/images/beers_lovers.png"></v-img>
+                        <v-card class="mb-6" color="#ECEFF1">
+                            <v-container fill-height>
+                                <v-row>
+                                    <v-card width="100%" color="#9E9E9E">
+                                        <v-card-text>
+                                        <span class="text-subtitle-1 font-weight-medium white--text">
+                                            Percentage of local ratings
+                                        </span>
+                                        </v-card-text>
+                                    </v-card>
+                                </v-row>
+                                <v-row>
+                                    <v-col>
+                                        <v-img src="@/assets/images/beer_lovers.png"> </v-img>
+                                    </v-col>
+                                </v-row>
+                            </v-container>
+                        </v-card>
                     </v-col>
                     <v-col cols="6">
                         <v-card>
@@ -561,7 +576,7 @@
                     Which breweries are our client's competitors ?
                 </v-card-title>
                 <v-card-text >
-                    <span class="my-6 text-subtitle-2">
+                    <span class="my-6 text-subtitle-2 font-weight-bold">
                         After investigating user behavior by state in detail, we will now complete our market research by focusing on our client's potential competitors.
                         <br>
                         We will filter the breweries according to the following criteria:
@@ -657,15 +672,20 @@
                     <v-col>
                         <v-card>
                             <v-card-text>
-                                <div class="text-subtitle-2 my-6">
-                                    The plot above shows the results of our market research. On the left you can see the number of potential competitors for our client for each state whose total score is strictly greater than 0. On the right is the ranking of the states according to the total score which corresponds to the sum of the scores obtained on the following criteria:
+                                <div class="text-subtitle-2 my-4 font-weight-bold">
+                                    The plot above shows the results of our market research.
+                                    <br>On the left you can see the number of potential competitors for our client for each state whose total score is strictly greater than 0.
+                                    <br>On the right is the ranking of the states according to the total score which corresponds to the sum of the scores obtained on the following criteria:
                                 </div>
                                 <v-timeline dense class="timeline-custom-dense timeline-custom-dots mt-6">
 
                                     <v-timeline-item small color="primary">
                                         <div class="d-flex justify-space-between align-center flex-wrap">
                                             <h4 class="me-1">
-                                            <strong>Number of users :</strong> a high number of users and therefore a potential market to reach
+                                            <span class="primary--text">
+                                                Number of users
+                                            </span><br>
+                                            A high number of users and therefore a potential market to reach
                                         </h4>
                                         </div>
                                     </v-timeline-item>
@@ -673,7 +693,10 @@
                                     <v-timeline-item small color="primary">
                                         <div class="d-flex justify-space-between align-center flex-wrap">
                                             <h4 class="me-1">
-                                            <strong>Number of users / Number of breweries :</strong> a low ratio and therefore a market not saturated, with less competition.
+                                                <span class="primary--text">
+                                                Number of users / Number of breweries
+                                            </span>
+                                            <br>A low ratio and therefore a market not saturated, with less competition.
                                         </h4>
                                         </div>
                                     </v-timeline-item>
@@ -681,7 +704,9 @@
                                     <v-timeline-item small color="primary">
                                         <div class="d-flex justify-space-between align-center flex-wrap">
                                             <h4 class="me-1">
-                                            <strong>Evolution of the number of users:</strong> a fast evolution since few years and a public which is getting more and more interested in beer.
+                                                <span class="primary--text">
+                                                Evolution of the number of users</span>
+                                            <br>A fast evolution since few years and a public which is getting more and more interested in beer.
                                         </h4>
                                         </div>
                                     </v-timeline-item>
@@ -689,7 +714,10 @@
                                     <v-timeline-item small color="primary">
                                         <div class="d-flex justify-space-between align-center flex-wrap">
                                             <h4 class="me-1">
-                                            <strong>Evolution of the percentage of ratings on local beers :</strong> a fast evolution and consumers who are more and more attached to the local character. A potential target for our client.
+                                                <span class="primary--text">
+                                                Evolution of the percentage of ratings on local beers
+                                            </span>
+                                            <br>A fast evolution and consumers who are more and more attached to the local character. A potential target for our client.
                                         </h4>
                                         </div>
                                     </v-timeline-item>
@@ -697,7 +725,10 @@
                                     <v-timeline-item small color="primary">
                                         <div class="d-flex justify-space-between align-center flex-wrap">
                                             <h4 class="me-1">
-                                           <strong>Average number of ratings per user :</strong> a fairly high number and therefore a strong community of beer lovers who would be interested in our client's products.
+                                                <span class="primary--text">
+                                            Average number of ratings per user
+                                        </span>
+                                        <br>A fairly high number and therefore a strong community of beer lovers who would be interested in our client's products.
                                         </h4>
                                         </div>
                                     </v-timeline-item>
