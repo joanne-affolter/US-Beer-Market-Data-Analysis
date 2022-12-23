@@ -21,53 +21,13 @@
         </v-row>
       </v-card-text>
 
-      <v-card-text class="pricing-free-trial my-16">
-        <v-img src="@/assets/images/bil2.jpg" width="100%"></v-img>
-      </v-card-text>
-      <!--/ pricing free trial -->
-
-      <v-card-text>
-        <v-row align="center" justify="center">
-          <v-col cols="6" sm="6">
-            <v-avatar
-              color="primary"
-              size="100"
-            >
-            <img
-            src="@/assets/images/beer_advocate.png"
-            >
-            </v-avatar>
-          </v-col>
-          <v-col cols="6" sm="6">
-            <v-avatar
-              color="primary"
-              size="100"
-            >
-            <img
-            src="@/assets/images/rate_beer.png"
-            >
-          </v-avatar>
-          </v-col>
-        </v-row>
+      <v-card-text class="pricing-free-trial my-16" height="300">
+        <v-img src="@/assets/images/bil2.jpg"></v-img>
       </v-card-text>
 
       <v-card-text class="my-8">
         <v-row align="center" justify="center">
-          <v-col cols="4" sm="4">
-            <v-img src="@/assets/images/home1.jpg"></v-img>     </v-col>
-          <v-col cols="8" sm="8">
-            To help Sam create a successful brewery, we will follow a few steps.
-            <br><br>
-            First, we will conduct a general market research on the beer industry in the United States. This will involve examining data on where consumers come from (by state), the evolution of the number of breweries over time, and trends in consumer behavior.
-          </v-col>
-        </v-row>
-      </v-card-text>
-
-      <v-card-text class="my-8">
-        <v-row align="center" justify="center">
-          <v-col cols="4" sm="4">
-            <v-img src="@/assets/images/home2.jpg"></v-img>     </v-col>
-          <v-col cols="8" sm="8">
+          <v-col cols="10" sm="10">
             Once we have a good understanding of the overall market, we will focus on identifying the most promising states for Sam's brewery to operate in.
             <br><br>
             We will consider factors such as the size of the market, the level of competition, and the popularity of local breweries in each state. Our goal is to identify states that have a large market share, low competition, and a strong preference for local breweries.
@@ -75,20 +35,8 @@
         </v-row>
       </v-card-text>
 
-      <v-card-text class="my-8">
-        <v-row align="center" justify="center">
-          <v-col cols="4" sm="4">
-            <v-img src="@/assets/images/home3.jpg"></v-img>     </v-col>
-          <v-col cols="8" sm="8">
-            After identifying a few states that meet these criteria, we will select one of them to focus on in more depth. We will examine the breweries and stats in this state to understand the competition and identify opportunities for Sam's brewery to stand out and succeed.
-            <br><br>
-            At this stage, we will also consider the feedback Sam has received from his family on his sample beers. We will use the business intelligence we have gathered thus far to evaluate this feedback and make recommendations for improvements to Sam's products. We may also suggest new products that we believe have the potential to perform well in the chosen state and fit with Sam's goal of creating a local vibe for his beer.
-          </v-col>
-        </v-row>
-      </v-card-text>
-
-      <v-card-text class="pricing-free-trial my-16">
-        <v-img src="@/assets/images/bil1.jpg" width="100%"></v-img>
+      <v-card-text class="pricing-free-trial my-16" height="300">
+        <v-img src="@/assets/images/bil1.jpg"></v-img>
       </v-card-text>
     </v-card>
   </template>
